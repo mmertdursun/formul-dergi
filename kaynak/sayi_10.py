@@ -376,5 +376,5 @@ SAYI_VERI = SAYI(
     10, "Ekim 2026", "October 2026", "Simetri", "Symmetry",
     {"renkler": ["#2E5E4E", "#1C3D32"], "desen": 0},
     bolumler, quiz, bulmacalar,
-    ad="Hidden Symmetries", ad_tr="Gizli Simetriler",
+    ad="The Unsolvable Equation", ad_tr="Çözülemeyen Denklem",
 )
