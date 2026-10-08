@@ -108,7 +108,7 @@ bolumler = [
     ),
 
     BOLUM("matematikci", "person", "#E67E22", "Mathematician of the Month: Emmy Noether", "Ayın Matematikçisi: Emmy Noether",
-        PORTRE("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Noether.jpg/400px-Noether.jpg",
+        PORTRE("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Noether.jpg/500px-Noether.jpg",
                "Emmy Noether", "1882 – 1935",
                "German mathematician, a founder of modern abstract algebra and the author of Noether's theorem in physics.",
                "Modern soyut cebirin kurucularından, fizikteki Noether teoreminin sahibi Alman matematikçi.",

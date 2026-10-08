@@ -113,7 +113,7 @@ bolumler = [
     ),
 
     BOLUM("matematikci", "person", "#E67E22", "Mathematician of the Month: Leonhard Euler", "Ayın Matematikçisi: Leonhard Euler",
-        PORTRE("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Leonhard_Euler.jpg/400px-Leonhard_Euler.jpg",
+        PORTRE("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Leonhard_Euler.jpg/500px-Leonhard_Euler.jpg",
                "Leonhard Euler", "1707 – 1783",
                "Swiss mathematician whose notation and ideas shaped almost every branch of mathematics.",
                "Gösterimi ve fikirleriyle matematiğin neredeyse her dalını şekillendiren İsviçreli matematikçi.",

@@ -118,7 +118,7 @@ bolumler = [
     ),
 
     BOLUM("matematikci", "person", "#E67E22", "Mathematician of the Month: Srinivasa Ramanujan", "Ayın Matematikçisi: Srinivasa Ramanujan",
-        PORTRE("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Srinivasa_Ramanujan_-_OPC_-_1.jpg/400px-Srinivasa_Ramanujan_-_OPC_-_1.jpg",
+        PORTRE("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Srinivasa_Ramanujan_-_OPC_-_1.jpg/500px-Srinivasa_Ramanujan_-_OPC_-_1.jpg",
                "Srinivasa Ramanujan", "1887 – 1920",
                "Self-taught Indian mathematician who filled notebooks with thousands of new formulas.",
                "Defterlerini binlerce yeni formülle dolduran, kendi kendini yetiştirmiş Hintli matematikçi.",
