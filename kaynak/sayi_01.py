@@ -72,6 +72,11 @@ bolumler = [
     ),
 
     BOLUM("matematikci", "person", "#E67E22", "Mathematician of the Month: Cahit Arf", "Ayın Matematikçisi: Cahit Arf",
+        PORTRE("https://upload.wikimedia.org/wikipedia/commons/f/f7/Cahit_Arf_10_lira.jpg",
+               "Cahit Arf", "1910 – 1997",
+               "Number theorist, algebraist and one of the founders of modern mathematics in Türkiye.",
+               "Sayılar teorisyeni, cebirci ve Türkiye'de modern matematiğin kurucularından biri.",
+               "Portrait from the 2009 10-lira banknote · Public domain, Wikimedia Commons"),
         P(("Our first mathematician is a name many of us once carried in our pockets.", "İlk matematikçimiz, birçoğumuzun bir zamanlar cebinde taşıdığı bir isim."),
           ("His portrait and one of his formulas were printed on the back of the 10 lira banknote from 2009.", "Portresi ve formüllerinden biri 2009 serisi 10 liralık banknotun arka yüzüne basılmıştı.")),
         H("His life", "Hayatı"),
@@ -229,6 +234,7 @@ bulmacalar = [
 
 SAYI_VERI = SAYI(
     1, "Ocak 2026", "January 2026", "Yeni bir yıl, yeni sorular", "A new year, new questions",
-    {"renkler": ["#6C63FF", "#3B37C8"], "desen": 1},
+    {"renkler": ["#2B4C7E", "#1C3354"], "desen": 1},
     bolumler, quiz, bulmacalar,
+    ad="The Proof Machine", ad_tr="İspat Makinesi",
 )

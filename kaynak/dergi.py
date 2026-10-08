@@ -43,6 +43,12 @@ def TABLO(basliklar, *satirlar):
     return {"t": "tablo", "basliklar": list(basliklar), "satirlar": [list(s) for s in satirlar]}
 
 
+def PORTRE(url, ad, yillar, aciklama_en, aciklama_tr, kaynak):
+    """Küçük fotoğraflı kişi kartı."""
+    return {"t": "portre", "url": url, "ad": ad, "yillar": yillar,
+            "s": [[aciklama_en, aciklama_tr]], "kaynak": kaynak}
+
+
 def BOLUM(id, ikon, renk, en, tr, *bloklar):
     return {"id": id, "ikon": ikon, "renk": renk, "baslik": en, "baslik_tr": tr, "bloklar": list(bloklar)}
 
@@ -78,10 +84,12 @@ def tum_terimler(bolumler):
     return liste
 
 
-def SAYI(no, donem, donem_en, tema, tema_en, kapak, bolumler, quiz, bulmacalar):
+def SAYI(no, donem, donem_en, tema, tema_en, kapak, bolumler, quiz, bulmacalar, ad=None, ad_tr=None):
     return {
         "format": 2,
         "no": no,
+        "ad": ad,
+        "ad_tr": ad_tr,
         "donem": donem,
         "donem_en": donem_en,
         "tema": tema,

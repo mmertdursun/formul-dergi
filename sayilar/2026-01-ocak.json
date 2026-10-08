@@ -1,14 +1,16 @@
 {
  "format": 2,
  "no": 1,
+ "ad": "The Proof Machine",
+ "ad_tr": "İspat Makinesi",
  "donem": "Ocak 2026",
  "donem_en": "January 2026",
  "tema": "Yeni bir yıl, yeni sorular",
  "tema_en": "A new year, new questions",
  "kapak": {
   "renkler": [
-   "#6C63FF",
-   "#3B37C8"
+   "#2B4C7E",
+   "#1C3354"
   ],
   "desen": 1
  },
@@ -428,6 +430,19 @@
    "baslik": "Mathematician of the Month: Cahit Arf",
    "baslik_tr": "Ayın Matematikçisi: Cahit Arf",
    "bloklar": [
+    {
+     "t": "portre",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Cahit_Arf_10_lira.jpg",
+     "ad": "Cahit Arf",
+     "yillar": "1910 – 1997",
+     "s": [
+      [
+       "Number theorist, algebraist and one of the founders of modern mathematics in Türkiye.",
+       "Sayılar teorisyeni, cebirci ve Türkiye'de modern matematiğin kurucularından biri."
+      ]
+     ],
+     "kaynak": "Portrait from the 2009 10-lira banknote · Public domain, Wikimedia Commons"
+    },
     {
      "t": "p",
      "s": [
