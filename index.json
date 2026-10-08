@@ -1,0 +1,40 @@
+{
+  "surum": 1,
+  "sayilar": [
+    {
+      "no": 1,
+      "donem": "Ocak 2026",
+      "tema": "Yeni bir yıl, yeni sorular",
+      "acilis": "2026-01-01",
+      "dosya": "2026-01-ocak.md"
+    },
+    {
+      "no": 2,
+      "donem": "Şubat 2026",
+      "tema": "Bağlantılar",
+      "acilis": "2026-02-01",
+      "dosya": "2026-02-subat.md"
+    },
+    {
+      "no": 3,
+      "donem": "Mart 2026",
+      "tema": "Sonsuzu ölçmek",
+      "acilis": "2026-03-01",
+      "dosya": "2026-03-mart.md"
+    },
+    {
+      "no": 4,
+      "donem": "Nisan 2026",
+      "tema": "Şekiller ve boyutlar",
+      "acilis": "2026-04-01",
+      "dosya": "2026-04-nisan.md"
+    },
+    {
+      "no": 5,
+      "donem": "Mayıs 2026",
+      "tema": "Eksik bilgiyle tam resim",
+      "acilis": "2026-05-01",
+      "dosya": "2026-05-mayis.md"
+    }
+  ]
+}
