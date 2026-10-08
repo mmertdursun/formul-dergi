@@ -17,7 +17,8 @@ for ad in sorted(os.listdir(os.path.dirname(os.path.abspath(__file__)))):
     dosya = f"2026-{no:02d}-{AYLAR[no-1]}.json"
     with open(os.path.join(KOK, "sayilar", dosya), "w", encoding="utf-8") as f:
         json.dump(veri, f, ensure_ascii=False, indent=1)
-    kayit[no] = {"no": no, "donem": veri["donem"], "tema": veri["tema"], "acilis": f"2026-{no:02d}-01", "dosya": dosya}
+    eski = kayit.get(no, {})
+    kayit[no] = {"no": no, "ad": veri.get("ad", eski.get("ad")), "ad_tr": veri.get("ad_tr", eski.get("ad_tr")), "donem": veri["donem"], "tema": veri["tema"], "acilis": f"2026-{no:02d}-01", "dosya": dosya}
     cumle = sum(len(b.get("s", [])) for bol in veri["bolumler"] for b in bol["bloklar"] if b["t"] in ("p", "kutu", "liste"))
     print(f"{dosya}: {len(veri['bolumler'])} bölüm, {cumle} cümle, {len(veri['quiz'])} soru, {len(veri['bulmacalar'])} bulmaca, {len(veri['terimler'])} terim")
 

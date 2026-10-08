@@ -3,6 +3,8 @@
   "sayilar": [
     {
       "no": 1,
+      "ad": "The Proof Machine",
+      "ad_tr": "İspat Makinesi",
       "donem": "Ocak 2026",
       "tema": "Yeni bir yıl, yeni sorular",
       "acilis": "2026-01-01",
@@ -13,28 +15,36 @@
       "donem": "Şubat 2026",
       "tema": "Bağlantılar",
       "acilis": "2026-02-01",
-      "dosya": "2026-02-subat.md"
+      "dosya": "2026-02-subat.md",
+      "ad": "Friendly Numbers",
+      "ad_tr": "Dost Sayılar"
     },
     {
       "no": 3,
       "donem": "Mart 2026",
       "tema": "Sonsuzu ölçmek",
       "acilis": "2026-03-01",
-      "dosya": "2026-03-mart.md"
+      "dosya": "2026-03-mart.md",
+      "ad": "Chasing π",
+      "ad_tr": "π'nin Peşinde"
     },
     {
       "no": 4,
       "donem": "Nisan 2026",
       "tema": "Şekiller ve boyutlar",
       "acilis": "2026-04-01",
-      "dosya": "2026-04-nisan.md"
+      "dosya": "2026-04-nisan.md",
+      "ad": "The Coastline Paradox",
+      "ad_tr": "Kıyı Paradoksu"
     },
     {
       "no": 5,
       "donem": "Mayıs 2026",
       "tema": "Eksik bilgiyle tam resim",
       "acilis": "2026-05-01",
-      "dosya": "2026-05-mayis.md"
+      "dosya": "2026-05-mayis.md",
+      "ad": "The Missing Pieces",
+      "ad_tr": "Eksik Parçalar"
     }
   ]
 }
