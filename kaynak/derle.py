@@ -5,7 +5,7 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 AYLAR = ["ocak", "subat", "mart", "nisan", "mayis", "haziran", "temmuz", "agustos", "eylul", "ekim", "kasim", "aralik"]
 
-index_yolu = os.path.join(KOK, "index.json")
+index_yolu = os.path.join(KOK, "index2.json")
 index = json.load(open(index_yolu, encoding="utf-8"))
 kayit = {s["no"]: s for s in index["sayilar"]}
 

@@ -1,0 +1,2412 @@
+{
+ "format": 2,
+ "no": 4,
+ "ad": "The Coastline Paradox",
+ "ad_tr": "Kıyı Paradoksu",
+ "donem": "Nisan 2026",
+ "donem_en": "April 2026",
+ "tema": "Şekiller ve boyutlar",
+ "tema_en": "Shapes and dimensions",
+ "kapak": {
+  "renkler": [
+   "#3F7D3A",
+   "#2A5527"
+  ],
+  "desen": 4
+ },
+ "bolumler": [
+  {
+   "id": "editor",
+   "ikon": "edit_note",
+   "renk": "#6C63FF",
+   "baslik": "Editor's Note",
+   "baslik_tr": "Editörden",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "Hello and welcome to the April issue of Formül.",
+       "Merhaba, Formül'ün nisan sayısına hoş geldin."
+      ],
+      [
+       "April begins with April Fools' Day, so this issue includes one of the most famous jokes in the history of mathematics.",
+       "Nisan, 1 Nisan şakasıyla başlayan bir ay, bu yüzden bu sayıda matematik tarihinin en ünlü şakalarından birine de yer verdik."
+      ],
+      [
+       "But our main topic is a serious one: **shapes and dimensions**.",
+       "Ama asıl konumuz ciddi: **şekiller ve boyutlar**."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Why do you get a different answer every time you measure the length of a coastline?",
+       "Bir kıyı şeridinin uzunluğunu ölçtüğünde neden her seferinde farklı bir sonuç bulursun?"
+      ],
+      [
+       "How can a walk across seven bridges start a whole new branch of mathematics?",
+       "Yedi köprüden geçen bir yürüyüş nasıl koca bir matematik dalını başlatabilir?"
+      ],
+      [
+       "And what is the smallest area you need to turn a needle in every direction?",
+       "Peki bir iğneyi her yöne çevirmek için en az ne kadar alana ihtiyacın var?"
+      ],
+      [
+       "This month's stories grow out of these questions.",
+       "Bu ayın hikâyeleri bu sorulardan doğuyor."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Our mathematician of the month has his signature on two of them, and his birthday is on 15 April: **Leonhard Euler**.",
+       "Ayın matematikçisinin bu soruların ikisinde imzası var ve doğum günü 15 Nisan'da: **Leonhard Euler**."
+      ],
+      [
+       "Enjoy your break!",
+       "İyi molalar!"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "haber",
+   "ikon": "newspaper",
+   "renk": "#2E86DE",
+   "baslik": "News from the World of Maths",
+   "baslik_tr": "Matematik Dünyasından Haberler",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "The Breakthrough Prizes are announced",
+      "Breakthrough Ödülleri açıklandı"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The 2026 winners of the Breakthrough Prizes, often called \"the Oscars of science\", were announced in April.",
+       "\"Bilimin Oscar'ı\" diye anılan Breakthrough Ödülleri'nin 2026 sahipleri nisan ayında açıklandı."
+      ],
+      [
+       "The main prize in mathematics went to the French mathematician **Frank Merle**, who works on **nonlinear** wave equations.",
+       "Matematikteki büyük ödül, doğrusal olmayan dalga denklemleri üzerine çalışan Fransız matematikçi **Frank Merle**'e verildi."
+      ],
+      [
+       "One of the New Horizons prizes for young mathematicians went to **Hong Wang**, who solved a problem more than 100 years old last year.",
+       "Genç matematikçilere verilen New Horizons ödüllerinden biri de geçen yıl 100 yılı aşkın bir problemi çözen **Hong Wang**'a gitti."
+      ],
+      [
+       "You can read the details in the Prize Corner.",
+       "Ayrıntıları Ödüller Köşesi'nde okuyabilirsin."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "One name stands out in the Fields predictions",
+      "Fields tahminlerinde bir isim öne çıkıyor"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The Fields Medals will be awarded in Philadelphia in July.",
+       "Fields Madalyaları temmuzda Philadelphia'da verilecek."
+      ],
+      [
+       "Once again, Hong Wang is one of the most talked-about names.",
+       "En çok konuşulan isimlerden biri yine Hong Wang."
+      ],
+      [
+       "In 2025, she and Joshua Zahl announced that they had solved the **Kakeya conjecture** in three dimensions.",
+       "Wang, Joshua Zahl ile birlikte 2025'te üç boyutlu **Kakeya sanısını** çözdüklerini duyurdu."
+      ],
+      [
+       "It was one of the most famous open problems in **harmonic analysis**.",
+       "Bu, **harmonik analizin** en ünlü açık problemlerinden biriydi."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Euler's birthday: 15 April",
+      "Euler'in doğum günü: 15 Nisan"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Leonhard Euler, one of the most productive mathematicians in history, was born on 15 April 1707.",
+       "Matematik tarihinin en üretken isimlerinden Leonhard Euler 15 Nisan 1707'de doğdu."
+      ],
+      [
+       "This year is his 319th birthday.",
+       "Bu yıl onun 319. doğum günü."
+      ],
+      [
+       "Two sections of this issue, the mathematician of the month and the English reading, are about him.",
+       "Bu sayının iki bölümü, ayın matematikçisi ve İngilizce okuma, ona ayrıldı."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "nonlinear equation",
+       "doğrusal olmayan denklem"
+      ],
+      [
+       "harmonic analysis",
+       "harmonik analiz"
+      ],
+      [
+       "laureate",
+       "ödül sahibi"
+      ],
+      [
+       "to announce",
+       "açıklamak, duyurmak"
+      ],
+      [
+       "conjecture",
+       "sanı"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "makale",
+   "ikon": "article",
+   "renk": "#8E44AD",
+   "baslik": "Paper of the Month: How Long Is the Coast of Britain?",
+   "baslik_tr": "Ayın Makalesi: İngiltere'nin Kıyısı Ne Kadar Uzun?",
+   "bloklar": [
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Source",
+      "Kaynak"
+     ],
+     "s": [
+      [
+       "Benoit Mandelbrot, How Long Is the Coast of Britain? Statistical Self-Similarity and Fractional Dimension, Science, 1967.",
+       "Benoit Mandelbrot, İngiltere'nin Kıyısı Ne Kadar Uzun? İstatistiksel Öz-Benzerlik ve Kesirli Boyut, Science, 1967."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "A strange observation",
+      "Garip bir gözlem"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The British scientist Lewis Fry Richardson noticed something odd while comparing the borders of countries.",
+       "İngiliz bilim insanı Lewis Fry Richardson ülkelerin sınır uzunluklarını karşılaştırırken tuhaf bir şey fark etmişti."
+      ],
+      [
+       "The length of the border between Spain and Portugal was very different depending on which country's source you used.",
+       "İspanya ile Portekiz'in ortak sınırının uzunluğu, hangi ülkenin kaynağına baktığına göre çok farklı çıkıyordu."
+      ],
+      [
+       "The reason was simple: whoever used a shorter ruler found a longer border.",
+       "Sebep basitti: Kim daha kısa bir cetvel kullanırsa daha uzun bir sınır buluyordu."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "If you measure a coast in steps of 100 km, you skip the bays and the capes.",
+       "Bir kıyıyı 100 km'lik adımlarla ölçersen koyları ve burunları atlarsın."
+      ],
+      [
+       "With steps of 10 km, you catch more details, and the coast gets longer.",
+       "10 km'lik adımlarla daha fazla girinti yakalarsın ve kıyı uzar."
+      ],
+      [
+       "1 km, 100 m, 1 m… as the ruler gets smaller, the coast seems to grow **without limit**.",
+       "1 km, 100 m, 1 m… Cetvel küçüldükçe kıyı **sınırsızca** uzuyor gibi görünür."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Mandelbrot's question",
+      "Mandelbrot'un sorusu"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Mandelbrot turned this observation around.",
+       "Mandelbrot bu gözlemi tersine çevirdi."
+      ],
+      [
+       "Perhaps the problem is not the measurement but the coast itself.",
+       "Belki de sorun ölçümde değil, kıyının kendisinde."
+      ],
+      [
+       "A coastline is a curve that shows new details however closely you look at it.",
+       "Bir kıyı şeridi, ne kadar yaklaşırsan yaklaş hep yeni girintiler gösteren bir eğridir."
+      ],
+      [
+       "When you zoom in or zoom out, you see the same kind of roughness.",
+       "Büyüttüğünde de küçülttüğünde de aynı tür pürüzlülüğü görürsün."
+      ],
+      [
+       "This property is called **self-similarity**.",
+       "Bu özelliğe **öz-benzerlik** denir."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Richardson's data showed the following relationship:",
+       "Richardson'ın verileri şu ilişkiyi gösteriyordu:"
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "L(ε) ≈ F · ε^(1 − D)"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Here ε is the length of the ruler, L(ε) is the measured length and F is a constant.",
+       "Burada ε cetvelin boyu, L(ε) ölçülen uzunluk, F ise bir sabit."
+      ],
+      [
+       "The number **D** is different for every coast.",
+       "**D** sayısı ise her kıyı için farklı."
+      ]
+     ]
+    },
+    {
+     "t": "tablo",
+     "basliklar": [
+      "Curve",
+      "D"
+     ],
+     "satirlar": [
+      [
+       "Straight line",
+       "1"
+      ],
+      [
+       "Coast of South Africa (quite smooth)",
+       "≈ 1.02"
+      ],
+      [
+       "West coast of Britain (very rough)",
+       "≈ 1.25"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "For a straight line, D = 1, so the length does not depend on the ruler.",
+       "Düz bir çizgi için D = 1, yani uzunluk cetvelden bağımsız."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "A fractional dimension",
+      "Kesirli boyut"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Mandelbrot made a bold suggestion: we can think of D as the **dimension** of the curve.",
+       "Mandelbrot cesur bir öneride bulundu: D sayısını eğrinin **boyutu** olarak düşünebiliriz."
+      ],
+      [
+       "A straight line is one-dimensional, and a piece of a plane is two-dimensional.",
+       "Düz bir doğru 1 boyutlu, bir düzlem parçası ise 2 boyutludur."
+      ],
+      [
+       "The coast of Britain sits between the two, with a dimension of about **1.25**.",
+       "İngiltere kıyısı ise ikisinin arasında, yaklaşık **1,25 boyutlu**."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "This idea sounds crazy at first, but a simple example makes it clear.",
+       "Bu fikir ilk başta saçma görünür, ama basit bir örnek onu anlaşılır kılar."
+      ],
+      [
+       "If you shrink a square to 1/3 of its side, you need 3² = 9 small squares to fill the original.",
+       "Bir kareyi kenarının 1/3'ü ölçeğinde küçültürsen, orijinali doldurmak için 3² = 9 küçük kare gerekir."
+      ],
+      [
+       "For a cube, you need 3³ = 27 small cubes.",
+       "Bir küp için 3³ = 27 küçük küp gerekir."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "(number of pieces) = (scale)^(dimension)"
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "The Koch curve",
+      "Koch eğrisi"
+     ],
+     "s": [
+      [
+       "Divide a line segment into three parts.",
+       "Bir doğru parçasını üçe böl."
+      ],
+      [
+       "Replace the middle part with two sides of an equilateral triangle, and repeat this forever.",
+       "Ortadaki parçanın yerine bir eşkenar üçgenin iki kenarını koy ve bunu sonsuza kadar tekrarla."
+      ],
+      [
+       "If you shrink the curve to 1/3, you need **4** copies to build the original.",
+       "Eğriyi 1/3 ölçeğinde küçültünce orijinali oluşturmak için **4** kopya gerekir."
+      ],
+      [
+       "So 4 = 3^D, which gives D = log 4 / log 3 ≈ 1.26.",
+       "O hâlde 4 = 3^D, buradan D = log 4 / log 3 ≈ 1,26 çıkar."
+      ],
+      [
+       "That is surprisingly close to the coast of Britain!",
+       "Bu, İngiltere kıyısına şaşırtıcı derecede yakın!"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "What came next",
+      "Sonrası"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "In 1975, Mandelbrot gave these shapes a name: **fractals**.",
+       "Mandelbrot 1975'te bu tür şekillere bir ad verdi: **fraktal**."
+      ],
+      [
+       "Today fractals are used to model clouds, blood vessels, lungs, stock market charts and the distribution of galaxies.",
+       "Bugün fraktallar bulutların, damarların, akciğerlerin, borsa grafiklerinin ve galaksi dağılımlarının modellenmesinde kullanılıyor."
+      ],
+      [
+       "Many of the realistic mountains and trees in films are produced with fractal algorithms.",
+       "Filmlerdeki gerçekçi dağ ve ağaç görüntülerinin çoğu fraktal algoritmalarla üretiliyor."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Graduate corner",
+      "Yüksek lisans köşesi"
+     ],
+     "s": [
+      [
+       "Mandelbrot's paper uses an intuitive definition.",
+       "Mandelbrot'un makalesi sezgisel bir tanım kullanıyor."
+      ],
+      [
+       "The rigorous definitions are the **Hausdorff dimension** and the **box-counting dimension**, which belong to **measure theory**.",
+       "Matematiksel olarak sağlam tanımlar **Hausdorff boyutu** ve **kutu sayma boyutu**, bunlar da **ölçü teorisinin** konuları."
+      ],
+      [
+       "The Kakeya problem in this month's Prize Corner is about exactly this idea of dimension.",
+       "Bu ayın Ödüller Köşesi'ndeki Kakeya problemi de tam olarak bu boyut kavramıyla ilgili."
+      ],
+      [
+       "If you enjoy analysis and measure theory, fractal geometry is a great area for a thesis.",
+       "Analiz ve ölçü teorisi derslerini seviyorsan, fraktal geometri harika bir tez alanı."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "coastline",
+       "kıyı şeridi"
+      ],
+      [
+       "self-similarity",
+       "öz-benzerlik"
+      ],
+      [
+       "fractal dimension",
+       "fraktal boyut"
+      ],
+      [
+       "scale",
+       "ölçek"
+      ],
+      [
+       "Hausdorff dimension",
+       "Hausdorff boyutu"
+      ],
+      [
+       "measure theory",
+       "ölçü teorisi"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bilim",
+   "ikon": "science",
+   "renk": "#0E7490",
+   "baslik": "Science Corner: The Fractal Inside You",
+   "baslik_tr": "Bilim Köşesi: İçindeki Fraktal",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "Fractals are not only on maps and computer screens.",
+       "Fraktallar yalnızca haritalarda ve bilgisayar ekranlarında değil."
+      ],
+      [
+       "You carry one in your chest every day: your **lungs**.",
+       "Her gün göğsünde bir tane taşıyorsun: **akciğerlerin**."
+      ],
+      [
+       "Biology uses the same idea of self-similarity to solve a very practical problem.",
+       "Biyoloji, öz-benzerlik fikrini çok pratik bir sorunu çözmek için kullanır."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "A tree upside down",
+      "Ters dönmüş bir ağaç"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Air enters your body through the windpipe, or **trachea**.",
+       "Hava vücuduna soluk borusundan, yani **trakeadan** girer."
+      ],
+      [
+       "The trachea splits into two tubes called **bronchi**, one for each lung.",
+       "Trakea, her akciğer için bir tane olmak üzere **bronş** adı verilen iki tüpe ayrılır."
+      ],
+      [
+       "Each tube then splits again into smaller tubes, and those split again.",
+       "Her tüp sonra daha küçük tüplere ayrılır, onlar da yeniden ayrılır."
+      ],
+      [
+       "After about 23 rounds of **branching**, the smallest tubes end in tiny air sacs called **alveoli**.",
+       "Yaklaşık 23 kez **dallanmadan** sonra en küçük tüpler **alveol** adı verilen minik hava keseciklerinde biter."
+      ],
+      [
+       "At every level, the pattern looks like a smaller copy of the level above it.",
+       "Her seviyede yapı, bir üstündeki seviyenin küçük bir kopyası gibi görünür."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Why so many branches?",
+      "Neden bu kadar çok dal?"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Oxygen passes from the air into the blood through the walls of the alveoli.",
+       "Oksijen havadan kana alveollerin duvarlarından geçer."
+      ],
+      [
+       "The bigger this surface, the more oxygen the body can take in.",
+       "Bu yüzey ne kadar büyükse vücut o kadar çok oksijen alabilir."
+      ],
+      [
+       "Thanks to hundreds of millions of alveoli, the inner **surface area** of an adult's lungs is roughly 70 square metres.",
+       "Yüz milyonlarca alveol sayesinde bir yetişkinin akciğerlerinin iç **yüzey alanı** yaklaşık 70 metrekare."
+      ],
+      [
+       "That is about the floor area of a small flat, folded into a space smaller than a football.",
+       "Bu, küçük bir dairenin taban alanı kadar ve bir futbol topundan daha küçük bir hacme katlanmış durumda."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "This is the coastline paradox in three dimensions.",
+       "Bu, üç boyutta kıyı paradoksunun ta kendisi."
+      ],
+      [
+       "A very wrinkled surface can have a huge area inside a small **volume**.",
+       "Çok kıvrımlı bir yüzey, küçük bir **hacmin** içinde çok büyük bir alana sahip olabilir."
+      ],
+      [
+       "Scientists even describe the lung surface with a fractal dimension between 2 and 3.",
+       "Bilim insanları akciğer yüzeyini 2 ile 3 arasında bir fraktal boyutla bile tanımlıyor."
+      ],
+      [
+       "Blood vessels follow the same branching plan, so the blood can reach almost every cell in the body.",
+       "Kan damarları da aynı dallanma planını izler, böylece kan vücuttaki neredeyse her hücreye ulaşabilir."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "Try it: cut the cube",
+      "Dene: Küpü kes"
+     ],
+     "s": [
+      [
+       "Take a cube with a side of 2 cm: its volume is 8 cm³ and its surface area is 24 cm².",
+       "Kenarı 2 cm olan bir küp al: Hacmi 8 cm³, yüzey alanı 24 cm²."
+      ],
+      [
+       "Now cut it into eight small cubes with a side of 1 cm.",
+       "Şimdi onu kenarı 1 cm olan sekiz küçük küpe kes."
+      ],
+      [
+       "The total volume is still 8 cm³, but the total surface area is now 8 × 6 = 48 cm².",
+       "Toplam hacim hâlâ 8 cm³, ama toplam yüzey alanı artık 8 × 6 = 48 cm²."
+      ],
+      [
+       "Smaller pieces mean more surface for the same volume, and this is exactly the trick the lungs use.",
+       "Daha küçük parçalar aynı hacim için daha fazla yüzey demek, akciğerlerin kullandığı hile de tam olarak bu."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "lung",
+       "akciğer"
+      ],
+      [
+       "branching",
+       "dallanma"
+      ],
+      [
+       "surface area",
+       "yüzey alanı"
+      ],
+      [
+       "volume",
+       "hacim"
+      ],
+      [
+       "blood vessel",
+       "kan damarı"
+      ],
+      [
+       "oxygen",
+       "oksijen"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "matematikci",
+   "ikon": "person",
+   "renk": "#E67E22",
+   "baslik": "Mathematician of the Month: Leonhard Euler",
+   "baslik_tr": "Ayın Matematikçisi: Leonhard Euler",
+   "bloklar": [
+    {
+     "t": "portre",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Leonhard_Euler.jpg/400px-Leonhard_Euler.jpg",
+     "ad": "Leonhard Euler",
+     "yillar": "1707 – 1783",
+     "s": [
+      [
+       "Swiss mathematician whose notation and ideas shaped almost every branch of mathematics.",
+       "Gösterimi ve fikirleriyle matematiğin neredeyse her dalını şekillendiren İsviçreli matematikçi."
+      ]
+     ],
+     "kaynak": "Pastel portrait by Jakob Emanuel Handmann, 1753 · Public domain, Wikimedia Commons"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The French mathematician Laplace is said to have given his students this advice: read Euler, he is the master of us all.",
+       "Fransız matematikçi Laplace'ın öğrencilerine şu öğüdü verdiği anlatılır: Euler'i okuyun, o hepimizin ustasıdır."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "His life",
+      "Hayatı"
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "He was born in Basel, Switzerland, on 15 April 1707.",
+       "15 Nisan 1707'de İsviçre'nin Basel şehrinde doğdu."
+      ],
+      [
+       "His father was a pastor and wanted his son to become a clergyman too.",
+       "Babası bir papazdı ve oğlunun da din adamı olmasını istiyordu."
+      ],
+      [
+       "The famous mathematician **Johann Bernoulli** noticed the young man's talent and persuaded his father to let him study mathematics.",
+       "Ünlü matematikçi **Johann Bernoulli** gencin yeteneğini fark etti ve babasını matematiğe izin vermeye ikna etti."
+      ],
+      [
+       "He spent most of his life at the academies of St Petersburg and Berlin.",
+       "Hayatının büyük bölümünü St. Petersburg ve Berlin akademilerinde geçirdi."
+      ],
+      [
+       "He first lost the sight of one eye, and later in life he lost most of the sight in the other.",
+       "Önce bir gözünü, ileri yaşlarında da diğer gözünü büyük ölçüde kaybetti."
+      ],
+      [
+       "Even so, his productivity did not fall: he did calculations in his head and dictated them to assistants.",
+       "Yine de üretkenliği azalmadı: Hesapları zihninde yapıp yardımcılarına yazdırdı."
+      ],
+      [
+       "He produced a large part of his work after losing his sight.",
+       "Eserlerinin önemli bir kısmını görme yetisini kaybettikten sonra üretti."
+      ],
+      [
+       "He died in St Petersburg on 18 September 1783.",
+       "18 Eylül 1783'te St. Petersburg'da hayatını kaybetti."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "His contributions",
+      "Katkıları"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Euler's **collected works** fill more than 80 volumes, so here are just a few examples.",
+       "Euler'in **toplu eserleri** 80 ciltten fazla tutuyor, bu yüzden burada sadece birkaç örnek var."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "**Notation:** much of the mathematical language we use today comes from him.",
+       "**Gösterim:** Bugün kullandığımız matematik dilinin büyük kısmı ondan geliyor."
+      ],
+      [
+       "He gave us f(x) for a function, e for the base of the natural logarithm, i for the **imaginary unit** and Σ for a sum.",
+       "Fonksiyon için f(x), doğal logaritmanın tabanı için e, **sanal birim** için i ve toplam için Σ gösterimleri ona dayanıyor."
+      ],
+      [
+       "He also made the symbol π popular.",
+       "π sembolünü de o yaygınlaştırdı."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "**Euler's identity** joins the five most important numbers in mathematics, 0, 1, e, i and π, in one equation.",
+       "**Euler özdeşliği**, matematiğin en önemli beş sayısını, yani 0, 1, e, i ve π'yi tek bir denklemde birleştirir."
+      ],
+      [
+       "Many mathematicians see it as the most beautiful formula in mathematics.",
+       "Birçok matematikçi bunu matematiğin en güzel formülü olarak görür."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "e^(iπ) + 1 = 0"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "**The bridges of Königsberg (1736):** while solving a puzzle about seven bridges, he laid the foundations of **graph theory**.",
+       "**Königsberg köprüleri (1736):** Yedi köprüyle ilgili bir bulmacayı çözerken **graf teorisinin** temelini attı."
+      ],
+      [
+       "You can read the whole story in the English reading at the end of this issue.",
+       "Hikâyenin tamamını bu sayının sonundaki İngilizce okuma bölümünde okuyabilirsin."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "**The polyhedron formula:** for every convex **polyhedron** without holes, the numbers of vertices V, edges E and faces F are connected.",
+       "**Çokyüzlü formülü:** Deliksiz her dışbükey **çokyüzlü** için köşe sayısı K, kenar sayısı Ke ve yüz sayısı Y birbirine bağlıdır."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "V − E + F = 2"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "For a cube, 8 − 12 + 6 = 2, and for a tetrahedron, 4 − 6 + 4 = 2.",
+       "Küp için 8 − 12 + 6 = 2, dörtyüzlü için 4 − 6 + 4 = 2."
+      ],
+      [
+       "The formula ignores lengths and angles completely and only looks at how the shape is connected.",
+       "Formül uzunluklara ve açılara hiç bakmaz, sadece şeklin nasıl bağlandığına bakar."
+      ],
+      [
+       "This idea is seen as the birth of **topology**.",
+       "Bu fikir **topolojinin** doğuşu sayılır."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "For the classroom",
+      "Sınıf için"
+     ],
+     "s": [
+      [
+       "Give your students models of a cube, a prism and a pyramid, and ask them to count the vertices, edges and faces.",
+       "Öğrencilere küp, prizma ve piramit modelleri verip köşe, kenar ve yüz saydırın."
+      ],
+      [
+       "Do not tell them the formula.",
+       "Formülü onlara söylemeyin."
+      ],
+      [
+       "Let them look at the table and discover it themselves.",
+       "Tabloya bakıp kendileri bulsunlar."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "notation",
+       "gösterim"
+      ],
+      [
+       "imaginary unit",
+       "sanal birim"
+      ],
+      [
+       "polyhedron",
+       "çokyüzlü"
+      ],
+      [
+       "vertex / edge / face",
+       "köşe / kenar / yüz"
+      ],
+      [
+       "topology",
+       "topoloji"
+      ],
+      [
+       "collected works",
+       "toplu eserler"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "odul",
+   "ikon": "emoji_events",
+   "renk": "#D4A017",
+   "baslik": "Prize Corner",
+   "baslik_tr": "Ödüller Köşesi",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "The Breakthrough Prizes were founded by internet entrepreneurs, and they are among the largest awards given to scientists.",
+       "Breakthrough Ödülleri internet girişimcileri tarafından kuruldu ve bilim insanlarına verilen en yüksek tutarlı ödüller arasında yer alıyor."
+      ],
+      [
+       "The main prize in mathematics is worth 3 million dollars.",
+       "Matematikteki ana ödül 3 milyon dolar."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The main prize: Frank Merle",
+      "Büyük ödül: Frank Merle"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The French mathematician **Frank Merle**, of CY Cergy Paris University and IHES, was honoured for his breakthroughs in nonlinear **evolution equations**.",
+       "CY Cergy Paris Üniversitesi ve IHES'ten Fransız matematikçi **Frank Merle**, doğrusal olmayan **evrim denklemlerindeki** atılımları nedeniyle ödüllendirildi."
+      ],
+      [
+       "These equations describe how a wave, a fluid or a beam of light changes over time.",
+       "Bu denklemler bir dalganın, bir sıvının ya da bir ışık demetinin zaman içinde nasıl değiştiğini anlatır."
+      ],
+      [
+       "The \"nonlinear\" part means that the wave affects itself.",
+       "\"Doğrusal olmayan\" kısmı, dalganın kendi kendisini etkilemesi demek."
+      ],
+      [
+       "This can lead to two interesting kinds of behaviour.",
+       "Bu da iki ilginç davranışa yol açabilir."
+      ]
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "**Soliton:** a solitary wave that travels without changing its shape. In 1834, a Scottish engineer saw a water wave in a canal keep its shape for kilometres.",
+       "**Soliton:** Şeklini bozmadan ilerleyen yalnız bir dalga. 1834'te bir İskoç mühendis, bir kanalda kilometrelerce şeklini koruyarak ilerleyen bir su dalgası görmüştü."
+      ],
+      [
+       "**Blow-up:** the solution goes to infinity in a finite time. For example, a laser beam can focus itself and concentrate at a single point.",
+       "**Patlama:** Çözümün sonlu bir zamanda sonsuza gitmesi. Örneğin bir lazer ışını kendi kendine odaklanıp bir noktada yoğunlaşabilir."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Over many years, Merle proved deep results about which solutions behave like solitons, which ones blow up, and exactly how the blow-up happens.",
+       "Merle uzun yıllar boyunca hangi çözümlerin soliton gibi davrandığını, hangilerinin patladığını ve patlamanın tam olarak nasıl gerçekleştiğini gösteren derin sonuçlar elde etti."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "New Horizons: Hong Wang and the Kakeya problem",
+      "New Horizons: Hong Wang ve Kakeya problemi"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The New Horizons prizes are given to young mathematicians.",
+       "New Horizons ödülleri genç matematikçilere verilir."
+      ],
+      [
+       "This year's winners are **Otis Chodosh**, **Hong Wang**, and **Vesselin Dimitrov** and **Yunqing Tang**, who share a prize.",
+       "Bu yılki sahipler **Otis Chodosh**, **Hong Wang** ve ödülü birlikte alan **Vesselin Dimitrov** ile **Yunqing Tang**."
+      ],
+      [
+       "The problem Hong Wang solved is surprisingly easy to describe.",
+       "Hong Wang'ın çözdüğü problem şaşırtıcı derecede kolay anlatılıyor."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "The Kakeya question (1917)",
+      "Kakeya sorusu (1917)"
+     ],
+     "s": [
+      [
+       "You want to turn a **needle** of length 1 all the way around in the plane.",
+       "Boyu 1 olan bir **iğneyi** düzlemde tam bir tur döndürmek istiyorsun."
+      ],
+      [
+       "What is the smallest area you need?",
+       "Bunun için en az ne kadar alana ihtiyacın var?"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "A disc works, but it is big.",
+       "Bir daire işe yarar ama büyüktür."
+      ],
+      [
+       "A curved shape with three corners does the job with less area.",
+       "Üç köşeli, içe kıvrık bir şekil aynı işi daha az alanla görür."
+      ],
+      [
+       "In 1928, Abram Besicovitch showed something incredible: the area can be made **as small as you like**.",
+       "1928'de Abram Besicovitch inanılmaz bir şey gösterdi: Bu alan **istenildiği kadar küçük** yapılabilir."
+      ],
+      [
+       "There are even sets that contain a unit segment in every direction but have **measure zero**.",
+       "Hatta her yönde bir birim doğru parçası içeren ama **sıfır ölçülü** olan kümeler bile vardır."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "So the question changed: if the area is zero, how \"big\" can such a set still be?",
+       "O zaman soru şuna dönüştü: Alanı sıfır olsa bile böyle bir küme ne kadar \"büyük\" olabilir?"
+      ],
+      [
+       "This is where the idea of dimension from our Paper of the Month comes in.",
+       "İşte burada Ayın Makalesi'ndeki boyut kavramı devreye giriyor."
+      ],
+      [
+       "The **Kakeya conjecture** says that these sets must still have full dimension: 2 in the plane and 3 in space.",
+       "**Kakeya sanısı**, bu kümelerin boyutunun yine de tam olması gerektiğini söyler: düzlemde 2, uzayda 3."
+      ],
+      [
+       "The case of the plane was proved in 1971.",
+       "Düzlemdeki durum 1971'de kanıtlanmıştı."
+      ],
+      [
+       "The three-dimensional case was solved by Hong Wang and Joshua Zahl in 2025.",
+       "Üç boyutlu durumu ise Hong Wang ile Joshua Zahl 2025'te çözdü."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Maryam Mirzakhani New Frontiers Prize",
+      "Maryam Mirzakhani Yeni Sınırlar Ödülü"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "This prize goes to women mathematicians who have recently finished their PhD.",
+       "Bu ödül, doktorasını yakın zamanda bitirmiş kadın matematikçilere verilir."
+      ],
+      [
+       "It is named after Maryam Mirzakhani, whom we introduced in our March issue.",
+       "Adını Mart sayımızda tanıttığımız Maryam Mirzakhani'den alır."
+      ],
+      [
+       "The 2026 winners are **Amanda Hirschi** (symplectic topology), **Anna Skorobogatova** (geometric measure theory) and **Mingjia Zhang** (Shimura varieties).",
+       "2026 sahipleri **Amanda Hirschi** (simplektik topoloji), **Anna Skorobogatova** (geometrik ölçü teorisi) ve **Mingjia Zhang** (Shimura çeşitleri)."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "evolution equation",
+       "evrim denklemi"
+      ],
+      [
+       "solitary wave",
+       "yalnız dalga"
+      ],
+      [
+       "blow-up",
+       "patlama"
+      ],
+      [
+       "needle",
+       "iğne"
+      ],
+      [
+       "measure zero",
+       "sıfır ölçülü"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dusun",
+   "ikon": "psychology",
+   "renk": "#16A085",
+   "baslik": "Think Like a Mathematician: The Pigeonhole Principle",
+   "baslik_tr": "Matematikçi Gibi Düşünmek: Güvercin Yuvası İlkesi",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "So far we have seen patterns, invariants and working backwards.",
+       "Şimdiye kadar örüntü, değişmez ve sondan başlama stratejilerini gördük."
+      ],
+      [
+       "This month's strategy is both the simplest and the most surprising one.",
+       "Bu ayın stratejisi hem en basit hem de en şaşırtıcı olanı."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "The pigeonhole principle",
+      "Güvercin yuvası ilkesi"
+     ],
+     "s": [
+      [
+       "If n + 1 pigeons sit in n holes, then **at least** one hole has **at least** two pigeons.",
+       "n + 1 güvercin n yuvaya yerleşirse, **en az** bir yuvada **en az** iki güvercin vardır."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "That is all.",
+       "Bu kadar."
+      ],
+      [
+       "But this simple sentence is one of the strongest ways to prove that something must **exist**.",
+       "Ama bu basit cümle, bir şeyin kesinlikle **var olması** gerektiğini kanıtlamanın en güçlü yollarından biri."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "The problem: the same number of hairs",
+      "Problem: Aynı sayıda saç teli"
+     ],
+     "s": [
+      [
+       "Can we prove that at least two people in Türkiye have exactly the same number of hairs on their head?",
+       "Türkiye'de aynı sayıda saç teline sahip en az iki kişi olduğunu kanıtlayabilir miyiz?"
+      ],
+      [
+       "And can we do it without counting anyone?",
+       "Hem de kimseyi saymadan?"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The solution",
+      "Çözüm"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "A human head has at most about 150,000 hairs.",
+       "Bir insanın başında en fazla yaklaşık 150.000 saç teli olur."
+      ],
+      [
+       "Let us be generous and treat every number from 0 to 150,000 as a \"hole\".",
+       "Cömert davranıp 0'dan 150.000'e kadar her sayıyı bir \"yuva\" kabul edelim."
+      ],
+      [
+       "That gives 150,001 holes in total.",
+       "Bu da toplam 150.001 yuva eder."
+      ],
+      [
+       "The population of Türkiye is more than 85 million.",
+       "Türkiye'nin nüfusu ise 85 milyonu aşıyor."
+      ],
+      [
+       "If we put 85 million people (pigeons) into 150,001 holes, some holes will certainly get more than one person.",
+       "85 milyon kişiyi (güvercini) 150.001 yuvaya yerleştirirsek, bazı yuvalara kesinlikle birden fazla kişi düşer."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "85,000,000 ÷ 150,001 ≈ 566.7"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "We can say even more: some hole must contain at least **567 people**.",
+       "Hatta daha fazlasını söyleyebiliriz: Bir yuvada en az **567 kişi** olmak zorunda."
+      ],
+      [
+       "So at least 567 people in Türkiye have exactly the same number of hairs.",
+       "Yani Türkiye'de saç sayısı tıpatıp aynı olan en az 567 kişi var."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "The lesson",
+      "Ders"
+     ],
+     "s": [
+      [
+       "The pigeonhole principle does not tell you **who** or **where**.",
+       "Güvercin yuvası ilkesi **kimin** ya da **nerede** sorusuna cevap vermez."
+      ],
+      [
+       "It only **guarantees** that something exists.",
+       "Sadece bir şeyin var olduğunu **garanti eder**."
+      ],
+      [
+       "Remember Shannon's existence proof from our March issue: showing that something exists can be much easier than finding it.",
+       "Mart sayısındaki Shannon'ın varlık ispatını hatırla: Bir şeyin var olduğunu göstermek, onu bulmaktan çok daha kolay olabilir."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "Your turn",
+      "Senin sıran"
+     ],
+     "s": [
+      [
+       "You place 5 points anywhere inside a square with a side of 2 units.",
+       "Kenar uzunluğu 2 birim olan bir karenin içine rastgele 5 nokta yerleştiriyorsun."
+      ],
+      [
+       "Prove that two of them are at most √2 units apart.",
+       "Aralarındaki uzaklık en fazla √2 birim olan iki nokta bulunduğunu kanıtla."
+      ],
+      [
+       "Hint: divide the square into four parts.",
+       "İpucu: Kareyi dörde böl."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Answer",
+      "Cevap"
+     ],
+     "s": [
+      [
+       "Divide the square into 4 small squares with a side of 1, using the two lines through the midpoints of its sides.",
+       "Kareyi, kenarlarının orta noktalarından geçen iki doğruyla kenarı 1 olan 4 küçük kareye böl."
+      ],
+      [
+       "There are 5 points and 4 small squares, so two points must be in the same small square.",
+       "5 nokta ve 4 küçük kare var, bu yüzden iki nokta aynı küçük karenin içinde olmak zorunda."
+      ],
+      [
+       "In a square with a side of 1, the largest possible distance is the diagonal, which is √2. ∎",
+       "Kenarı 1 olan bir karede en büyük uzaklık köşegendir, o da √2'dir. ∎"
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "pigeonhole principle",
+       "güvercin yuvası ilkesi"
+      ],
+      [
+       "at least / at most",
+       "en az / en fazla"
+      ],
+      [
+       "existence",
+       "varlık"
+      ],
+      [
+       "to guarantee",
+       "garanti etmek"
+      ],
+      [
+       "diagonal",
+       "köşegen"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eglence",
+   "ikon": "lightbulb",
+   "renk": "#E84393",
+   "baslik": "Fun Facts: Maths' Most Famous April Fools' Joke",
+   "baslik_tr": "Eğlenceli Bilgiler: Matematiğin En Ünlü 1 Nisan Şakası",
+   "bloklar": [
+    {
+     "t": "liste",
+     "s": [
+      [
+       "**Gardner's joke:** in April 1975, the famous maths writer **Martin Gardner** announced some \"great discoveries\" in his Scientific American column.",
+       "**Gardner'ın şakası:** Ünlü matematik yazarı **Martin Gardner**, Nisan 1975'te Scientific American'daki köşesinde bazı \"büyük keşifler\" açıkladı."
+      ],
+      [
+       "One of them was a map that supposedly needed more than four colours. Readers sent hundreds of letters showing that they had coloured it with four.",
+       "Bunlardan biri, dört rengin yetmediği iddia edilen bir haritaydı. Okurlar haritayı dört renkle boyadıklarını gösteren yüzlerce mektup gönderdi."
+      ],
+      [
+       "It was all a joke. A year later, in 1976, Appel and Haken proved the **Four Colour Theorem**: every map can be coloured with four colours.",
+       "Hepsi şakaydı. Ertesi yıl, 1976'da, Appel ve Haken **Dört Renk Teoremi**'ni kanıtladı: Her harita dört renkle boyanabilir."
+      ],
+      [
+       "**An almost integer:** in the same column, Gardner claimed that e^(π√163) is an **integer**. It is not, but it is very close: 262537412640768743.99999999999925…",
+       "**Neredeyse tam sayı:** Gardner aynı yazıda e^(π√163) sayısının bir **tam sayı** olduğunu iddia etti. Değil, ama çok yakın: 262537412640768743,99999999999925…"
+      ],
+      [
+       "That is twelve 9s after the decimal point, and the reason is a deep structure in number theory.",
+       "Virgülden sonra on iki tane 9 var ve bunun sebebi sayılar teorisindeki derin bir yapı."
+      ],
+      [
+       "**Finite area, infinite perimeter:** the Koch **snowflake** has an infinite perimeter but a finite area, exactly 8/5 of the starting triangle.",
+       "**Sonlu alan, sonsuz çevre:** Koch **kar tanesinin** çevresi sonsuz ama alanı sonlu, başlangıç üçgeninin tam 8/5'i."
+      ],
+      [
+       "It fits in a box, but you could never buy enough paint to paint its edge.",
+       "Bir kutuya sığar, ama kenarını boyamaya hiçbir zaman yetecek kadar boya alamazsın."
+      ],
+      [
+       "**Broccoli is a fractal:** every bud of Romanesco broccoli looks like a small copy of the whole vegetable. It is one of the most beautiful examples of self-similarity in nature.",
+       "**Brokoli bir fraktaldır:** Romanesko brokolisinin her tomurcuğu bütün brokolinin küçük bir kopyası gibi. Doğadaki en güzel öz-benzerlik örneklerinden biri."
+      ],
+      [
+       "**23 April:** the day, month and last two digits of the year of 23 April 2026 are 23, 4 and 26. Only one of them is prime. Which one?",
+       "**23 Nisan:** 23 Nisan 2026'nın gün, ay ve yılın son iki hanesi 23, 4 ve 26. Bunlardan yalnızca biri asal. Hangisi?"
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Answer",
+      "Cevap"
+     ],
+     "s": [
+      [
+       "4 = 2 · 2 and 26 = 2 · 13, so only **23** is prime.",
+       "4 = 2 · 2 ve 26 = 2 · 13, yani yalnızca **23** asal."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "April Fools' Day",
+       "1 Nisan şakası günü"
+      ],
+      [
+       "four colour theorem",
+       "dört renk teoremi"
+      ],
+      [
+       "integer",
+       "tam sayı"
+      ],
+      [
+       "snowflake",
+       "kar tanesi"
+      ],
+      [
+       "perimeter",
+       "çevre"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sinif",
+   "ikon": "school",
+   "renk": "#27AE60",
+   "baslik": "In the Classroom",
+   "baslik_tr": "Sınıfta Matematik",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "Grades 6–8: Draw it without lifting your pen",
+      "6-8. sınıflar: Kalemi kaldırmadan çiz"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Goal: a playful introduction to graphs, **odd and even** numbers and reasoning.",
+       "Hedef: Graf kavramına oyunla giriş, **tek-çift** sayılar ve muhakeme."
+      ]
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "Draw the classic \"envelope\" on the board, a house with a roof. Ask students to draw it without lifting the pen and without going over any line twice.",
+       "Tahtaya klasik \"zarf\" şeklini, yani çatılı bir evi çizin. Öğrencilerden kalemi kaldırmadan ve hiçbir çizginin üzerinden iki kez geçmeden çizmelerini isteyin."
+      ],
+      [
+       "Give a few more shapes. Some should be possible to draw and some impossible.",
+       "Birkaç farklı şekil daha verin. Bazıları çizilebilir, bazıları çizilemez olsun."
+      ],
+      [
+       "At each corner, students write the number of lines that meet there.",
+       "Öğrenciler her köşeye o köşeden çıkan çizgi sayısını yazsın."
+      ],
+      [
+       "Ask: how many corners with an odd number are there in the shapes that can be drawn? And in the ones that cannot?",
+       "Soru: Çizilebilen şekillerde tek sayılı köşe kaç tane? Çizilemeyenlerde?"
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "The discovery",
+      "Keşif"
+     ],
+     "s": [
+      [
+       "If a shape can be drawn without lifting the pen, the number of odd corners is either 0 or 2.",
+       "Bir şekil kalem kaldırmadan çizilebiliyorsa, tek sayılı köşe sayısı ya 0 ya da 2'dir."
+      ],
+      [
+       "If it is 2, you must start at one of these two corners.",
+       "2 ise çizime bu iki köşeden birinden başlamak zorundasın."
+      ],
+      [
+       "Euler found this in 1736 for the bridges of Königsberg.",
+       "Euler bunu 1736'da Königsberg köprüleri için buldu."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "Bonus",
+      "Bonus"
+     ],
+     "s": [
+      [
+       "Ask students to draw the map of Königsberg: 4 pieces of land and 7 bridges.",
+       "Öğrencilere Königsberg haritasını çizdirin: 4 kara parçası ve 7 köprü."
+      ],
+      [
+       "The numbers of bridges at the pieces of land are 5, 3, 3 and 3.",
+       "Kara parçalarından çıkan köprü sayıları 5, 3, 3 ve 3."
+      ],
+      [
+       "All four corners are odd, so the walk is impossible.",
+       "Dört köşenin hepsi tek, demek ki yürüyüş imkânsız."
+      ],
+      [
+       "This activity trains problem solving, reasoning and generalisation together, in line with the Maarif model.",
+       "Bu etkinlik Maarif modeline uygun olarak problem çözme, akıl yürütme ve genelleme becerilerini birlikte çalıştırıyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "High school: The Koch snowflake",
+      "Lise: Koch kar tanesi"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Ask students to draw an equilateral triangle with a side of 9 cm.",
+       "Kenarı 9 cm olan bir eşkenar üçgen çizdirin."
+      ],
+      [
+       "Then they divide each side into three and add a small equilateral triangle outwards on the middle part.",
+       "Sonra her kenarı üçe bölüp ortadaki parçanın üstüne dışa doğru küçük bir eşkenar üçgen eklesinler."
+      ],
+      [
+       "Two steps are enough, and then they fill in the table.",
+       "İki adım yeterli, ardından tabloyu doldursunlar."
+      ]
+     ]
+    },
+    {
+     "t": "tablo",
+     "basliklar": [
+      "Step",
+      "Sides",
+      "Side length",
+      "Perimeter"
+     ],
+     "satirlar": [
+      [
+       "0",
+       "3",
+       "9",
+       "27"
+      ],
+      [
+       "1",
+       "12",
+       "3",
+       "36"
+      ],
+      [
+       "2",
+       "48",
+       "1",
+       "48"
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "Perimeter(n) = 27 · (4/3)ⁿ"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "What happens to the perimeter as n goes to infinity?",
+       "n sonsuza giderken çevreye ne olur?"
+      ],
+      [
+       "For the area, the triangles added at each step form a **geometric series**.",
+       "Alan için her adımda eklenen üçgenler bir **geometrik seri** oluşturur."
+      ],
+      [
+       "Students can sum it and show that the area **converges** to 8/5 of the starting area.",
+       "Öğrenciler bu seriyi toplayıp alanın başlangıç alanının 8/5'ine **yakınsadığını** gösterebilir."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "Discussion",
+      "Tartışma"
+     ],
+     "s": [
+      [
+       "How can a shape with an infinite perimeter fit on a single page?",
+       "Çevresi sonsuz olan bir şekil nasıl bir sayfaya sığabilir?"
+      ],
+      [
+       "This is exactly the coastline paradox from our Paper of the Month.",
+       "Bu, Ayın Makalesi'ndeki kıyı şeridi paradoksunun ta kendisi."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "graph",
+       "graf"
+      ],
+      [
+       "degree",
+       "derece"
+      ],
+      [
+       "odd / even",
+       "tek / çift"
+      ],
+      [
+       "geometric series",
+       "geometrik seri"
+      ],
+      [
+       "to converge",
+       "yakınsamak"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gundem",
+   "ikon": "campaign",
+   "renk": "#C0392B",
+   "baslik": "Education in Türkiye",
+   "baslik_tr": "Eğitim Gündemi",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "23 April: National Sovereignty and Children's Day",
+      "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The week of 23 April is full of activities in schools.",
+       "23 Nisan haftası okullarda etkinliklerle dolu geçiyor."
+      ],
+      [
+       "Here is a small maths activity for the celebration: ask students to research the geometric proportions of the crescent and star on the Turkish flag.",
+       "Bayrama uygun küçük bir matematik etkinliği: Öğrencilerden Türk bayrağındaki ay ve yıldızın geometrik oranlarını araştırmalarını isteyin."
+      ],
+      [
+       "The Flag Law defines each measurement, such as the diameters of the crescent circles, the distance between their centres and the circle around the star, in terms of the flag's width.",
+       "Bayrak Kanunu ay dairelerinin çapları, merkezler arası uzaklık ve yıldızın çevrel çemberi gibi her ölçüyü bayrağın genişliğine göre tanımlar."
+      ],
+      [
+       "Drawing a correct flag with a ruler and a **compass** is one of the most meaningful applications of **ratio and proportion**.",
+       "Cetvel ve **pergelle** kurallara uygun bir bayrak çizmek, **oran-orantı** konusunun en anlamlı uygulamalarından biri."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Two months to LGS",
+      "LGS'ye iki ay"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "LGS is on 13 June.",
+       "LGS 13 Haziran'da."
+      ],
+      [
+       "April is the last month to finish new topics and switch fully to **revision** and mock exams.",
+       "Nisan, yeni konuları bitirip tamamen **tekrar** ve deneme moduna geçmek için son ay."
+      ],
+      [
+       "A suggestion: one mock exam a week, followed by a short class discussion about the wrong answers only.",
+       "Öneri: Haftada bir deneme ve her denemeden sonra sadece yanlışlar üzerine kısa bir sınıf içi tartışma."
+      ],
+      [
+       "Explaining your own mistake to the class is one of the most lasting ways to learn.",
+       "Öğrencinin kendi yanlışını sınıfa anlatması, en kalıcı öğrenme yollarından biri."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The YKS calendar",
+      "YKS takvimi"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "TYT is on 20 June, and AYT and YDT are on 21 June.",
+       "TYT 20 Haziran'da, AYT ve YDT ise 21 Haziran'da."
+      ],
+      [
+       "For grade 12 students, April is the final revision month for the most common AYT maths topics: functions, derivatives, integrals and sequences.",
+       "12. sınıflar için nisan, AYT matematikte en çok soru gelen konuların, yani fonksiyonlar, türev, integral ve dizilerin son tekrar ayı."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "A note on the mid-term break",
+      "Ara tatil notu"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "This year the second-term break was on 16–20 March, and it joined the Ramadan Feast holiday.",
+       "Bu yıl ikinci dönem ara tatili 16-20 Mart tarihlerindeydi ve Ramazan Bayramı ile birleşti."
+      ],
+      [
+       "So April starts an uninterrupted stretch of school that runs until report card day in June.",
+       "Yani nisan, hazirandaki karne gününe kadar sürecek kesintisiz bir dönemin başlangıcı."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "ratio / proportion",
+       "oran / orantı"
+      ],
+      [
+       "compass",
+       "pergel"
+      ],
+      [
+       "revision",
+       "tekrar"
+      ],
+      [
+       "derivative",
+       "türev"
+      ],
+      [
+       "sequence",
+       "dizi"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "oku",
+   "ikon": "menu_book",
+   "renk": "#34495E",
+   "baslik": "Read Like a Mathematician",
+   "baslik_tr": "Matematikçi Gibi Oku",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "This month we look at the phrases for **definitions** and observations in mathematical texts.",
+       "Bu ay matematik metinlerindeki **tanım** ve gözlem kalıplarına bakıyoruz."
+      ]
+     ]
+    },
+    {
+     "t": "tablo",
+     "basliklar": [
+      "English",
+      "Türkçe",
+      "Example"
+     ],
+     "satirlar": [
+      [
+       "Definition",
+       "Tanım",
+       "Definition 2.1. A graph is …"
+      ],
+      [
+       "is said to be",
+       "… olduğu söylenir, … denir",
+       "A number is said to be perfect if …"
+      ],
+      [
+       "we denote … by …",
+       "… ile gösteririz",
+       "We denote the set of integers by ℤ."
+      ],
+      [
+       "Consider",
+       "… ele alalım",
+       "Consider the function f(x) = x²."
+      ],
+      [
+       "Note that",
+       "Şunu not edelim ki",
+       "Note that n² ≥ 0."
+      ],
+      [
+       "In particular",
+       "Özel olarak",
+       "In particular, 2 is prime."
+      ],
+      [
+       "respectively",
+       "sırasıyla",
+       "a and b are 3 and 5, respectively."
+      ],
+      [
+       "It is easy to see that",
+       "… olduğunu görmek kolaydır",
+       "Careful: \"easy\" is not always easy!"
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "Mini reading: Euler's theorem in modern language",
+      "Mini okuma: Euler'in teoremi modern dille"
+     ],
+     "s": [
+      [
+       "Definition. Let G be a graph.",
+       "Tanım. G bir graf olsun."
+      ],
+      [
+       "The **degree** of a vertex v, denoted by deg(v), is the number of edges at v.",
+       "Bir v köşesinin deg(v) ile gösterilen **derecesi**, v'deki kenar sayısıdır."
+      ],
+      [
+       "An **Euler path** is a walk that uses every edge exactly once.",
+       "Bir **Euler yolu**, her kenarı tam bir kez kullanan bir yürüyüştür."
+      ],
+      [
+       "Theorem. If a connected graph has an Euler path, then the number of vertices of odd degree is either 0 or 2.",
+       "Teorem. Bağlantılı bir grafın Euler yolu varsa, tek dereceli köşelerin sayısı ya 0 ya da 2'dir."
+      ],
+      [
+       "Proof idea. Consider any vertex that is not the start or the end of the walk.",
+       "İspat fikri. Yürüyüşün başlangıcı ya da sonu olmayan herhangi bir köşeyi ele alalım."
+      ],
+      [
+       "Each time the walk enters this vertex, it also leaves it.",
+       "Yürüyüş bu köşeye her girdiğinde ondan çıkar da."
+      ],
+      [
+       "Hence its edges come in pairs, and in particular, its degree is even.",
+       "Dolayısıyla kenarları çiftler hâlinde gelir ve özel olarak derecesi çifttir."
+      ],
+      [
+       "Note that only the start and the end can have odd degree. ∎",
+       "Şunu not edelim ki yalnızca başlangıç ve son tek dereceli olabilir. ∎"
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "A small note",
+      "Küçük not"
+     ],
+     "s": [
+      [
+       "The word \"respectively\" is usually translated as \"sırasıyla\" at the end of the Turkish sentence.",
+       "\"Respectively\" kelimesi Türkçede çoğu zaman cümlenin sonuna \"sırasıyla\" olarak çevrilir."
+      ],
+      [
+       "It appears on almost every page of a maths paper.",
+       "Matematik makalelerinde neredeyse her sayfada geçer."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Monthly reading: Seven Bridges and a New Kind of Mathematics",
+      "Aylık okuma: Yedi Köprü ve Yeni Bir Matematik"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "In the eighteenth century, the city of Königsberg was built on both sides of a river and on two islands in the middle of it.",
+       "On sekizinci yüzyılda Königsberg şehri bir nehrin iki yakasına ve ortasındaki iki adaya kurulmuştu."
+      ],
+      [
+       "Seven bridges connected the four parts of the city.",
+       "Yedi köprü şehrin dört parçasını birbirine bağlıyordu."
+      ],
+      [
+       "The citizens liked to walk around on Sunday afternoons, and a question became popular.",
+       "Şehrin sakinleri pazar öğleden sonraları yürüyüş yapmayı severdi ve bir soru popüler oldu."
+      ],
+      [
+       "Is it possible to take a walk that crosses every bridge exactly once?",
+       "Her köprüden tam bir kez geçen bir yürüyüş yapmak mümkün mü?"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Many people tried, but nobody succeeded.",
+       "Birçok kişi denedi ama kimse başaramadı."
+      ],
+      [
+       "In 1736, the question reached Leonhard Euler.",
+       "1736'da soru Leonhard Euler'e ulaştı."
+      ],
+      [
+       "He did not try different routes on a map.",
+       "Euler bir harita üzerinde farklı rotalar denemedi."
+      ],
+      [
+       "Instead, he asked a better question: what really matters in this problem?",
+       "Onun yerine daha iyi bir soru sordu: Bu problemde gerçekten önemli olan ne?"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Euler realised that the shape of the land and the length of the bridges and streets did not matter at all.",
+       "Euler, arazinin şeklinin, köprülerin ve sokakların uzunluğunun hiç önemli olmadığını fark etti."
+      ],
+      [
+       "Only two things mattered: the parts of the city and the bridges between them.",
+       "Yalnızca iki şey önemliydi: şehrin parçaları ve aralarındaki köprüler."
+      ],
+      [
+       "So he replaced each part of the city with a point and each bridge with a line.",
+       "Bu yüzden şehrin her parçasının yerine bir nokta, her köprünün yerine bir çizgi koydu."
+      ],
+      [
+       "Today we call this kind of drawing a **graph**.",
+       "Bugün bu tür bir çizime **graf** diyoruz."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Then he noticed something simple.",
+       "Sonra basit bir şey fark etti."
+      ],
+      [
+       "If you walk through a part of the city, you must arrive on one bridge and leave on another.",
+       "Şehrin bir parçasından geçiyorsan, bir köprüden gelip başka bir köprüden ayrılmak zorundasın."
+      ],
+      [
+       "So the number of bridges at that part must be even, unless your walk starts or ends there.",
+       "Bu yüzden yürüyüşün orada başlamıyor ya da bitmiyorsa, o parçadaki köprü sayısı çift olmalı."
+      ],
+      [
+       "In Königsberg, all four parts had an odd number of bridges.",
+       "Königsberg'de dört parçanın hepsinde tek sayıda köprü vardı."
+      ],
+      [
+       "Therefore, such a walk was impossible.",
+       "Dolayısıyla böyle bir yürüyüş imkânsızdı."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "With this short argument, Euler did more than solve a puzzle.",
+       "Bu kısa akıl yürütmeyle Euler bir bulmacayı çözmekten fazlasını yaptı."
+      ],
+      [
+       "He showed that some problems are about connections rather than measurements.",
+       "Bazı problemlerin ölçümlerle değil bağlantılarla ilgili olduğunu gösterdi."
+      ],
+      [
+       "This idea later grew into graph theory and topology, two of the most important areas of modern mathematics.",
+       "Bu fikir daha sonra modern matematiğin en önemli iki alanına, graf teorisine ve topolojiye dönüştü."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "Comprehension questions",
+      "Anlama soruları"
+     ],
+     "s": [
+      [
+       "1. What was the popular question in Königsberg?",
+       "1. Königsberg'deki popüler soru neydi?"
+      ],
+      [
+       "2. What did Euler replace the parts of the city and the bridges with?",
+       "2. Euler şehrin parçalarının ve köprülerin yerine ne koydu?"
+      ],
+      [
+       "3. Why was the walk impossible?",
+       "3. Yürüyüş neden imkânsızdı?"
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Answers",
+      "Cevaplar"
+     ],
+     "s": [
+      [
+       "1. Whether it is possible to take a walk that crosses every bridge exactly once.",
+       "1. Her köprüden tam bir kez geçen bir yürüyüş yapmanın mümkün olup olmadığı."
+      ],
+      [
+       "2. He replaced each part of the city with a point and each bridge with a line.",
+       "2. Şehrin her parçasının yerine bir nokta, her köprünün yerine bir çizgi koydu."
+      ],
+      [
+       "3. All four parts had an odd number of bridges, but only the start and the end of a walk can have an odd number.",
+       "3. Dört parçanın hepsinde tek sayıda köprü vardı, ama yalnızca yürüyüşün başlangıcı ve sonu tek sayıda köprüye sahip olabilir."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "definition",
+       "tanım"
+      ],
+      [
+       "to denote",
+       "göstermek"
+      ],
+      [
+       "respectively",
+       "sırasıyla"
+      ],
+      [
+       "citizen",
+       "vatandaş, şehir sakini"
+      ],
+      [
+       "to replace … with …",
+       "… yerine … koymak"
+      ],
+      [
+       "unless",
+       "… olmadıkça"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "soru": "According to Mandelbrot's paper, what is the approximate dimension D of the west coast of Britain?",
+   "soru_tr": "Mandelbrot'un makalesine göre İngiltere'nin batı kıyısının boyutu D yaklaşık kaçtır?",
+   "secenekler": [
+    "1",
+    "1.02",
+    "1.25",
+    "2"
+   ],
+   "dogru": 2,
+   "aciklama": "The west coast of Britain is very rough, with D ≈ 1.25.",
+   "aciklama_tr": "İngiltere'nin batı kıyısı çok girintilidir ve D ≈ 1,25'tir."
+  },
+  {
+   "soru": "When the Koch curve is shrunk to 1/3, how many copies build the original?",
+   "soru_tr": "Koch eğrisi 1/3 ölçeğinde küçültülünce orijinali kaç kopya oluşturur?",
+   "secenekler": [
+    "2",
+    "3",
+    "4",
+    "9"
+   ],
+   "dogru": 2,
+   "aciklama": "4 = 3^D, so D = log 4 / log 3 ≈ 1.26.",
+   "aciklama_tr": "4 = 3^D, yani D = log 4 / log 3 ≈ 1,26."
+  },
+  {
+   "soru": "For a polyhedron, V − E + F equals …",
+   "soru_tr": "Bir çokyüzlü için K − Ke + Y kaça eşittir?",
+   "secenekler": [
+    "0",
+    "1",
+    "2",
+    "6"
+   ],
+   "dogru": 2,
+   "aciklama": "Euler's polyhedron formula: for a cube, 8 − 12 + 6 = 2.",
+   "aciklama_tr": "Euler'in çokyüzlü formülü: Küp için 8 − 12 + 6 = 2."
+  },
+  {
+   "soru": "Who solved the three-dimensional Kakeya conjecture in 2025?",
+   "soru_tr": "Üç boyutlu Kakeya sanısını 2025'te kim çözdü?",
+   "secenekler": [
+    "Frank Merle",
+    "Hong Wang and Joshua Zahl",
+    "Abram Besicovitch",
+    "Otis Chodosh"
+   ],
+   "dogru": 1,
+   "aciklama": "Hong Wang and Joshua Zahl announced the solution in 2025.",
+   "aciklama_tr": "Hong Wang ile Joshua Zahl çözümü 2025'te duyurdu."
+  },
+  {
+   "soru": "A class has 30 students. At least how many of them must share the same birth month?",
+   "soru_tr": "Bir sınıfta 30 öğrenci var. Doğum ayı aynı olan en az kaç öğrenci olduğunu garanti edebiliriz?",
+   "secenekler": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "dogru": 1,
+   "aciklama": "With at most 2 students per month there would be at most 24 students, and 30 > 24, so some month has at least 3.",
+   "aciklama_tr": "Her ayda en fazla 2 öğrenci olsaydı en fazla 24 öğrenci olurdu, 30 > 24 olduğu için bir ayda en az 3 öğrenci var."
+  },
+  {
+   "soru": "Why was the Königsberg walk impossible?",
+   "soru_tr": "Königsberg yürüyüşü neden imkânsızdı?",
+   "secenekler": [
+    "The bridges were too long",
+    "All four parts had an odd number of bridges",
+    "There were only seven bridges",
+    "The river was too wide"
+   ],
+   "dogru": 1,
+   "aciklama": "A walk can have at most two parts with an odd number of bridges, but Königsberg had four.",
+   "aciklama_tr": "Bir yürüyüşte tek sayıda köprüye sahip en fazla iki parça olabilir, Königsberg'de ise dört tane vardı."
+  }
+ ],
+ "bulmacalar": [
+  {
+   "tip": "anagram",
+   "karisik": "CRALFAT",
+   "cevap": "FRACTAL",
+   "ipucu": "A self-similar shape.",
+   "ipucu_tr": "Öz-benzer bir şekil."
+  },
+  {
+   "tip": "anagram",
+   "karisik": "TEXREV",
+   "cevap": "VERTEX",
+   "ipucu": "A point of a graph.",
+   "ipucu_tr": "Bir grafın noktası."
+  },
+  {
+   "tip": "anagram",
+   "karisik": "GEDRIB",
+   "cevap": "BRIDGE",
+   "ipucu": "Königsberg had seven of these.",
+   "ipucu_tr": "Königsberg'de bunlardan yedi tane vardı."
+  },
+  {
+   "tip": "anagram",
+   "karisik": "NONEMDISI",
+   "cevap": "DIMENSION",
+   "ipucu": "About 1.25 for the coast of Britain.",
+   "ipucu_tr": "İngiltere kıyısı için yaklaşık 1,25."
+  },
+  {
+   "tip": "eslestir",
+   "baslik": "Match the terms",
+   "baslik_tr": "Terimleri eşleştir",
+   "ciftler": [
+    [
+     "self-similarity",
+     "öz-benzerlik"
+    ],
+    [
+     "polyhedron",
+     "çokyüzlü"
+    ],
+    [
+     "pigeonhole principle",
+     "güvercin yuvası ilkesi"
+    ],
+    [
+     "measure zero",
+     "sıfır ölçülü"
+    ],
+    [
+     "coastline",
+     "kıyı şeridi"
+    ]
+   ]
+  },
+  {
+   "tip": "mantik",
+   "baslik": "The sock drawer",
+   "baslik_tr": "Çorap çekmecesi",
+   "soru": "A drawer in a dark room has 10 black and 10 white socks. You cannot see anything. What is the smallest number of socks you must take to be sure of a pair of the same colour?",
+   "soru_tr": "Karanlık bir odadaki çekmecede 10 siyah ve 10 beyaz çorap var. Hiçbir şey göremiyorsun. Aynı renkten bir çift çorabı kesinlikle elde etmek için en az kaç çorap çekmelisin?",
+   "cevap": "Three. There are two colours, so two \"holes\". With three socks, the pigeonhole principle says two of them must be the same colour.",
+   "cevap_tr": "Üç. İki renk iki \"yuva\" demek. Üç çorap çekersen güvercin yuvası ilkesine göre ikisi aynı renkte olmak zorunda."
+  },
+  {
+   "tip": "mantik",
+   "baslik": "Check Euler with a football",
+   "baslik_tr": "Euler'i futbol topuyla doğrula",
+   "soru": "A football is made of 12 pentagons and 20 hexagons, and three faces meet at every corner. How many edges and vertices does it have? Does Euler's formula work?",
+   "soru_tr": "Bir futbol topu 12 beşgen ve 20 altıgenden oluşuyor ve her köşede üç yüz buluşuyor. Topun kaç kenarı ve kaç köşesi var? Euler formülü tutuyor mu?",
+   "cevap": "F = 32. Each edge is shared by two faces, so E = (12·5 + 20·6) / 2 = 90. Three faces meet at each vertex, so V = 180 / 3 = 60. Check: 60 − 90 + 32 = 2.",
+   "cevap_tr": "Y = 32. Her kenar iki yüz tarafından paylaşılır, yani Ke = (12·5 + 20·6) / 2 = 90. Her köşede üç yüz buluşur, yani K = 180 / 3 = 60. Kontrol: 60 − 90 + 32 = 2."
+  }
+ ],
+ "terimler": [
+  [
+   "nonlinear equation",
+   "doğrusal olmayan denklem"
+  ],
+  [
+   "harmonic analysis",
+   "harmonik analiz"
+  ],
+  [
+   "laureate",
+   "ödül sahibi"
+  ],
+  [
+   "to announce",
+   "açıklamak, duyurmak"
+  ],
+  [
+   "conjecture",
+   "sanı"
+  ],
+  [
+   "coastline",
+   "kıyı şeridi"
+  ],
+  [
+   "self-similarity",
+   "öz-benzerlik"
+  ],
+  [
+   "fractal dimension",
+   "fraktal boyut"
+  ],
+  [
+   "scale",
+   "ölçek"
+  ],
+  [
+   "Hausdorff dimension",
+   "Hausdorff boyutu"
+  ],
+  [
+   "measure theory",
+   "ölçü teorisi"
+  ],
+  [
+   "lung",
+   "akciğer"
+  ],
+  [
+   "branching",
+   "dallanma"
+  ],
+  [
+   "surface area",
+   "yüzey alanı"
+  ],
+  [
+   "volume",
+   "hacim"
+  ],
+  [
+   "blood vessel",
+   "kan damarı"
+  ],
+  [
+   "oxygen",
+   "oksijen"
+  ],
+  [
+   "notation",
+   "gösterim"
+  ],
+  [
+   "imaginary unit",
+   "sanal birim"
+  ],
+  [
+   "polyhedron",
+   "çokyüzlü"
+  ],
+  [
+   "vertex / edge / face",
+   "köşe / kenar / yüz"
+  ],
+  [
+   "topology",
+   "topoloji"
+  ],
+  [
+   "collected works",
+   "toplu eserler"
+  ],
+  [
+   "evolution equation",
+   "evrim denklemi"
+  ],
+  [
+   "solitary wave",
+   "yalnız dalga"
+  ],
+  [
+   "blow-up",
+   "patlama"
+  ],
+  [
+   "needle",
+   "iğne"
+  ],
+  [
+   "measure zero",
+   "sıfır ölçülü"
+  ],
+  [
+   "pigeonhole principle",
+   "güvercin yuvası ilkesi"
+  ],
+  [
+   "at least / at most",
+   "en az / en fazla"
+  ],
+  [
+   "existence",
+   "varlık"
+  ],
+  [
+   "to guarantee",
+   "garanti etmek"
+  ],
+  [
+   "diagonal",
+   "köşegen"
+  ],
+  [
+   "April Fools' Day",
+   "1 Nisan şakası günü"
+  ],
+  [
+   "four colour theorem",
+   "dört renk teoremi"
+  ],
+  [
+   "integer",
+   "tam sayı"
+  ],
+  [
+   "snowflake",
+   "kar tanesi"
+  ],
+  [
+   "perimeter",
+   "çevre"
+  ],
+  [
+   "graph",
+   "graf"
+  ],
+  [
+   "degree",
+   "derece"
+  ],
+  [
+   "odd / even",
+   "tek / çift"
+  ],
+  [
+   "geometric series",
+   "geometrik seri"
+  ],
+  [
+   "to converge",
+   "yakınsamak"
+  ],
+  [
+   "ratio / proportion",
+   "oran / orantı"
+  ],
+  [
+   "compass",
+   "pergel"
+  ],
+  [
+   "revision",
+   "tekrar"
+  ],
+  [
+   "derivative",
+   "türev"
+  ],
+  [
+   "sequence",
+   "dizi"
+  ],
+  [
+   "definition",
+   "tanım"
+  ],
+  [
+   "to denote",
+   "göstermek"
+  ],
+  [
+   "respectively",
+   "sırasıyla"
+  ],
+  [
+   "citizen",
+   "vatandaş, şehir sakini"
+  ],
+  [
+   "to replace … with …",
+   "… yerine … koymak"
+  ],
+  [
+   "unless",
+   "… olmadıkça"
+  ]
+ ]
+}

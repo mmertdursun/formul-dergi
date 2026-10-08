@@ -1,0 +1,2280 @@
+{
+ "format": 2,
+ "no": 5,
+ "ad": "The Missing Pieces",
+ "ad_tr": "Eksik Parçalar",
+ "donem": "Mayıs 2026",
+ "donem_en": "May 2026",
+ "tema": "Eksik bilgiyle tam resim",
+ "tema_en": "The full picture from missing information",
+ "kapak": {
+  "renkler": [
+   "#C0602B",
+   "#8A4119"
+  ],
+  "desen": 0
+ },
+ "bolumler": [
+  {
+   "id": "editor",
+   "ikon": "edit_note",
+   "renk": "#6C63FF",
+   "baslik": "Editor's Note",
+   "baslik_tr": "Editörden",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "Hello again.",
+       "Tekrar merhaba."
+      ],
+      [
+       "May is the final stretch of the school year.",
+       "Mayıs, okul yılının son düzlüğü."
+      ],
+      [
+       "Exams are getting closer and classrooms are getting tired.",
+       "Sınavlar yaklaşıyor ve sınıflar yoruluyor."
+      ],
+      [
+       "The world of mathematics, however, is busier than ever.",
+       "Matematik dünyası ise her zamankinden daha hareketli."
+      ],
+      [
+       "This month the Shaw Prizes were announced, and the Abel Prize was handed to its winner in Oslo.",
+       "Bu ay Shaw Ödülleri açıklandı ve Abel Ödülü Oslo'da sahibine teslim edildi."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Our theme this month is **the full picture from missing pieces**.",
+       "Bu ayın teması **eksik parçalardan tam resim**."
+      ],
+      [
+       "How can an MRI scanner make a perfect image from only a small part of the measurements it should need?",
+       "Bir MR cihazı, gereken ölçümlerin yalnızca küçük bir kısmıyla nasıl kusursuz bir görüntü çıkarabilir?"
+      ],
+      [
+       "How can you find a fake coin with just a few weighings?",
+       "Sahte bir parayı sadece birkaç tartıyla nasıl bulabilirsin?"
+      ],
+      [
+       "And how did a scholar who travelled from Samarkand to Istanbul in the 15th century calculate the sky with incomplete data?",
+       "Peki 15. yüzyılda Semerkant'tan İstanbul'a gelen bir bilgin, gökyüzünü eksik verilerle nasıl hesapladı?"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Because of 29 May, our mathematician of the month is **Ali Kuşçu**, who came to Istanbul at the invitation of Mehmed the Conqueror.",
+       "29 Mayıs vesilesiyle ayın matematikçisi, Fatih Sultan Mehmed'in davetiyle İstanbul'a gelen **Ali Kuşçu**."
+      ],
+      [
+       "Enjoy your break!",
+       "İyi molalar!"
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "final stretch",
+       "son düzlük"
+      ],
+      [
+       "incomplete data",
+       "eksik veri"
+      ],
+      [
+       "measurement",
+       "ölçüm"
+      ],
+      [
+       "scholar",
+       "bilgin, âlim"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "haber",
+   "ikon": "newspaper",
+   "renk": "#2E86DE",
+   "baslik": "News from the World of Maths",
+   "baslik_tr": "Matematik Dünyasından Haberler",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "Shaw Prize: Candès and De Lellis",
+      "Shaw Ödülü: Candès ve De Lellis"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The Shaw Prize is often called \"the Nobel Prize of the East\".",
+       "Shaw Ödülü sık sık \"Doğu'nun Nobel'i\" olarak anılır."
+      ],
+      [
+       "The 2026 **laureates** were announced in Hong Kong on 27 May.",
+       "2026 **ödül sahipleri** 27 Mayıs'ta Hong Kong'da açıklandı."
+      ],
+      [
+       "Two mathematicians share the prize in mathematical sciences: **Emmanuel Candès** and **Camillo De Lellis**.",
+       "Matematik bilimleri ödülünü iki matematikçi paylaşıyor: **Emmanuel Candès** ve **Camillo De Lellis**."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Both of them use deep techniques from mathematical analysis, but in very different areas.",
+       "İkisi de matematiksel analizin derin tekniklerini kullanıyor, ama çok farklı alanlarda."
+      ],
+      [
+       "Candès works in **signal processing** and statistics.",
+       "Candès **sinyal işleme** ve istatistik alanında çalışıyor."
+      ],
+      [
+       "De Lellis studies **singularities** in fluid dynamics and geometry.",
+       "De Lellis akışkanlar dinamiği ve geometrideki **tekillikleri** inceliyor."
+      ],
+      [
+       "You can read about Candès's work in our paper of the month, and about De Lellis in the Prize Corner.",
+       "Candès'in çalışmasını ayın makalesinde, De Lellis'inkini ise Ödüller Köşesi'nde okuyabilirsin."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The Abel Prize reaches its winner",
+      "Abel Ödülü sahibine ulaştı"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "In our March issue we reported that **Gerd Faltings** won the 2026 Abel Prize.",
+       "Mart sayımızda 2026 Abel Ödülü'nü **Gerd Faltings**'in kazandığını duyurmuştuk."
+      ],
+      [
+       "In May he received the prize at the traditional **ceremony** in Oslo.",
+       "Mayıs ayında ödülünü Oslo'daki geleneksel **törende** aldı."
+      ],
+      [
+       "By tradition, the prize is presented by the King of Norway.",
+       "Geleneğe göre ödülü Norveç Kralı takdim ediyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "12 May: Women in Mathematics Day",
+      "12 Mayıs: Matematikte Kadınlar Günü"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "12 May is the birthday of Maryam Mirzakhani, whom we introduced in our March issue.",
+       "12 Mayıs, Mart sayımızda tanıttığımız Maryam Mirzakhani'nin doğum günü."
+      ],
+      [
+       "Around the world, the day is celebrated as **Women in Mathematics Day**.",
+       "Bu gün dünyanın dört bir yanında **Matematikte Kadınlar Günü** olarak kutlanıyor."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "For the classroom",
+      "Sınıf için"
+     ],
+     "s": [
+      [
+       "It is a good day for a short school activity.",
+       "Okulda kısa bir etkinlik için iyi bir gün."
+      ],
+      [
+       "Give students one paragraph each about the lives of Hypatia, Emmy Noether and Mirzakhani.",
+       "Öğrencilere Hypatia, Emmy Noether ve Mirzakhani'nin hayatları hakkında birer paragraf verin."
+      ],
+      [
+       "Then ask them to find what the three stories have in common.",
+       "Sonra üç hikâyenin ortak noktalarını bulmalarını isteyin."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "laureate",
+       "ödül sahibi"
+      ],
+      [
+       "signal processing",
+       "sinyal işleme"
+      ],
+      [
+       "singularity",
+       "tekillik"
+      ],
+      [
+       "ceremony",
+       "tören"
+      ],
+      [
+       "statistics",
+       "istatistik"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "makale",
+   "ikon": "article",
+   "renk": "#8E44AD",
+   "baslik": "Paper of the Month: A Full Image from Few Measurements",
+   "baslik_tr": "Ayın Makalesi: Az Ölçümle Tam Görüntü",
+   "bloklar": [
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Source",
+      "Kaynak"
+     ],
+     "s": [
+      [
+       "Emmanuel Candès, Justin Romberg and Terence Tao, Robust Uncertainty Principles: Exact Signal Reconstruction from Highly Incomplete Frequency Information, IEEE Transactions on Information Theory, 2006.",
+       "Emmanuel Candès, Justin Romberg ve Terence Tao, Sağlam Belirsizlik İlkeleri: Çok Eksik Frekans Bilgisinden Kusursuz Sinyal Geri Kazanımı, IEEE Transactions on Information Theory, 2006."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The problem",
+      "Problem"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "An MRI scan takes a long time.",
+       "Bir MR çekimi uzun sürer."
+      ],
+      [
+       "The patient has to lie still for many minutes, which is especially hard for a child.",
+       "Hasta dakikalarca kıpırdamadan yatmak zorundadır ve bu özellikle bir çocuk için zordur."
+      ],
+      [
+       "The reason is that the scanner does not take the picture directly.",
+       "Bunun sebebi, cihazın görüntüyü doğrudan çekmemesidir."
+      ],
+      [
+       "It measures the **frequency information** of the image one piece at a time, and then a computer puts the pieces together.",
+       "Görüntünün **frekans bilgilerini** parça parça ölçer, sonra bir bilgisayar bu parçaları birleştirir."
+      ],
+      [
+       "The classical rule says that the more detail you want, the more measurements you need.",
+       "Klasik kurala göre ne kadar ayrıntı istersen o kadar çok ölçüm yapman gerekir."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "So what happens if we skip most of the measurements?",
+       "Peki ölçümlerin büyük kısmını atlarsak ne olur?"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "A linear algebra view",
+      "Lineer cebirle bakalım"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Think of the image as a vector x made of n numbers, one for each pixel.",
+       "Görüntüyü, her piksel için bir sayı olmak üzere n sayıdan oluşan bir x vektörü olarak düşün."
+      ],
+      [
+       "Our m measurements can be written with a **matrix** A:",
+       "Yaptığımız m ölçüm bir A **matrisiyle** yazılabilir:"
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "y = A · x"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "If m < n, there are fewer equations than unknowns.",
+       "Eğer m < n ise denklem sayısı bilinmeyen sayısından azdır."
+      ],
+      [
+       "Such an **underdetermined system** has infinitely many solutions.",
+       "Böyle **az denklemli bir sistemin** sonsuz sayıda çözümü vardır."
+      ],
+      [
+       "You know this rule from high school: with more unknowns than equations, you cannot find a single answer.",
+       "Bu kuralı liseden biliyorsun: Bilinmeyen sayısı denklem sayısından fazlaysa tek bir cevap bulamazsın."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The magic word: sparsity",
+      "Sihirli kelime: Seyreklik"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Candès noticed something important: real-world images are not random.",
+       "Candès önemli bir şey fark etti: Gerçek dünyadaki görüntüler rastgele değildir."
+      ],
+      [
+       "When you write them in the right \"language\", most of their coefficients are very close to zero.",
+       "Onları doğru \"dilde\" yazdığında katsayılarının çoğu sıfıra çok yakın çıkar."
+      ],
+      [
+       "This is also why we can compress a photo as a JPEG file.",
+       "Bir fotoğrafı JPEG dosyası olarak sıkıştırabilmemizin sebebi de bu."
+      ],
+      [
+       "This property is called **sparsity**.",
+       "Bu özelliğe **seyreklik** denir."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Among the infinitely many solutions, we can choose the **sparsest** one, the one with the fewest non-zero entries.",
+       "Sonsuz çözüm arasından **en seyrek** olanı, yani sıfır olmayan en az bileşeni olanı seçebiliriz."
+      ],
+      [
+       "Very often, this gives the correct image.",
+       "Bu çoğu zaman doğru görüntüyü verir."
+      ],
+      [
+       "The trouble is that finding the sparsest solution is terribly hard for a computer, because it has to try every possibility.",
+       "Sorun şu ki en seyrek çözümü bulmak bir bilgisayar için korkunç derecede zordur, çünkü tüm olasılıkları denemesi gerekir."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The big idea: the ℓ¹ norm",
+      "Büyük fikir: ℓ¹ normu"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The result at the heart of the paper is surprising.",
+       "Makalenin kalbindeki sonuç şaşırtıcı."
+      ],
+      [
+       "Instead of minimising the number of non-zero entries, we minimise the **sum of their absolute values**:",
+       "Sıfır olmayan bileşenlerin sayısını en aza indirmek yerine, **mutlak değerlerinin toplamını** en aza indiririz:"
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "‖x‖₁ = |x₁| + |x₂| + … + |xₙ|"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "This problem is easy to solve with **linear programming**.",
+       "Bu problem **doğrusal programlama** ile kolayca çözülebilir."
+      ],
+      [
+       "Candès, Romberg and Tao proved that if the measurements are chosen at random and the image is sparse enough, the easy problem and the hard problem have exactly the same solution.",
+       "Candès, Romberg ve Tao şunu kanıtladı: Ölçümler rastgele seçilmişse ve görüntü yeterince seyrekse, kolay problemle zor problemin çözümü tıpatıp aynıdır."
+      ],
+      [
+       "This happens with very high probability.",
+       "Bu, çok yüksek olasılıkla gerçekleşir."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "Why ℓ¹? A picture in two dimensions",
+      "Neden ℓ¹? İki boyutta bir resim"
+     ],
+     "s": [
+      [
+       "The points where the sum of squares (ℓ²) is constant form a **circle**.",
+       "Kareler toplamının (ℓ²) sabit olduğu noktalar bir **çember** oluşturur."
+      ],
+      [
+       "The points where the sum of absolute values (ℓ¹) is constant form a **square** turned by 45°, with its corners on the axes.",
+       "Mutlak değerler toplamının (ℓ¹) sabit olduğu noktalar ise köşeleri eksenlerin üzerinde duran, 45° döndürülmüş bir **kare** oluşturur."
+      ],
+      [
+       "Now grow each shape until it first touches the line of solutions.",
+       "Şimdi her şekli, çözüm doğrusuna ilk değene kadar büyüt."
+      ],
+      [
+       "The circle usually touches it at a point away from the axes.",
+       "Çember genelde ona eksenlerin dışındaki bir noktada değer."
+      ],
+      [
+       "The square almost always touches it with a corner, which lies on an axis.",
+       "Kare ise neredeyse her zaman bir köşesiyle, yani bir eksenin üstünde değer."
+      ],
+      [
+       "A point on an axis has a zero component, so it is a sparse solution.",
+       "Eksen üstündeki bir noktanın bir bileşeni sıfırdır, yani bu seyrek bir çözümdür."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The result",
+      "Sonuç"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "This idea became known as **compressed sensing**.",
+       "Bu fikre **sıkıştırılmış algılama** adı verildi."
+      ],
+      [
+       "In 2017, MRI scanners using this method were approved in the United States.",
+       "2017'de bu yöntemi kullanan MR cihazları ABD'de onay aldı."
+      ],
+      [
+       "For child patients, scan times became several times shorter.",
+       "Çocuk hastalar için çekim süreleri birkaç kat kısaldı."
+      ],
+      [
+       "Today the same idea is used in many fields, from radio astronomy to single-pixel cameras.",
+       "Bugün aynı fikir radyo astronomisinden tek pikselli kameralara kadar pek çok alanda kullanılıyor."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "The story behind the paper",
+      "Makalenin arkasındaki hikâye"
+     ],
+     "s": [
+      [
+       "In 2004, Candès removed most of the measurements of a test image on purpose and asked his program to rebuild it.",
+       "2004'te Candès bir test görüntüsünün ölçümlerinin çoğunu bilerek sildi ve programından görüntüyü yeniden oluşturmasını istedi."
+      ],
+      [
+       "He expected a blurry, broken picture, but it came back perfect.",
+       "Bulanık, bozuk bir resim bekliyordu, ama resim kusursuz geri geldi."
+      ],
+      [
+       "At first he thought there was a mistake in his code.",
+       "İlk başta kodunda bir hata olduğunu düşündü."
+      ],
+      [
+       "His child went to the same preschool as the child of Terence Tao, and when the two parents met, Candès told him about the strange result.",
+       "Çocuğu, Terence Tao'nun çocuğuyla aynı anaokuluna gidiyordu ve iki ebeveyn karşılaştığında Candès ona bu tuhaf sonucu anlattı."
+      ],
+      [
+       "Together with Justin Romberg, they proved that it was not luck.",
+       "Justin Romberg ile birlikte bunun şans olmadığını kanıtladılar."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Graduate corner",
+      "Yüksek lisans köşesi"
+     ],
+     "s": [
+      [
+       "This paper is where **probability**, **linear algebra** and **convex optimisation** meet.",
+       "Bu makale **olasılık**, **lineer cebir** ve **konveks optimizasyon** derslerinin buluşma noktası."
+      ],
+      [
+       "The key concept is the restricted isometry property (RIP): random matrices almost keep the lengths of sparse vectors.",
+       "Anahtar kavram kısıtlı izometri özelliği (RIP): Rastgele matrisler seyrek vektörlerin uzunluklarını neredeyse korur."
+      ],
+      [
+       "Random matrix theory and high-dimensional probability are among the most active thesis areas in applied mathematics today.",
+       "Rastgele matris teorisi ve yüksek boyutlu olasılık, bugün uygulamalı matematiğin en aktif tez alanları arasında."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "underdetermined system",
+       "az denklemli sistem"
+      ],
+      [
+       "sparsity / sparse",
+       "seyreklik / seyrek"
+      ],
+      [
+       "ℓ¹ norm",
+       "ℓ¹ normu (mutlak değerler toplamı)"
+      ],
+      [
+       "linear programming",
+       "doğrusal programlama"
+      ],
+      [
+       "convex optimisation",
+       "konveks optimizasyon"
+      ],
+      [
+       "compressed sensing",
+       "sıkıştırılmış algılama"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bilim",
+   "ikon": "science",
+   "renk": "#0E7490",
+   "baslik": "Science Corner: How an MRI Scanner Listens to Your Body",
+   "baslik_tr": "Bilim Köşesi: MR Cihazı Vücudunu Nasıl Dinler?",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "In our paper of the month, the mathematics was about rebuilding an image.",
+       "Ayın makalesinde matematik, bir görüntüyü yeniden oluşturmakla ilgiliydi."
+      ],
+      [
+       "But where do the measurements come from in the first place?",
+       "Peki ölçümler en başta nereden geliyor?"
+      ],
+      [
+       "The answer is a beautiful piece of physics.",
+       "Cevap, fiziğin çok güzel bir parçası."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Your body is full of water, and every water molecule contains two **hydrogen** atoms.",
+       "Vücudun suyla dolu ve her su molekülünde iki **hidrojen** atomu var."
+      ],
+      [
+       "The nucleus of a hydrogen atom is a single **proton**.",
+       "Bir hidrojen atomunun çekirdeği tek bir **protondur**."
+      ],
+      [
+       "Each proton behaves like a tiny magnet.",
+       "Her proton minik bir mıknatıs gibi davranır."
+      ],
+      [
+       "Inside the scanner there is a very strong **magnetic field**, usually 1.5 or 3 tesla in hospitals.",
+       "Cihazın içinde, hastanelerde genelde 1,5 ya da 3 tesla olan çok güçlü bir **manyetik alan** vardır."
+      ],
+      [
+       "This is tens of thousands of times stronger than the Earth's magnetic field.",
+       "Bu, Dünya'nın manyetik alanından on binlerce kat daha güçlüdür."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "In this field, the protons line up and spin around the field direction like tiny tops.",
+       "Bu alanda protonlar hizalanır ve minik topaçlar gibi alan yönünün etrafında döner."
+      ],
+      [
+       "The scanner sends a short pulse of **radio waves** at exactly the right frequency to push them out of line.",
+       "Cihaz, onları hizadan çıkarmak için tam doğru frekansta kısa bir **radyo dalgası** atımı gönderir."
+      ],
+      [
+       "When the pulse stops, the protons return to their place and send back a weak radio signal.",
+       "Atım bitince protonlar yerlerine döner ve zayıf bir radyo sinyali geri gönderir."
+      ],
+      [
+       "This effect is called **nuclear magnetic resonance**, and the \"magnetic resonance\" in the name MRI comes from it.",
+       "Bu olaya **nükleer manyetik rezonans** denir ve MR adındaki \"manyetik rezonans\" buradan gelir."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "To know where each signal comes from, the scanner adds extra magnetic fields that change slowly across the body.",
+       "Her sinyalin nereden geldiğini bilmek için cihaz, vücut boyunca yavaşça değişen ek manyetik alanlar ekler."
+      ],
+      [
+       "Then protons in different places send signals at slightly different frequencies.",
+       "O zaman farklı yerlerdeki protonlar biraz farklı frekanslarda sinyal gönderir."
+      ],
+      [
+       "So the scanner collects the image in frequency form, and a computer uses the **Fourier transform** to turn it into a picture.",
+       "Yani cihaz görüntüyü frekans hâlinde toplar ve bir bilgisayar onu resme çevirmek için **Fourier dönüşümünü** kullanır."
+      ],
+      [
+       "Every frequency must be collected one step at a time, and that is why a scan takes so long.",
+       "Her frekansın adım adım toplanması gerekir ve çekimin bu kadar uzun sürmesinin sebebi budur."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "No X-rays needed",
+      "Röntgen ışını gerekmez"
+     ],
+     "s": [
+      [
+       "Unlike X-ray imaging and CT, MRI does not use **ionising radiation**.",
+       "Röntgen ve BT'den farklı olarak MR **iyonlaştırıcı radyasyon** kullanmaz."
+      ],
+      [
+       "It uses only magnetic fields and radio waves.",
+       "Yalnızca manyetik alanları ve radyo dalgalarını kullanır."
+      ],
+      [
+       "The loud knocking sound you hear inside the machine comes from the changing magnetic fields.",
+       "Cihazın içinde duyduğun yüksek vuruntu sesi, değişen manyetik alanlardan gelir."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "magnetic field",
+       "manyetik alan"
+      ],
+      [
+       "proton",
+       "proton"
+      ],
+      [
+       "radio wave",
+       "radyo dalgası"
+      ],
+      [
+       "nuclear magnetic resonance",
+       "nükleer manyetik rezonans"
+      ],
+      [
+       "Fourier transform",
+       "Fourier dönüşümü"
+      ],
+      [
+       "ionising radiation",
+       "iyonlaştırıcı radyasyon"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "matematikci",
+   "ikon": "person",
+   "renk": "#E67E22",
+   "baslik": "Mathematician of the Month: Ali Kuşçu",
+   "baslik_tr": "Ayın Matematikçisi: Ali Kuşçu",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "Istanbul was conquered on 29 May 1453.",
+       "İstanbul 29 Mayıs 1453'te fethedildi."
+      ],
+      [
+       "Mehmed the Conqueror wanted to turn the city into a centre of science, so he invited the greatest scholars of his time.",
+       "Fatih Sultan Mehmed şehri bir bilim merkezine dönüştürmek istedi ve dönemin en büyük bilginlerini davet etti."
+      ],
+      [
+       "One of them was **Ali Kuşçu** from Samarkand.",
+       "Bunlardan biri Semerkant'tan gelen **Ali Kuşçu**'ydu."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "His life",
+      "Hayatı"
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "He was born in Samarkand at the beginning of the 15th century, probably around 1403.",
+       "15. yüzyılın başında, muhtemelen 1403 civarında Semerkant'ta doğdu."
+      ],
+      [
+       "His father was the falconer of the ruler **Ulugh Beg**, and the name \"Kuşçu\" comes from this job.",
+       "Babası hükümdar **Uluğ Bey**'in doğancısıydı ve \"Kuşçu\" lakabı bu meslekten geliyor."
+      ],
+      [
+       "He worked at the Samarkand **Observatory** founded by Ulugh Beg, and he became its director after the death of Kadızâde-i Rûmî.",
+       "Uluğ Bey'in kurduğu Semerkant **Rasathanesi**'nde çalıştı ve Kadızâde-i Rûmî'nin ölümünden sonra yönetimini üstlendi."
+      ],
+      [
+       "He played a big role in completing Ulugh Beg's famous **star catalogue**, the Zîj-i Ulugh Beg.",
+       "Uluğ Bey'in ünlü **yıldız kataloğu** Zîc-i Uluğ Bey'in tamamlanmasında büyük emeği oldu."
+      ],
+      [
+       "The catalogue was used as a reference for centuries, even in Europe.",
+       "Bu katalog yüzyıllarca, Avrupa'da bile kaynak olarak kullanıldı."
+      ],
+      [
+       "After Ulugh Beg was murdered, he left Samarkand and stayed for a while with Uzun Hasan in Tabriz.",
+       "Uluğ Bey öldürüldükten sonra Semerkant'tan ayrıldı ve bir süre Tebriz'de Uzun Hasan'ın yanında kaldı."
+      ],
+      [
+       "Around 1472 he came to Istanbul at the invitation of Mehmed the Conqueror.",
+       "1472 civarında Fatih'in davetiyle İstanbul'a geldi."
+      ],
+      [
+       "He taught at the Hagia Sophia Madrasa and died in Istanbul in 1474.",
+       "Ayasofya Medresesi'nde ders verdi ve 1474'te İstanbul'da hayatını kaybetti."
+      ],
+      [
+       "His grave is in Eyüp Sultan.",
+       "Kabri Eyüp Sultan'da."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "His contributions",
+      "Katkıları"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "**Muhammediye** is his book on arithmetic.",
+       "**Muhammediye**, onun aritmetik üzerine yazdığı kitaptır."
+      ],
+      [
+       "It was taught as a textbook in Ottoman madrasas for centuries.",
+       "Osmanlı medreselerinde yüzyıllarca ders kitabı olarak okutuldu."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "**Fethiye** is the astronomy book he dedicated to Mehmed the Conqueror.",
+       "**Fethiye**, Fatih'e ithaf ettiği astronomi kitabıdır."
+      ],
+      [
+       "It describes the motions, distances and sizes of the heavenly bodies.",
+       "Gök cisimlerinin hareketlerini, uzaklıklarını ve büyüklüklerini anlatır."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "His most discussed idea was that astronomy did not have to depend on Aristotle's physics.",
+       "En çok tartışılan fikri, astronominin Aristoteles fiziğine bağlı olmak zorunda olmadığıydı."
+      ],
+      [
+       "He argued that observation cannot prove for certain that the Earth is not moving.",
+       "Dünya'nın hareketsiz olduğunun gözlemle kesin olarak kanıtlanamayacağını savundu."
+      ],
+      [
+       "He also argued that reason alone cannot reject the possibility that the Earth rotates.",
+       "Dünya'nın dönüyor olma ihtimalinin de yalnızca akılla reddedilemeyeceğini savundu."
+      ],
+      [
+       "He discussed this about 70 years before Copernicus.",
+       "Bunu Kopernik'ten yaklaşık 70 yıl önce tartıştı."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "Working with missing data",
+      "Eksik veriyle çalışmak"
+     ],
+     "s": [
+      [
+       "Making a star catalogue meant working with incomplete observations.",
+       "Yıldız kataloğu hazırlamak, eksik gözlemlerle çalışmak demekti."
+      ],
+      [
+       "You cannot measure the position of a star every single night.",
+       "Bir yıldızın konumunu her gece ölçemezsin."
+      ],
+      [
+       "The values in between were calculated with **trigonometric tables** and **interpolation**.",
+       "Aradaki değerler **trigonometrik tablolar** ve **ara değer bulma** (enterpolasyon) yöntemleriyle hesaplanırdı."
+      ],
+      [
+       "It is the 15th-century version of this month's idea: a full picture from missing pieces.",
+       "Bu, ayın \"eksik parçalardan tam resim\" fikrinin 15. yüzyıldaki hâli."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "For the classroom",
+      "Sınıf için"
+     ],
+     "s": [
+      [
+       "Ask students to research the scholars who came to Istanbul after the conquest.",
+       "Öğrencilerden fetihten sonra İstanbul'a gelen bilginleri araştırmalarını isteyin."
+      ],
+      [
+       "They will see how mathematics is connected to the events they read about in history lessons.",
+       "Matematiğin tarih derslerinde okudukları olaylarla nasıl iç içe olduğunu görecekler."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "observatory",
+       "rasathane, gözlemevi"
+      ],
+      [
+       "star catalogue",
+       "yıldız kataloğu"
+      ],
+      [
+       "interpolation",
+       "ara değer bulma, enterpolasyon"
+      ],
+      [
+       "trigonometric table",
+       "trigonometrik tablo"
+      ],
+      [
+       "arithmetic",
+       "aritmetik"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "odul",
+   "ikon": "emoji_events",
+   "renk": "#D4A017",
+   "baslik": "Prize Corner: Shaw Prize 2026",
+   "baslik_tr": "Ödüller Köşesi: Shaw Ödülü 2026",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "The Shaw Prize has been given since 2004 in three fields: astronomy, life sciences and mathematics.",
+       "Shaw Ödülü 2004'ten beri üç alanda veriliyor: astronomi, yaşam bilimleri ve matematik."
+      ],
+      [
+       "The prize in each field is 1.2 million dollars.",
+       "Her alandaki ödül 1,2 milyon dolar."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Emmanuel Candès",
+      "Emmanuel Candès"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Candès is a French mathematician at Stanford University.",
+       "Candès, Stanford Üniversitesi'nden Fransız bir matematikçi."
+      ],
+      [
+       "He received the prize for his work in signal processing, information theory and statistics.",
+       "Ödülü sinyal işleme, bilgi teorisi ve istatistikteki çalışmaları için aldı."
+      ],
+      [
+       "His best-known work is compressed sensing, which we explained in our paper of the month.",
+       "En bilinen çalışması, ayın makalesinde anlattığımız sıkıştırılmış algılama."
+      ],
+      [
+       "In recent years he has also done pioneering work on **conformal prediction**, statistical methods that measure how far we can trust the predictions of AI models.",
+       "Son yıllarda yapay zekâ modellerinin tahminlerine ne kadar güvenebileceğimizi ölçen istatistiksel yöntemler, yani **conformal prediction** üzerine de öncü çalışmalar yapıyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Camillo De Lellis",
+      "Camillo De Lellis"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "De Lellis is an Italian mathematician at the Institute for Advanced Study (IAS) in Princeton.",
+       "De Lellis, Princeton'daki İleri Araştırmalar Enstitüsü'nden (IAS) İtalyan bir matematikçi."
+      ],
+      [
+       "He received the prize for his work on geometric measure theory and on singularities in **fluid dynamics**.",
+       "Ödülü geometrik ölçü teorisi ve **akışkanlar dinamiğindeki** tekillikler üzerine çalışmaları için aldı."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "The Onsager conjecture",
+      "Onsager sanısı"
+     ],
+     "s": [
+      [
+       "In 1949 the Norwegian physicist Lars Onsager, who later won the 1968 Nobel Prize in Chemistry, made a bold guess about **turbulent** flows.",
+       "1949'da, sonradan 1968 Nobel Kimya Ödülü'nü kazanan Norveçli fizikçi Lars Onsager, **türbülanslı** akışlar hakkında cesur bir tahminde bulundu."
+      ],
+      [
+       "He said that if the velocity field of a fluid is **rough** enough, energy can disappear even without friction.",
+       "Bir akışkanın hız alanı yeterince **pürüzlü** ise sürtünme olmasa bile enerjinin kaybolabileceğini söyledi."
+      ],
+      [
+       "In **smooth** flows, however, energy should be conserved.",
+       "Pürüzsüz akışlarda ise enerji korunmalıydı."
+      ],
+      [
+       "The border, measured by an exponent of roughness, was exactly 1/3.",
+       "Pürüzlülüğü ölçen bir üs için sınır tam olarak 1/3 idi."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Together with László Székelyhidi, De Lellis attacked the question with a method that looks strange at first.",
+       "De Lellis, László Székelyhidi ile birlikte bu soruya ilk bakışta tuhaf görünen bir yöntemle saldırdı."
+      ],
+      [
+       "First you build a rough \"fake solution\".",
+       "Önce kaba bir \"sahte çözüm\" kurarsın."
+      ],
+      [
+       "Then you correct it infinitely many times, each time adding waves at a smaller scale.",
+       "Sonra onu sonsuz kez düzeltirsin ve her seferinde daha küçük ölçekte dalgalar eklersin."
+      ],
+      [
+       "The method was based on an idea that John Nash had developed for geometry in the 1950s.",
+       "Yöntem, John Nash'in 1950'lerde geometri için geliştirdiği bir fikre dayanıyordu."
+      ],
+      [
+       "This line of work ended in 2018, when Philip Isett completed the \"energy can disappear\" side of the Onsager conjecture.",
+       "Bu çalışma hattı 2018'de, Philip Isett'in Onsager sanısının \"enerji kaybolabilir\" yönünü tamamlamasıyla sonuçlandı."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "Why does it matter?",
+      "Neden önemli?"
+     ],
+     "s": [
+      [
+       "Turbulence is still one of the biggest unsolved problems in physics.",
+       "Türbülans hâlâ fiziğin çözülememiş en büyük problemlerinden biri."
+      ],
+      [
+       "We meet it everywhere, from aircraft wings to weather forecasts.",
+       "Uçak kanatlarından hava tahminine kadar her yerde karşımıza çıkıyor."
+      ],
+      [
+       "One of the Clay Institute's seven **Millennium Prize Problems**, each worth 1 million dollars, is about the Navier–Stokes equations of fluids.",
+       "Clay Enstitüsü'nün her biri 1 milyon dolarlık yedi **Milenyum Ödül Problemi**'nden biri, akışkanlarla ilgili Navier–Stokes denklemleri hakkında."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "turbulence",
+       "türbülans"
+      ],
+      [
+       "fluid dynamics",
+       "akışkanlar dinamiği"
+      ],
+      [
+       "energy dissipation",
+       "enerji kaybı (sönümü)"
+      ],
+      [
+       "rough / smooth",
+       "pürüzlü / pürüzsüz"
+      ],
+      [
+       "Millennium Prize Problems",
+       "Milenyum Ödül Problemleri"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dusun",
+   "ikon": "psychology",
+   "renk": "#16A085",
+   "baslik": "Think Like a Mathematician: Count It Two Ways",
+   "baslik_tr": "Matematikçi Gibi Düşünmek: İki Yoldan Say",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "Patterns, invariants, working backwards, the pigeonhole principle…",
+       "Örüntü, değişmez, sondan başlama, güvercin yuvası…"
+      ],
+      [
+       "This month's strategy is to **count the same thing in two different ways**.",
+       "Bu ayın stratejisi, **aynı şeyi iki farklı yoldan saymak**."
+      ],
+      [
+       "If both counts describe the same thing, the results must be equal.",
+       "İki sayım da aynı şeyi anlatıyorsa sonuçlar eşit olmak zorundadır."
+      ],
+      [
+       "This equality often gives a formula that is hard to find in any other way.",
+       "Bu eşitlik çoğu zaman başka türlü bulunması zor bir formül verir."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "The problem: handshakes",
+      "Problem: El sıkışma"
+     ],
+     "s": [
+      [
+       "At a meeting, some people shake hands with each other.",
+       "Bir toplantıda bazı insanlar birbirleriyle tokalaşıyor."
+      ],
+      [
+       "Everyone writes on a piece of paper how many people they shook hands with.",
+       "Herkes kaç kişiyle tokalaştığını bir kâğıda yazıyor."
+      ],
+      [
+       "Prove that the number of people who shook hands an odd number of times is always even.",
+       "Tek sayıda kişiyle tokalaşan insanların sayısının her zaman çift olduğunu kanıtla."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The solution",
+      "Çözüm"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Add up all the numbers on the papers.",
+       "Kâğıtlardaki tüm sayıları topla."
+      ],
+      [
+       "What does this **sum** count?",
+       "Bu **toplam** neyi sayıyor?"
+      ]
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "First way: it is the sum of everyone's handshake numbers.",
+       "Birinci yol: Herkesin tokalaşma sayılarının toplamıdır."
+      ],
+      [
+       "Second way: every handshake involves two hands, so each handshake adds exactly 2 to the sum.",
+       "İkinci yol: Her tokalaşmada iki el sıkılır, yani her tokalaşma toplama tam 2 ekler."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "sum = 2 × (number of handshakes)"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "So the sum is **even**.",
+       "Demek ki toplam **çifttir**."
+      ],
+      [
+       "The even numbers in it add up to an even number.",
+       "İçindeki çift sayıların toplamı çifttir."
+      ],
+      [
+       "For the whole sum to stay even, the number of odd terms must also be even. ∎",
+       "Toplamın çift kalması için tek sayıların sayısının da çift olması gerekir. ∎"
+      ],
+      [
+       "Remember Euler paths from our April issue: this is the proof that a graph always has an even number of odd-degree vertices.",
+       "Nisan sayısındaki Euler yolunu hatırla: Bir graftaki tek dereceli köşelerin sayısının neden hep çift olduğunun ispatı bu."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Another classic: Gauss's sum",
+      "Bir klasik daha: Gauss'un toplamı"
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "1 + 2 + 3 + … + 100 = ?"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Write the sum twice, the second time in reverse order.",
+       "Toplamı iki kez yaz, ikincisini ters sırayla."
+      ],
+      [
+       "If you add them column by column, every column gives 101, and there are 100 columns.",
+       "Sütun sütun toplarsan her sütun 101 eder ve 100 sütun var."
+      ],
+      [
+       "Together the two sums make 100 × 101 = 10,100.",
+       "İki toplam birlikte 100 × 101 = 10.100 eder."
+      ],
+      [
+       "One sum is half of that: **5,050**.",
+       "Tek toplam bunun yarısı: **5.050**."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "Your turn",
+      "Senin sıran"
+     ],
+     "s": [
+      [
+       "In a class of n students, everyone shakes hands with everyone else once.",
+       "n kişilik bir sınıfta herkes herkesle bir kez tokalaşıyor."
+      ],
+      [
+       "How many handshakes are there? Find the answer by counting in two ways.",
+       "Kaç tokalaşma olur? Cevabı iki yoldan sayarak bul."
+      ],
+      [
+       "Hint: one way counts person by person, the other counts **pairs**.",
+       "İpucu: Bir yol kişi kişi sayar, diğeri **ikilileri** sayar."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "Answer",
+      "Cevap"
+     ],
+     "s": [
+      [
+       "Person by person: each person shakes n − 1 hands, which gives n(n − 1), but we counted every handshake twice.",
+       "Kişi kişi: Her kişi n − 1 kişiyle tokalaşır, bu n(n − 1) eder, ama her tokalaşmayı iki kez saydık."
+      ],
+      [
+       "Pairs: every handshake is one pair chosen from n people, and there are C(n, 2) pairs.",
+       "İkililer: Her tokalaşma n kişiden seçilen bir ikilidir ve C(n, 2) tane ikili vardır."
+      ],
+      [
+       "Both ways give n(n − 1)/2.",
+       "İki yol da n(n − 1)/2 verir."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "double counting",
+       "çift sayma, iki yoldan sayma"
+      ],
+      [
+       "handshake lemma",
+       "el sıkışma önermesi"
+      ],
+      [
+       "sum",
+       "toplam"
+      ],
+      [
+       "pair",
+       "ikili, çift"
+      ],
+      [
+       "odd / even",
+       "tek / çift"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eglence",
+   "ikon": "lightbulb",
+   "renk": "#E84393",
+   "baslik": "Fun Facts: The Numbers of May",
+   "baslik_tr": "Eğlenceli Bilgiler: Mayıs'ın Sayıları",
+   "bloklar": [
+    {
+     "t": "liste",
+     "s": [
+      [
+       "19 May 1919: 1919 = 19 × 101, so 1919 hides 19 inside it, and both 19 and 101 are prime.",
+       "19 Mayıs 1919: 1919 = 19 × 101, yani 1919 kendi içinde 19'u saklıyor ve hem 19 hem 101 asal."
+      ],
+      [
+       "The days of May add up to 1 + 2 + … + 31 = 496.",
+       "Mayıs'ın günlerinin toplamı 1 + 2 + … + 31 = 496."
+      ],
+      [
+       "496 is the third **perfect number** after 6 and 28: 496 = 1 + 2 + 4 + 8 + 16 + 31 + 62 + 124 + 248.",
+       "496, 6 ve 28'den sonra gelen üçüncü **mükemmel sayı**: 496 = 1 + 2 + 4 + 8 + 16 + 31 + 62 + 124 + 248."
+      ],
+      [
+       "With compressed sensing, some types of MRI scan became several times shorter, so small children can be scanned faster and sometimes without anaesthesia.",
+       "Sıkıştırılmış algılamayla bazı MR çekim türleri birkaç kat kısaldı, böylece küçük çocuklar daha hızlı ve bazen narkozsuz çekilebiliyor."
+      ],
+      [
+       "The main instrument of the Samarkand Observatory was a giant wall quadrant with a **radius** of more than 40 metres.",
+       "Semerkant Rasathanesi'nin ana aracı, **yarıçapı** 40 metreyi aşan devasa bir duvar kadranıydı."
+      ],
+      [
+       "The large radius made it possible to measure angles very precisely.",
+       "Büyük yarıçap, açıların çok hassas ölçülmesini sağlıyordu."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "Mother's Day question",
+      "Anneler Günü sorusu"
+     ],
+     "s": [
+      [
+       "Mother's Day is celebrated on the second Sunday of May, and in 2026 it falls on 10 May.",
+       "Anneler Günü mayısın ikinci pazarı kutlanıyor ve 2026'da 10 Mayıs'a denk geliyor."
+      ],
+      [
+       "Which day of the week is 1 May?",
+       "1 Mayıs haftanın hangi günü?"
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "Answer",
+      "Cevap"
+     ],
+     "s": [
+      [
+       "If 10 May is a Sunday, then 3 May is also a Sunday.",
+       "10 Mayıs pazar ise 3 Mayıs da pazardır."
+      ],
+      [
+       "1 May is two days earlier, so it is a **Friday**.",
+       "1 Mayıs ondan iki gün önce, yani **cuma**."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "perfect number",
+       "mükemmel sayı"
+      ],
+      [
+       "prime factorisation",
+       "asal çarpanlara ayırma"
+      ],
+      [
+       "radius",
+       "yarıçap"
+      ],
+      [
+       "divisor",
+       "bölen"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sinif",
+   "ikon": "school",
+   "renk": "#27AE60",
+   "baslik": "In the Classroom",
+   "baslik_tr": "Sınıfta Matematik",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "Grades 6–8: The handshake table",
+      "6-8. sınıflar: Tokalaşma tablosu"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Goal: finding patterns, counting systematically and reaching a formula.",
+       "Hedef: Örüntü bulmak, sistematik saymak ve bir formüle ulaşmak."
+      ],
+      [
+       "Invite 2 volunteers to the board and let them shake hands: that is 1 handshake.",
+       "Tahtaya 2 gönüllü çağırın ve tokalaşsınlar: Bu 1 tokalaşma."
+      ],
+      [
+       "If 3 students all shake hands once, there are 3 handshakes, with 4 students there are 6, and with 5 there are 10.",
+       "3 öğrenci herkesle bir kez tokalaşırsa 3 tokalaşma olur, 4 öğrenciyle 6, 5 öğrenciyle 10."
+      ],
+      [
+       "Write the results in a table on the board.",
+       "Sonuçları tahtada bir tabloya yazın."
+      ]
+     ]
+    },
+    {
+     "t": "tablo",
+     "basliklar": [
+      "People",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+     ],
+     "satirlar": [
+      [
+       "Handshakes",
+       "1",
+       "3",
+       "6",
+       "10",
+       "?"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Students look at the differences (2, 3, 4, …) and find 15 for 6 people.",
+       "Öğrenciler farklara (2, 3, 4, …) bakar ve 6 kişi için 15'i bulur."
+      ],
+      [
+       "Then ask: how many handshakes would there be if everyone in the class shook hands with everyone else?",
+       "Sonra sorun: Sınıftaki herkes herkesle tokalaşsa kaç tokalaşma olur?"
+      ],
+      [
+       "These numbers (1, 3, 6, 10, 15, …) are the **triangular numbers**, and you can show them with marbles arranged in triangles.",
+       "Bu sayılar (1, 3, 6, 10, 15, …) **üçgensel sayılardır** ve bunları üçgen şeklinde dizilmiş bilyelerle gösterebilirsiniz."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "Curriculum link",
+      "Maarif modeli bağlantısı"
+     ],
+     "s": [
+      [
+       "The activity starts with a physical action and ends with a symbolic generalisation.",
+       "Etkinlik bedensel bir hareketle başlıyor ve sembolik bir genellemeyle bitiyor."
+      ],
+      [
+       "This supports the move from the concrete to the abstract.",
+       "Bu, somuttan soyuta geçişi destekliyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "High school: Find the fake coin",
+      "Lise: Sahte parayı bul"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "This activity is a simple relative of compressed sensing: finding one different item with only a few measurements.",
+       "Bu etkinlik sıkıştırılmış algılamanın basit bir akrabası: Az sayıda ölçümle tek bir farklı öğeyi bulmak."
+      ],
+      [
+       "One of 8 coins is a **counterfeit** and is 1 gram heavier than the others.",
+       "8 madeni paradan biri **sahte** ve diğerlerinden 1 gram daha ağır."
+      ],
+      [
+       "You have a digital scale that shows the real weight, and you know the weight of a real coin.",
+       "Gerçek ağırlığı gösteren dijital bir teraziniz var ve gerçek bir paranın ağırlığını biliyorsunuz."
+      ],
+      [
+       "How many weighings do you need to find the fake coin for certain?",
+       "Sahte parayı kesin bulmak için kaç tartı gerekir?"
+      ]
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "Let students try freely first, most of them will suggest 4 to 7 weighings.",
+       "Önce öğrencilerin serbestçe denemesine izin verin, çoğu 4 ile 7 arası tartı önerecek."
+      ],
+      [
+       "Hint: number the coins from 0 to 7 and write each number in **binary** (000, 001, …, 111).",
+       "İpucu: Paraları 0'dan 7'ye numaralayın ve her numarayı **ikilik sistemde** yazın (000, 001, …, 111)."
+      ],
+      [
+       "Weighing 1: the coins whose first digit is 1 (4, 5, 6, 7).",
+       "1. tartı: İlk basamağı 1 olan paralar (4, 5, 6, 7)."
+      ],
+      [
+       "Weighing 2: the coins whose middle digit is 1 (2, 3, 6, 7).",
+       "2. tartı: Ortadaki basamağı 1 olan paralar (2, 3, 6, 7)."
+      ],
+      [
+       "Weighing 3: the coins whose last digit is 1 (1, 3, 5, 7).",
+       "3. tartı: Son basamağı 1 olan paralar (1, 3, 5, 7)."
+      ],
+      [
+       "If a weighing is 1 gram too heavy, write 1 for that digit, otherwise write 0, and the three digits give the number of the fake coin.",
+       "Bir tartı 1 gram fazla gelirse o basamağa 1, gelmezse 0 yazın, üç basamak sahte paranın numarasını verir."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "2³ = 8  ⟹  3 weighings"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Three weighings are enough because 2³ = 8.",
+       "3 tartı yeterli, çünkü 2³ = 8."
+      ],
+      [
+       "Remember Shannon from our March issue: choosing one of 8 possibilities needs log₂ 8 = 3 bits of information.",
+       "Mart sayısındaki Shannon'ı hatırla: 8 olasılıktan birini seçmek log₂ 8 = 3 bit bilgi gerektirir."
+      ],
+      [
+       "We can also plan all the weighings in advance, because the result of one does not change the next.",
+       "Üstelik tüm tartıları önceden planlayabiliriz, çünkü birinin sonucu bir sonrakini değiştirmez."
+      ],
+      [
+       "This is very close to the idea of measurements chosen in advance in compressed sensing.",
+       "Bu, sıkıştırılmış algılamadaki önceden seçilmiş ölçümler fikrine çok yakın."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "Discussion",
+      "Tartışma"
+     ],
+     "s": [
+      [
+       "How many weighings do you need for 16 coins? And for 1000 coins?",
+       "16 para için kaç tartı gerekir? Peki 1000 para için?"
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "triangular numbers",
+       "üçgensel sayılar"
+      ],
+      [
+       "counterfeit coin",
+       "sahte para"
+      ],
+      [
+       "binary (base 2)",
+       "ikilik sistem"
+      ],
+      [
+       "group testing",
+       "grup testi"
+      ],
+      [
+       "weighing",
+       "tartı"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gundem",
+   "ikon": "campaign",
+   "renk": "#C0392B",
+   "baslik": "Education in Türkiye",
+   "baslik_tr": "Eğitim Gündemi",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "The final stretch before LGS",
+      "LGS'ye son düzlük"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "LGS is on 13 June.",
+       "LGS 13 Haziran'da."
+      ],
+      [
+       "May is the month when students are most tired and motivation drops.",
+       "Mayıs, öğrencilerin en çok yorulduğu ve motivasyonun düştüğü ay."
+      ],
+      [
+       "Here are some suggestions for this period.",
+       "İşte bu dönem için bazı öneriler."
+      ]
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "No new topics, only revision: making what students already know stronger is worth more than half-learning a new topic.",
+       "Yeni konu yok, sadece tekrar: Öğrencinin bildiğini sağlamlaştırması, yeni bir konuyu yarım öğrenmesinden daha değerli."
+      ],
+      [
+       "Practise timing: the LGS numerical session has 40 questions in 80 minutes, and maths and science are not timed separately.",
+       "Süre çalışması yapın: LGS sayısal oturumunda 80 dakikada 40 soru var ve matematik ile fen ayrı ayrı süreli değil."
+      ],
+      [
+       "Let students plan in mock exams how much time they will give to maths.",
+       "Öğrencilerin matematiğe ne kadar süre ayıracaklarını denemelerde planlamalarını sağlayın."
+      ],
+      [
+       "From easy to hard: teach them to mark a question they are stuck on and move on, because every question is worth the same points.",
+       "Kolaydan zora: Takıldıkları soruyu işaretleyip geçmeyi alıştırın, çünkü her soru aynı puanı veriyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "A reminder about YKS",
+      "YKS hatırlatması"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "TYT is on 20 June, and AYT and YDT are on 21 June.",
+       "TYT 20 Haziran'da, AYT ve YDT 21 Haziran'da."
+      ],
+      [
+       "The **exam entry documents** usually become available on ÖSYM's system about a week before the exam.",
+       "**Sınav giriş belgeleri** genellikle sınavdan yaklaşık bir hafta önce ÖSYM'nin sisteminde erişime açılıyor."
+      ],
+      [
+       "It is worth reminding grade 12 students about this.",
+       "12. sınıf öğrencilerine bunu hatırlatmakta fayda var."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "An activity for 19 May",
+      "19 Mayıs etkinliği"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "For the Commemoration of Atatürk, Youth and Sports Day, here is a short idea for maths class.",
+       "19 Mayıs Atatürk'ü Anma, Gençlik ve Spor Bayramı için matematik dersine kısa bir öneri."
+      ],
+      [
+       "Introduce the **Geometri** book that Atatürk wrote in 1936.",
+       "Atatürk'ün 1936'da kaleme aldığı **Geometri** kitabını tanıtın."
+      ],
+      [
+       "Many Turkish maths terms we use today, such as \"açı\", \"üçgen\", \"çap\" and \"köşegen\", became widespread with this book.",
+       "Bugün kullandığımız \"açı\", \"üçgen\", \"çap\", \"köşegen\" gibi pek çok Türkçe matematik terimi bu kitapla yaygınlaştı."
+      ],
+      [
+       "You can ask students to find the old words for these terms, for example \"zaviye\" for açı and \"müselles\" for üçgen.",
+       "Öğrencilerden bu terimlerin eski karşılıklarını bulmalarını isteyebilirsiniz, örneğin açı için \"zaviye\", üçgen için \"müselles\"."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "time management",
+       "zaman yönetimi"
+      ],
+      [
+       "exam entry document",
+       "sınav giriş belgesi"
+      ],
+      [
+       "terminology",
+       "terminoloji"
+      ],
+      [
+       "revision",
+       "tekrar"
+      ],
+      [
+       "mock exam",
+       "deneme sınavı"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "oku",
+   "ikon": "menu_book",
+   "renk": "#34495E",
+   "baslik": "Read Like a Mathematician",
+   "baslik_tr": "Matematikçi Gibi Oku",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "This month we look at the **signpost** phrases of proofs.",
+       "Bu ay ispatların **yönlendirici** kalıplarına bakıyoruz."
+      ],
+      [
+       "They tell you where you are in a proof and what is still left to do.",
+       "Bu kalıplar ispatın neresinde olduğunu ve geriye ne kaldığını söyler."
+      ]
+     ]
+    },
+    {
+     "t": "tablo",
+     "basliklar": [
+      "English",
+      "Türkçe",
+      "Note / Not"
+     ],
+     "satirlar": [
+      [
+       "It suffices to show that …",
+       "… göstermek yeterlidir",
+       "makes a big problem smaller / büyük problemi küçültür"
+      ],
+      [
+       "It remains to show that …",
+       "geriye … göstermek kalıyor",
+       "the last step of a proof / ispatın son adımı"
+      ],
+      [
+       "Conversely",
+       "Tersine, karşıt olarak",
+       "second half of an \"iff\" proof / \"ancak ve ancak\" ispatının ikinci yarısı"
+      ],
+      [
+       "On the other hand",
+       "Öte yandan",
+       "compares two views / iki bakışı karşılaştırır"
+      ],
+      [
+       "Let ε > 0 be arbitrary",
+       "ε > 0 keyfi olsun",
+       "classic opening of limit proofs / limit ispatlarının klasik açılışı"
+      ],
+      [
+       "for sufficiently large n",
+       "yeterince büyük n için",
+       "\"from some point on\" / \"bir yerden sonra\""
+      ],
+      [
+       "with high probability",
+       "yüksek olasılıkla",
+       "the key phrase in this month's paper / bu ayın makalesindeki kilit ifade"
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "Mini reading: the handshake lemma",
+      "Mini okuma: El sıkışma önermesi"
+     ],
+     "s": [
+      [
+       "Lemma (Handshake). In any graph, the number of vertices of odd degree is even.",
+       "Önerme (El sıkışma). Her grafta tek dereceli köşelerin sayısı çifttir."
+      ],
+      [
+       "Proof. We count the sum S of all degrees in two ways.",
+       "İspat. Tüm derecelerin S toplamını iki yoldan sayıyoruz."
+      ],
+      [
+       "On the one hand, S is the sum of the degrees of all vertices.",
+       "Bir yandan S, tüm köşelerin derecelerinin toplamıdır."
+      ],
+      [
+       "On the other hand, every edge has two ends, so it contributes exactly 2 to S.",
+       "Öte yandan her kenarın iki ucu vardır, yani her kenar S'ye tam 2 katkı yapar."
+      ],
+      [
+       "Hence S = 2|E|, which is even.",
+       "Dolayısıyla S = 2|E| ve bu çifttir."
+      ],
+      [
+       "It remains to show that the number of odd terms in S is even.",
+       "Geriye S'deki tek terimlerin sayısının çift olduğunu göstermek kalıyor."
+      ],
+      [
+       "This follows from the fact that a sum of integers is even if and only if it contains an even number of odd terms. ∎",
+       "Bu, bir tam sayılar toplamının ancak ve ancak çift sayıda tek terim içeriyorsa çift olmasından çıkar. ∎"
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "A small note",
+      "Küçük not"
+     ],
+     "s": [
+      [
+       "\"On the one hand… on the other hand…\" is exactly the Turkish \"Bir yandan… öte yandan…\".",
+       "\"On the one hand… on the other hand…\" yapısı Türkçedeki \"Bir yandan… öte yandan…\" kalıbının tam karşılığı."
+      ],
+      [
+       "You will see it very often in double counting proofs.",
+       "Çift sayma ispatlarında onu çok sık göreceksin."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "it suffices to show",
+       "göstermek yeterlidir"
+      ],
+      [
+       "it remains to show",
+       "geriye göstermek kalıyor"
+      ],
+      [
+       "conversely",
+       "tersine"
+      ],
+      [
+       "arbitrary",
+       "keyfi"
+      ],
+      [
+       "vertex / edge",
+       "köşe / kenar"
+      ],
+      [
+       "with high probability",
+       "yüksek olasılıkla"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "soru": "Which two mathematicians share the 2026 Shaw Prize in mathematical sciences?",
+   "soru_tr": "2026 Shaw Ödülü'nü matematik bilimlerinde hangi iki matematikçi paylaşıyor?",
+   "secenekler": [
+    "Faltings and Tao",
+    "Candès and De Lellis",
+    "Romberg and Isett",
+    "Nash and Onsager"
+   ],
+   "dogru": 1,
+   "aciklama": "Emmanuel Candès and Camillo De Lellis share the prize.",
+   "aciklama_tr": "Ödülü Emmanuel Candès ve Camillo De Lellis paylaşıyor."
+  },
+  {
+   "soru": "In compressed sensing, which quantity is minimised instead of the number of non-zero entries?",
+   "soru_tr": "Sıkıştırılmış algılamada sıfır olmayan bileşen sayısı yerine hangi nicelik en aza indirilir?",
+   "secenekler": [
+    "The sum of squares",
+    "The largest entry",
+    "The sum of absolute values (ℓ¹ norm)",
+    "The number of measurements"
+   ],
+   "dogru": 2,
+   "aciklama": "Minimising the ℓ¹ norm is easy and, for sparse images, gives the same answer as the hard problem.",
+   "aciklama_tr": "ℓ¹ normunu en aza indirmek kolaydır ve seyrek görüntülerde zor problemle aynı cevabı verir."
+  },
+  {
+   "soru": "In an MRI scanner, which particles send back the radio signal?",
+   "soru_tr": "Bir MR cihazında radyo sinyalini hangi parçacıklar geri gönderir?",
+   "secenekler": [
+    "Electrons in the bones",
+    "Protons in hydrogen nuclei",
+    "Neutrons in the blood",
+    "Photons from X-rays"
+   ],
+   "dogru": 1,
+   "aciklama": "The nucleus of hydrogen is a single proton, and water is full of hydrogen.",
+   "aciklama_tr": "Hidrojenin çekirdeği tek bir protondur ve su hidrojenle doludur."
+  },
+  {
+   "soru": "Ali Kuşçu's book Muhammediye is about …",
+   "soru_tr": "Ali Kuşçu'nun Muhammediye adlı kitabı neyle ilgilidir?",
+   "secenekler": [
+    "arithmetic",
+    "medicine",
+    "music",
+    "geography"
+   ],
+   "dogru": 0,
+   "aciklama": "Muhammediye is a book on arithmetic that was taught in madrasas for centuries.",
+   "aciklama_tr": "Muhammediye, medreselerde yüzyıllarca okutulan bir aritmetik kitabıdır."
+  },
+  {
+   "soru": "What is 1 + 2 + 3 + … + 100?",
+   "soru_tr": "1 + 2 + 3 + … + 100 kaçtır?",
+   "secenekler": [
+    "5,000",
+    "5,050",
+    "5,100",
+    "10,100"
+   ],
+   "dogru": 1,
+   "aciklama": "Two copies of the sum make 100 × 101 = 10,100, so one sum is 5,050.",
+   "aciklama_tr": "Toplamın iki kopyası 100 × 101 = 10.100 eder, yani tek toplam 5.050."
+  },
+  {
+   "soru": "How many fixed weighings do you need to find one heavier coin among 8 coins?",
+   "soru_tr": "8 para arasındaki bir ağır parayı bulmak için önceden belirlenmiş kaç tartı gerekir?",
+   "secenekler": [
+    "2",
+    "3",
+    "4",
+    "8"
+   ],
+   "dogru": 1,
+   "aciklama": "2³ = 8, so three binary digits identify the coin.",
+   "aciklama_tr": "2³ = 8, yani üç ikilik basamak parayı belirler."
+  }
+ ],
+ "bulmacalar": [
+  {
+   "tip": "anagram",
+   "karisik": "RAPSES",
+   "cevap": "SPARSE",
+   "ipucu": "Most of its entries are zero.",
+   "ipucu_tr": "Bileşenlerinin çoğu sıfırdır."
+  },
+  {
+   "tip": "anagram",
+   "karisik": "RIXTAM",
+   "cevap": "MATRIX",
+   "ipucu": "The A in y = A · x.",
+   "ipucu_tr": "y = A · x'teki A."
+  },
+  {
+   "tip": "anagram",
+   "karisik": "NAMODR",
+   "cevap": "RANDOM",
+   "ipucu": "Chosen by chance.",
+   "ipucu_tr": "Rastgele seçilmiş."
+  },
+  {
+   "tip": "anagram",
+   "karisik": "KHANDASEH",
+   "cevap": "HANDSHAKE",
+   "ipucu": "Two people, two hands, one greeting.",
+   "ipucu_tr": "İki kişi, iki el, bir selam."
+  },
+  {
+   "tip": "eslestir",
+   "baslik": "Match the terms",
+   "baslik_tr": "Terimleri eşleştir",
+   "ciftler": [
+    [
+     "observatory",
+     "rasathane"
+    ],
+    [
+     "sparse",
+     "seyrek"
+    ],
+    [
+     "interpolation",
+     "ara değer bulma"
+    ],
+    [
+     "perfect number",
+     "mükemmel sayı"
+    ],
+    [
+     "turbulence",
+     "türbülans"
+    ]
+   ]
+  },
+  {
+   "tip": "mantik",
+   "baslik": "The class party",
+   "baslik_tr": "Sınıf partisi",
+   "soru": "At a birthday party, everyone shook hands with everyone else once, and there were 45 handshakes in total. How many people were at the party?",
+   "soru_tr": "Bir doğum günü partisinde herkes herkesle bir kez tokalaştı ve toplam 45 tokalaşma oldu. Partide kaç kişi vardı?",
+   "cevap": "Ten people: n(n − 1)/2 = 45 means n(n − 1) = 90 = 10 × 9.",
+   "cevap_tr": "On kişi: n(n − 1)/2 = 45 ise n(n − 1) = 90 = 10 × 9."
+  },
+  {
+   "tip": "mantik",
+   "baslik": "Gauss's odd numbers",
+   "baslik_tr": "Gauss'un tek sayıları",
+   "soru": "What is 1 + 3 + 5 + … + 99? (Hint: look at 1, 1 + 3, 1 + 3 + 5, … What do you notice?)",
+   "soru_tr": "1 + 3 + 5 + … + 99 toplamı kaçtır? (İpucu: 1, 1 + 3, 1 + 3 + 5, … toplamlarına bak. Ne fark ediyorsun?)",
+   "cevap": "2,500: the sum of the first k odd numbers is k², and there are 50 odd numbers from 1 to 99, so the sum is 50² = 2,500.",
+   "cevap_tr": "2.500: İlk k tek sayının toplamı k² ve 1'den 99'a kadar 50 tek sayı var, yani toplam 50² = 2.500."
+  }
+ ],
+ "terimler": [
+  [
+   "final stretch",
+   "son düzlük"
+  ],
+  [
+   "incomplete data",
+   "eksik veri"
+  ],
+  [
+   "measurement",
+   "ölçüm"
+  ],
+  [
+   "scholar",
+   "bilgin, âlim"
+  ],
+  [
+   "laureate",
+   "ödül sahibi"
+  ],
+  [
+   "signal processing",
+   "sinyal işleme"
+  ],
+  [
+   "singularity",
+   "tekillik"
+  ],
+  [
+   "ceremony",
+   "tören"
+  ],
+  [
+   "statistics",
+   "istatistik"
+  ],
+  [
+   "underdetermined system",
+   "az denklemli sistem"
+  ],
+  [
+   "sparsity / sparse",
+   "seyreklik / seyrek"
+  ],
+  [
+   "ℓ¹ norm",
+   "ℓ¹ normu (mutlak değerler toplamı)"
+  ],
+  [
+   "linear programming",
+   "doğrusal programlama"
+  ],
+  [
+   "convex optimisation",
+   "konveks optimizasyon"
+  ],
+  [
+   "compressed sensing",
+   "sıkıştırılmış algılama"
+  ],
+  [
+   "magnetic field",
+   "manyetik alan"
+  ],
+  [
+   "proton",
+   "proton"
+  ],
+  [
+   "radio wave",
+   "radyo dalgası"
+  ],
+  [
+   "nuclear magnetic resonance",
+   "nükleer manyetik rezonans"
+  ],
+  [
+   "Fourier transform",
+   "Fourier dönüşümü"
+  ],
+  [
+   "ionising radiation",
+   "iyonlaştırıcı radyasyon"
+  ],
+  [
+   "observatory",
+   "rasathane, gözlemevi"
+  ],
+  [
+   "star catalogue",
+   "yıldız kataloğu"
+  ],
+  [
+   "interpolation",
+   "ara değer bulma, enterpolasyon"
+  ],
+  [
+   "trigonometric table",
+   "trigonometrik tablo"
+  ],
+  [
+   "arithmetic",
+   "aritmetik"
+  ],
+  [
+   "turbulence",
+   "türbülans"
+  ],
+  [
+   "fluid dynamics",
+   "akışkanlar dinamiği"
+  ],
+  [
+   "energy dissipation",
+   "enerji kaybı (sönümü)"
+  ],
+  [
+   "rough / smooth",
+   "pürüzlü / pürüzsüz"
+  ],
+  [
+   "Millennium Prize Problems",
+   "Milenyum Ödül Problemleri"
+  ],
+  [
+   "double counting",
+   "çift sayma, iki yoldan sayma"
+  ],
+  [
+   "handshake lemma",
+   "el sıkışma önermesi"
+  ],
+  [
+   "sum",
+   "toplam"
+  ],
+  [
+   "pair",
+   "ikili, çift"
+  ],
+  [
+   "odd / even",
+   "tek / çift"
+  ],
+  [
+   "perfect number",
+   "mükemmel sayı"
+  ],
+  [
+   "prime factorisation",
+   "asal çarpanlara ayırma"
+  ],
+  [
+   "radius",
+   "yarıçap"
+  ],
+  [
+   "divisor",
+   "bölen"
+  ],
+  [
+   "triangular numbers",
+   "üçgensel sayılar"
+  ],
+  [
+   "counterfeit coin",
+   "sahte para"
+  ],
+  [
+   "binary (base 2)",
+   "ikilik sistem"
+  ],
+  [
+   "group testing",
+   "grup testi"
+  ],
+  [
+   "weighing",
+   "tartı"
+  ],
+  [
+   "time management",
+   "zaman yönetimi"
+  ],
+  [
+   "exam entry document",
+   "sınav giriş belgesi"
+  ],
+  [
+   "terminology",
+   "terminoloji"
+  ],
+  [
+   "revision",
+   "tekrar"
+  ],
+  [
+   "mock exam",
+   "deneme sınavı"
+  ],
+  [
+   "it suffices to show",
+   "göstermek yeterlidir"
+  ],
+  [
+   "it remains to show",
+   "geriye göstermek kalıyor"
+  ],
+  [
+   "conversely",
+   "tersine"
+  ],
+  [
+   "arbitrary",
+   "keyfi"
+  ],
+  [
+   "vertex / edge",
+   "köşe / kenar"
+  ],
+  [
+   "with high probability",
+   "yüksek olasılıkla"
+  ]
+ ]
+}

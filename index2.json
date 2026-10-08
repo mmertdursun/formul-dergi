@@ -1,0 +1,55 @@
+{
+  "surum": 2,
+  "sayilar": [
+    {
+      "no": 1,
+      "ad": "The Proof Machine",
+      "ad_tr": "İspat Makinesi",
+      "donem": "Ocak 2026",
+      "tema": "Yeni bir yıl, yeni sorular",
+      "acilis": "2026-01-01",
+      "dosya": "2026-01-ocak.json",
+      "renk": "#2B4C7E"
+    },
+    {
+      "no": 2,
+      "ad": "Friendly Numbers",
+      "ad_tr": "Dost Sayılar",
+      "donem": "Şubat 2026",
+      "tema": "Bağlantılar",
+      "acilis": "2026-02-01",
+      "dosya": "2026-02-subat.json",
+      "renk": "#B5446E"
+    },
+    {
+      "no": 3,
+      "ad": "Chasing π",
+      "ad_tr": "π'nin Peşinde",
+      "donem": "Mart 2026",
+      "tema": "Sonsuzu ölçmek",
+      "acilis": "2026-03-01",
+      "dosya": "2026-03-mart.json",
+      "renk": "#1E7F7A"
+    },
+    {
+      "no": 4,
+      "ad": "The Coastline Paradox",
+      "ad_tr": "Kıyı Paradoksu",
+      "donem": "Nisan 2026",
+      "tema": "Şekiller ve boyutlar",
+      "acilis": "2026-04-01",
+      "dosya": "2026-04-nisan.json",
+      "renk": "#3F7D3A"
+    },
+    {
+      "no": 5,
+      "ad": "The Missing Pieces",
+      "ad_tr": "Eksik Parçalar",
+      "donem": "Mayıs 2026",
+      "tema": "Eksik bilgiyle tam resim",
+      "acilis": "2026-05-01",
+      "dosya": "2026-05-mayis.json",
+      "renk": "#C0602B"
+    }
+  ]
+}

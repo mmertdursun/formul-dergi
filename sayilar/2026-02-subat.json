@@ -1,0 +1,2185 @@
+{
+ "format": 2,
+ "no": 2,
+ "ad": "Friendly Numbers",
+ "ad_tr": "Dost Sayılar",
+ "donem": "Şubat 2026",
+ "donem_en": "February 2026",
+ "tema": "Bağlantılar",
+ "tema_en": "Connections",
+ "kapak": {
+  "renkler": [
+   "#B5446E",
+   "#7E2B4C"
+  ],
+  "desen": 2
+ },
+ "bolumler": [
+  {
+   "id": "editor",
+   "ikon": "edit_note",
+   "renk": "#6C63FF",
+   "baslik": "Editor's Note",
+   "baslik_tr": "Editörden",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "Hello again, and welcome to our second issue.",
+       "Tekrar merhaba, ikinci sayımıza hoş geldin."
+      ],
+      [
+       "February is a short month, but this year it is a special one.",
+       "Şubat kısa bir ay, ama bu yıl özel bir ay."
+      ],
+      [
+       "February 2026 starts on a Sunday and lasts exactly 28 days.",
+       "Şubat 2026 pazar günü başlıyor ve tam 28 gün sürüyor."
+      ],
+      [
+       "On a wall calendar it fits into four neat rows, with no extra day and no empty box.",
+       "Duvar takviminde dört düzgün satıra sığıyor, ne bir gün taşıyor ne bir kutu boş kalıyor."
+      ],
+      [
+       "We will have to wait until 2037 to see this again.",
+       "Bunun bir daha yaşanması için 2037'yi beklememiz gerekecek."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The theme of this month is **connections**.",
+       "Bu ayın teması **bağlantılar**."
+      ],
+      [
+       "You will meet \"friendly numbers\" that are born from each other's divisors.",
+       "Birbirinin bölenlerinden doğan \"dost sayılarla\" tanışacaksın."
+      ],
+      [
+       "You will also find three equations that describe how an epidemic spreads.",
+       "Bir salgının nasıl yayıldığını anlatan üç denklem de bulacaksın."
+      ],
+      [
+       "And our mathematician of the month stayed friends with numbers all his life: Ramanujan.",
+       "Ayın matematikçimiz de ömür boyu sayılarla dost kaldı: Ramanujan."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "There is something new, too.",
+       "Bir de yeni bir şey var."
+      ],
+      [
+       "This month, mathematicians challenged artificial intelligence with their own questions for the first time.",
+       "Bu ay matematikçiler yapay zekâya ilk kez kendi sorularıyla meydan okudu."
+      ],
+      [
+       "You can read the details in the news.",
+       "Detayları haberlerde okuyabilirsin."
+      ],
+      [
+       "Enjoy your break!",
+       "İyi molalar!"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "haber",
+   "ikon": "newspaper",
+   "renk": "#2E86DE",
+   "baslik": "News from the World of Maths",
+   "baslik_tr": "Matematik Dünyasından Haberler",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "Mathematicians asked AI their own questions: First Proof",
+      "Matematikçiler yapay zekâya kendi sorularını sordu: First Proof"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Last month we wrote that an AI had solved an Erdős problem.",
+       "Geçen ay yapay zekânın bir Erdős problemini çözdüğünü yazmıştık."
+      ],
+      [
+       "But there was a problem: AI models are trained on millions of papers from the internet.",
+       "Ama bir sorun vardı: Yapay zekâ modelleri internetteki milyonlarca makaleyle eğitiliyor."
+      ],
+      [
+       "When a model \"solves\" a problem, is it really solving it, or is it remembering an idea it saw somewhere?",
+       "Bir model bir problemi \"çözdüğünde\", gerçekten mi çözüyor, yoksa bir yerde gördüğü bir fikri mi hatırlıyor?"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "On 5 February 2026, eleven mathematicians decided to look for an answer with an experiment.",
+       "5 Şubat 2026'da on bir matematikçi bu soruya bir deneyle cevap aramaya karar verdi."
+      ],
+      [
+       "The group included **Martin Hairer**, who won the Fields Medal in 2014, as well as **Daniel Spielman** and **Lauren Williams**.",
+       "Grupta 2014 Fields Madalyası sahibi **Martin Hairer**, ayrıca **Daniel Spielman** ve **Lauren Williams** da vardı."
+      ],
+      [
+       "The project is called **First Proof**.",
+       "Projenin adı **First Proof**."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "How did it work?",
+      "Nasıl çalıştı?"
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "Each mathematician gave a question from their own research that had **never been published**, ten questions in total.",
+       "Her matematikçi kendi araştırmasında karşılaştığı, **hiç yayımlanmamış** bir soru verdi, toplam on soru."
+      ],
+      [
+       "The answers were put online in **encrypted** form, and the key was to be revealed a week later, on 13 February.",
+       "Cevaplar **şifrelenmiş** olarak internete kondu ve şifre bir hafta sonra, 13 Şubat'ta açılacaktı."
+      ],
+      [
+       "During that week, anyone could produce answers with AI and share them.",
+       "O bir hafta boyunca isteyen herkes yapay zekâ ile cevap üretip paylaşabilirdi."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "This removed the question \"Could the model have read this somewhere?\"",
+       "Böylece \"Model bunu bir yerde okumuş olabilir mi?\" sorusu ortadan kalktı."
+      ],
+      [
+       "The answers simply did not exist anywhere.",
+       "Cevaplar hiçbir yerde yoktu."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "In early tests, even the strongest models struggled with a large part of the questions.",
+       "Ön testlerde en güçlü modeller bile soruların önemli bir kısmında zorlandı."
+      ],
+      [
+       "For some questions they produced correct or nearly correct ideas.",
+       "Bazı sorularda doğru ya da doğruya yakın fikirler ürettiler."
+      ],
+      [
+       "For others they wrote proofs that looked convincing but were wrong.",
+       "Bazılarında ise ikna edici görünen ama hatalı ispatlar yazdılar."
+      ],
+      [
+       "The authors stressed that this was not a race but a measurement.",
+       "Yazarlar bunun bir yarış değil, bir ölçüm olduğunu vurguladı."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Why does it matter?",
+       "Neden önemli?"
+      ],
+      [
+       "The golden rule for testing a claim in science is simple: the person taking the exam must not see the questions in advance.",
+       "Bilimde bir iddiayı test etmenin altın kuralı basit: Sınava girecek kişi soruları önceden görmemeli."
+      ],
+      [
+       "First Proof applied this rule to **research-level** mathematics for the first time.",
+       "First Proof bu kuralı ilk kez **araştırma düzeyinde** matematiğe uyguladı."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "For the classroom",
+      "Sınıf için"
+     ],
+     "s": [
+      [
+       "This is a great example for talking with students about the difference between memorising and understanding.",
+       "Bu, öğrencilerle ezber ile anlama arasındaki fark üzerine konuşmak için harika bir örnek."
+      ],
+      [
+       "If you can solve a question you have never seen before, you have really understood the topic.",
+       "Daha önce görmediğin bir soruyu çözebiliyorsan konuyu gerçekten anlamışsın demektir."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "benchmark",
+       "ölçüt, karşılaştırma testi"
+      ],
+      [
+       "unpublished",
+       "yayımlanmamış"
+      ],
+      [
+       "encrypted",
+       "şifrelenmiş"
+      ],
+      [
+       "research-level",
+       "araştırma düzeyinde"
+      ],
+      [
+       "data contamination",
+       "veri kirliliği"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "makale",
+   "ikon": "article",
+   "renk": "#8E44AD",
+   "baslik": "Paper of the Month: Three Equations of an Epidemic",
+   "baslik_tr": "Ayın Makalesi: Bir Salgının Üç Denklemi",
+   "bloklar": [
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Source",
+      "Kaynak"
+     ],
+     "s": [
+      [
+       "W. O. Kermack and A. G. McKendrick, A Contribution to the Mathematical Theory of Epidemics, Proceedings of the Royal Society A, 1927.",
+       "W. O. Kermack ve A. G. McKendrick, Salgınların Matematiksel Teorisine Bir Katkı, Proceedings of the Royal Society A, 1927."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The idea",
+      "Fikir"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Divide a population into three groups.",
+       "Bir toplumu üç gruba ayır."
+      ]
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "**S** (susceptible): people who can still catch the disease.",
+       "**S** (susceptible): Hastalığa yakalanabilecek kişiler."
+      ],
+      [
+       "**I** (infected): people who are ill now and can pass it on.",
+       "**I** (infected): Şu an hasta olan ve hastalığı bulaştırabilen kişiler."
+      ],
+      [
+       "**R** (recovered or removed): people who have recovered, no longer spread the disease and are immune.",
+       "**R** (recovered/removed): İyileşmiş, artık bulaştırmayan ve bağışık olan kişiler."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "As time passes, people move between these boxes in one direction only: S > I > R.",
+       "Zaman geçtikçe insanlar bu kutular arasında tek yönde hareket eder: S > I > R."
+      ],
+      [
+       "That is why it is called the **SIR model**.",
+       "Bu yüzden modelin adı **SIR modeli**."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The equations",
+      "Denklemler"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Let us take the population as 1, so that S + I + R = 1.",
+       "Nüfusu 1 kabul edelim, yani S + I + R = 1 olsun."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "dS/dt = −β · S · I"
+    },
+    {
+     "t": "formul",
+     "m": "dI/dt = β · S · I − γ · I"
+    },
+    {
+     "t": "formul",
+     "m": "dR/dt = γ · I"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Here β is the infection rate and γ is the recovery rate.",
+       "Burada β bulaşma hızı, γ ise iyileşme hızı."
+      ],
+      [
+       "The product S · I represents the chance that a healthy person meets an ill person.",
+       "S · I çarpımı, sağlıklı biriyle hasta birinin karşılaşma olasılığını temsil ediyor."
+      ],
+      [
+       "It is exactly the same idea as the \"law of mass action\" in physical chemistry.",
+       "Bu, fiziksel kimyadaki \"kütle etkisi yasası\"nın tam olarak aynısı."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The threshold theorem: when does an epidemic grow?",
+      "Eşik teoremi: Salgın ne zaman büyür?"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Look at the second equation again.",
+       "İkinci denkleme tekrar bakalım."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "dI/dt = I · (β · S − γ)"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "For the number of ill people to grow, the bracket must be positive, so β · S > γ.",
+       "Hasta sayısının artması için parantezin pozitif olması gerekir, yani β · S > γ."
+      ],
+      [
+       "At the start of an epidemic almost everyone is in group S, so S ≈ 1 and the condition becomes this:",
+       "Salgının başında neredeyse herkes S grubunda olduğu için S ≈ 1 olur ve şart şuna dönüşür:"
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "R₀ = β / γ > 1"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "This is the famous **basic reproduction number**, R₀.",
+       "İşte meşhur **temel üreme sayısı**, R₀."
+      ],
+      [
+       "It tells us how many people one ill person infects on average when everyone is susceptible.",
+       "Herkesin hassas olduğu bir toplumda bir hastanın ortalama kaç kişiyi hasta ettiğini gösteriyor."
+      ],
+      [
+       "If R₀ > 1 the epidemic grows, and if R₀ < 1 it dies out.",
+       "R₀ > 1 ise salgın büyür, R₀ < 1 ise söner."
+      ],
+      [
+       "This is Kermack and McKendrick's most important result: epidemics do not grow slowly, they explode once they pass a **threshold**.",
+       "Bu, Kermack ve McKendrick'in en önemli sonucu: Salgınlar yavaş yavaş büyümez, bir **eşiği** geçince patlar."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Herd immunity",
+      "Sürü bağışıklığı"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "For the epidemic to grow, we need S > 1/R₀.",
+       "Salgının büyümesi için S > 1/R₀ olmalı."
+      ],
+      [
+       "So if a fraction 1 − 1/R₀ of the population is immune, the epidemic cannot grow.",
+       "Demek ki toplumun 1 − 1/R₀ kadarı bağışık olursa salgın büyüyemez."
+      ],
+      [
+       "This is called **herd immunity**.",
+       "Buna **sürü bağışıklığı** denir."
+      ],
+      [
+       "For a disease with R₀ = 3, this fraction is 1 − 1/3, which is about 67%.",
+       "R₀ = 3 olan bir hastalık için bu oran 1 − 1/3, yani yaklaşık %67."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The analysis part",
+      "İşin analiz kısmı"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The most elegant result of the paper is about the end of the epidemic.",
+       "Makalenin en zarif sonucu salgının sonuyla ilgili."
+      ],
+      [
+       "Let S∞ be the fraction of people who never got ill.",
+       "S∞, hiç hastalanmamış kişilerin oranı olsun."
+      ],
+      [
+       "Then S∞ satisfies this equation:",
+       "O zaman S∞ şu denklemi sağlar:"
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "ln(S∞) = −R₀ · (1 − S∞)"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "This equation cannot be solved in closed form.",
+       "Bu denklem kapalı formda çözülemez."
+      ],
+      [
+       "However, for every R₀ > 1 it has exactly **one** solution in the interval (0, 1).",
+       "Ama her R₀ > 1 için (0, 1) aralığında **tek** bir çözümü vardır."
+      ],
+      [
+       "The proof studies how many times two graphs cross, using the intermediate value theorem and convexity.",
+       "İspat, iki grafiğin kaç kez kesiştiğini ara değer teoremi ve konvekslik ile inceler."
+      ],
+      [
+       "The surprising part is that an epidemic never reaches the **whole** population.",
+       "Şaşırtıcı olan şu: Salgın nüfusun **tamamına** asla bulaşmaz."
+      ],
+      [
+       "It stops not because susceptible people run out, but because infected people run out.",
+       "Hastalık, hassas kişiler bittiği için değil, hasta sayısı tükendiği için durur."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Graduate corner",
+      "Yüksek lisans köşesi"
+     ],
+     "s": [
+      [
+       "This paper sits where **ordinary differential equations**, dynamical systems and mathematical biology meet.",
+       "Bu makale **adi diferansiyel denklemler**, dinamik sistemler ve matematiksel biyolojinin kesişiminde."
+      ],
+      [
+       "Drawing the (S, I) curves in the **phase plane**, finding a conserved quantity that links S, I and ln S, and studying stability are great exercises before a thesis.",
+       "Faz düzleminde (S, I) eğrilerini çizmek, S, I ve ln S arasında korunan bir büyüklük bulmak ve kararlılığı incelemek tez öncesi harika alıştırmalar."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "ordinary differential equation (ODE)",
+       "adi diferansiyel denklem"
+      ],
+      [
+       "threshold",
+       "eşik"
+      ],
+      [
+       "basic reproduction number",
+       "temel üreme sayısı"
+      ],
+      [
+       "herd immunity",
+       "sürü bağışıklığı"
+      ],
+      [
+       "equilibrium point",
+       "denge noktası"
+      ],
+      [
+       "phase plane",
+       "faz düzlemi"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bilim",
+   "ikon": "science",
+   "renk": "#0E7490",
+   "baslik": "Science Corner: The Map That Stopped Cholera",
+   "baslik_tr": "Bilim Köşesi: Koleradan Kurtaran Harita",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "Long before the SIR model, a doctor in London used a simple map to fight an epidemic.",
+       "SIR modelinden çok önce Londra'da bir doktor bir salgınla savaşmak için basit bir harita kullandı."
+      ],
+      [
+       "His name was **John Snow**, and many people call him a founder of modern **epidemiology**.",
+       "Adı **John Snow**'du ve birçok kişi onu modern **epidemiyolojinin** kurucularından biri olarak görür."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "In the summer of 1854, a terrible cholera outbreak hit the Soho district of London.",
+       "1854 yazında Londra'nın Soho semtini korkunç bir kolera salgını vurdu."
+      ],
+      [
+       "Hundreds of people died within a few days.",
+       "Birkaç gün içinde yüzlerce kişi hayatını kaybetti."
+      ],
+      [
+       "At that time, most doctors believed that cholera spread through \"bad air\", an idea called the **miasma theory**.",
+       "O dönemde doktorların çoğu koleranın \"kötü hava\" ile yayıldığına inanıyordu, bu fikre **miasma teorisi** deniyordu."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Snow suspected that the disease travelled through water instead.",
+       "Snow ise hastalığın suyla taşındığından şüpheleniyordu."
+      ],
+      [
+       "He marked every death on a street map of the area.",
+       "Her ölümü bölgenin sokak haritası üzerinde işaretledi."
+      ],
+      [
+       "The marks formed a clear **cluster** around one public water pump on Broad Street.",
+       "İşaretler, Broad Street'teki bir halk su pompasının çevresinde belirgin bir **küme** oluşturdu."
+      ],
+      [
+       "He persuaded the local officials to remove the handle of the pump, so nobody could use it.",
+       "Yerel yetkilileri, kimse kullanamasın diye pompanın kolunu çıkarmaya ikna etti."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The outbreak was already slowing down by then, so the handle alone did not end it.",
+       "Salgın o sırada zaten yavaşlıyordu, yani tek başına pompa kolu onu bitirmedi."
+      ],
+      [
+       "But Snow's data was the real breakthrough: it showed the source of the disease with numbers, not opinions.",
+       "Ama asıl buluş Snow'un verileriydi: Hastalığın kaynağını fikirlerle değil, sayılarla gösterdi."
+      ],
+      [
+       "Today we know that cholera is caused by a **bacterium**, Vibrio cholerae, which spreads through dirty water.",
+       "Bugün koleraya kirli suyla yayılan bir **bakterinin**, Vibrio cholerae'nin, yol açtığını biliyoruz."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Maths meets medicine",
+      "Matematik tıpla buluşuyor"
+     ],
+     "s": [
+      [
+       "Snow asked \"Where?\" and answered with a map.",
+       "Snow \"Nerede?\" diye sordu ve bir haritayla cevap verdi."
+      ],
+      [
+       "Kermack and McKendrick asked \"How fast?\" and answered with equations.",
+       "Kermack ve McKendrick \"Ne hızla?\" diye sordu ve denklemlerle cevap verdi."
+      ],
+      [
+       "Modern epidemiology still uses both ideas: data on maps and models with equations.",
+       "Modern epidemiyoloji hâlâ iki fikri de kullanıyor: Haritadaki veriler ve denklemli modeller."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "epidemiology",
+       "epidemiyoloji"
+      ],
+      [
+       "outbreak",
+       "salgın"
+      ],
+      [
+       "cluster",
+       "küme, yoğunlaşma"
+      ],
+      [
+       "bacterium",
+       "bakteri"
+      ],
+      [
+       "miasma theory",
+       "miasma (kötü hava) teorisi"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "matematikci",
+   "ikon": "person",
+   "renk": "#E67E22",
+   "baslik": "Mathematician of the Month: Srinivasa Ramanujan",
+   "baslik_tr": "Ayın Matematikçisi: Srinivasa Ramanujan",
+   "bloklar": [
+    {
+     "t": "portre",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Srinivasa_Ramanujan_-_OPC_-_1.jpg/400px-Srinivasa_Ramanujan_-_OPC_-_1.jpg",
+     "ad": "Srinivasa Ramanujan",
+     "yillar": "1887 – 1920",
+     "s": [
+      [
+       "Self-taught Indian mathematician who filled notebooks with thousands of new formulas.",
+       "Defterlerini binlerce yeni formülle dolduran, kendi kendini yetiştirmiş Hintli matematikçi."
+      ]
+     ],
+     "kaynak": "Passport photograph, around 1913 · Public domain, Wikimedia Commons"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Ramanujan's story is one of the most often told stories in mathematics.",
+       "Ramanujan'ın hikâyesi matematiğin en çok anlatılan hikâyelerinden biri."
+      ],
+      [
+       "And it surprises people every single time.",
+       "Ve her seferinde insanı şaşırtıyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "His life",
+      "Hayatı"
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "He was born in 1887 in Erode, in the south of India.",
+       "1887'de Hindistan'ın güneyinde, Erode'da doğdu."
+      ],
+      [
+       "He was almost completely **self-taught**.",
+       "Neredeyse tamamen **kendi kendine öğrendi**."
+      ],
+      [
+       "His most important source was an old exam preparation book that listed thousands of formulas without proofs.",
+       "En önemli kaynağı, binlerce formülü ispatsız sıralayan eski bir sınav hazırlık kitabıydı."
+      ],
+      [
+       "He could not finish university and worked as a clerk in the accounts office of a port in Madras.",
+       "Üniversiteyi bitiremedi ve Madras'ta bir limanın muhasebe bürosunda katip olarak çalıştı."
+      ],
+      [
+       "In 1913 he wrote a letter full of formulas to the famous Cambridge mathematician **G. H. Hardy**.",
+       "1913'te Cambridge'deki ünlü matematikçi **G. H. Hardy**'ye formüllerle dolu bir mektup yazdı."
+      ],
+      [
+       "At first Hardy thought it might be a joke.",
+       "Hardy önce bunun bir şaka olabileceğini düşündü."
+      ],
+      [
+       "Then he decided that some of the formulas were so strange and beautiful that nobody could have made them up.",
+       "Sonra formüllerin bazılarının o kadar tuhaf ve güzel olduğuna karar verdi ki, kimsenin onları uyduramayacağını söyledi."
+      ],
+      [
+       "Ramanujan went to Cambridge in 1914 and within five years he was elected a member of the Royal Society.",
+       "Ramanujan 1914'te Cambridge'e gitti ve beş yıl içinde Royal Society üyesi seçildi."
+      ],
+      [
+       "The English climate and the hard conditions of the war years damaged his health.",
+       "İngiltere'nin iklimi ve savaş yıllarının zor koşulları sağlığını bozdu."
+      ],
+      [
+       "He returned to India in 1919 and died in 1920, when he was only 32.",
+       "1919'da Hindistan'a döndü ve 1920'de, henüz 32 yaşındayken hayatını kaybetti."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "His contributions",
+      "Katkıları"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "**Partitions**: in how many ways can we write 4 as a sum?",
+       "**Parçalanışlar**: 4 sayısını kaç farklı şekilde toplam olarak yazabiliriz?"
+      ],
+      [
+       "The ways are 4, 3+1, 2+2, 2+1+1 and 1+1+1+1, so the answer is 5.",
+       "Yollar 4, 3+1, 2+2, 2+1+1 ve 1+1+1+1, yani cevap 5."
+      ],
+      [
+       "This number, p(n), grows very fast as n gets bigger.",
+       "Bu sayı, yani p(n), n büyüdükçe çok hızlı büyüyor."
+      ],
+      [
+       "Together with Hardy, he found a formula that calculates p(n) with amazing accuracy.",
+       "Hardy ile birlikte p(n)'yi şaşırtıcı bir doğrulukla hesaplayan bir formül buldu."
+      ],
+      [
+       "The number of partitions of 200 is about 4 trillion, and the formula can give it exactly.",
+       "200 sayısının parçalanış sayısı yaklaşık 4 trilyon ve formül bunu tam olarak verebiliyor."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "**Infinite series** for π: his series **converge** so fast that each new term gives about 8 more correct digits.",
+       "π için **sonsuz seriler**: Bulduğu seriler o kadar hızlı **yakınsıyor** ki her yeni terim yaklaşık 8 basamak daha doğru sonuç veriyor."
+      ],
+      [
+       "The algorithms that computers use today to find trillions of digits of π are descendants of these series.",
+       "Bugün bilgisayarların π'nin trilyonlarca basamağını bulmak için kullandığı algoritmalar bu serilerin torunları."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "**Mock theta functions**: he described these strange functions in his last letter before he died.",
+       "**Mock teta fonksiyonları**: Bu tuhaf fonksiyonları ölmeden önceki son mektubunda tanımladı."
+      ],
+      [
+       "It took mathematicians 80 years to understand what they really were.",
+       "Ne olduklarını gerçekten anlamak matematikçilerin 80 yılını aldı."
+      ],
+      [
+       "In the 2000s, they turned out to be connected to structures that are now used in string theory and black hole physics.",
+       "2000'lerde, bugün sicim teorisi ve kara delik fiziğinde kullanılan yapılarla bağlantılı oldukları ortaya çıktı."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "1729: the number that was not boring",
+      "1729: Sıkıcı olmayan sayı"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "In 1918, Hardy took a taxi to visit Ramanujan, who was ill in a hospital near London.",
+       "1918'de Hardy, Londra yakınlarında bir hastanede yatan Ramanujan'ı ziyaret etmek için bir taksiye bindi."
+      ],
+      [
+       "He said that the number of his taxi, 1729, was rather dull, and he hoped it was not a bad sign.",
+       "Taksinin numarası olan 1729'un oldukça sıkıcı olduğunu söyledi ve bunun kötü bir işaret olmamasını umdu."
+      ],
+      [
+       "Ramanujan disagreed immediately.",
+       "Ramanujan hemen itiraz etti."
+      ],
+      [
+       "It is the **smallest** number that can be written as the sum of two **cubes** in two different ways.",
+       "Bu, iki **küpün** toplamı olarak iki farklı şekilde yazılabilen **en küçük** sayıdır."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "1729 = 1³ + 12³ = 9³ + 10³"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Today such numbers are called **taxicab numbers** in honour of this story.",
+       "Bugün bu tür sayılara bu hikâyenin onuruna **taksi sayıları** deniyor."
+      ],
+      [
+       "They grow very quickly.",
+       "Çok hızlı büyüyorlar."
+      ],
+      [
+       "The smallest number that is a sum of two cubes in three different ways is 87,539,319.",
+       "İki küpün toplamı olarak üç farklı şekilde yazılabilen en küçük sayı 87.539.319."
+      ],
+      [
+       "For four ways, the answer already has thirteen digits.",
+       "Dört farklı yol için cevap şimdiden on üç basamaklı."
+      ],
+      [
+       "For Ramanujan, numbers were not just symbols on paper, and each one had its own personality, almost like a friend.",
+       "Ramanujan için sayılar kâğıt üzerindeki semboller değildi, her birinin neredeyse bir arkadaş gibi kendi kişiliği vardı."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "For the classroom",
+      "Sınıf için"
+     ],
+     "s": [
+      [
+       "Ask your students to check 1729 = 1³ + 12³ = 9³ + 10³ with a calculator.",
+       "Öğrencilerinden 1729 = 1³ + 12³ = 9³ + 10³ eşitliğini hesap makinesiyle kontrol etmelerini iste."
+      ],
+      [
+       "Then ask them: is there any boring number at all?",
+       "Sonra sor: Gerçekten sıkıcı bir sayı var mı?"
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "partition (of an integer)",
+       "bir sayının parçalanışı"
+      ],
+      [
+       "infinite series",
+       "sonsuz seri"
+      ],
+      [
+       "to converge",
+       "yakınsamak"
+      ],
+      [
+       "self-taught",
+       "kendi kendine öğrenmiş"
+      ],
+      [
+       "cube",
+       "küp"
+      ],
+      [
+       "anecdote",
+       "anekdot, kısa ve ilginç hikâye"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "odul",
+   "ikon": "emoji_events",
+   "renk": "#D4A017",
+   "baslik": "Prize Corner",
+   "baslik_tr": "Ödüller Köşesi",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "Nobel Prize in Chemistry 2025: crystals full of holes",
+      "Nobel Kimya 2025: İçi boş kristaller"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The prize went to Susumu Kitagawa, Richard Robson and Omar M. Yaghi for developing **metal-organic frameworks** (MOFs).",
+       "Ödül, **metal-organik çerçeveler** (MOF) adı verilen malzemeleri geliştirdikleri için Susumu Kitagawa, Richard Robson ve Omar M. Yaghi'ye verildi."
+      ],
+      [
+       "They are three-dimensional **lattices** that build themselves, with metal ions as corners and organic molecules as edges.",
+       "Bunlar, metal iyonlarının köşe, organik moleküllerin kenar olduğu, kendi kendine kurulan üç boyutlu **kafesler**."
+      ],
+      [
+       "They are full of huge empty spaces inside.",
+       "İçleri devasa boşluklarla dolu."
+      ],
+      [
+       "The inner **surface area** of a few grams of a MOF can be as large as a football pitch.",
+       "Birkaç gramlık bir MOF'un iç **yüzey alanı** bir futbol sahası kadar olabiliyor."
+      ],
+      [
+       "Thanks to these spaces, they can collect water from desert air, capture carbon dioxide or trap harmful gases.",
+       "Bu boşluklar sayesinde çöl havasından su toplayabiliyor, karbondioksit yakalayabiliyor ya da zararlı gazları tutabiliyorlar."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Where is the maths?",
+       "Matematiği nerede?"
+      ],
+      [
+       "Designing a MOF is really a problem of **graph theory** and crystallography.",
+       "MOF tasarlamak aslında bir **graf teorisi** ve kristalografi problemi."
+      ],
+      [
+       "Which node (a metal) joins which edge (an organic link) at which angle, and which periodic network does this produce?",
+       "Hangi düğüm (metal) hangi kenarla (organik bağ) hangi açıyla birleşir ve bu hangi periyodik ağı oluşturur?"
+      ],
+      [
+       "To classify these networks, chemists use catalogues of three-dimensional periodic graphs made by mathematicians.",
+       "Kimyacılar bu ağları sınıflandırmak için matematikçilerin hazırladığı üç boyutlu periyodik graf kataloglarını kullanıyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Nobel Prize in Economics 2025: creative destruction",
+      "Nobel Ekonomi 2025: Yaratıcı yıkım"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Half of the prize went to the economic historian **Joel Mokyr**, and the other half to **Philippe Aghion** and **Peter Howitt**.",
+       "Ödülün yarısı ekonomi tarihçisi **Joel Mokyr**'a, diğer yarısı **Philippe Aghion** ve **Peter Howitt**'e verildi."
+      ],
+      [
+       "The topic was sustained economic growth through technological innovation.",
+       "Konu, teknolojik yenilikle sürdürülebilir ekonomik büyümeydi."
+      ],
+      [
+       "In 1992, Aghion and Howitt built a growth model in which new technologies keep replacing old ones.",
+       "Aghion ve Howitt 1992'de, yeni teknolojilerin eskilerini sürekli yerinden ettiği bir büyüme modeli kurdu."
+      ],
+      [
+       "Every new invention makes the previous one unnecessary, and this is called **creative destruction**.",
+       "Her yeni buluş bir öncekini gereksiz kılıyor ve buna **yaratıcı yıkım** deniyor."
+      ],
+      [
+       "The model uses tools from **probability** and **optimization** to calculate how much firms invest in research and how fast the economy grows.",
+       "Model, şirketlerin araştırmaya ne kadar yatırım yapacağını ve ekonominin ne hızla büyüyeceğini **olasılık** ve **optimizasyon** araçlarıyla hesaplıyor."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "High school link",
+      "Lise bağlantısı"
+     ],
+     "s": [
+      [
+       "When you teach **compound interest** and exponential growth, try this question: how many years does it take an economy growing 2% a year to double?",
+       "**Bileşik faiz** ve üstel büyüme işlenirken şu soruyu dene: Yılda %2 büyüyen bir ekonomi kaç yılda iki katına çıkar?"
+      ],
+      [
+       "The answer is ln 2 / ln 1.02, which is about 35 years.",
+       "Cevap ln 2 / ln 1,02, yani yaklaşık 35 yıl."
+      ],
+      [
+       "A quick shortcut: divide 70 by the growth rate.",
+       "Kısa yol: 70'i büyüme oranına böl."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "framework / lattice",
+       "çerçeve / kafes"
+      ],
+      [
+       "surface area",
+       "yüzey alanı"
+      ],
+      [
+       "graph theory",
+       "graf teorisi"
+      ],
+      [
+       "optimization",
+       "optimizasyon, eniyileme"
+      ],
+      [
+       "compound interest",
+       "bileşik faiz"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dusun",
+   "ikon": "psychology",
+   "renk": "#16A085",
+   "baslik": "Think Like a Mathematician: Find the Invariant",
+   "baslik_tr": "Matematikçi Gibi Düşünmek: Değişmezi Bul",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "Last month we said that a pattern is not a proof.",
+       "Geçen ay örüntünün kanıt olmadığını söylemiştik."
+      ],
+      [
+       "This month we learn one of the most powerful tools for proving things: the **invariant**.",
+       "Bu ay kanıtlamanın en güçlü araçlarından birini öğreniyoruz: **değişmez**."
+      ],
+      [
+       "Whatever changes during a process, look for something that does not change.",
+       "Bir süreç boyunca ne değişirse değişsin, değişmeyen bir şey ara."
+      ],
+      [
+       "Remember Cahit Arf's \"Arf invariant\" from our January issue, because the name is no accident.",
+       "Ocak sayımızdaki Cahit Arf'in \"Arf değişmezi\"ni hatırla, çünkü adı boşuna değişmez değil."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "The problem: a chessboard with missing corners",
+      "Problem: Köşeleri kesilmiş satranç tahtası"
+     ],
+     "s": [
+      [
+       "We cut off two opposite corners of an 8×8 chessboard, so 62 squares are left.",
+       "8×8'lik bir satranç tahtasının birbirine çapraz iki köşesini kesip atıyoruz, geriye 62 kare kalıyor."
+      ],
+      [
+       "Can we cover the board completely with 31 dominoes, each covering two squares?",
+       "Her biri iki kare kaplayan 31 domino taşıyla tahtayı tamamen kaplayabilir miyiz?"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "At first it looks possible, because 62 squares and 31 dominoes match perfectly.",
+       "İlk bakışta mümkün görünüyor, çünkü 62 kare ve 31 domino tam olarak uyuyor."
+      ],
+      [
+       "Yet people try for hours and never find a way.",
+       "Yine de insanlar saatlerce deneyip bir yol bulamıyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The solution",
+      "Çözüm"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Look at the invariant: the **colours**.",
+       "Değişmeze bak: **renkler**."
+      ]
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "However you place it, every domino covers **one white and one black** square.",
+       "Nasıl koyarsan koy, her domino taşı **bir beyaz ve bir siyah** kare kaplar."
+      ],
+      [
+       "So 31 dominoes cover 31 white and 31 black squares.",
+       "Yani 31 domino 31 beyaz ve 31 siyah kare kaplar."
+      ],
+      [
+       "But opposite corners have the **same colour**, so after cutting them, 32 squares of one colour and 30 of the other are left.",
+       "Ama çapraz köşeler **aynı renkte**, bu yüzden onları kesince bir renkten 32, diğerinden 30 kare kalıyor."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "We need 31 = 31, but we have 32 ≠ 30.",
+       "31 = 31 olması gerekirken elimizde 32 ≠ 30 var."
+      ],
+      [
+       "So the **tiling** is **impossible**, and we proved it without a single try.",
+       "Yani bu **kaplama** **imkânsız** ve bunu tek bir deneme yapmadan kanıtladık."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "The lesson",
+      "Ders"
+     ],
+     "s": [
+      [
+       "To show that something is impossible, you cannot try every possibility.",
+       "Bir şeyin imkânsız olduğunu göstermek için tüm olasılıkları deneyemezsin."
+      ],
+      [
+       "Instead, you find a property that is kept at every step.",
+       "Bunun yerine her adımda korunan bir özellik bulursun."
+      ],
+      [
+       "If the start and the goal differ in this property, you can never reach the goal.",
+       "Başlangıç ile hedef bu özellik açısından farklıysa hedefe asla ulaşamazsın."
+      ],
+      [
+       "**Parity**, colour, a sum, a remainder: all of them are good candidates for an invariant.",
+       "**Parite**, renk, toplam, kalan: Hepsi iyi değişmez adaylarıdır."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "Your turn",
+      "Senin sıran"
+     ],
+     "s": [
+      [
+       "The numbers from 1 to 10 are written on the board.",
+       "Tahtaya 1'den 10'a kadar sayılar yazılı."
+      ],
+      [
+       "At each step you erase two numbers and write the **absolute value** of their difference instead.",
+       "Her adımda iki sayıyı silip yerine farklarının **mutlak değerini** yazıyorsun."
+      ],
+      [
+       "In the end only one number is left: is it odd or even?",
+       "Sonunda tahtada tek bir sayı kalıyor: Bu sayı tek mi, çift mi?"
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "Answer",
+      "Cevap"
+     ],
+     "s": [
+      [
+       "When you replace a and b with |a − b|, the sum changes by 2a or 2b, which is always even.",
+       "a ve b yerine |a − b| yazdığında toplam 2a ya da 2b kadar değişir ve bu her zaman çifttir."
+      ],
+      [
+       "So the parity of the sum never changes.",
+       "Yani toplamın paritesi hiç değişmez."
+      ],
+      [
+       "At the start the sum is 1 + 2 + … + 10 = 55, which is odd, so the last number must be odd too.",
+       "Başta toplam 1 + 2 + … + 10 = 55, yani tek, bu yüzden son kalan sayı da tek olmak zorunda."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "invariant",
+       "değişmez"
+      ],
+      [
+       "parity",
+       "parite, teklik-çiftlik"
+      ],
+      [
+       "tiling",
+       "kaplama, döşeme"
+      ],
+      [
+       "impossible",
+       "imkânsız"
+      ],
+      [
+       "absolute value",
+       "mutlak değer"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eglence",
+   "ikon": "lightbulb",
+   "renk": "#E84393",
+   "baslik": "Fun Facts: The Numbers of February",
+   "baslik_tr": "Eğlenceli Bilgiler: Şubat'ın Sayıları",
+   "bloklar": [
+    {
+     "t": "liste",
+     "s": [
+      [
+       "**A perfect February**: February 2026 starts on a Sunday, lasts 28 days and fits into exactly 4 rows of the calendar.",
+       "**Mükemmel Şubat**: Şubat 2026 pazar günü başlıyor, 28 gün sürüyor ve takvimde tam 4 satıra sığıyor."
+      ],
+      [
+       "The last one was in 2015, and the next one will be in 2037.",
+       "Bir öncekini 2015'te yaşadık, bir sonraki 2037'de."
+      ],
+      [
+       "**Amicable numbers**: the **divisors** of 220, apart from 220 itself, add up to 284, and the divisors of 284 add up to 220.",
+       "**Dost sayılar**: 220'nin kendisi hariç **bölenlerinin** toplamı 284, 284'ünkilerin toplamı da 220."
+      ],
+      [
+       "The Pythagoreans saw this pair as a symbol of friendship.",
+       "Pisagorcular bu çifti dostluğun sembolü olarak görüyordu."
+      ],
+      [
+       "In the 9th century, **Thabit ibn Qurra**, who worked in Baghdad, found a formula that produces amicable numbers.",
+       "9. yüzyılda Bağdat'ta çalışan **Sabit bin Kurra**, dost sayı üreten bir formül buldu."
+      ],
+      [
+       "**The equation of the heart**: if you draw the graph of (x² + y² − 1)³ − x² · y³ = 0, you get a heart, so try it in a graphing app.",
+       "**Kalbin denklemi**: (x² + y² − 1)³ − x² · y³ = 0 denkleminin grafiğini çizersen bir kalp elde edersin, bir grafik programında dene."
+      ],
+      [
+       "**Perfect numbers**: 6 = 1 + 2 + 3 and 28 = 1 + 2 + 4 + 7 + 14 are equal to the sum of their own divisors.",
+       "**Mükemmel sayılar**: 6 = 1 + 2 + 3 ve 28 = 1 + 2 + 4 + 7 + 14 kendi bölenlerinin toplamına eşit."
+      ],
+      [
+       "So the 28 days of February make a perfect number too.",
+       "Yani Şubat'ın 28 günü de mükemmel bir sayı."
+      ],
+      [
+       "**The leap year rule**: years divisible by 4 are **leap years**, but not those divisible by 100, unless they are also divisible by 400.",
+       "**Artık yıl kuralı**: 4'e bölünen yıllar **artık yıldır**, ama 100'e bölünenler değildir, 400'e de bölünüyorsa yine artık yıldır."
+      ],
+      [
+       "That is why 2000 was a leap year, but 2100 will not be.",
+       "Bu yüzden 2000 artık yıldı, ama 2100 olmayacak."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "amicable numbers",
+       "dost sayılar"
+      ],
+      [
+       "perfect number",
+       "mükemmel sayı"
+      ],
+      [
+       "divisor",
+       "bölen"
+      ],
+      [
+       "leap year",
+       "artık yıl"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sinif",
+   "ikon": "school",
+   "renk": "#27AE60",
+   "baslik": "In the Classroom",
+   "baslik_tr": "Sınıfta Matematik",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "Grades 6–8: The Amicable Number Hunt",
+      "6-8. sınıflar: Dost Sayı Avı"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Goal: finding divisors, adding them and working patiently and systematically.",
+       "Hedef: Bölen bulma, toplama ve sabırlı, sistematik çalışma."
+      ]
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "First, find and add the divisors of 6 and 28 together, and let students discover the idea of a perfect number.",
+       "Önce birlikte 6 ve 28'in bölenlerini bulup toplayın ve öğrencilerin mükemmel sayı kavramını keşfetmesini sağlayın."
+      ],
+      [
+       "Divide the class into groups and give each group a range of ten numbers: 1–10, 11–20, … 91–100.",
+       "Sınıfı gruplara bölün ve her gruba onluk bir sayı aralığı verin: 1-10, 11-20, … 91-100."
+      ],
+      [
+       "Each group finds the sum of the divisors of each number, apart from the number itself, and writes it in a table.",
+       "Her grup aralığındaki her sayının, kendisi hariç bölenlerinin toplamını bulup tabloya yazsın."
+      ],
+      [
+       "Look at the table as a class: sums **smaller** than the number give **deficient numbers**, **bigger** ones give **abundant numbers** and **equal** ones give perfect numbers.",
+       "Tabloya sınıfça bakın: Toplamı sayıdan **küçük** olanlar **eksik sayılar**, **büyük** olanlar **bolluk sayıları**, **eşit** olanlar mükemmel sayılar."
+      ],
+      [
+       "Finally, give them 220 and 284 and check them together.",
+       "Son olarak 220 ve 284'ü verin ve birlikte kontrol edin."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "Bonus question",
+      "Bonus soru"
+     ],
+     "s": [
+      [
+       "How many perfect numbers are there between 1 and 100?",
+       "1 ile 100 arasında kaç mükemmel sayı var?"
+      ],
+      [
+       "The answer is 2: 6 and 28.",
+       "Cevap 2: 6 ve 28."
+      ],
+      [
+       "This activity practises data collection, classification and noticing patterns at the same time, just as the Maarif model asks.",
+       "Bu etkinlik, Maarif modelinin istediği gibi veri toplama, sınıflandırma ve örüntü fark etme becerilerini birlikte çalıştırıyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "High school: Simulate an epidemic in a spreadsheet",
+      "Lise: Salgını hesap tablosunda simüle et"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "You need a **spreadsheet** program or a calculator.",
+       "Bir **hesap tablosu** programına ya da hesap makinesine ihtiyacınız var."
+      ],
+      [
+       "Imagine a school of N = 1000 people with 1 ill person at the start.",
+       "N = 1000 kişilik bir okul düşünün, başta 1 hasta var."
+      ],
+      [
+       "Take β = 0.3 and γ = 0.1, so R₀ = 3.",
+       "β = 0,3 ve γ = 0,1 alın, yani R₀ = 3."
+      ],
+      [
+       "For each day, calculate the new cases and the new recoveries, then update S, I and R.",
+       "Her gün için yeni hastaları ve yeni iyileşenleri hesaplayın, sonra S, I ve R değerlerini güncelleyin."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "new cases = 0.3 × S × I / 1000"
+    },
+    {
+     "t": "formul",
+     "m": "new recoveries = 0.1 × I"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Build a table for 100 days and draw the graph of the I column.",
+       "100 günlük bir tablo oluşturun ve I sütununun grafiğini çizin."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "Discussion questions",
+      "Tartışma soruları"
+     ],
+     "s": [
+      [
+       "On which day does the number of ill people reach its **peak**, and what is S on that day?",
+       "Hasta sayısı hangi gün **tepe** yapıyor ve o gün S kaç?"
+      ],
+      [
+       "Hint: it should be close to 1000 / R₀ ≈ 333.",
+       "İpucu: 1000 / R₀ ≈ 333'e yakın olmalı."
+      ],
+      [
+       "What changes if you lower β to 0.15 with masks and distance?",
+       "Maske ve mesafe ile β'yı 0,15'e düşürürseniz ne değişiyor?"
+      ],
+      [
+       "When the epidemic ends, how many people never got ill?",
+       "Salgın bittiğinde kaç kişi hiç hastalanmamış?"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "This activity brings sequences, exponential growth and the meaning of the derivative together in one real problem.",
+       "Bu etkinlik diziler, üstel büyüme ve türevin anlamını tek bir gerçek problemde birleştiriyor."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "deficient number",
+       "eksik sayı"
+      ],
+      [
+       "abundant number",
+       "bolluk sayısı"
+      ],
+      [
+       "spreadsheet",
+       "hesap tablosu"
+      ],
+      [
+       "to simulate",
+       "simüle etmek, benzetim yapmak"
+      ],
+      [
+       "peak",
+       "tepe noktası"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gundem",
+   "ikon": "campaign",
+   "renk": "#C0392B",
+   "baslik": "Education in Türkiye",
+   "baslik_tr": "Eğitim Gündemi",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "The second term has started",
+      "İkinci dönem başladı"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "After the mid-year holiday, the second term started in the first week of February.",
+       "Yarıyıl tatilinin ardından ikinci dönem şubatın ilk haftasında başladı."
+      ],
+      [
+       "For grades 8 and 12, this term means exam season.",
+       "8. ve 12. sınıflar için bu dönem sınav dönemi demek."
+      ],
+      [
+       "There are a little more than four months left until LGS and YKS.",
+       "LGS'ye ve YKS'ye dört aydan biraz fazla zaman kaldı."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The YKS 2026 calendar",
+      "YKS 2026 takvimi"
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "Applications opened on 6 February 2026 and close on 2 March 2026, with late applications on 10–12 March.",
+       "Başvurular 6 Şubat 2026'da başladı ve 2 Mart 2026'da sona eriyor, geç başvuru 10-12 Mart."
+      ],
+      [
+       "TYT: Saturday, 20 June 2026.",
+       "TYT: 20 Haziran 2026 Cumartesi."
+      ],
+      [
+       "AYT and YDT: Sunday, 21 June 2026.",
+       "AYT ve YDT: 21 Haziran 2026 Pazar."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "For grade 12 teachers",
+      "12. sınıf öğretmenlerine"
+     ],
+     "s": [
+      [
+       "So that students do not leave their application until the **deadline**, give a short reminder in class.",
+       "Öğrenciler başvurularını **son güne** bırakmasın diye sınıfta kısa bir hatırlatma yapın."
+      ],
+      [
+       "Checking the applications together is also a good idea.",
+       "Başvuruları birlikte kontrol etmek de iyi bir fikir."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "LGS reminder",
+      "LGS hatırlatması"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "LGS is on Saturday, 13 June 2026.",
+       "LGS 13 Haziran 2026 Cumartesi."
+      ],
+      [
+       "February is the best month to plan your **review** of topics.",
+       "Şubat, konu **tekrarlarını** planlamak için en verimli ay."
+      ],
+      [
+       "A suggested strategy: find the three topics with the most wrong answers in recent mock exams for each class, and spend March on them.",
+       "Önerilen strateji: Son deneme sınavlarında en çok yanlış yapılan üç konuyu sınıf bazında belirleyip mart ayını bu konulara ayırmak."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "A note on the Maarif model",
+      "Maarif modeli notu"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "In grades 5–6 and 9–10, where the new programme is used, the second term is a good chance for skill-based assessment.",
+       "Yeni programın uygulandığı 5-6. ve 9-10. sınıflarda ikinci dönem, beceri temelli değerlendirme için iyi bir fırsat."
+      ],
+      [
+       "The amicable number hunt and the epidemic simulation in this issue are example activities for process assessment.",
+       "Bu sayıdaki dost sayı avı ve salgın simülasyonu, süreç değerlendirmesinde kullanılabilecek örnek etkinlikler."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "application deadline",
+       "son başvuru tarihi"
+      ],
+      [
+       "second semester",
+       "ikinci dönem"
+      ],
+      [
+       "review",
+       "tekrar, gözden geçirme"
+      ],
+      [
+       "assessment",
+       "değerlendirme"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "oku",
+   "ikon": "menu_book",
+   "renk": "#34495E",
+   "baslik": "Read Like a Mathematician",
+   "baslik_tr": "Matematikçi Gibi Oku",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "Last month we learned phrases like \"let\", \"suppose\" and \"iff\".",
+       "Geçen ay \"let\", \"suppose\" ve \"iff\" gibi kalıpları öğrendik."
+      ],
+      [
+       "This month we look at the \"skeleton words\" of mathematical texts.",
+       "Bu ay matematik metinlerinin \"iskelet kelimelerine\" bakıyoruz."
+      ]
+     ]
+    },
+    {
+     "t": "tablo",
+     "basliklar": [
+      "English",
+      "Türkçe",
+      "Note"
+     ],
+     "satirlar": [
+      [
+       "for all (∀)",
+       "her … için",
+       "For all x > 0, x² > 0."
+      ],
+      [
+       "there exists (∃)",
+       "… vardır",
+       "There exists an integer n such that …"
+      ],
+      [
+       "such that (s.t.)",
+       "öyle ki",
+       "almost always comes with ∃"
+      ],
+      [
+       "hence / therefore (∴)",
+       "dolayısıyla, bu yüzden",
+       "states a result"
+      ],
+      [
+       "Theorem",
+       "teorem",
+       "the main result"
+      ],
+      [
+       "Lemma",
+       "yardımcı teorem",
+       "a small step used to prove a theorem"
+      ],
+      [
+       "Corollary",
+       "sonuç, doğal sonuç",
+       "follows directly from a theorem"
+      ],
+      [
+       "Assume to the contrary",
+       "aksini varsayalım",
+       "the start of a proof by contradiction"
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "Mini reading: Euclid's theorem",
+      "Mini okuma: Öklid teoremi"
+     ],
+     "s": [
+      [
+       "Theorem (Euclid): There are infinitely many prime numbers.",
+       "Teorem (Öklid): Sonsuz sayıda asal sayı vardır."
+      ],
+      [
+       "Proof: Assume to the contrary that there are only finitely many primes, say p₁, p₂, …, pₖ.",
+       "İspat: Aksini varsayalım ve yalnızca sonlu sayıda asal olduğunu, bunların p₁, p₂, …, pₖ olduğunu düşünelim."
+      ],
+      [
+       "Let N = p₁ · p₂ · … · pₖ + 1.",
+       "N = p₁ · p₂ · … · pₖ + 1 olsun."
+      ],
+      [
+       "Then N is greater than 1, hence there exists a prime p that divides N.",
+       "O zaman N 1'den büyüktür, dolayısıyla N'yi bölen bir p asalı vardır."
+      ],
+      [
+       "However, N leaves a remainder of 1 when divided by any pᵢ.",
+       "Ancak N, herhangi bir pᵢ'ye bölündüğünde 1 kalanını verir."
+      ],
+      [
+       "Therefore p is not in our list, which is a contradiction. ∎",
+       "Bu yüzden p listemizde değildir ve bu bir çelişkidir. ∎"
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "A small note",
+      "Küçük not"
+     ],
+     "s": [
+      [
+       "This proof does not say that N itself is prime.",
+       "Bu ispat N'nin kendisinin asal olduğunu söylemiyor."
+      ],
+      [
+       "It only says that N has a prime divisor that is not in the list.",
+       "Sadece N'nin listede olmayan bir asal böleni olduğunu söylüyor."
+      ],
+      [
+       "This difference is one of the most common mistakes in exams.",
+       "Bu fark, sınavlarda en çok karıştırılan noktalardan biri."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "for all",
+       "her … için"
+      ],
+      [
+       "there exists",
+       "… vardır"
+      ],
+      [
+       "lemma",
+       "yardımcı teorem"
+      ],
+      [
+       "corollary",
+       "doğal sonuç"
+      ],
+      [
+       "contradiction",
+       "çelişki"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "soru": "Why did the First Proof project use unpublished questions?",
+   "soru_tr": "First Proof projesi neden yayımlanmamış sorular kullandı?",
+   "secenekler": [
+    "To make the questions easier",
+    "So that AI could not have seen the answers before",
+    "To save time",
+    "Because there were no published problems"
+   ],
+   "dogru": 1,
+   "aciklama": "The answers existed nowhere, so the models could not simply remember them.",
+   "aciklama_tr": "Cevaplar hiçbir yerde yoktu, bu yüzden modeller onları basitçe hatırlayamazdı."
+  },
+  {
+   "soru": "In the SIR model, when does an epidemic grow at the start?",
+   "soru_tr": "SIR modelinde salgın başlangıçta ne zaman büyür?",
+   "secenekler": [
+    "When R₀ > 1",
+    "When R₀ = 0",
+    "When R₀ < 1",
+    "Always"
+   ],
+   "dogru": 0,
+   "aciklama": "With S ≈ 1, the number of ill people grows only if β / γ = R₀ > 1.",
+   "aciklama_tr": "S ≈ 1 iken hasta sayısı ancak β / γ = R₀ > 1 ise artar."
+  },
+  {
+   "soru": "Where did John Snow find the source of the 1854 cholera outbreak?",
+   "soru_tr": "John Snow 1854 kolera salgınının kaynağını nerede buldu?",
+   "secenekler": [
+    "In the air of a hospital",
+    "At a water pump on Broad Street",
+    "In a bakery",
+    "On a ship"
+   ],
+   "dogru": 1,
+   "aciklama": "The deaths on his map clustered around the Broad Street pump.",
+   "aciklama_tr": "Haritasındaki ölümler Broad Street pompasının çevresinde toplanıyordu."
+  },
+  {
+   "soru": "Why is 1729 special?",
+   "soru_tr": "1729 neden özeldir?",
+   "secenekler": [
+    "It is a prime number",
+    "It is a perfect number",
+    "It is the smallest sum of two cubes in two different ways",
+    "It is a perfect square"
+   ],
+   "dogru": 2,
+   "aciklama": "1729 = 1³ + 12³ = 9³ + 10³.",
+   "aciklama_tr": "1729 = 1³ + 12³ = 9³ + 10³."
+  },
+  {
+   "soru": "What did the 2025 Nobel Prize in Chemistry reward?",
+   "soru_tr": "2025 Nobel Kimya Ödülü neyi ödüllendirdi?",
+   "secenekler": [
+    "Metal-organic frameworks",
+    "Quantum circuits",
+    "Creative destruction",
+    "The SIR model"
+   ],
+   "dogru": 0,
+   "aciklama": "Kitagawa, Robson and Yaghi developed metal-organic frameworks (MOFs).",
+   "aciklama_tr": "Kitagawa, Robson ve Yaghi metal-organik çerçeveleri (MOF) geliştirdi."
+  },
+  {
+   "soru": "Why can 31 dominoes not cover the chessboard with two opposite corners removed?",
+   "soru_tr": "Çapraz iki köşesi kesilmiş satranç tahtasını 31 domino neden kaplayamaz?",
+   "secenekler": [
+    "62 is not divisible by 2",
+    "The remaining squares are 32 of one colour and 30 of the other",
+    "Dominoes cannot be turned",
+    "The board is too small"
+   ],
+   "dogru": 1,
+   "aciklama": "Each domino covers one white and one black square, so the two colours must be equal.",
+   "aciklama_tr": "Her domino bir beyaz ve bir siyah kare kaplar, bu yüzden iki rengin sayısı eşit olmalı."
+  }
+ ],
+ "bulmacalar": [
+  {
+   "tip": "anagram",
+   "karisik": "QRESUA",
+   "cevap": "SQUARE",
+   "ipucu": "A quadrilateral with four equal sides and four right angles.",
+   "ipucu_tr": "Dört kenarı eşit ve dört açısı dik olan dörtgen."
+  },
+  {
+   "tip": "anagram",
+   "karisik": "TIMLI",
+   "cevap": "LIMIT",
+   "ipucu": "The value a function approaches.",
+   "ipucu_tr": "Bir fonksiyonun yaklaştığı değer."
+  },
+  {
+   "tip": "anagram",
+   "karisik": "PRAHG",
+   "cevap": "GRAPH",
+   "ipucu": "It is made of nodes and edges.",
+   "ipucu_tr": "Düğümlerden ve kenarlardan oluşur."
+  },
+  {
+   "tip": "anagram",
+   "karisik": "LEMAM",
+   "cevap": "LEMMA",
+   "ipucu": "A small step used to prove a theorem.",
+   "ipucu_tr": "Bir teoremi ispatlamak için kullanılan küçük adım."
+  },
+  {
+   "tip": "eslestir",
+   "baslik": "Match the terms",
+   "baslik_tr": "Terimleri eşleştir",
+   "ciftler": [
+    [
+     "amicable numbers",
+     "dost sayılar"
+    ],
+    [
+     "threshold",
+     "eşik"
+    ],
+    [
+     "invariant",
+     "değişmez"
+    ],
+    [
+     "herd immunity",
+     "sürü bağışıklığı"
+    ],
+    [
+     "partition",
+     "parçalanış"
+    ]
+   ]
+  },
+  {
+   "tip": "mantik",
+   "baslik": "A friend of a friend",
+   "baslik_tr": "Dostun dostu",
+   "soru": "220 and 284 are amicable numbers. Find the sum of the divisors of 1184, apart from 1184 itself. Who is the friend of 1184?",
+   "soru_tr": "220 ile 284 dost sayılar. 1184'ün kendisi hariç bölenlerinin toplamını bul. 1184'ün dostu kim?",
+   "cevap": "The sum is 1210, and the divisors of 1210 add up to 1184, so 1184 and 1210 are amicable. A 16-year-old Italian student, Niccolò Paganini (not the famous violinist), found this pair in 1866. Even great mathematicians like Euler had missed it.",
+   "cevap_tr": "Toplam 1210 ve 1210'un bölenlerinin toplamı da 1184, yani 1184 ile 1210 dost sayılar. Bu çifti 1866'da 16 yaşındaki İtalyan öğrenci Niccolò Paganini (ünlü kemancı değil) buldu. Euler gibi büyük matematikçilerin bile gözünden kaçmıştı."
+  },
+  {
+   "tip": "mantik",
+   "baslik": "The February riddle",
+   "baslik_tr": "Şubat bilmecesi",
+   "soru": "If 1 January of a year is a Thursday and the year is not a leap year, what day is 1 February? Why?",
+   "soru_tr": "Bir yılın 1 Ocak'ı perşembe ise ve o yıl artık yıl değilse, 1 Şubat hangi güne denk gelir? Neden?",
+   "cevap": "January has 31 days and 31 = 4 × 7 + 3, so 1 February is 3 days after the weekday of 1 January. Thursday + 3 = Sunday. 2026 is exactly such a year.",
+   "cevap_tr": "Ocak 31 gün çeker ve 31 = 4 × 7 + 3, yani 1 Şubat, 1 Ocak'tan 3 gün sonraki güne denk gelir. Perşembe + 3 = Pazar. 2026 tam olarak böyle bir yıl."
+  }
+ ],
+ "terimler": [
+  [
+   "benchmark",
+   "ölçüt, karşılaştırma testi"
+  ],
+  [
+   "unpublished",
+   "yayımlanmamış"
+  ],
+  [
+   "encrypted",
+   "şifrelenmiş"
+  ],
+  [
+   "research-level",
+   "araştırma düzeyinde"
+  ],
+  [
+   "data contamination",
+   "veri kirliliği"
+  ],
+  [
+   "ordinary differential equation (ODE)",
+   "adi diferansiyel denklem"
+  ],
+  [
+   "threshold",
+   "eşik"
+  ],
+  [
+   "basic reproduction number",
+   "temel üreme sayısı"
+  ],
+  [
+   "herd immunity",
+   "sürü bağışıklığı"
+  ],
+  [
+   "equilibrium point",
+   "denge noktası"
+  ],
+  [
+   "phase plane",
+   "faz düzlemi"
+  ],
+  [
+   "epidemiology",
+   "epidemiyoloji"
+  ],
+  [
+   "outbreak",
+   "salgın"
+  ],
+  [
+   "cluster",
+   "küme, yoğunlaşma"
+  ],
+  [
+   "bacterium",
+   "bakteri"
+  ],
+  [
+   "miasma theory",
+   "miasma (kötü hava) teorisi"
+  ],
+  [
+   "partition (of an integer)",
+   "bir sayının parçalanışı"
+  ],
+  [
+   "infinite series",
+   "sonsuz seri"
+  ],
+  [
+   "to converge",
+   "yakınsamak"
+  ],
+  [
+   "self-taught",
+   "kendi kendine öğrenmiş"
+  ],
+  [
+   "cube",
+   "küp"
+  ],
+  [
+   "anecdote",
+   "anekdot, kısa ve ilginç hikâye"
+  ],
+  [
+   "framework / lattice",
+   "çerçeve / kafes"
+  ],
+  [
+   "surface area",
+   "yüzey alanı"
+  ],
+  [
+   "graph theory",
+   "graf teorisi"
+  ],
+  [
+   "optimization",
+   "optimizasyon, eniyileme"
+  ],
+  [
+   "compound interest",
+   "bileşik faiz"
+  ],
+  [
+   "invariant",
+   "değişmez"
+  ],
+  [
+   "parity",
+   "parite, teklik-çiftlik"
+  ],
+  [
+   "tiling",
+   "kaplama, döşeme"
+  ],
+  [
+   "impossible",
+   "imkânsız"
+  ],
+  [
+   "absolute value",
+   "mutlak değer"
+  ],
+  [
+   "amicable numbers",
+   "dost sayılar"
+  ],
+  [
+   "perfect number",
+   "mükemmel sayı"
+  ],
+  [
+   "divisor",
+   "bölen"
+  ],
+  [
+   "leap year",
+   "artık yıl"
+  ],
+  [
+   "deficient number",
+   "eksik sayı"
+  ],
+  [
+   "abundant number",
+   "bolluk sayısı"
+  ],
+  [
+   "spreadsheet",
+   "hesap tablosu"
+  ],
+  [
+   "to simulate",
+   "simüle etmek, benzetim yapmak"
+  ],
+  [
+   "peak",
+   "tepe noktası"
+  ],
+  [
+   "application deadline",
+   "son başvuru tarihi"
+  ],
+  [
+   "second semester",
+   "ikinci dönem"
+  ],
+  [
+   "review",
+   "tekrar, gözden geçirme"
+  ],
+  [
+   "assessment",
+   "değerlendirme"
+  ],
+  [
+   "for all",
+   "her … için"
+  ],
+  [
+   "there exists",
+   "… vardır"
+  ],
+  [
+   "lemma",
+   "yardımcı teorem"
+  ],
+  [
+   "corollary",
+   "doğal sonuç"
+  ],
+  [
+   "contradiction",
+   "çelişki"
+  ]
+ ]
+}
