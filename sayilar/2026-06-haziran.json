@@ -1,0 +1,2316 @@
+{
+ "format": 2,
+ "no": 6,
+ "ad": "Machines and Minds",
+ "ad_tr": "Makineler ve Zihinler",
+ "donem": "Haziran 2026",
+ "donem_en": "June 2026",
+ "tema": "Makine neyi hesaplayabilir?",
+ "tema_en": "What can a machine compute?",
+ "kapak": {
+  "renkler": [
+   "#5B4A9E",
+   "#3B2F6B"
+  ],
+  "desen": 1
+ },
+ "bolumler": [
+  {
+   "id": "editor",
+   "ikon": "edit_note",
+   "renk": "#6C63FF",
+   "baslik": "Editor's Note",
+   "baslik_tr": "Editörden",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "Hello again, and welcome to our June issue.",
+       "Tekrar merhaba, haziran sayımıza hoş geldin."
+      ],
+      [
+       "June is the month of big exams and long goodbyes.",
+       "Haziran, büyük sınavların ve uzun vedaların ayı."
+      ],
+      [
+       "LGS and YKS are behind us, report cards have been handed out and the school year is over.",
+       "LGS ve YKS geride kaldı, karneler dağıtıldı ve okul yılı bitti."
+      ],
+      [
+       "Teachers and students finally have time to breathe.",
+       "Öğretmenler ve öğrenciler nihayet nefes alacak zaman buldu."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The theme of this month is a question: **what can a machine compute?**",
+       "Bu ayın teması bir soru: **Bir makine neyi hesaplayabilir?**"
+      ],
+      [
+       "On 23 June 1912, **Alan Turing** was born in London.",
+       "23 Haziran 1912'de Londra'da **Alan Turing** dünyaya geldi."
+      ],
+      [
+       "Ninety years ago, in 1936, he described a machine that existed only on paper.",
+       "Doksan yıl önce, 1936'da, yalnızca kâğıt üzerinde var olan bir makineyi tarif etti."
+      ],
+      [
+       "With it, he proved that some problems can never be solved by any computer, however fast it is.",
+       "Bu makineyle bazı problemlerin, ne kadar hızlı olursa olsun, hiçbir bilgisayar tarafından asla çözülemeyeceğini kanıtladı."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "In this issue you will read his famous paper, learn how secret messages are hidden with numbers and meet the man himself.",
+       "Bu sayıda onun ünlü makalesini okuyacak, gizli mesajların sayılarla nasıl saklandığını öğrenecek ve Turing'in kendisiyle tanışacaksın."
+      ],
+      [
+       "We also follow the second round of the experiment in which mathematicians test artificial intelligence.",
+       "Matematikçilerin yapay zekâyı sınadığı deneyin ikinci turunu da takip ediyoruz."
+      ],
+      [
+       "Enjoy your break, and have a lovely summer!",
+       "İyi molalar, güzel bir yaz geçir!"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "haber",
+   "ikon": "newspaper",
+   "renk": "#2E86DE",
+   "baslik": "News from the World of Maths",
+   "baslik_tr": "Matematik Dünyasından Haberler",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "First Proof, round two: AI meets ten new problems",
+      "First Proof ikinci tur: Yapay zekâ on yeni problemle karşı karşıya"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "In our February issue we introduced **First Proof**, an experiment that tests AI with unpublished research questions.",
+       "Şubat sayımızda, yapay zekâyı yayımlanmamış araştırma sorularıyla sınayan bir deney olan **First Proof**'u tanıtmıştık."
+      ],
+      [
+       "On 12 June 2026, the full results of the **second batch** were made public.",
+       "12 Haziran 2026'da **ikinci turun** sonuçlarının tamamı kamuoyuyla paylaşıldı."
+      ],
+      [
+       "This time the rules were even stricter.",
+       "Bu sefer kurallar daha da sıkıydı."
+      ]
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "Leading mathematicians contributed ten new problems, from stochastic PDEs to combinatorial topology and logic.",
+       "Önde gelen matematikçiler, stokastik kısmi diferansiyel denklemlerden kombinatoryal topolojiye ve mantığa kadar on yeni problem hazırladı."
+      ],
+      [
+       "Each problem had a human solution of at most eight pages that had never been published.",
+       "Her problemin en fazla sekiz sayfalık, hiç yayımlanmamış bir insan çözümü vardı."
+      ],
+      [
+       "Four AI systems took part, one commercial model from OpenAI and three academic systems built on commercial models.",
+       "Dört yapay zekâ sistemi katıldı: OpenAI'ın ticari bir modeli ve ticari modeller üzerine kurulmuş üç akademik sistem."
+      ],
+      [
+       "Each system had **24 hours** for all ten problems, with no human help at all.",
+       "Her sistemin on problemin tamamı için **24 saati** vardı ve hiçbir insan yardımı almadı."
+      ],
+      [
+       "Thirty expert mathematicians then graded the solutions at Harvard.",
+       "Ardından otuz uzman matematikçi çözümleri Harvard'da notlandırdı."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The results were mixed.",
+       "Sonuçlar karışıktı."
+      ],
+      [
+       "Seven of the ten problems received at least one solution that the **referees** judged essentially correct.",
+       "On problemin yedisi, **hakemlerin** esasen doğru bulduğu en az bir çözüm aldı."
+      ],
+      [
+       "For one problem, a system even found a new approach that was different from the human solution.",
+       "Bir problemde bir sistem, insan çözümünden farklı yeni bir yaklaşım bile buldu."
+      ],
+      [
+       "For another problem, no system made any real progress.",
+       "Başka bir problemde ise hiçbir sistem gerçek bir ilerleme kaydedemedi."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The referees also noticed a pattern.",
+       "Hakemler bir örüntü de fark etti."
+      ],
+      [
+       "The systems did best when a problem looked like results that were already in the literature.",
+       "Sistemler, problem literatürdeki sonuçlara benzediğinde en iyi performansı gösterdi."
+      ],
+      [
+       "They often explained the **routine** steps in great detail but passed quickly over the difficult ones.",
+       "**Sıradan** adımları çoğu zaman çok ayrıntılı açıkladılar, ama zor adımların üzerinden hızla geçtiler."
+      ],
+      [
+       "The organisers said the results show genuine capability, but also systematic weaknesses.",
+       "Düzenleyiciler sonuçların gerçek bir yetenek gösterdiğini, ama sistematik zayıflıkları da ortaya koyduğunu söyledi."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "A top honour for Terence Tao",
+      "Terence Tao'ya büyük onur"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "In June, the Fields medallist **Terence Tao** was made a Companion of the Order of Australia, the highest level of the order.",
+       "Haziranda Fields madalyalı **Terence Tao**, Avustralya Nişanı'nın en yüksek derecesi olan Companion unvanına layık görüldü."
+      ],
+      [
+       "The honour was given for eminent service to the mathematical sciences.",
+       "Onur, matematik bilimlerine üstün hizmet için verildi."
+      ],
+      [
+       "Tao was born in Adelaide in 1975 and won a bronze medal at the International Mathematical Olympiad when he was only 10.",
+       "Tao 1975'te Adelaide'de doğdu ve henüz 10 yaşındayken Uluslararası Matematik Olimpiyatı'nda bronz madalya kazandı."
+      ],
+      [
+       "He received the Fields Medal in 2006 and now works at UCLA.",
+       "2006'da Fields Madalyası'nı aldı ve şu anda UCLA'de çalışıyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Next month: the Congress in Philadelphia",
+      "Gelecek ay: Philadelphia'daki Kongre"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The International Congress of Mathematicians will be held in Philadelphia from 23 to 30 July 2026.",
+       "Uluslararası Matematikçiler Kongresi 23-30 Temmuz 2026 tarihlerinde Philadelphia'da yapılacak."
+      ],
+      [
+       "The new **Fields medallists** will be announced at the opening ceremony.",
+       "Yeni **Fields madalyası sahipleri** açılış töreninde açıklanacak."
+      ],
+      [
+       "We will report the winners in our July issue.",
+       "Kazananları temmuz sayımızda duyuracağız."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "For the classroom",
+      "Sınıf için"
+     ],
+     "s": [
+      [
+       "Show students one sentence from the First Proof report: the AI explained easy steps in detail but skipped the hard ones.",
+       "Öğrencilere First Proof raporundan şu cümleyi gösterin: Yapay zekâ kolay adımları ayrıntılı anlattı, zor olanları ise atladı."
+      ],
+      [
+       "Then ask them: do you ever do the same thing in your own written solutions?",
+       "Sonra sorun: Siz de kendi yazılı çözümlerinizde aynı şeyi yapıyor musunuz?"
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "second batch",
+       "ikinci tur, ikinci parti"
+      ],
+      [
+       "referee",
+       "hakem"
+      ],
+      [
+       "routine step",
+       "sıradan, rutin adım"
+      ],
+      [
+       "genuine capability",
+       "gerçek yetenek"
+      ],
+      [
+       "Fields medallist",
+       "Fields madalyası sahibi"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "makale",
+   "ikon": "article",
+   "renk": "#8E44AD",
+   "baslik": "Paper of the Month: The Machine That Cannot Decide",
+   "baslik_tr": "Ayın Makalesi: Karar Veremeyen Makine",
+   "bloklar": [
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Source",
+      "Kaynak"
+     ],
+     "s": [
+      [
+       "A. M. Turing, On Computable Numbers, with an Application to the Entscheidungsproblem, Proceedings of the London Mathematical Society, 1936.",
+       "A. M. Turing, Hesaplanabilir Sayılar Üzerine ve Entscheidungsproblem'e Bir Uygulama, Proceedings of the London Mathematical Society, 1936."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The question",
+      "Soru"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "In 1928, the German mathematician **David Hilbert** asked a bold question.",
+       "1928'de Alman matematikçi **David Hilbert** cesur bir soru sordu."
+      ],
+      [
+       "Is there a mechanical method that can decide, for any mathematical statement, whether it can be proved?",
+       "Herhangi bir matematiksel ifadenin kanıtlanabilir olup olmadığına karar verebilen mekanik bir yöntem var mı?"
+      ],
+      [
+       "In German this was called the **Entscheidungsproblem**, which means \"the decision problem\".",
+       "Almancada buna **Entscheidungsproblem**, yani \"karar problemi\" deniyordu."
+      ],
+      [
+       "To answer \"no\", you first need a precise definition of a \"mechanical method\".",
+       "\"Hayır\" diyebilmek için önce \"mekanik yöntemin\" kesin bir tanımına ihtiyacın var."
+      ],
+      [
+       "This is exactly what the 23-year-old Turing gave.",
+       "23 yaşındaki Turing'in verdiği şey tam olarak buydu."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "A machine made of paper",
+      "Kâğıttan bir makine"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Turing imagined a person doing a calculation with a pencil, and he removed everything that was not necessary.",
+       "Turing kalemle hesap yapan bir insanı hayal etti ve gerekli olmayan her şeyi bir kenara attı."
+      ],
+      [
+       "What was left is now called a **Turing machine**.",
+       "Geriye kalana bugün **Turing makinesi** deniyor."
+      ]
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "An endless **tape** divided into squares, each holding one symbol, such as 0, 1 or a blank.",
+       "Karelere bölünmüş sonsuz bir **şerit**, her karede 0, 1 ya da boşluk gibi tek bir sembol var."
+      ],
+      [
+       "A **head** that reads one square at a time, can write a new symbol and can move one square left or right.",
+       "Her seferinde bir kare okuyan, yeni bir sembol yazabilen ve bir kare sola ya da sağa gidebilen bir **okuma kafası**."
+      ],
+      [
+       "A finite list of **states**, like the moods of the machine.",
+       "Makinenin ruh hâlleri gibi sonlu bir **durumlar** listesi."
+      ],
+      [
+       "A table of rules: \"in state q, if you read s, write t, move and go to state r\".",
+       "Bir kurallar tablosu: \"q durumundaysan ve s okuyorsan, t yaz, hareket et ve r durumuna geç\"."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "That is all.",
+       "Hepsi bu kadar."
+      ],
+      [
+       "Yet Turing argued that every calculation a human can do by following rules can also be done by such a machine.",
+       "Yine de Turing, bir insanın kurallara uyarak yapabildiği her hesabın böyle bir makineyle de yapılabileceğini savundu."
+      ],
+      [
+       "Today this idea is called the **Church–Turing thesis**.",
+       "Bu fikre bugün **Church-Turing tezi** deniyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "One machine to run them all",
+      "Hepsini çalıştıran tek makine"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Turing's second great idea was the **universal machine**.",
+       "Turing'in ikinci büyük fikri **evrensel makineydi**."
+      ],
+      [
+       "The rule table of any machine can be written on the tape as a long string of symbols.",
+       "Herhangi bir makinenin kural tablosu, uzun bir sembol dizisi olarak şeride yazılabilir."
+      ],
+      [
+       "A universal machine reads this description and then behaves exactly like the machine it describes.",
+       "Evrensel makine bu tanımı okur ve ardından tarif ettiği makine gibi davranır."
+      ],
+      [
+       "In other words, a program is just data.",
+       "Yani bir program sadece veridir."
+      ],
+      [
+       "Every computer and phone you use today works on this principle.",
+       "Bugün kullandığın her bilgisayar ve telefon bu ilkeyle çalışıyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The halting problem",
+      "Durma problemi"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Now comes the surprising part.",
+       "Şimdi işin şaşırtıcı kısmı geliyor."
+      ],
+      [
+       "Some programs stop after a while, and others run forever.",
+       "Bazı programlar bir süre sonra durur, bazıları ise sonsuza dek çalışır."
+      ],
+      [
+       "Could there be a program H that looks at any program P and any input x and tells us whether P **halts** on x?",
+       "Herhangi bir P programına ve x girdisine bakıp P'nin x üzerinde **durup durmayacağını** söyleyen bir H programı olabilir mi?"
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "H(P, x) = 1 if P halts on x, and 0 if it runs forever"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Suppose that such an H exists, and use it to build a strange new program D.",
+       "Böyle bir H'nin var olduğunu varsayalım ve onu kullanarak tuhaf yeni bir D programı kuralım."
+      ],
+      [
+       "D takes a program P as input and asks H what P does when it is given its own code.",
+       "D girdi olarak bir P programı alır ve H'ye, P'ye kendi kodu verildiğinde ne yapacağını sorar."
+      ],
+      [
+       "Then D does the **opposite**.",
+       "Sonra D bunun **tersini** yapar."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "D(P): if H(P, P) = 1, loop forever, and if H(P, P) = 0, halt"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Now feed D its own code and ask: does D(D) halt?",
+       "Şimdi D'ye kendi kodunu verip soralım: D(D) durur mu?"
+      ],
+      [
+       "If D(D) halts, then H(D, D) = 1, so by its own rule D loops forever.",
+       "D(D) durursa H(D, D) = 1 olur, yani D kendi kuralı gereği sonsuza dek döner."
+      ],
+      [
+       "If D(D) runs forever, then H(D, D) = 0, so D halts.",
+       "D(D) sonsuza dek çalışırsa H(D, D) = 0 olur, yani D durur."
+      ],
+      [
+       "Both answers lead to a **contradiction**, so the program H cannot exist.",
+       "İki cevap da bir **çelişkiye** götürüyor, bu yüzden H programı var olamaz."
+      ],
+      [
+       "The halting problem is **undecidable**.",
+       "Durma problemi **karar verilemezdir**."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Turing then showed that a method for the Entscheidungsproblem would also solve a problem of this kind.",
+       "Turing ardından Entscheidungsproblem için bir yöntemin bu türden bir problemi de çözeceğini gösterdi."
+      ],
+      [
+       "So Hilbert's dream was impossible.",
+       "Demek ki Hilbert'in hayali imkânsızdı."
+      ],
+      [
+       "At almost the same time, the American logician **Alonzo Church** reached the same answer with a different method.",
+       "Neredeyse aynı zamanda Amerikalı mantıkçı **Alonzo Church** aynı cevaba farklı bir yöntemle ulaştı."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Graduate corner",
+      "Yüksek lisans köşesi"
+     ],
+     "s": [
+      [
+       "The trick in the proof is Cantor's **diagonal argument**, the same idea that shows the real numbers are uncountable.",
+       "İspattaki hile, Cantor'un **köşegen yöntemi**, yani reel sayıların sayılamaz olduğunu gösteren fikrin ta kendisi."
+      ],
+      [
+       "Turing also noted that there are only countably many machines, so almost every real number is **not computable**.",
+       "Turing ayrıca yalnızca sayılabilir çoklukta makine olduğunu, dolayısıyla reel sayıların neredeyse hepsinin **hesaplanamaz** olduğunu fark etti."
+      ],
+      [
+       "Comparing this proof with Gödel's incompleteness theorem from 1931 is an excellent topic for a seminar.",
+       "Bu ispatı Gödel'in 1931 tarihli eksiklik teoremiyle karşılaştırmak bir seminer için harika bir konu."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The paper turns 90 this year.",
+       "Makale bu yıl 90 yaşında."
+      ],
+      [
+       "To celebrate it, the London Mathematical Society, which published it, and The National Museum of Computing are planning a conference at Bletchley Park in September 2026.",
+       "Bunu kutlamak için makaleyi yayımlayan London Mathematical Society ile Ulusal Bilgisayar Müzesi, Eylül 2026'da Bletchley Park'ta bir konferans planlıyor."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "Turing machine",
+       "Turing makinesi"
+      ],
+      [
+       "universal machine",
+       "evrensel makine"
+      ],
+      [
+       "to halt",
+       "durmak, sonlanmak"
+      ],
+      [
+       "undecidable",
+       "karar verilemez"
+      ],
+      [
+       "diagonal argument",
+       "köşegen yöntemi"
+      ],
+      [
+       "computable number",
+       "hesaplanabilir sayı"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bilim",
+   "ikon": "science",
+   "renk": "#0E7490",
+   "baslik": "Science Corner: Secrets Hidden in Numbers",
+   "baslik_tr": "Bilim Köşesi: Sayılarda Saklı Sırlar",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "**Cryptography** is the science of hiding messages so that only the right person can read them.",
+       "**Kriptografi**, mesajları yalnızca doğru kişinin okuyabileceği şekilde saklama bilimidir."
+      ],
+      [
+       "Today it is a branch of computer science, but at its heart lies pure mathematics.",
+       "Bugün bilgisayar biliminin bir dalı, ama özünde saf matematik yatıyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Caesar and the clock",
+      "Sezar ve saat"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "One of the oldest **ciphers** is named after Julius Caesar.",
+       "En eski **şifrelerden** biri adını Jül Sezar'dan alıyor."
+      ],
+      [
+       "You shift every letter of the alphabet by the same number, for example by 3, so A becomes D and B becomes E.",
+       "Alfabedeki her harfi aynı sayı kadar kaydırırsın, örneğin 3, böylece A, D'ye ve B, E'ye dönüşür."
+      ],
+      [
+       "At the end of the alphabet you go back to the beginning, just like the hands of a clock.",
+       "Alfabenin sonunda, tıpkı saatin akrebi gibi başa dönersin."
+      ],
+      [
+       "Mathematicians call this **modular arithmetic**.",
+       "Matematikçiler buna **modüler aritmetik** diyor."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "encrypted letter = (letter + 3) mod 26"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The weakness of this cipher is easy to see: there are only 25 possible shifts.",
+       "Bu şifrenin zayıflığını görmek kolay: Yalnızca 25 olası kaydırma var."
+      ],
+      [
+       "In the 9th century, the Arab scholar **al-Kindi** found an even better attack, called **frequency analysis**.",
+       "9. yüzyılda Arap bilgin **el-Kindî** daha da iyi bir saldırı buldu: **frekans analizi**."
+      ],
+      [
+       "In every language some letters appear more often than others, so the most common symbol in a secret text probably hides the most common letter.",
+       "Her dilde bazı harfler diğerlerinden daha sık geçer, bu yüzden gizli bir metinde en sık görülen sembol muhtemelen en sık kullanılan harfi saklıyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Enigma and Bletchley Park",
+      "Enigma ve Bletchley Park"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "During the Second World War, the German army used a machine called **Enigma**.",
+       "İkinci Dünya Savaşı sırasında Alman ordusu **Enigma** adlı bir makine kullandı."
+      ],
+      [
+       "Its rotors changed the cipher after every single letter.",
+       "Makinenin rotorları her harften sonra şifreyi değiştiriyordu."
+      ],
+      [
+       "The army version had about 159 million million million possible settings, and the settings changed every day.",
+       "Ordu sürümünün yaklaşık 159 milyon milyon milyon olası ayarı vardı ve ayarlar her gün değişiyordu."
+      ],
+      [
+       "Polish mathematicians led by **Marian Rejewski** had broken early versions of Enigma and shared their methods with Britain and France in 1939.",
+       "**Marian Rejewski** liderliğindeki Polonyalı matematikçiler Enigma'nın ilk sürümlerini çözmüş ve yöntemlerini 1939'da İngiltere ve Fransa ile paylaşmıştı."
+      ],
+      [
+       "At Bletchley Park, Turing designed an electromechanical machine, the **Bombe**, that tested thousands of settings quickly and threw away the impossible ones.",
+       "Bletchley Park'ta Turing, binlerce ayarı hızla deneyip imkânsız olanları eleyen elektromekanik bir makine, **Bombe**'yi tasarladı."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Public keys: a lock that anyone can close",
+      "Açık anahtar: Herkesin kapatabildiği bir kilit"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "All old ciphers had one problem: the two sides had to share a secret key first.",
+       "Tüm eski şifrelerin bir sorunu vardı: İki tarafın önce gizli bir anahtarı paylaşması gerekiyordu."
+      ],
+      [
+       "In 1977, Rivest, Shamir and Adleman published a method now called **RSA**.",
+       "1977'de Rivest, Shamir ve Adleman bugün **RSA** denen bir yöntem yayımladı."
+      ],
+      [
+       "It is based on a simple fact: multiplying two large primes is easy, but finding them again from their product is extremely hard.",
+       "Basit bir gerçeğe dayanıyor: İki büyük asal sayıyı çarpmak kolay, ama çarpımdan geri bu asalları bulmak son derece zor."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "A tiny RSA example",
+      "Minik bir RSA örneği"
+     ],
+     "s": [
+      [
+       "Take the primes 3 and 11, so n = 33.",
+       "3 ve 11 asallarını alalım, yani n = 33."
+      ],
+      [
+       "The public key is e = 3 and the secret key is d = 7, because 3 · 7 = 21 leaves a remainder of 1 when divided by (3 − 1)(11 − 1) = 20.",
+       "Açık anahtar e = 3, gizli anahtar d = 7, çünkü 3 · 7 = 21 sayısı (3 − 1)(11 − 1) = 20'ye bölündüğünde 1 kalanını verir."
+      ],
+      [
+       "To send the message 4, compute 4³ = 64, and 64 mod 33 = 31.",
+       "4 mesajını göndermek için 4³ = 64 hesaplanır ve 64 mod 33 = 31 olur."
+      ],
+      [
+       "To read it, compute 31⁷ mod 33, which gives 4 again.",
+       "Okumak için 31⁷ mod 33 hesaplanır ve sonuç yine 4 çıkar."
+      ],
+      [
+       "Real RSA keys use primes with hundreds of digits, so nobody can find d from n and e.",
+       "Gerçek RSA anahtarları yüzlerce basamaklı asallar kullanır, bu yüzden kimse n ve e'den d'yi bulamaz."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Every time you see a small lock next to a web address, a method like this protects your data.",
+       "Bir web adresinin yanında küçük bir kilit gördüğünde, verilerini bunun gibi bir yöntem koruyor."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "cryptography",
+       "kriptografi, şifreleme bilimi"
+      ],
+      [
+       "cipher",
+       "şifre"
+      ],
+      [
+       "modular arithmetic",
+       "modüler aritmetik"
+      ],
+      [
+       "frequency analysis",
+       "frekans analizi"
+      ],
+      [
+       "public key",
+       "açık anahtar"
+      ],
+      [
+       "to encrypt / to decrypt",
+       "şifrelemek / şifre çözmek"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "matematikci",
+   "ikon": "person",
+   "renk": "#E67E22",
+   "baslik": "Mathematician of the Month: Alan Turing",
+   "baslik_tr": "Ayın Matematikçisi: Alan Turing",
+   "bloklar": [
+    {
+     "t": "portre",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Alan_Turing_Aged_16.jpg/500px-Alan_Turing_Aged_16.jpg",
+     "ad": "Alan Turing",
+     "yillar": "1912 – 1954",
+     "s": [
+      [
+       "English mathematician who defined what a computer is before computers existed.",
+       "Bilgisayarlar henüz yokken bilgisayarın ne olduğunu tanımlayan İngiliz matematikçi."
+      ]
+     ],
+     "kaynak": "Photograph, around 1928 · Public domain, Wikimedia Commons"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Turing is often called the father of computer science.",
+       "Turing'e sık sık bilgisayar biliminin babası denir."
+      ],
+      [
+       "But he was also a code breaker, a philosopher, a biologist and a marathon runner.",
+       "Ama o aynı zamanda bir şifre kırıcı, bir filozof, bir biyolog ve bir maraton koşucusuydu."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "His life",
+      "Hayatı"
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "He was born on 23 June 1912 in London.",
+       "23 Haziran 1912'de Londra'da doğdu."
+      ],
+      [
+       "At school, his teachers complained that he cared only about science and mathematics.",
+       "Okulda öğretmenleri onun yalnızca fen ve matematikle ilgilendiğinden yakınıyordu."
+      ],
+      [
+       "He studied mathematics at King's College, Cambridge, and wrote his famous paper on computable numbers when he was 23.",
+       "Cambridge'deki King's College'da matematik okudu ve hesaplanabilir sayılar üzerine ünlü makalesini 23 yaşında yazdı."
+      ],
+      [
+       "He then completed a PhD at Princeton under the supervision of **Alonzo Church**.",
+       "Ardından Princeton'da **Alonzo Church**'ün danışmanlığında doktorasını tamamladı."
+      ],
+      [
+       "During the war he worked in secret at Bletchley Park, where his work on Enigma helped the Allies read German naval messages.",
+       "Savaş sırasında Bletchley Park'ta gizlice çalıştı ve Enigma üzerine çalışmaları Müttefiklerin Alman deniz kuvvetlerinin mesajlarını okumasına yardım etti."
+      ],
+      [
+       "After the war he designed one of the first **stored-program** computers and later worked in Manchester.",
+       "Savaştan sonra **program saklayan** ilk bilgisayarlardan birini tasarladı, daha sonra Manchester'da çalıştı."
+      ],
+      [
+       "In 1952 he was convicted for his homosexuality, which was a crime in Britain at that time, and was forced to undergo hormone treatment.",
+       "1952'de, o dönem İngiltere'de suç sayılan eşcinselliği nedeniyle mahkûm edildi ve hormon tedavisine zorlandı."
+      ],
+      [
+       "He died on 7 June 1954, at the age of 41.",
+       "7 Haziran 1954'te, 41 yaşında hayatını kaybetti."
+      ],
+      [
+       "Decades later, the British government apologised, and in 2013 he received a royal **pardon**.",
+       "Onlarca yıl sonra İngiliz hükümeti özür diledi ve 2013'te kraliyet **affı** çıktı."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "His contributions",
+      "Katkıları"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "**Computability**: the Turing machine is still the standard definition of an algorithm.",
+       "**Hesaplanabilirlik**: Turing makinesi hâlâ algoritmanın standart tanımı."
+      ],
+      [
+       "When computer scientists say a problem is \"unsolvable\", they mean that no Turing machine can solve it.",
+       "Bilgisayar bilimciler bir problemin \"çözülemez\" olduğunu söylediğinde, hiçbir Turing makinesinin onu çözemeyeceğini kastediyorlar."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "**Artificial intelligence**: in 1950 he asked \"Can machines think?\" and proposed a test that he called the **imitation game**.",
+       "**Yapay zekâ**: 1950'de \"Makineler düşünebilir mi?\" diye sordu ve **taklit oyunu** adını verdiği bir test önerdi."
+      ],
+      [
+       "A judge chats in writing with a human and a machine, and if the judge cannot tell them apart, the machine passes.",
+       "Bir hakem bir insanla ve bir makineyle yazılı olarak sohbet eder, hakem ikisini ayırt edemezse makine testi geçer."
+      ],
+      [
+       "Today we call it the **Turing test**.",
+       "Bugün buna **Turing testi** diyoruz."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "**Mathematical biology**: in 1952 he asked how a leopard gets its spots.",
+       "**Matematiksel biyoloji**: 1952'de bir leoparın beneklerini nasıl edindiğini sordu."
+      ],
+      [
+       "He showed that two chemicals that **react** and **diffuse** at different speeds can create stripes and spots from an almost uniform start.",
+       "Farklı hızlarda **tepkimeye giren** ve **yayılan** iki kimyasalın, neredeyse düzgün bir başlangıçtan çizgiler ve benekler oluşturabileceğini gösterdi."
+      ],
+      [
+       "These are now called **Turing patterns**, and biologists still study them.",
+       "Bunlara bugün **Turing desenleri** deniyor ve biyologlar hâlâ onları inceliyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "A runner with a stopwatch",
+      "Kronometreli bir koşucu"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Turing loved long-distance running.",
+       "Turing uzun mesafe koşusunu çok severdi."
+      ],
+      [
+       "In 1947 he ran a marathon in 2 hours 46 minutes, only about 11 minutes slower than the winner of the 1948 Olympic marathon.",
+       "1947'de bir maratonu 2 saat 46 dakikada koştu, bu süre 1948 Olimpiyat maratonunun galibinden yalnızca 11 dakika kadar yavaştı."
+      ],
+      [
+       "He sometimes ran about 40 miles from Cambridge to London for meetings.",
+       "Bazen toplantılar için Cambridge'den Londra'ya yaklaşık 40 mil koşardı."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Since 1966, the most important prize in computer science has carried his name: the **Turing Award**.",
+       "1966'dan beri bilgisayar biliminin en önemli ödülü onun adını taşıyor: **Turing Ödülü**."
+      ],
+      [
+       "And since 2021, his face has appeared on the Bank of England's 50-pound note.",
+       "2021'den beri de yüzü İngiltere Merkez Bankası'nın 50 sterlinlik banknotunda yer alıyor."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "For the classroom",
+      "Sınıf için"
+     ],
+     "s": [
+      [
+       "Play the imitation game in class: two students answer questions in writing, and one of them must pretend to be a robot.",
+       "Sınıfta taklit oyununu oynayın: İki öğrenci soruları yazılı cevaplasın ve biri robot gibi davranmak zorunda olsun."
+      ],
+      [
+       "Can the class find the \"robot\"?",
+       "Sınıf \"robotu\" bulabilecek mi?"
+      ],
+      [
+       "Which questions worked best, and why?",
+       "Hangi sorular en iyi işe yaradı ve neden?"
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "computability",
+       "hesaplanabilirlik"
+      ],
+      [
+       "stored-program computer",
+       "program saklayan bilgisayar"
+      ],
+      [
+       "imitation game",
+       "taklit oyunu"
+      ],
+      [
+       "pardon",
+       "af"
+      ],
+      [
+       "to diffuse",
+       "yayılmak, difüzyon"
+      ],
+      [
+       "code breaker",
+       "şifre kırıcı"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "odul",
+   "ikon": "emoji_events",
+   "renk": "#D4A017",
+   "baslik": "Prize Corner",
+   "baslik_tr": "Ödüller Köşesi",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "Kavli Prize 2026: the magic of a small twist",
+      "Kavli Ödülü 2026: Küçük bir bükülmenin büyüsü"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The Kavli Prizes are given every two years in astrophysics, nanoscience and neuroscience.",
+       "Kavli Ödülleri iki yılda bir astrofizik, nanobilim ve sinirbilim alanlarında veriliyor."
+      ],
+      [
+       "The 2026 laureates were announced on 10 June, and each field shares one million US dollars.",
+       "2026 ödül sahipleri 10 Haziran'da açıklandı ve her alan bir milyon ABD dolarını paylaşıyor."
+      ],
+      [
+       "The nanoscience prize went to **Eva Andrei**, **Pablo Jarillo-Herrero** and **Allan MacDonald** for founding a new field called **twistronics**.",
+       "Nanobilim ödülü, **twistronics** adlı yeni bir alanı kurdukları için **Eva Andrei**, **Pablo Jarillo-Herrero** ve **Allan MacDonald**'a verildi."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The idea is surprisingly simple.",
+       "Fikir şaşırtıcı derecede basit."
+      ],
+      [
+       "Take two sheets of graphene, each only one atom thick, place one on top of the other and turn the top one by a tiny angle.",
+       "Her biri yalnızca bir atom kalınlığında iki grafen tabakası al, birini diğerinin üstüne koy ve üsttekini çok küçük bir açıyla döndür."
+      ],
+      [
+       "In 2011, MacDonald and his postdoc described how such a twist changes the behaviour of the electrons.",
+       "2011'de MacDonald ve doktora sonrası araştırmacısı böyle bir bükülmenin elektronların davranışını nasıl değiştirdiğini tarif etti."
+      ],
+      [
+       "In 2018, Jarillo-Herrero's group turned one layer by precisely 1.1° and found that the material could become a **superconductor**.",
+       "2018'de Jarillo-Herrero'nun grubu bir tabakayı tam 1,1° döndürdü ve malzemenin **süperiletken** hâle gelebildiğini buldu."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Where is the maths?",
+       "Matematiği nerede?"
+      ],
+      [
+       "When two identical grids are turned slightly, a much larger pattern appears, called a **moiré pattern**.",
+       "İki özdeş ızgara hafifçe döndürüldüğünde çok daha büyük bir desen ortaya çıkar, buna **moiré deseni** denir."
+      ],
+      [
+       "You can see it when you put two pieces of net curtain on top of each other.",
+       "İki tül perdeyi üst üste koyduğunda bunu görebilirsin."
+      ],
+      [
+       "Simple trigonometry gives the size of the new pattern:",
+       "Basit bir trigonometri yeni desenin boyutunu verir:"
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "L = a / (2 · sin(θ/2)) ≈ a / θ"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Here a is the distance between atoms, about 0.246 nanometres for graphene, and θ is the twist angle.",
+       "Burada a atomlar arası mesafe, grafen için yaklaşık 0,246 nanometre, θ ise bükülme açısı."
+      ],
+      [
+       "For θ = 1.1°, the pattern is about 13 nanometres wide, more than fifty times larger than the distance between atoms.",
+       "θ = 1,1° için desen yaklaşık 13 nanometre genişliğinde, yani atomlar arası mesafenin elli katından fazla."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Simon Norton Prize: a maths museum in wartime",
+      "Simon Norton Ödülü: Savaş zamanında bir matematik müzesi"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "On 11 June, the European Mathematical Society announced that its 2026 **Simon Norton Prize** for Mathematics Outreach goes to the Museum of Mathematics **CUBOID** in Ukraine.",
+       "11 Haziran'da Avrupa Matematik Derneği, matematiği topluma ulaştırma alanındaki 2026 **Simon Norton Ödülü**'nün Ukrayna'daki **CUBOID** Matematik Müzesi'ne verildiğini duyurdu."
+      ],
+      [
+       "The museum offers hands-on exhibits, puzzles and modelling activities, and it adapts its exhibits for classrooms.",
+       "Müze, dokunarak deneyimlenen sergiler, bulmacalar ve modelleme etkinlikleri sunuyor ve sergilerini sınıflara uyarlıyor."
+      ],
+      [
+       "In its first year it welcomed more than 43,000 visitors and about 550 school groups, despite the war.",
+       "İlk yılında, savaşa rağmen 43.000'den fazla ziyaretçi ve yaklaşık 550 okul grubu ağırladı."
+      ],
+      [
+       "More than 4,000 teachers took part in its professional development programmes.",
+       "4.000'den fazla öğretmen müzenin mesleki gelişim programlarına katıldı."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Also in June: the Kyoto Prize",
+      "Haziranda ayrıca: Kyoto Ödülü"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The 2026 Kyoto Prize laureates were announced on 19 June.",
+       "2026 Kyoto Ödülü sahipleri 19 Haziran'da açıklandı."
+      ],
+      [
+       "In basic sciences the prize went to the marine microbiologist **Farooq Azam**, who showed how bacteria recycle carbon in the ocean.",
+       "Temel bilimler ödülü, bakterilerin okyanusta karbonu nasıl geri dönüştürdüğünü gösteren deniz mikrobiyoloğu **Farooq Azam**'a verildi."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "High school link",
+      "Lise bağlantısı"
+     ],
+     "s": [
+      [
+       "Ask students to check the formula with a calculator: for θ = 1.1°, compute 0.246 / (2 · sin 0.55°).",
+       "Öğrencilerden formülü hesap makinesiyle kontrol etmelerini isteyin: θ = 1,1° için 0,246 / (2 · sin 0,55°) hesaplansın."
+      ],
+      [
+       "Then compare it with 0.246 / θ, where θ is written in radians.",
+       "Sonra θ radyan cinsinden yazılarak 0,246 / θ ile karşılaştırılsın."
+      ],
+      [
+       "This is a real-life use of the small-angle approximation sin x ≈ x.",
+       "Bu, küçük açı yaklaşımı sin x ≈ x'in gerçek hayattaki bir kullanımı."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "twist angle",
+       "bükülme açısı"
+      ],
+      [
+       "superconductor",
+       "süperiletken"
+      ],
+      [
+       "moiré pattern",
+       "moiré deseni"
+      ],
+      [
+       "outreach",
+       "bilimi topluma ulaştırma"
+      ],
+      [
+       "small-angle approximation",
+       "küçük açı yaklaşımı"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dusun",
+   "ikon": "psychology",
+   "renk": "#16A085",
+   "baslik": "Think Like a Mathematician: Assume the Opposite",
+   "baslik_tr": "Matematikçi Gibi Düşünmek: Tersini Varsay",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "Turing's proof in our paper of the month used one of the oldest tricks in mathematics.",
+       "Ayın makalesindeki Turing ispatı, matematiğin en eski hilelerinden birini kullandı."
+      ],
+      [
+       "To show that something is true, you **assume** that it is false and follow the consequences.",
+       "Bir şeyin doğru olduğunu göstermek için onun yanlış olduğunu **varsayar** ve sonuçlarını takip edersin."
+      ],
+      [
+       "If you reach something impossible, your assumption must have been wrong.",
+       "İmkânsız bir şeye ulaşırsan, varsayımın yanlış olmalı."
+      ],
+      [
+       "This is called **proof by contradiction**.",
+       "Buna **olmayana ergi yöntemi** denir."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "The problem: is √2 a fraction?",
+      "Problem: √2 bir kesir mi?"
+     ],
+     "s": [
+      [
+       "Prove that √2 cannot be written as a fraction p/q of two whole numbers.",
+       "√2'nin iki tam sayının p/q biçimindeki bir kesri olarak yazılamayacağını kanıtla."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Trying fractions one by one will never finish, because there are infinitely many of them.",
+       "Kesirleri tek tek denemek asla bitmez, çünkü sonsuz sayıda kesir var."
+      ],
+      [
+       "So we assume the opposite.",
+       "O yüzden tersini varsayıyoruz."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The solution",
+      "Çözüm"
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "Suppose that √2 = p/q, where the fraction is in **lowest terms**, so p and q have no common factor.",
+       "√2 = p/q olsun ve kesir **en sade hâlinde** olsun, yani p ile q'nun ortak çarpanı olmasın."
+      ],
+      [
+       "Squaring both sides gives p² = 2q², so p² is even.",
+       "İki tarafın karesi alınınca p² = 2q² olur, yani p² çifttir."
+      ],
+      [
+       "If p² is even, p is even too, so we can write p = 2k.",
+       "p² çiftse p de çifttir, yani p = 2k yazabiliriz."
+      ],
+      [
+       "Then 4k² = 2q², so q² = 2k², which means q is even as well.",
+       "O zaman 4k² = 2q², yani q² = 2k² olur, bu da q'nun da çift olduğu anlamına gelir."
+      ],
+      [
+       "But then p and q share the factor 2, which contradicts our assumption.",
+       "Ama bu durumda p ve q'nun 2 ortak çarpanı olur ve bu varsayımımızla çelişir."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "So √2 is **irrational**.",
+       "Demek ki √2 **irrasyoneldir**."
+      ],
+      [
+       "The legend says that the Pythagoreans were so upset by this discovery that they tried to keep it secret.",
+       "Efsaneye göre Pisagorcular bu keşfe o kadar üzüldü ki onu gizli tutmaya çalıştı."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "The lesson",
+      "Ders"
+     ],
+     "s": [
+      [
+       "Proof by contradiction is strongest when you want to show that something does **not** exist.",
+       "Olmayana ergi, bir şeyin var **olmadığını** göstermek istediğinde en güçlü hâlindedir."
+      ],
+      [
+       "A fraction equal to √2, a largest prime, a program that solves the halting problem: none of them exist, and each proof starts with \"suppose it does\".",
+       "√2'ye eşit bir kesir, en büyük asal sayı, durma problemini çözen bir program: Hiçbiri yok ve her ispat \"var olduğunu varsayalım\" diye başlıyor."
+      ],
+      [
+       "Always write your assumption clearly at the start, so the reader knows what you are going to destroy.",
+       "Varsayımını her zaman başta açıkça yaz ki okuyucu neyi yıkacağını bilsin."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "Your turn",
+      "Senin sıran"
+     ],
+     "s": [
+      [
+       "Prove that log₂ 3 is irrational.",
+       "log₂ 3'ün irrasyonel olduğunu kanıtla."
+      ],
+      [
+       "Hint: if log₂ 3 = p/q, what can you say about 2ᵖ and 3^q?",
+       "İpucu: log₂ 3 = p/q ise 2ᵖ ve 3^q hakkında ne söyleyebilirsin?"
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "Answer",
+      "Cevap"
+     ],
+     "s": [
+      [
+       "Assume that log₂ 3 = p/q with positive whole numbers p and q.",
+       "p ve q pozitif tam sayılar olmak üzere log₂ 3 = p/q olduğunu varsayalım."
+      ],
+      [
+       "Then 2^(p/q) = 3, so 2ᵖ = 3^q.",
+       "O zaman 2^(p/q) = 3, yani 2ᵖ = 3^q olur."
+      ],
+      [
+       "The left side is even and the right side is odd, which is a contradiction.",
+       "Sol taraf çift, sağ taraf tek ve bu bir çelişki."
+      ],
+      [
+       "So log₂ 3 is irrational.",
+       "Demek ki log₂ 3 irrasyoneldir."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "proof by contradiction",
+       "olmayana ergi yöntemi"
+      ],
+      [
+       "assumption",
+       "varsayım"
+      ],
+      [
+       "irrational",
+       "irrasyonel"
+      ],
+      [
+       "lowest terms",
+       "en sade hâl"
+      ],
+      [
+       "common factor",
+       "ortak çarpan"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eglence",
+   "ikon": "lightbulb",
+   "renk": "#E84393",
+   "baslik": "Fun Facts: June, Six and Turing",
+   "baslik_tr": "Eğlenceli Bilgiler: Haziran, Altı ve Turing",
+   "bloklar": [
+    {
+     "t": "liste",
+     "s": [
+      [
+       "**June is month number 6**, and 6 is a rare number: 1 + 2 + 3 = 1 · 2 · 3 = 6.",
+       "**Haziran 6. ay** ve 6 nadir bir sayı: 1 + 2 + 3 = 1 · 2 · 3 = 6."
+      ],
+      [
+       "It is the only way to choose three positive whole numbers whose sum and product are equal.",
+       "Toplamı ve çarpımı eşit olan üç pozitif tam sayı seçmenin tek yolu bu."
+      ],
+      [
+       "**Bees know geometry**: a honeycomb is made of **hexagons**, and in 1999 Thomas Hales proved that hexagons divide a plane into equal areas with the shortest total wall length.",
+       "**Arılar geometri biliyor**: Bal peteği **altıgenlerden** oluşur ve 1999'da Thomas Hales, altıgenlerin bir düzlemi eşit alanlara en kısa toplam duvar uzunluğuyla böldüğünü kanıtladı."
+      ],
+      [
+       "**Six-fold snow**: snow crystals usually have six arms, because water molecules freeze in a hexagonal pattern.",
+       "**Altı kollu kar**: Kar kristallerinin genellikle altı kolu vardır, çünkü su molekülleri altıgen bir düzende donar."
+      ],
+      [
+       "**6! = 720**, which is exactly the number of minutes in 12 hours.",
+       "**6! = 720**, bu tam olarak 12 saatteki dakika sayısı."
+      ],
+      [
+       "**June has 30 days**, and 30 = 2 · 3 · 5 is the product of the first three primes.",
+       "**Haziran 30 gün çeker** ve 30 = 2 · 3 · 5, ilk üç asalın çarpımı."
+      ],
+      [
+       "**A birthday on a banknote**: the Bank of England issued the Turing 50-pound note on 23 June 2021, his birthday.",
+       "**Banknotta bir doğum günü**: İngiltere Merkez Bankası Turing'li 50 sterlinlik banknotu, onun doğum günü olan 23 Haziran 2021'de tedavüle çıkardı."
+      ],
+      [
+       "The note shows a table from the 1936 paper and his **binary** birthday, 23 June 1912, written in ones and zeros.",
+       "Banknotta 1936 makalesinden bir tablo ve onun doğum günü olan 23 Haziran 1912'nin birler ve sıfırlarla yazılmış **ikilik** hâli var."
+      ],
+      [
+       "**Turing chess**: around 1948, before there was a computer that could run it, Turing wrote a chess program, and later he ran it by hand with pencil and paper.",
+       "**Turing satrancı**: 1948 civarında, onu çalıştırabilecek bir bilgisayar henüz yokken Turing bir satranç programı yazdı ve daha sonra onu kalem kâğıtla elle çalıştırdı."
+      ],
+      [
+       "Each move took him about half an hour to calculate.",
+       "Her hamleyi hesaplamak ona yaklaşık yarım saat sürüyordu."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "hexagon",
+       "altıgen"
+      ],
+      [
+       "factorial",
+       "faktöriyel"
+      ],
+      [
+       "binary",
+       "ikilik (sayı sistemi)"
+      ],
+      [
+       "honeycomb",
+       "bal peteği"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sinif",
+   "ikon": "school",
+   "renk": "#27AE60",
+   "baslik": "In the Classroom",
+   "baslik_tr": "Sınıfta Matematik",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "Grades 6–8: Spies in the classroom",
+      "6-8. sınıflar: Sınıftaki casuslar"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Goal: practising remainders and division in a playful way, and meeting the idea of frequency.",
+       "Hedef: Kalan ve bölmeyi oyunla pekiştirmek ve sıklık kavramıyla tanışmak."
+      ]
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "Write the 29 letters of the Turkish alphabet around a circle and number them from 0 to 28.",
+       "Türk alfabesinin 29 harfini bir çemberin etrafına yazın ve 0'dan 28'e kadar numaralandırın."
+      ],
+      [
+       "Each pair of students chooses a secret shift between 1 and 28 and encrypts a short sentence.",
+       "Her öğrenci çifti 1 ile 28 arasında gizli bir kaydırma sayısı seçsin ve kısa bir cümleyi şifrelesin."
+      ],
+      [
+       "Show that going past Z means starting again from A, and connect this with the remainder of a division by 29.",
+       "Z'yi geçmenin A'dan yeniden başlamak anlamına geldiğini gösterin ve bunu 29'a bölümden kalanla ilişkilendirin."
+      ],
+      [
+       "Pairs swap their secret messages and try to break them without the key.",
+       "Çiftler gizli mesajlarını değiş tokuş etsin ve anahtar olmadan çözmeye çalışsın."
+      ],
+      [
+       "Give a hint: count which symbol appears most often, because in Turkish texts the letters A and E are very common.",
+       "Bir ipucu verin: En sık görülen sembolü saysınlar, çünkü Türkçe metinlerde A ve E harfleri çok sık geçer."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "Discussion",
+      "Tartışma"
+     ],
+     "s": [
+      [
+       "Why was it easier to break long messages than short ones?",
+       "Uzun mesajları kırmak kısa mesajlardan neden daha kolaydı?"
+      ],
+      [
+       "How many different keys are there, and how long would it take to try them all?",
+       "Kaç farklı anahtar var ve hepsini denemek ne kadar sürer?"
+      ],
+      [
+       "This activity links divisibility, data and probability in one game.",
+       "Bu etkinlik bölünebilme, veri ve olasılığı tek bir oyunda birleştiriyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "High school: Run a Turing machine on paper",
+      "Lise: Kâğıt üzerinde bir Turing makinesi çalıştır"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "You need a long strip of paper divided into squares and a paper clip to mark the head.",
+       "Karelere bölünmüş uzun bir kâğıt şerit ve okuma kafasını göstermek için bir ataç yeterli."
+      ],
+      [
+       "Write a **binary** number such as 1011 on the strip, with blank squares on both sides.",
+       "Şeride 1011 gibi bir **ikilik** sayı yazın, iki yanında boş kareler olsun."
+      ],
+      [
+       "The machine below adds 1 to the number.",
+       "Aşağıdaki makine sayıya 1 ekliyor."
+      ]
+     ]
+    },
+    {
+     "t": "tablo",
+     "basliklar": [
+      "State",
+      "Read",
+      "Write",
+      "Move",
+      "Next state"
+     ],
+     "satirlar": [
+      [
+       "RIGHT",
+       "0 or 1",
+       "same",
+       "right",
+       "RIGHT"
+      ],
+      [
+       "RIGHT",
+       "blank",
+       "blank",
+       "left",
+       "CARRY"
+      ],
+      [
+       "CARRY",
+       "1",
+       "0",
+       "left",
+       "CARRY"
+      ],
+      [
+       "CARRY",
+       "0 or blank",
+       "1",
+       "stay",
+       "HALT"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Start in state RIGHT on the leftmost digit and follow the table step by step.",
+       "En soldaki basamakta RIGHT durumunda başlayın ve tabloyu adım adım takip edin."
+      ],
+      [
+       "One student is the head, one reads the table and one checks the result in decimal.",
+       "Bir öğrenci okuma kafası olsun, biri tabloyu okusun, biri de sonucu onluk tabanda kontrol etsin."
+      ],
+      [
+       "For 1011, which is 11 in decimal, the machine should stop with 1100, which is 12.",
+       "Onluk tabanda 11 olan 1011 için makine 1100, yani 12 ile durmalı."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "Discussion questions",
+      "Tartışma soruları"
+     ],
+     "s": [
+      [
+       "What happens if the strip starts with 111?",
+       "Şerit 111 ile başlarsa ne olur?"
+      ],
+      [
+       "How many steps does the machine need for a number with n digits, in the worst case?",
+       "En kötü durumda n basamaklı bir sayı için makinenin kaç adıma ihtiyacı var?"
+      ],
+      [
+       "Can you design a machine that adds 2 instead of 1?",
+       "1 yerine 2 ekleyen bir makine tasarlayabilir misiniz?"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "This activity brings number bases, algorithms and careful step-by-step reasoning together, which is the core of computational thinking.",
+       "Bu etkinlik sayı tabanlarını, algoritmaları ve dikkatli adım adım akıl yürütmeyi bir araya getiriyor, bu da bilgi işlemsel düşünmenin özü."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "shift",
+       "kaydırma"
+      ],
+      [
+       "to break a code",
+       "şifre kırmak"
+      ],
+      [
+       "binary number",
+       "ikilik sayı"
+      ],
+      [
+       "state",
+       "durum"
+      ],
+      [
+       "computational thinking",
+       "bilgi işlemsel düşünme"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gundem",
+   "ikon": "campaign",
+   "renk": "#C0392B",
+   "baslik": "Education in Türkiye",
+   "baslik_tr": "Eğitim Gündemi",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "LGS: more than a million students",
+      "LGS: Bir milyondan fazla öğrenci"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "LGS was held on Saturday, 13 June 2026.",
+       "LGS 13 Haziran 2026 Cumartesi günü yapıldı."
+      ],
+      [
+       "More than one million students applied for the exam.",
+       "Sınava bir milyondan fazla öğrenci başvurdu."
+      ],
+      [
+       "As in previous years, there were 90 questions in two sessions, with 40 questions in the numerical session.",
+       "Önceki yıllarda olduğu gibi iki oturumda 90 soru vardı ve sayısal oturumda 40 soru yer aldı."
+      ],
+      [
+       "The ministry published the question booklets and answer keys on the same day, and the results are expected in July.",
+       "Bakanlık soru kitapçıklarını ve cevap anahtarlarını aynı gün yayımladı, sonuçların ise temmuzda açıklanması bekleniyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "YKS: millions at the desk",
+      "YKS: Masada milyonlar"
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "TYT was on Saturday, 20 June, with about 2.42 million candidates.",
+       "TYT 20 Haziran Cumartesi günü yaklaşık 2,42 milyon adayla yapıldı."
+      ],
+      [
+       "AYT was on Sunday, 21 June, with about 1.62 million candidates.",
+       "AYT 21 Haziran Pazar günü yaklaşık 1,62 milyon adayla yapıldı."
+      ],
+      [
+       "YDT took place on the same afternoon, with 203,639 candidates.",
+       "YDT aynı gün öğleden sonra 203.639 adayla yapıldı."
+      ],
+      [
+       "921,248 candidates applied for YKS for the first time.",
+       "921.248 aday YKS'ye ilk kez başvurdu."
+      ],
+      [
+       "According to the ÖSYM calendar, the results will be announced on 22 July 2026.",
+       "ÖSYM takvimine göre sonuçlar 22 Temmuz 2026'da açıklanacak."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The school year is over",
+      "Okul yılı bitti"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The 2025–2026 school year officially ended on Friday, 26 June, with report card day.",
+       "2025-2026 eğitim öğretim yılı 26 Haziran Cuma günü karne günüyle resmen sona erdi."
+      ],
+      [
+       "For grade 8 and grade 12 students, the long wait for results and **preferences** now begins.",
+       "8. ve 12. sınıf öğrencileri için şimdi sonuçların ve **tercihlerin** uzun bekleyişi başlıyor."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "For teachers",
+      "Öğretmenlere"
+     ],
+     "s": [
+      [
+       "Before the summer, ask each class to write down the topic they found most difficult this year.",
+       "Yaz öncesinde her sınıftan bu yıl en zor buldukları konuyu yazmalarını isteyin."
+      ],
+      [
+       "These notes are a valuable **needs analysis** when you plan the first weeks of September.",
+       "Bu notlar, eylülün ilk haftalarını planlarken değerli bir **ihtiyaç analizi** olur."
+      ],
+      [
+       "And do not forget to rest, because a tired teacher cannot inspire anyone.",
+       "Ve dinlenmeyi unutmayın, çünkü yorgun bir öğretmen kimseye ilham veremez."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "candidate",
+       "aday"
+      ],
+      [
+       "answer key",
+       "cevap anahtarı"
+      ],
+      [
+       "preference (university choice)",
+       "tercih"
+      ],
+      [
+       "report card",
+       "karne"
+      ],
+      [
+       "needs analysis",
+       "ihtiyaç analizi"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "oku",
+   "ikon": "menu_book",
+   "renk": "#34495E",
+   "baslik": "Read Like a Mathematician",
+   "baslik_tr": "Matematikçi Gibi Oku",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "Texts about algorithms and computation have their own small vocabulary.",
+       "Algoritmalar ve hesaplama üzerine yazılan metinlerin kendine özgü küçük bir sözlüğü var."
+      ],
+      [
+       "Here are the phrases you will meet most often.",
+       "İşte en sık karşılaşacağın kalıplar."
+      ]
+     ]
+    },
+    {
+     "t": "tablo",
+     "basliklar": [
+      "English",
+      "Türkçe",
+      "Note"
+     ],
+     "satirlar": [
+      [
+       "on input x",
+       "x girdisi verildiğinde",
+       "On input x, the machine halts."
+      ],
+      [
+       "to halt / to loop forever",
+       "durmak / sonsuza dek dönmek",
+       "the two possible fates of a program"
+      ],
+      [
+       "is said to be",
+       "… olarak adlandırılır",
+       "A number is said to be computable if …"
+      ],
+      [
+       "we claim that",
+       "iddia ediyoruz ki",
+       "announces what will be proved next"
+      ],
+      [
+       "by construction",
+       "kuruluşu gereği",
+       "true because of how we built the object"
+      ],
+      [
+       "it follows that",
+       "buradan … çıkar",
+       "states a consequence"
+      ],
+      [
+       "without loss of generality",
+       "genelliği bozmadan",
+       "often written as WLOG"
+      ],
+      [
+       "if and only if",
+       "ancak ve ancak",
+       "both directions are true"
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "Mini reading: the imitation game",
+      "Mini okuma: Taklit oyunu"
+     ],
+     "s": [
+      [
+       "Turing's 1950 paper begins with a famous sentence: \"I propose to consider the question, 'Can machines think?'\"",
+       "Turing'in 1950 tarihli makalesi ünlü bir cümleyle başlar: \"'Makineler düşünebilir mi?' sorusunu ele almayı öneriyorum.\""
+      ],
+      [
+       "He then explains that the words \"machine\" and \"think\" are too vague to define.",
+       "Ardından \"makine\" ve \"düşünmek\" kelimelerinin tanımlanamayacak kadar belirsiz olduğunu açıklar."
+      ],
+      [
+       "Instead, he replaces the question with a game that can be tested.",
+       "Bunun yerine soruyu test edilebilen bir oyunla değiştirir."
+      ],
+      [
+       "An interrogator asks written questions, and it follows that the answers are judged only by their content, not by a voice or a face.",
+       "Bir sorgulayıcı yazılı sorular sorar ve buradan cevapların ses ya da yüzle değil, yalnızca içerikleriyle değerlendirildiği sonucu çıkar."
+      ],
+      [
+       "A machine is said to pass the test if the interrogator cannot reliably tell it apart from a human.",
+       "Sorgulayıcı makineyi bir insandan güvenilir biçimde ayırt edemezse makinenin testi geçtiği söylenir."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "A small note",
+      "Küçük not"
+     ],
+     "s": [
+      [
+       "Notice Turing's strategy: when a question is too vague, he turns it into a precise one.",
+       "Turing'in stratejisine dikkat et: Bir soru çok belirsiz olduğunda onu kesin bir soruya dönüştürüyor."
+      ],
+      [
+       "He did the same in 1936, when he replaced \"mechanical method\" with \"Turing machine\".",
+       "Aynısını 1936'da da yaptı ve \"mekanik yöntem\" yerine \"Turing makinesi\" koydu."
+      ],
+      [
+       "Good mathematics often begins with a good definition.",
+       "İyi matematik çoğu zaman iyi bir tanımla başlar."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "input / output",
+       "girdi / çıktı"
+      ],
+      [
+       "by construction",
+       "kuruluşu gereği"
+      ],
+      [
+       "it follows that",
+       "buradan … çıkar"
+      ],
+      [
+       "without loss of generality",
+       "genelliği bozmadan"
+      ],
+      [
+       "interrogator",
+       "sorgulayıcı"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "soru": "What did the halting problem show?",
+   "soru_tr": "Durma problemi neyi gösterdi?",
+   "secenekler": [
+    "Every program eventually stops",
+    "No program can decide for every program and input whether it halts",
+    "Computers are faster than humans",
+    "Every problem has an algorithm"
+   ],
+   "dogru": 1,
+   "aciklama": "Turing showed with a diagonal argument that such a program H would lead to a contradiction.",
+   "aciklama_tr": "Turing köşegen yöntemiyle böyle bir H programının çelişkiye yol açacağını gösterdi."
+  },
+  {
+   "soru": "In the 2026 First Proof experiment, how many of the ten problems received at least one essentially correct AI solution?",
+   "soru_tr": "2026 First Proof deneyinde on problemin kaçı en az bir esasen doğru yapay zekâ çözümü aldı?",
+   "secenekler": [
+    "Three",
+    "Five",
+    "Seven",
+    "Ten"
+   ],
+   "dogru": 2,
+   "aciklama": "Seven problems received at least one passing solution, and one problem saw no real progress.",
+   "aciklama_tr": "Yedi problem en az bir geçer çözüm aldı, bir problemde ise gerçek bir ilerleme olmadı."
+  },
+  {
+   "soru": "What is the main idea of a Caesar cipher?",
+   "soru_tr": "Sezar şifresinin temel fikri nedir?",
+   "secenekler": [
+    "Multiplying two large primes",
+    "Shifting every letter by the same number",
+    "Writing words backwards",
+    "Using a different rotor for each letter"
+   ],
+   "dogru": 1,
+   "aciklama": "Each letter is shifted by a fixed number, and the alphabet wraps around like a clock.",
+   "aciklama_tr": "Her harf sabit bir sayı kadar kaydırılır ve alfabe bir saat gibi başa döner."
+  },
+  {
+   "soru": "What did Turing call the test that we now call the Turing test?",
+   "soru_tr": "Turing, bugün Turing testi dediğimiz teste ne ad verdi?",
+   "secenekler": [
+    "The thinking game",
+    "The imitation game",
+    "The halting test",
+    "The Enigma test"
+   ],
+   "dogru": 1,
+   "aciklama": "In his 1950 paper he described it as the imitation game.",
+   "aciklama_tr": "1950 tarihli makalesinde onu taklit oyunu olarak tanımladı."
+  },
+  {
+   "soru": "Which field did the 2026 Kavli Prize in Nanoscience reward?",
+   "soru_tr": "2026 Kavli Nanobilim Ödülü hangi alanı ödüllendirdi?",
+   "secenekler": [
+    "Twistronics",
+    "Cryptography",
+    "Black holes",
+    "Gene editing"
+   ],
+   "dogru": 0,
+   "aciklama": "Andrei, Jarillo-Herrero and MacDonald founded twistronics, the study of twisted layers of materials such as graphene.",
+   "aciklama_tr": "Andrei, Jarillo-Herrero ve MacDonald, grafen gibi malzemelerin bükülmüş katmanlarını inceleyen twistronics alanını kurdu."
+  },
+  {
+   "soru": "In a proof by contradiction, what do you assume at the start?",
+   "soru_tr": "Olmayana ergi yönteminde başta neyi varsayarsın?",
+   "secenekler": [
+    "That the statement is true",
+    "That the statement is false",
+    "Nothing at all",
+    "That the answer is zero"
+   ],
+   "dogru": 1,
+   "aciklama": "You assume the opposite of what you want to prove and look for an impossible consequence.",
+   "aciklama_tr": "Kanıtlamak istediğin şeyin tersini varsayar ve imkânsız bir sonuç ararsın."
+  }
+ ],
+ "bulmacalar": [
+  {
+   "tip": "anagram",
+   "karisik": "RIPHEC",
+   "cevap": "CIPHER",
+   "ipucu": "A method for hiding the meaning of a message.",
+   "ipucu_tr": "Bir mesajın anlamını gizleme yöntemi."
+  },
+  {
+   "tip": "anagram",
+   "karisik": "YNIBAR",
+   "cevap": "BINARY",
+   "ipucu": "A number system that uses only 0 and 1.",
+   "ipucu_tr": "Yalnızca 0 ve 1 kullanan sayı sistemi."
+  },
+  {
+   "tip": "anagram",
+   "karisik": "ECHMANI",
+   "cevap": "MACHINE",
+   "ipucu": "Turing imagined one made only of a tape, a head and a table of rules.",
+   "ipucu_tr": "Turing yalnızca bir şerit, bir okuma kafası ve bir kurallar tablosundan oluşan bir tanesini hayal etti."
+  },
+  {
+   "tip": "anagram",
+   "karisik": "MOLGAIRTH",
+   "cevap": "ALGORITHM",
+   "ipucu": "A finite list of steps that solves a problem.",
+   "ipucu_tr": "Bir problemi çözen sonlu adımlar listesi."
+  },
+  {
+   "tip": "eslestir",
+   "baslik": "Match the terms",
+   "baslik_tr": "Terimleri eşleştir",
+   "ciftler": [
+    [
+     "cipher",
+     "şifre"
+    ],
+    [
+     "halting problem",
+     "durma problemi"
+    ],
+    [
+     "proof by contradiction",
+     "olmayana ergi"
+    ],
+    [
+     "public key",
+     "açık anahtar"
+    ],
+    [
+     "undecidable",
+     "karar verilemez"
+    ]
+   ]
+  },
+  {
+   "tip": "mantik",
+   "baslik": "Turing's first birthday",
+   "baslik_tr": "Turing'in ilk doğum günü",
+   "soru": "Alan Turing was born on Sunday, 23 June 1912. On which day of the week was his first birthday, 23 June 1913? Why?",
+   "soru_tr": "Alan Turing 23 Haziran 1912 Pazar günü doğdu. İlk doğum günü olan 23 Haziran 1913 haftanın hangi gününe denk geldi? Neden?",
+   "cevap": "Monday. From 23 June 1912 to 23 June 1913 there are 365 days, because 29 February 1912 had already passed and 1913 was not a leap year. Since 365 = 52 × 7 + 1, the weekday moves forward by one day: Sunday + 1 = Monday.",
+   "cevap_tr": "Pazartesi. 23 Haziran 1912 ile 23 Haziran 1913 arasında 365 gün var, çünkü 29 Şubat 1912 çoktan geçmişti ve 1913 artık yıl değildi. 365 = 52 × 7 + 1 olduğu için haftanın günü bir gün ileri kayar: Pazar + 1 = Pazartesi."
+  },
+  {
+   "tip": "mantik",
+   "baslik": "Two robots",
+   "baslik_tr": "İki robot",
+   "soru": "On an island, every robot either always tells the truth or always lies. Robot A says: \"We are both liars.\" What are A and B?",
+   "soru_tr": "Bir adada her robot ya her zaman doğruyu söyler ya da her zaman yalan söyler. A robotu şöyle diyor: \"İkimiz de yalancıyız.\" A ve B nedir?",
+   "cevap": "If A told the truth, A would be a liar, which is impossible. So A is a liar and the sentence is false. That means they are not both liars, so B tells the truth. Notice that this is a small proof by contradiction.",
+   "cevap_tr": "A doğru söyleseydi A yalancı olurdu, bu imkânsız. Demek ki A yalancı ve cümle yanlış. Bu da ikisinin birden yalancı olmadığı anlamına gelir, yani B doğruyu söylüyor. Dikkat et, bu küçük bir olmayana ergi ispatı."
+  }
+ ],
+ "terimler": [
+  [
+   "second batch",
+   "ikinci tur, ikinci parti"
+  ],
+  [
+   "referee",
+   "hakem"
+  ],
+  [
+   "routine step",
+   "sıradan, rutin adım"
+  ],
+  [
+   "genuine capability",
+   "gerçek yetenek"
+  ],
+  [
+   "Fields medallist",
+   "Fields madalyası sahibi"
+  ],
+  [
+   "Turing machine",
+   "Turing makinesi"
+  ],
+  [
+   "universal machine",
+   "evrensel makine"
+  ],
+  [
+   "to halt",
+   "durmak, sonlanmak"
+  ],
+  [
+   "undecidable",
+   "karar verilemez"
+  ],
+  [
+   "diagonal argument",
+   "köşegen yöntemi"
+  ],
+  [
+   "computable number",
+   "hesaplanabilir sayı"
+  ],
+  [
+   "cryptography",
+   "kriptografi, şifreleme bilimi"
+  ],
+  [
+   "cipher",
+   "şifre"
+  ],
+  [
+   "modular arithmetic",
+   "modüler aritmetik"
+  ],
+  [
+   "frequency analysis",
+   "frekans analizi"
+  ],
+  [
+   "public key",
+   "açık anahtar"
+  ],
+  [
+   "to encrypt / to decrypt",
+   "şifrelemek / şifre çözmek"
+  ],
+  [
+   "computability",
+   "hesaplanabilirlik"
+  ],
+  [
+   "stored-program computer",
+   "program saklayan bilgisayar"
+  ],
+  [
+   "imitation game",
+   "taklit oyunu"
+  ],
+  [
+   "pardon",
+   "af"
+  ],
+  [
+   "to diffuse",
+   "yayılmak, difüzyon"
+  ],
+  [
+   "code breaker",
+   "şifre kırıcı"
+  ],
+  [
+   "twist angle",
+   "bükülme açısı"
+  ],
+  [
+   "superconductor",
+   "süperiletken"
+  ],
+  [
+   "moiré pattern",
+   "moiré deseni"
+  ],
+  [
+   "outreach",
+   "bilimi topluma ulaştırma"
+  ],
+  [
+   "small-angle approximation",
+   "küçük açı yaklaşımı"
+  ],
+  [
+   "proof by contradiction",
+   "olmayana ergi yöntemi"
+  ],
+  [
+   "assumption",
+   "varsayım"
+  ],
+  [
+   "irrational",
+   "irrasyonel"
+  ],
+  [
+   "lowest terms",
+   "en sade hâl"
+  ],
+  [
+   "common factor",
+   "ortak çarpan"
+  ],
+  [
+   "hexagon",
+   "altıgen"
+  ],
+  [
+   "factorial",
+   "faktöriyel"
+  ],
+  [
+   "binary",
+   "ikilik (sayı sistemi)"
+  ],
+  [
+   "honeycomb",
+   "bal peteği"
+  ],
+  [
+   "shift",
+   "kaydırma"
+  ],
+  [
+   "to break a code",
+   "şifre kırmak"
+  ],
+  [
+   "binary number",
+   "ikilik sayı"
+  ],
+  [
+   "state",
+   "durum"
+  ],
+  [
+   "computational thinking",
+   "bilgi işlemsel düşünme"
+  ],
+  [
+   "candidate",
+   "aday"
+  ],
+  [
+   "answer key",
+   "cevap anahtarı"
+  ],
+  [
+   "preference (university choice)",
+   "tercih"
+  ],
+  [
+   "report card",
+   "karne"
+  ],
+  [
+   "needs analysis",
+   "ihtiyaç analizi"
+  ],
+  [
+   "input / output",
+   "girdi / çıktı"
+  ],
+  [
+   "by construction",
+   "kuruluşu gereği"
+  ],
+  [
+   "it follows that",
+   "buradan … çıkar"
+  ],
+  [
+   "without loss of generality",
+   "genelliği bozmadan"
+  ],
+  [
+   "interrogator",
+   "sorgulayıcı"
+  ]
+ ]
+}

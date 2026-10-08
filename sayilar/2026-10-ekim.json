@@ -1,0 +1,2256 @@
+{
+ "format": 2,
+ "no": 10,
+ "ad": "Hidden Symmetries",
+ "ad_tr": "Gizli Simetriler",
+ "donem": "Ekim 2026",
+ "donem_en": "October 2026",
+ "tema": "Simetri",
+ "tema_en": "Symmetry",
+ "kapak": {
+  "renkler": [
+   "#2E5E4E",
+   "#1C3D32"
+  ],
+  "desen": 0
+ },
+ "bolumler": [
+  {
+   "id": "editor",
+   "ikon": "edit_note",
+   "renk": "#6C63FF",
+   "baslik": "Editor's Note",
+   "baslik_tr": "Editörden",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "Hello, and welcome to our October issue.",
+       "Merhaba, ekim sayımıza hoş geldin."
+      ],
+      [
+       "Autumn has arrived, the first term is in full swing and the first exams are already on the calendar.",
+       "Sonbahar geldi, birinci dönem tüm hızıyla sürüyor ve ilk sınavlar şimdiden takvimde yerini aldı."
+      ],
+      [
+       "On 29 October we will celebrate the 103rd anniversary of our Republic.",
+       "29 Ekim'de Cumhuriyetimizin 103. yılını kutlayacağız."
+      ],
+      [
+       "Happy Republic Day to all our readers in advance!",
+       "Tüm okurlarımızın Cumhuriyet Bayramı şimdiden kutlu olsun!"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The theme of this month is **symmetry**.",
+       "Bu ayın teması **simetri**."
+      ],
+      [
+       "Our mathematician of the month, Évariste Galois, was born on 25 October 1811.",
+       "Ayın matematikçimiz Évariste Galois 25 Ekim 1811'de doğdu."
+      ],
+      [
+       "He discovered that the roots of an equation have hidden symmetries, and that these symmetries decide whether a formula for the roots can exist.",
+       "Bir denklemin köklerinin gizli simetrileri olduğunu ve bu simetrilerin kökler için bir formülün var olup olamayacağına karar verdiğini keşfetti."
+      ],
+      [
+       "He did all this before he was 21.",
+       "Bütün bunları 21 yaşına gelmeden yaptı."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Symmetry was in the news this month, too.",
+       "Simetri bu ay haberlerde de vardı."
+      ],
+      [
+       "The 2026 Nobel Prize in Chemistry went to two chemists who studied molecules that are **mirror images** of each other.",
+       "2026 Nobel Kimya Ödülü, birbirinin **ayna görüntüsü** olan molekülleri inceleyen iki kimyacıya verildi."
+      ],
+      [
+       "And in the world of AI, mathematicians had a very busy month.",
+       "Yapay zekâ dünyasında ise matematikçiler çok yoğun bir ay geçirdi."
+      ],
+      [
+       "Enjoy your break!",
+       "İyi molalar!"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "haber",
+   "ikon": "newspaper",
+   "renk": "#2E86DE",
+   "baslik": "News from the World of Maths",
+   "baslik_tr": "Matematik Dünyasından Haberler",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "OpenAI released 722 maths papers written by an unreleased AI model",
+      "OpenAI, henüz yayımlanmamış bir yapay zekâ modelinin yazdığı 722 matematik makalesini paylaştı"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "On 6 October 2026, OpenAI put 722 mathematical **manuscripts** in a public GitHub repository.",
+       "6 Ekim 2026'da OpenAI, 722 matematik **makale taslağını** herkese açık bir GitHub deposuna koydu."
+      ],
+      [
+       "According to the company, they were all produced by an internal model that the public cannot use yet.",
+       "Şirkete göre bunların hepsi, kamuoyunun henüz kullanamadığı şirket içi bir model tarafından üretildi."
+      ],
+      [
+       "The manuscripts are grouped into 372 families of results and cover about twenty areas of mathematics.",
+       "Taslaklar 372 sonuç ailesine ayrılmış durumda ve matematiğin yaklaşık yirmi alanını kapsıyor."
+      ],
+      [
+       "Among them are results on the zeros of the **Riemann zeta function**, on matrix multiplication and on partial differential equations.",
+       "Aralarında **Riemann zeta fonksiyonunun** sıfırları, matris çarpımı ve kısmi diferansiyel denklemler üzerine sonuçlar var."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "A month earlier, on 8 September, OpenAI had made an even bigger claim.",
+       "Bir ay önce, 8 Eylül'de, OpenAI çok daha büyük bir iddiada bulunmuştu."
+      ],
+      [
+       "It said that the same model had settled the **Navier–Stokes problem**, one of the seven Millennium Prize Problems of the Clay Mathematics Institute.",
+       "Aynı modelin, Clay Matematik Enstitüsü'nün yedi Milenyum Ödülü Probleminden biri olan **Navier–Stokes problemini** çözdüğünü söyledi."
+      ],
+      [
+       "According to OpenAI, a smooth fluid can develop a **singularity**, a point where the solution breaks down.",
+       "OpenAI'a göre düzgün bir akışkanda bir **tekillik**, yani çözümün bozulduğu bir nokta oluşabiliyor."
+      ],
+      [
+       "The company said that about 10,000 AI agents worked on it for about 88 hours, and that it does not intend to claim the one-million-dollar prize.",
+       "Şirket, yaklaşık 10.000 yapay zekâ ajanının bunun üzerinde yaklaşık 88 saat çalıştığını ve bir milyon dolarlık ödülü talep etmeyi düşünmediğini söyledi."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Is it all true?",
+      "Hepsi doğru mu?"
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "Many of the proofs come with **Lean** files, so a computer can check every step.",
+       "İspatların çoğu **Lean** dosyalarıyla geliyor, yani bir bilgisayar her adımı kontrol edebiliyor."
+      ],
+      [
+       "But Lean only checks that the steps follow from the formal statement.",
+       "Ama Lean yalnızca adımların biçimsel ifadeden çıktığını kontrol ediyor."
+      ],
+      [
+       "Whether the formal statement really says the same thing as the original problem is human work, and for Navier–Stokes this check is still going on.",
+       "Biçimsel ifadenin gerçekten orijinal problemle aynı şeyi söyleyip söylemediği ise insan işi ve Navier–Stokes için bu kontrol hâlâ sürüyor."
+      ],
+      [
+       "MIT mathematician Andrew Sutherland said the claims should be treated as unverified until others can run the model and **reproduce** the results.",
+       "MIT'den matematikçi Andrew Sutherland, başkaları modeli çalıştırıp sonuçları **yeniden üretene** kadar iddiaların doğrulanmamış kabul edilmesi gerektiğini söyledi."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Mathematicians set up an advisory group",
+      "Matematikçiler bir danışma grubu kurdu"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "In late September, nine leading mathematicians formed the **Advisory Group on Mathematics and Artificial Intelligence** (AGMAI).",
+       "Eylül sonunda dokuz önde gelen matematikçi **Matematik ve Yapay Zekâ Danışma Grubu**'nu (AGMAI) kurdu."
+      ],
+      [
+       "The group is hosted by the Institute for Advanced Study in Princeton, and its members include Timothy Gowers, Martin Hairer and Edward Witten.",
+       "Grubun ev sahibi Princeton'daki İleri Araştırmalar Enstitüsü ve üyeleri arasında Timothy Gowers, Martin Hairer ve Edward Witten var."
+      ],
+      [
+       "Its members are not paid, and the group says it has no power to make decisions for the company.",
+       "Üyeler ücret almıyor ve grup, şirket adına karar verme yetkisi olmadığını söylüyor."
+      ],
+      [
+       "In its guidelines of 29 September, it asked AI labs to publish their prompts, time and computing costs.",
+       "29 Eylül tarihli yönergelerinde yapay zekâ laboratuvarlarından istemlerini, harcanan zamanı ve hesaplama maliyetlerini yayımlamalarını istedi."
+      ],
+      [
+       "After the release of the 722 papers, it called the moment \"the beginning, not the completion, of the process of human understanding\".",
+       "722 makale yayımlandıktan sonra bu anı \"insan anlayışı sürecinin tamamlanması değil, başlangıcı\" olarak nitelendirdi."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "For the classroom",
+      "Sınıf için"
+     ],
+     "s": [
+      [
+       "This story is a good way to talk about what a proof really is.",
+       "Bu hikâye, ispatın gerçekte ne olduğu hakkında konuşmak için iyi bir fırsat."
+      ],
+      [
+       "Ask your students: if a machine checks every step, but the first sentence of the problem is copied wrongly, is the proof correct?",
+       "Öğrencilerine sor: Bir makine her adımı kontrol ediyor, ama problemin ilk cümlesi yanlış kopyalanmışsa ispat doğru mudur?"
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "manuscript",
+       "makale taslağı"
+      ],
+      [
+       "singularity",
+       "tekillik"
+      ],
+      [
+       "to reproduce",
+       "yeniden üretmek, tekrarlamak"
+      ],
+      [
+       "formal statement",
+       "biçimsel ifade"
+      ],
+      [
+       "unverified",
+       "doğrulanmamış"
+      ],
+      [
+       "advisory group",
+       "danışma grubu"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "makale",
+   "ikon": "article",
+   "renk": "#8E44AD",
+   "baslik": "Paper of the Month: Why There Is No Formula for the Quintic",
+   "baslik_tr": "Ayın Makalesi: Beşinci Dereceden Denklemin Neden Formülü Yok?",
+   "bloklar": [
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Source",
+      "Kaynak"
+     ],
+     "s": [
+      [
+       "É. Galois, Mémoire sur les conditions de résolubilité des équations par radicaux, written in 1830–1831, published by Joseph Liouville in the Journal de Mathématiques Pures et Appliquées, 1846.",
+       "É. Galois, Denklemlerin Kökler Yardımıyla Çözülebilmesinin Koşulları Üzerine Bir İnceleme, 1830-1831'de yazıldı, Joseph Liouville tarafından Journal de Mathématiques Pures et Appliquées dergisinde 1846'da yayımlandı."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "A 300-year-old race",
+      "300 yıllık bir yarış"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Every student knows the formula for the roots of a **quadratic equation**.",
+       "Her öğrenci **ikinci dereceden denklemin** kök formülünü bilir."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "x = (−b ± √(b² − 4ac)) / 2a"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "In the 16th century, Italian mathematicians found similar formulas for degree 3 and degree 4.",
+       "16. yüzyılda İtalyan matematikçiler 3. ve 4. dereceden denklemler için benzer formüller buldu."
+      ],
+      [
+       "Cardano published both of them in his book Ars Magna in 1545.",
+       "Cardano ikisini de 1545'te Ars Magna adlı kitabında yayımladı."
+      ],
+      [
+       "These formulas use only the four operations and **radicals** such as square roots and cube roots.",
+       "Bu formüller yalnızca dört işlemi ve karekök, küpkök gibi **kökleri** kullanır."
+      ],
+      [
+       "Then mathematicians tried degree 5, the **quintic**, for almost three hundred years and failed.",
+       "Sonra matematikçiler neredeyse üç yüz yıl boyunca 5. dereceyi, yani **beşinci dereceden denklemi** denedi ve başaramadı."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "In 1824, the young Norwegian mathematician Niels Henrik Abel proved that no general formula of this kind exists for degree 5.",
+       "1824'te genç Norveçli matematikçi Niels Henrik Abel, 5. derece için bu türden genel bir formülün olmadığını kanıtladı."
+      ],
+      [
+       "But a new question remained.",
+       "Ama yeni bir soru kaldı."
+      ],
+      [
+       "Some quintics, like x⁵ − 2 = 0, can clearly be solved with radicals.",
+       "x⁵ − 2 = 0 gibi bazı beşinci dereceden denklemler açıkça köklerle çözülebiliyor."
+      ],
+      [
+       "So which equations can be solved and which cannot?",
+       "Peki hangi denklemler çözülebilir, hangileri çözülemez?"
+      ],
+      [
+       "Galois answered exactly this question.",
+       "Galois tam olarak bu soruyu cevapladı."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The key idea: symmetries of the roots",
+      "Anahtar fikir: Köklerin simetrileri"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Take the equation x² − 2 = 0, whose roots are √2 and −√2.",
+       "x² − 2 = 0 denklemini alalım, kökleri √2 ve −√2."
+      ],
+      [
+       "Swap the two roots.",
+       "İki kökün yerini değiştirelim."
+      ],
+      [
+       "Every true statement about them with rational coefficients stays true, for example their sum is 0 and their product is −2.",
+       "Rasyonel katsayılı her doğru ifade doğru kalır, örneğin toplamları 0, çarpımları −2."
+      ],
+      [
+       "Galois looked at all such **permutations** of the roots that keep every rational relation between them.",
+       "Galois, kökler arasındaki her rasyonel bağıntıyı koruyan bu tür bütün **permütasyonlara** baktı."
+      ],
+      [
+       "Together they form what we now call the **Galois group** of the equation.",
+       "Bunlar birlikte bugün denklemin **Galois grubu** dediğimiz yapıyı oluşturur."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "For a \"typical\" equation of degree n, every permutation of the n roots is allowed.",
+       "n. dereceden \"tipik\" bir denklemde n kökün her permütasyonuna izin verilir."
+      ],
+      [
+       "This group is called the **symmetric group** Sₙ and it has n! elements.",
+       "Bu gruba **simetrik grup** Sₙ denir ve n! elemanı vardır."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "|S₅| = 5! = 120"
+    },
+    {
+     "t": "h",
+     "s": [
+      "The theorem",
+      "Teorem"
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Galois' criterion",
+      "Galois ölçütü"
+     ],
+     "s": [
+      [
+       "An equation can be solved by radicals if and only if its Galois group is **solvable**.",
+       "Bir denklem ancak ve ancak Galois grubu **çözülebilir** ise köklerle çözülebilir."
+      ],
+      [
+       "Roughly, a group is solvable if you can break it down step by step into simple commutative pieces.",
+       "Kabaca söylersek, bir grubu adım adım basit ve değişmeli parçalara ayırabiliyorsan o grup çözülebilirdir."
+      ],
+      [
+       "Each step of the breakdown matches taking one more radical in the formula.",
+       "Bu ayrıştırmanın her adımı, formülde bir kök daha almaya karşılık gelir."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The groups S₂, S₃ and S₄ are solvable, and this is why the formulas for degrees 2, 3 and 4 exist.",
+       "S₂, S₃ ve S₄ grupları çözülebilir ve 2., 3. ve 4. derece formüllerinin var olmasının nedeni bu."
+      ],
+      [
+       "But S₅ is not solvable.",
+       "Ama S₅ çözülebilir değil."
+      ],
+      [
+       "Inside it there is a group of 60 elements, A₅, which cannot be broken down any further.",
+       "İçinde 60 elemanlı, daha fazla ayrıştırılamayan bir grup var: A₅."
+      ],
+      [
+       "That single fact closes the door on a general formula for degree 5 and higher.",
+       "Bu tek gerçek, 5. ve daha yüksek dereceler için genel bir formülün kapısını kapatıyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "A concrete example",
+      "Somut bir örnek"
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "x⁵ − 4x + 2 = 0"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "This equation cannot be factored over the rationals, and its graph crosses the x-axis exactly three times.",
+       "Bu denklem rasyonel sayılarda çarpanlarına ayrılamaz ve grafiği x eksenini tam üç kez keser."
+      ],
+      [
+       "So it has three real roots and two complex roots.",
+       "Yani üç reel ve iki karmaşık kökü var."
+      ],
+      [
+       "With these two facts, one can show that its Galois group is the whole of S₅.",
+       "Bu iki bilgiyle Galois grubunun S₅'in tamamı olduğu gösterilebilir."
+      ],
+      [
+       "Therefore its roots can never be written using only numbers, the four operations and radicals.",
+       "Dolayısıyla kökleri hiçbir zaman yalnızca sayılar, dört işlem ve köklerle yazılamaz."
+      ],
+      [
+       "The roots exist, and a computer can find them to any accuracy, but no radical formula can express them.",
+       "Kökler var ve bir bilgisayar onları istenen doğrulukta bulabilir, ama hiçbir kök formülü onları ifade edemez."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Graduate corner",
+      "Yüksek lisans köşesi"
+     ],
+     "s": [
+      [
+       "This paper is the birth of **group theory** and of what we now call **Galois theory**.",
+       "Bu makale **grup teorisinin** ve bugün **Galois teorisi** dediğimiz alanın doğuşudur."
+      ],
+      [
+       "In modern language, there is a one-to-one correspondence between the subgroups of the Galois group and the intermediate fields of a field extension.",
+       "Modern dilde, Galois grubunun alt grupları ile bir cisim genişlemesinin ara cisimleri arasında birebir bir eşleme vardır."
+      ],
+      [
+       "Proving that A₅ is simple and checking the example above step by step are classic exercises before a thesis in algebra.",
+       "A₅'in basit olduğunu kanıtlamak ve yukarıdaki örneği adım adım kontrol etmek, cebirde tez öncesi klasik alıştırmalardır."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "quintic",
+       "beşinci dereceden denklem"
+      ],
+      [
+       "solvable by radicals",
+       "köklerle çözülebilir"
+      ],
+      [
+       "permutation",
+       "permütasyon"
+      ],
+      [
+       "symmetric group",
+       "simetrik grup"
+      ],
+      [
+       "solvable group",
+       "çözülebilir grup"
+      ],
+      [
+       "field extension",
+       "cisim genişlemesi"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bilim",
+   "ikon": "science",
+   "renk": "#0E7490",
+   "baslik": "Science Corner: Left-Handed and Right-Handed Molecules",
+   "baslik_tr": "Bilim Köşesi: Solak ve Sağlak Moleküller",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "Hold your hands in front of a mirror.",
+       "Ellerini bir aynanın önüne tut."
+      ],
+      [
+       "Your left hand looks exactly like the mirror image of your right hand.",
+       "Sol elin, sağ elinin ayna görüntüsüne tıpatıp benziyor."
+      ],
+      [
+       "Yet you can never put a left glove on your right hand.",
+       "Yine de sol eldiveni asla sağ eline geçiremezsin."
+      ],
+      [
+       "An object that is different from its mirror image is called **chiral**, from the Greek word for hand.",
+       "Ayna görüntüsünden farklı olan bir nesneye, Yunanca \"el\" kelimesinden gelen **kiral** adı verilir."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Many molecules are chiral, too.",
+       "Birçok molekül de kiraldir."
+      ],
+      [
+       "The two mirror forms of a molecule are called **enantiomers**.",
+       "Bir molekülün iki ayna biçimine **enantiyomer** denir."
+      ],
+      [
+       "They contain the same atoms joined in the same way, but they can behave very differently in the body.",
+       "Aynı atomları aynı şekilde birbirine bağlı olarak içerirler, ama vücutta çok farklı davranabilirler."
+      ],
+      [
+       "For example, one form of the molecule carvone smells of spearmint, and its mirror image smells of caraway seeds.",
+       "Örneğin karvon molekülünün bir biçimi nane gibi, ayna görüntüsü ise karaman kimyonu gibi kokar."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "In 1848, the young Louis Pasteur separated left-handed and right-handed crystals of a salt with tweezers under a microscope.",
+       "1848'de genç Louis Pasteur bir tuzun solak ve sağlak kristallerini mikroskop altında cımbızla birbirinden ayırdı."
+      ],
+      [
+       "Since then, one mystery has remained.",
+       "O zamandan beri bir gizem sürüyor."
+      ],
+      [
+       "Living things use almost only one form of each building block, for example the amino acids in our proteins are almost all of one hand.",
+       "Canlılar her yapı taşının neredeyse yalnızca tek bir biçimini kullanır, örneğin proteinlerimizdeki amino asitlerin neredeyse hepsi aynı \"el\"dendir."
+      ],
+      [
+       "This is called **homochirality**.",
+       "Buna **homokiralite** denir."
+      ],
+      [
+       "But a normal chemical reaction produces equal amounts of both forms.",
+       "Ama sıradan bir kimyasal tepkime iki biçimden eşit miktarda üretir."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The 2026 Nobel Prize in Chemistry",
+      "2026 Nobel Kimya Ödülü"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "On 7 October 2026, the prize went to the French chemist **Henri B. Kagan** and the Japanese chemist **Kenso Soai**.",
+       "7 Ekim 2026'da ödül Fransız kimyacı **Henri B. Kagan** ile Japon kimyacı **Kenso Soai**'ye verildi."
+      ],
+      [
+       "The citation reads \"for the discovery of non-linear effects and autocatalysis in asymmetric organic synthesis\".",
+       "Ödül gerekçesi şöyle: \"asimetrik organik sentezde doğrusal olmayan etkilerin ve otokatalizin keşfi için\"."
+      ],
+      [
+       "Kagan was born in 1930 and Soai in 1950, and they will share 12 million Swedish crowns.",
+       "Kagan 1930'da, Soai 1950'de doğdu ve 12 milyon İsveç kronunu paylaşacaklar."
+      ]
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "**Kagan (1986)**: chemists expected that a catalyst which is only partly of one hand would give a product that is only partly of one hand, in a straight-line relationship.",
+       "**Kagan (1986)**: Kimyacılar, kısmen tek elli bir katalizörün kısmen tek elli bir ürün vereceğini, yani aradaki ilişkinin bir doğru olacağını bekliyordu."
+      ],
+      [
+       "Kagan showed that this relationship can be a curve, so the product can be much more one-handed than the catalyst.",
+       "Kagan bu ilişkinin bir eğri olabileceğini, yani ürünün katalizörden çok daha fazla tek elli olabileceğini gösterdi."
+      ],
+      [
+       "**Soai (1995)**: he found a reaction whose product is the catalyst of its own formation and prefers to copy its own hand.",
+       "**Soai (1995)**: Ürünü kendi oluşumunun katalizörü olan ve kendi \"elini\" kopyalamayı tercih eden bir tepkime buldu."
+      ],
+      [
+       "This is called **autocatalysis**, and it turns a tiny excess of one hand into an almost pure product.",
+       "Buna **otokataliz** denir ve tek bir elin küçücük bir fazlalığını neredeyse saf bir ürüne dönüştürür."
+      ],
+      [
+       "In 2003, Soai reported a reaction that formed only one of the two mirror images.",
+       "Soai 2003'te iki ayna görüntüsünden yalnızca birini oluşturan bir tepkime bildirdi."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The Nobel Committee says that their work shows how homochirality can appear by itself.",
+       "Nobel Komitesi, çalışmalarının homokiralitenin kendiliğinden nasıl ortaya çıkabileceğini gösterdiğini söylüyor."
+      ],
+      [
+       "It also guides chemists who design reactions to make medicines.",
+       "Ayrıca ilaç üretimi için tepkime tasarlayan kimyacılara yol gösteriyor."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Where is the maths?",
+      "Matematiği nerede?"
+     ],
+     "s": [
+      [
+       "Chemists measure how one-sided a mixture is with the **enantiomeric excess**.",
+       "Kimyacılar bir karışımın ne kadar tek taraflı olduğunu **enantiyomer fazlalığı** ile ölçer."
+      ],
+      [
+       "If R and S are the amounts of the two forms, then ee = (R − S) / (R + S).",
+       "R ve S iki biçimin miktarı ise ee = (R − S) / (R + S)."
+      ],
+      [
+       "A 50–50 mixture has ee = 0, and a pure sample has ee = 1.",
+       "Yarı yarıya bir karışımda ee = 0, saf bir örnekte ee = 1."
+      ],
+      [
+       "Mathematically, a mirror is a **reflection**, and a chiral object is one that no rotation can turn into its reflection.",
+       "Matematiksel olarak ayna bir **yansımadır** ve kiral nesne, hiçbir dönmenin onu yansımasına dönüştüremediği nesnedir."
+      ],
+      [
+       "The group of the two \"hands\" has only two elements, exactly like the Galois group of x² − 2, which swaps √2 and −√2.",
+       "İki \"el\"in grubu yalnızca iki elemanlıdır, tıpkı √2 ile −√2'nin yerini değiştiren x² − 2'nin Galois grubu gibi."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "chiral",
+       "kiral"
+      ],
+      [
+       "enantiomer",
+       "enantiyomer, ayna izomeri"
+      ],
+      [
+       "homochirality",
+       "homokiralite, tek ellilik"
+      ],
+      [
+       "autocatalysis",
+       "otokataliz"
+      ],
+      [
+       "enantiomeric excess",
+       "enantiyomer fazlalığı"
+      ],
+      [
+       "reflection",
+       "yansıma"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "matematikci",
+   "ikon": "person",
+   "renk": "#E67E22",
+   "baslik": "Mathematician of the Month: Évariste Galois",
+   "baslik_tr": "Ayın Matematikçisi: Évariste Galois",
+   "bloklar": [
+    {
+     "t": "portre",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Evariste_galois.jpg/500px-Evariste_galois.jpg",
+     "ad": "Évariste Galois",
+     "yillar": "1811 – 1832",
+     "s": [
+      [
+       "French mathematician who founded group theory and died at the age of 20.",
+       "Grup teorisini kuran ve 20 yaşında hayatını kaybeden Fransız matematikçi."
+      ]
+     ],
+     "kaynak": "Drawing by his brother Alfred, 1848 · Public domain, Wikimedia Commons"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Galois lived only twenty years.",
+       "Galois yalnızca yirmi yıl yaşadı."
+      ],
+      [
+       "In that short time he changed the way we think about algebra forever.",
+       "Bu kısa sürede cebir hakkındaki düşünme biçimimizi sonsuza dek değiştirdi."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "His life",
+      "Hayatı"
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "He was born on 25 October 1811 in Bourg-la-Reine, a small town near Paris.",
+       "25 Ekim 1811'de Paris yakınlarındaki küçük bir kasaba olan Bourg-la-Reine'de doğdu."
+      ],
+      [
+       "His father was the mayor of the town, and his mother taught him at home until he was twelve.",
+       "Babası kasabanın belediye başkanıydı, annesi ise onu on iki yaşına kadar evde eğitti."
+      ],
+      [
+       "At school he became bored with ordinary lessons and read the works of great mathematicians on his own.",
+       "Okulda sıradan derslerden sıkıldı ve büyük matematikçilerin eserlerini kendi başına okudu."
+      ],
+      [
+       "He failed the entrance exam of the famous École Polytechnique **twice**.",
+       "Ünlü École Polytechnique'in giriş sınavında **iki kez** başarısız oldu."
+      ],
+      [
+       "In 1829 his father took his own life after a political scandal, and this was a terrible blow for him.",
+       "1829'da babası siyasi bir skandalın ardından intihar etti ve bu onun için korkunç bir darbe oldu."
+      ],
+      [
+       "He sent his work to the Academy of Sciences several times, but one manuscript was lost and another was rejected as not clear enough.",
+       "Çalışmalarını birkaç kez Bilimler Akademisi'ne gönderdi, ama bir taslak kayboldu, bir diğeri yeterince açık olmadığı gerekçesiyle reddedildi."
+      ],
+      [
+       "He was a passionate **republican**, and in 1831 he spent months in prison for his political activities.",
+       "Tutkulu bir **cumhuriyetçiydi** ve 1831'de siyasi faaliyetleri yüzünden aylarca hapiste kaldı."
+      ],
+      [
+       "On 30 May 1832 he was badly wounded in a **duel**, and he died the next day.",
+       "30 Mayıs 1832'de bir **düelloda** ağır yaralandı ve ertesi gün hayatını kaybetti."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The last letter",
+      "Son mektup"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The night before the duel, Galois wrote a long letter to his friend Auguste Chevalier.",
+       "Düellodan önceki gece Galois, arkadaşı Auguste Chevalier'ye uzun bir mektup yazdı."
+      ],
+      [
+       "In it he summarised his ideas and asked that they be sent to great mathematicians of his time.",
+       "Mektupta fikirlerini özetledi ve bunların döneminin büyük matematikçilerine gönderilmesini istedi."
+      ],
+      [
+       "He hoped that someone would one day find it useful to \"decipher all this mess\".",
+       "Bir gün birinin \"bütün bu karmaşayı çözmeyi\" faydalı bulacağını umuyordu."
+      ],
+      [
+       "Fourteen years later, Joseph Liouville studied his papers carefully, understood them and published them in 1846.",
+       "On dört yıl sonra Joseph Liouville yazılarını dikkatle inceledi, anladı ve 1846'da yayımladı."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "His contributions",
+      "Katkıları"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "**Groups**: Galois was the first to use the word \"group\" in its modern mathematical sense.",
+       "**Gruplar**: \"Grup\" kelimesini bugünkü matematiksel anlamıyla ilk kullanan Galois'ydı."
+      ],
+      [
+       "A group is a set of operations, such as the symmetries of a shape, that can be combined and undone.",
+       "Grup, bir şeklin simetrileri gibi, birleştirilebilen ve geri alınabilen işlemlerin kümesidir."
+      ],
+      [
+       "Today groups are used everywhere, from crystals and molecules to particle physics and cryptography.",
+       "Bugün gruplar kristallerden ve moleküllerden parçacık fiziğine ve kriptografiye kadar her yerde kullanılıyor."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "**Normal subgroups**: he noticed that some subgroups are special, because the group can be \"divided\" by them.",
+       "**Normal alt gruplar**: Bazı alt grupların özel olduğunu fark etti, çünkü grup onlara \"bölünebiliyordu\"."
+      ],
+      [
+       "This idea is the heart of his criterion for solving equations.",
+       "Bu fikir, denklem çözme ölçütünün kalbidir."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "**Finite fields**: he also studied number systems with only finitely many elements.",
+       "**Sonlu cisimler**: Yalnızca sonlu sayıda elemanı olan sayı sistemlerini de inceledi."
+      ],
+      [
+       "They are called **Galois fields** in his honour.",
+       "Onun onuruna bunlara **Galois cisimleri** denir."
+      ],
+      [
+       "The QR codes on your phone and the error-correcting codes in satellites are built on them.",
+       "Telefonundaki QR kodlar ve uydulardaki hata düzelten kodlar bunların üzerine kurulu."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "For the classroom",
+      "Sınıf için"
+     ],
+     "s": [
+      [
+       "Galois' story shows that failing an exam does not mean failing in mathematics.",
+       "Galois'nın hikâyesi, bir sınavda başarısız olmanın matematikte başarısız olmak anlamına gelmediğini gösteriyor."
+      ],
+      [
+       "It also shows how important it is to write your ideas clearly, so that others can understand them.",
+       "Ayrıca başkalarının anlayabilmesi için fikirlerini açıkça yazmanın ne kadar önemli olduğunu da gösteriyor."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "group",
+       "grup"
+      ],
+      [
+       "normal subgroup",
+       "normal alt grup"
+      ],
+      [
+       "finite field",
+       "sonlu cisim"
+      ],
+      [
+       "duel",
+       "düello"
+      ],
+      [
+       "to decipher",
+       "deşifre etmek, çözmek"
+      ],
+      [
+       "to reject",
+       "reddetmek"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "odul",
+   "ikon": "emoji_events",
+   "renk": "#D4A017",
+   "baslik": "Prize Corner",
+   "baslik_tr": "Ödüller Köşesi",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "Nobel Prize in Physics 2026: a telescope made of ice",
+      "Nobel Fizik 2026: Buzdan bir teleskop"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "On 6 October 2026, the prize went to **Francis Halzen** of the University of Wisconsin–Madison.",
+       "6 Ekim 2026'da ödül Wisconsin–Madison Üniversitesi'nden **Francis Halzen**'e verildi."
+      ],
+      [
+       "Halzen is 82 years old and was born in Tienen, Belgium.",
+       "Halzen 82 yaşında ve Belçika'nın Tienen kentinde doğdu."
+      ],
+      [
+       "He was honoured for decisive contributions to the **IceCube Neutrino Observatory** and the discovery of high-energy **neutrinos** from space.",
+       "**IceCube Nötrino Gözlemevi**'ne yaptığı belirleyici katkılar ve uzaydan gelen yüksek enerjili **nötrinoların** keşfi için ödüllendirildi."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Neutrinos are tiny particles that almost never interact with matter.",
+       "Nötrinolar madde ile neredeyse hiç etkileşmeyen minicik parçacıklardır."
+      ],
+      [
+       "They travel from distant galaxies to us without changing direction or losing energy.",
+       "Uzak galaksilerden bize yön değiştirmeden ve enerji kaybetmeden ulaşırlar."
+      ],
+      [
+       "In 1988 Halzen suggested using the ice under the South Pole to catch them.",
+       "Halzen 1988'de onları yakalamak için Güney Kutbu'nun altındaki buzu kullanmayı önerdi."
+      ],
+      [
+       "The detector, completed in 2011, is about one **cubic kilometre** of ice with 5,160 light sensors inside.",
+       "2011'de tamamlanan dedektör, içinde 5.160 ışık sensörü bulunan yaklaşık bir **kilometreküp** buzdan oluşuyor."
+      ],
+      [
+       "In 2013 the team announced the first high-energy neutrinos from outside our solar system, and in 2023 they made the first image of the Milky Way in neutrinos.",
+       "Ekip 2013'te Güneş Sistemi'nin dışından gelen ilk yüksek enerjili nötrinoları duyurdu, 2023'te ise Samanyolu'nun nötrinolarla çekilmiş ilk görüntüsünü oluşturdu."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Where is the maths?",
+       "Matematiği nerede?"
+      ],
+      [
+       "When a neutrino hits the ice, it makes a faint flash of blue light.",
+       "Bir nötrino buza çarptığında soluk mavi bir ışık parlaması oluşturur."
+      ],
+      [
+       "The sensors record when the light reaches each of them.",
+       "Sensörler ışığın her birine ne zaman ulaştığını kaydeder."
+      ],
+      [
+       "From these arrival times, computers calculate the **direction** of the particle, a little like finding an earthquake's centre from the times at different stations.",
+       "Bu varış zamanlarından bilgisayarlar parçacığın **yönünü** hesaplar, biraz farklı istasyonlardaki zamanlardan bir depremin merkezini bulmak gibi."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "SASTRA Ramanujan Prize 2026: Sarah Peluse",
+      "SASTRA Ramanujan Ödülü 2026: Sarah Peluse"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "On 25 September 2026, the SASTRA Ramanujan Prize was given to **Sarah Peluse**, an associate professor at Stanford University.",
+       "25 Eylül 2026'da SASTRA Ramanujan Ödülü, Stanford Üniversitesi'nde doçent olan **Sarah Peluse**'a verildi."
+      ],
+      [
+       "The prize is for mathematicians aged 32 or under who work in areas influenced by Ramanujan, and it comes with 10,000 dollars.",
+       "Ödül, Ramanujan'ın etkilediği alanlarda çalışan 32 yaş ve altındaki matematikçilere veriliyor ve 10.000 dolar değerinde."
+      ],
+      [
+       "She was chosen for her work in **analytic number theory**, **additive combinatorics**, combinatorial geometry and group theory.",
+       "**Analitik sayılar teorisi**, **toplamsal kombinatorik**, kombinatoryal geometri ve grup teorisindeki çalışmaları nedeniyle seçildi."
+      ],
+      [
+       "Her doctoral advisor, Kannan Soundararajan, was one of the first two winners of the prize in 2005.",
+       "Doktora danışmanı Kannan Soundararajan, 2005'te ödülü ilk alan iki kişiden biriydi."
+      ],
+      [
+       "The prize will be presented on 22 December, Ramanujan's birthday.",
+       "Ödül 22 Aralık'ta, Ramanujan'ın doğum gününde takdim edilecek."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Coming soon",
+      "Yakında"
+     ],
+     "s": [
+      [
+       "The Nobel Prize in Economic Sciences will be announced on Monday, 12 October.",
+       "Nobel Ekonomi Ödülü 12 Ekim Pazartesi günü açıklanacak."
+      ],
+      [
+       "We will write about it in our next issue if it has a maths link.",
+       "Matematikle bir bağlantısı olursa bir sonraki sayımızda yazacağız."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "neutrino",
+       "nötrino"
+      ],
+      [
+       "observatory",
+       "gözlemevi"
+      ],
+      [
+       "cubic kilometre",
+       "kilometreküp"
+      ],
+      [
+       "analytic number theory",
+       "analitik sayılar teorisi"
+      ],
+      [
+       "additive combinatorics",
+       "toplamsal kombinatorik"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dusun",
+   "ikon": "psychology",
+   "renk": "#16A085",
+   "baslik": "Think Like a Mathematician: Try Small Cases",
+   "baslik_tr": "Matematikçi Gibi Düşünmek: Küçük Durumlarla Başla",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "When a problem is about a general number n, it can feel too big to start.",
+       "Bir problem genel bir n sayısıyla ilgili olduğunda başlamak için fazla büyük gelebilir."
+      ],
+      [
+       "A good first step is to try **small cases**: n = 1, 2, 3, 4.",
+       "İyi bir ilk adım **küçük durumları** denemektir: n = 1, 2, 3, 4."
+      ],
+      [
+       "You collect data, look for a **pattern**, make a **conjecture** and then try to prove it.",
+       "Veri toplarsın, bir **örüntü** ararsın, bir **sanı** oluşturursun ve sonra onu kanıtlamaya çalışırsın."
+      ],
+      [
+       "Galois himself started from small examples, because degrees 2, 3 and 4 showed him what was special about degree 5.",
+       "Galois da küçük örneklerden başladı, çünkü 2, 3 ve 4. dereceler ona 5. derecenin neden özel olduğunu gösterdi."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "The problem: adding odd numbers",
+      "Problem: Tek sayıları toplamak"
+     ],
+     "s": [
+      [
+       "What is the sum of the first n odd numbers, 1 + 3 + 5 + … + (2n − 1)?",
+       "İlk n tek sayının toplamı, yani 1 + 3 + 5 + … + (2n − 1) kaçtır?"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Step 1: small cases",
+      "1. adım: Küçük durumlar"
+     ]
+    },
+    {
+     "t": "tablo",
+     "basliklar": [
+      "n",
+      "sum",
+      "result"
+     ],
+     "satirlar": [
+      [
+       "1",
+       "1",
+       "1"
+      ],
+      [
+       "2",
+       "1 + 3",
+       "4"
+      ],
+      [
+       "3",
+       "1 + 3 + 5",
+       "9"
+      ],
+      [
+       "4",
+       "1 + 3 + 5 + 7",
+       "16"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The results 1, 4, 9 and 16 are all **perfect squares**.",
+       "1, 4, 9 ve 16 sonuçlarının hepsi **tam kare**."
+      ],
+      [
+       "So we make a conjecture: the sum of the first n odd numbers is n².",
+       "Bu yüzden bir sanı oluşturuyoruz: İlk n tek sayının toplamı n²'dir."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Step 2: prove it",
+      "2. adım: Kanıtla"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Four cases are not a proof, so we need a reason that works for every n.",
+       "Dört durum kanıt değildir, bu yüzden her n için işleyen bir gerekçeye ihtiyacımız var."
+      ],
+      [
+       "Draw an n × n square of dots.",
+       "n × n'lik bir nokta karesi çiz."
+      ],
+      [
+       "To make the next square, (n + 1) × (n + 1), you add one new row and one new column that share a corner.",
+       "Bir sonraki kareyi, yani (n + 1) × (n + 1)'lik kareyi yapmak için köşesi ortak olan yeni bir satır ve yeni bir sütun eklersin."
+      ],
+      [
+       "This L-shape has n + n + 1 = 2n + 1 dots, which is exactly the next odd number.",
+       "Bu L şeklinde n + n + 1 = 2n + 1 nokta var ve bu tam olarak bir sonraki tek sayı."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "n² + (2n + 1) = (n + 1)²"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "So every new odd number turns a square into the next square, and the conjecture is true for all n.",
+       "Yani her yeni tek sayı bir kareyi bir sonraki kareye dönüştürür ve sanı her n için doğrudur."
+      ],
+      [
+       "This step-by-step argument is called **proof by induction**.",
+       "Bu adım adım ilerleyen akıl yürütmeye **tümevarımla ispat** denir."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "The lesson",
+      "Ders"
+     ],
+     "s": [
+      [
+       "Small cases give you ideas, but only a proof gives you certainty.",
+       "Küçük durumlar sana fikir verir, ama kesinliği yalnızca ispat verir."
+      ],
+      [
+       "Write your small cases in a neat table, because patterns are much easier to see that way.",
+       "Küçük durumlarını düzenli bir tabloya yaz, çünkü örüntüler böyle çok daha kolay görünür."
+      ],
+      [
+       "While you calculate, look for the reason behind the numbers, because it is often the key to the proof.",
+       "Hesaplarken sayıların arkasındaki nedeni ara, çünkü o çoğu zaman ispatın anahtarıdır."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "Your turn",
+      "Senin sıran"
+     ],
+     "s": [
+      [
+       "How many **diagonals** does a polygon with n sides have?",
+       "n kenarlı bir çokgenin kaç **köşegeni** vardır?"
+      ],
+      [
+       "Start with a triangle, a square, a pentagon and a hexagon.",
+       "Bir üçgen, bir kare, bir beşgen ve bir altıgenle başla."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "Answer",
+      "Cevap"
+     ],
+     "s": [
+      [
+       "The small cases give 0, 2, 5 and 9 diagonals for n = 3, 4, 5 and 6.",
+       "Küçük durumlar n = 3, 4, 5 ve 6 için 0, 2, 5 ve 9 köşegen verir."
+      ],
+      [
+       "The reason: from each corner you can draw a diagonal to every other corner except itself and its two neighbours, so to n − 3 corners.",
+       "Nedeni şu: Her köşeden, kendisi ve iki komşusu dışındaki her köşeye, yani n − 3 köşeye köşegen çizebilirsin."
+      ],
+      [
+       "That gives n(n − 3) ends, but every diagonal has two ends, so the answer is n(n − 3) / 2.",
+       "Bu n(n − 3) uç eder, ama her köşegenin iki ucu var, bu yüzden cevap n(n − 3) / 2."
+      ],
+      [
+       "Check: for n = 6, 6 × 3 / 2 = 9.",
+       "Kontrol et: n = 6 için 6 × 3 / 2 = 9."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "small cases",
+       "küçük durumlar"
+      ],
+      [
+       "conjecture",
+       "sanı"
+      ],
+      [
+       "perfect square",
+       "tam kare"
+      ],
+      [
+       "proof by induction",
+       "tümevarımla ispat"
+      ],
+      [
+       "diagonal",
+       "köşegen"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eglence",
+   "ikon": "lightbulb",
+   "renk": "#E84393",
+   "baslik": "Fun Facts: October and the Number 10",
+   "baslik_tr": "Eğlenceli Bilgiler: Ekim ve 10 Sayısı",
+   "bloklar": [
+    {
+     "t": "liste",
+     "s": [
+      [
+       "**The wrong name**: October comes from the Latin word octo, which means eight.",
+       "**Yanlış isim**: October, sekiz anlamına gelen Latince octo kelimesinden gelir."
+      ],
+      [
+       "In the oldest Roman calendar the year started in March, so October really was the eighth month.",
+       "En eski Roma takviminde yıl martta başlıyordu, yani ekim gerçekten sekizinci aydı."
+      ],
+      [
+       "Today it is our tenth month, and this is our tenth issue.",
+       "Bugün onuncu ayımız ve bu da onuncu sayımız."
+      ],
+      [
+       "**Ten fingers**: most historians think we count in **base ten** simply because we have ten fingers.",
+       "**On parmak**: Tarihçilerin çoğu **onluk tabanda** saymamızın nedeninin basitçe on parmağımızın olması olduğunu düşünüyor."
+      ],
+      [
+       "The Babylonians used base 60, and that is why an hour still has 60 minutes.",
+       "Babilliler 60 tabanını kullanıyordu ve bir saatin hâlâ 60 dakika olmasının nedeni bu."
+      ],
+      [
+       "**A triangle of ten**: 10 = 1 + 2 + 3 + 4, so ten dots can form a perfect triangle.",
+       "**Onun üçgeni**: 10 = 1 + 2 + 3 + 4, yani on nokta mükemmel bir üçgen oluşturabilir."
+      ],
+      [
+       "The Pythagoreans called this shape the tetractys and saw it as a holy number.",
+       "Pisagorcular bu şekle tetraktis diyor ve onu kutsal bir sayı olarak görüyordu."
+      ],
+      [
+       "**Six weeks in a factorial**: 10! = 3,628,800, which is exactly the number of seconds in six weeks.",
+       "**Bir faktöriyelde altı hafta**: 10! = 3.628.800 ve bu tam olarak altı haftadaki saniye sayısı."
+      ],
+      [
+       "Check it: 6 × 7 × 24 × 60 × 60 = 3,628,800.",
+       "Kontrol et: 6 × 7 × 24 × 60 × 60 = 3.628.800."
+      ],
+      [
+       "**An old joke**: \"There are 10 kinds of people in the world: those who understand **binary** and those who do not.\"",
+       "**Eski bir şaka**: \"Dünyada 10 tür insan vardır: **ikili sistemi** anlayanlar ve anlamayanlar.\""
+      ],
+      [
+       "In base two, 10 means two.",
+       "İkilik tabanda 10, iki demektir."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "base ten",
+       "onluk taban"
+      ],
+      [
+       "binary",
+       "ikili sistem, ikilik taban"
+      ],
+      [
+       "triangular number",
+       "üçgensel sayı"
+      ],
+      [
+       "factorial",
+       "faktöriyel"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sinif",
+   "ikon": "school",
+   "renk": "#27AE60",
+   "baslik": "In the Classroom",
+   "baslik_tr": "Sınıfta Matematik",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "Grades 6–8: The Mirror Alphabet",
+      "6-8. sınıflar: Ayna Alfabesi"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Goal: recognising **line symmetry** and rotational symmetry, and linking them to the Nobel story of left and right hands.",
+       "Hedef: **Doğruya göre simetriyi** ve dönme simetrisini tanımak ve bunları sağ ve sol ellerin Nobel hikâyesine bağlamak."
+      ]
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "Write the capital letters A to Z on the board and give each group a small mirror.",
+       "Tahtaya A'dan Z'ye büyük harfleri yazın ve her gruba küçük bir ayna verin."
+      ],
+      [
+       "Groups sort the letters into a table: a vertical line of symmetry (A, M, T…), a horizontal line (B, C, D…), both (H, O, X…) or none.",
+       "Gruplar harfleri bir tabloya ayırsın: Dikey simetri ekseni olanlar (A, M, T…), yatay olanlar (B, C, D…), ikisi de olanlar (H, O, X…) ve hiç olmayanlar."
+      ],
+      [
+       "Then ask: which letters look the same after a half turn? (N, S, Z…)",
+       "Sonra sorun: Hangi harfler yarım tur döndürülünce aynı görünüyor? (N, S, Z…)"
+      ],
+      [
+       "Finally, ask them to find a word that reads the same in a mirror held under it, such as BOOK or CHOICE.",
+       "Son olarak, altına tutulan bir aynada aynı okunan bir kelime bulmalarını isteyin, örneğin BOOK ya da CHOICE."
+      ],
+      [
+       "Discuss: F has no symmetry at all, so F and its mirror image are like a left hand and a right hand.",
+       "Tartışın: F'nin hiç simetrisi yok, yani F ile ayna görüntüsü bir sol el ile bir sağ el gibi."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "Bonus question",
+      "Bonus soru"
+     ],
+     "s": [
+      [
+       "Can you write a three-letter word that has a vertical line of symmetry?",
+       "Dikey simetri ekseni olan üç harfli bir kelime yazabilir misin?"
+      ],
+      [
+       "One answer is TOT, and in Turkish AHA works too.",
+       "Cevaplardan biri TOT, Türkçede AHA da olur."
+      ],
+      [
+       "This activity practises classification, careful observation and explaining a rule in your own words.",
+       "Bu etkinlik sınıflandırma, dikkatli gözlem ve bir kuralı kendi cümleleriyle açıklama becerilerini çalıştırıyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "High school: The six symmetries of a triangle",
+      "Lise: Bir üçgenin altı simetrisi"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "You need a paper equilateral triangle with its corners numbered 1, 2 and 3 on both sides.",
+       "Köşeleri iki yüzünde de 1, 2 ve 3 diye numaralandırılmış kâğıttan bir eşkenar üçgene ihtiyacınız var."
+      ],
+      [
+       "Draw its outline on the desk.",
+       "Üçgenin dış çizgisini sıraya çizin."
+      ],
+      [
+       "Students find every way to pick it up and put it back into the outline.",
+       "Öğrenciler üçgeni kaldırıp yeniden bu çizginin içine yerleştirmenin tüm yollarını bulsun."
+      ]
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "There are three **rotations**: 0°, 120° and 240°.",
+       "Üç **dönme** var: 0°, 120° ve 240°."
+      ],
+      [
+       "There are three reflections, one in each line through a corner and the midpoint of the opposite side.",
+       "Üç yansıma var, her biri bir köşeden ve karşı kenarın orta noktasından geçen bir doğruya göre."
+      ],
+      [
+       "Each symmetry is a permutation of the corners, so there are 3! = 6 of them.",
+       "Her simetri köşelerin bir permütasyonu, bu yüzden toplam 3! = 6 tane var."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Now let students do two symmetries one after the other and record the result in a 6 × 6 **composition table**.",
+       "Şimdi öğrenciler iki simetriyi art arda uygulasın ve sonucu 6 × 6'lık bir **bileşke tablosuna** yazsın."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "Discussion questions",
+      "Tartışma soruları"
+     ],
+     "s": [
+      [
+       "Is \"rotate, then reflect\" the same as \"reflect, then rotate\"?",
+       "\"Önce döndür, sonra yansıt\" ile \"önce yansıt, sonra döndür\" aynı mı?"
+      ],
+      [
+       "Hint: it is not, so the order matters, and the group is not **commutative**.",
+       "İpucu: Değil, yani sıra önemli ve grup **değişmeli** değil."
+      ],
+      [
+       "Which symmetry undoes the 120° rotation?",
+       "120°'lik dönmeyi hangi simetri geri alır?"
+      ],
+      [
+       "This group is S₃, the same group as the Galois group of x³ − 2 = 0.",
+       "Bu grup S₃ ve x³ − 2 = 0 denkleminin Galois grubuyla aynı."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "This activity brings transformations, permutations and the idea of a function composition together in one hands-on task.",
+       "Bu etkinlik dönüşümleri, permütasyonları ve fonksiyon bileşkesi fikrini tek bir uygulamalı görevde birleştiriyor."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "line symmetry",
+       "doğruya göre simetri"
+      ],
+      [
+       "rotation",
+       "dönme"
+      ],
+      [
+       "equilateral triangle",
+       "eşkenar üçgen"
+      ],
+      [
+       "composition",
+       "bileşke"
+      ],
+      [
+       "commutative",
+       "değişmeli"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gundem",
+   "ikon": "campaign",
+   "renk": "#C0392B",
+   "baslik": "Education in Türkiye",
+   "baslik_tr": "Eğitim Gündemi",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "The 2026–2027 school year is under way",
+      "2026-2027 eğitim yılı başladı"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Schools opened on Monday, 14 September 2026.",
+       "Okullar 14 Eylül 2026 Pazartesi günü açıldı."
+      ],
+      [
+       "The first mid-term break is from 16 to 20 November, and lessons start again on 23 November.",
+       "Birinci ara tatil 16-20 Kasım arasında ve dersler 23 Kasım'da yeniden başlıyor."
+      ],
+      [
+       "The first term ends on Friday, 22 January 2027.",
+       "Birinci dönem 22 Ocak 2027 Cuma günü sona eriyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The common written exams",
+      "Ortak yazılı sınavlar"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "In September, the Ministry of National Education announced the dates of the **common written exams** for grades 6, 7, 9 and 10.",
+       "Eylülde Millî Eğitim Bakanlığı 6, 7, 9 ve 10. sınıflar için **ortak yazılı sınavların** tarihlerini açıkladı."
+      ],
+      [
+       "There will be eight common exams in the whole year.",
+       "Yıl boyunca toplam sekiz ortak sınav yapılacak."
+      ],
+      [
+       "All of them will use **open-ended questions**, where students write their own answers.",
+       "Hepsinde öğrencilerin cevaplarını kendilerinin yazdığı **açık uçlu sorular** kullanılacak."
+      ]
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "First term, first exams: 11–12 November 2026.",
+       "Birinci dönem birinci yazılılar: 11-12 Kasım 2026."
+      ],
+      [
+       "First term, second exams: 5–6 January 2027.",
+       "Birinci dönem ikinci yazılılar: 5-6 Ocak 2027."
+      ],
+      [
+       "In the first term, the maths exams are for grade 6 and grade 9.",
+       "Birinci dönemde matematik sınavları 6. ve 9. sınıflar için."
+      ],
+      [
+       "In the second term, they are for grade 7 and grade 10.",
+       "İkinci dönemde ise 7. ve 10. sınıflar için."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "For maths teachers of grades 6 and 9",
+      "6. ve 9. sınıf matematik öğretmenlerine"
+     ],
+     "s": [
+      [
+       "Students who are used to multiple-choice tests often leave open-ended questions half-finished.",
+       "Çoktan seçmeli testlere alışkın öğrenciler açık uçlu soruları çoğu zaman yarım bırakıyor."
+      ],
+      [
+       "Before November, practise writing full solutions in class: what is given, what is asked, each step and a final sentence.",
+       "Kasımdan önce sınıfta tam çözüm yazmayı çalışın: Verilen, istenen, her adım ve bir sonuç cümlesi."
+      ],
+      [
+       "The \"Your turn\" diagonal question in this issue is a good short exercise for explaining a reason in words.",
+       "Bu sayıdaki \"Senin sıran\" köşegen sorusu, bir gerekçeyi kelimelerle açıklamak için iyi bir kısa alıştırma."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "29 October: a maths moment for Republic Day",
+      "29 Ekim: Cumhuriyet Bayramı için bir matematik anı"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "This year, 29 October falls on a Thursday.",
+       "Bu yıl 29 Ekim perşembe gününe denk geliyor."
+      ],
+      [
+       "A nice question for the class: if the Republic was founded in 1923, which anniversary is it, and in which year will we celebrate the 125th?",
+       "Sınıf için güzel bir soru: Cumhuriyet 1923'te kurulduysa bu kaçıncı yıl dönümü ve 125. yılı hangi yıl kutlayacağız?"
+      ],
+      [
+       "The answers are 103 and 2048.",
+       "Cevaplar 103 ve 2048."
+      ],
+      [
+       "And 2048 = 2¹¹ is a power of two, which makes it a lovely number to wait for!",
+       "Üstelik 2048 = 2¹¹ ikinin bir kuvveti, bu da onu beklemeye değer güzel bir sayı yapıyor!"
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "common exam",
+       "ortak sınav"
+      ],
+      [
+       "open-ended question",
+       "açık uçlu soru"
+      ],
+      [
+       "mid-term break",
+       "ara tatil"
+      ],
+      [
+       "anniversary",
+       "yıl dönümü"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "oku",
+   "ikon": "menu_book",
+   "renk": "#34495E",
+   "baslik": "Read Like a Mathematician",
+   "baslik_tr": "Matematikçi Gibi Oku",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "Algebra books have their own favourite phrases.",
+       "Cebir kitaplarının kendine has gözde kalıpları vardır."
+      ],
+      [
+       "This month we look at phrases you will meet in every text on groups and Galois theory.",
+       "Bu ay gruplar ve Galois teorisi üzerine her metinde karşılaşacağın kalıplara bakıyoruz."
+      ]
+     ]
+    },
+    {
+     "t": "tablo",
+     "basliklar": [
+      "English",
+      "Türkçe",
+      "Note"
+     ],
+     "satirlar": [
+      [
+       "is said to be",
+       "… olduğu söylenir, … denir",
+       "used in definitions"
+      ],
+      [
+       "well-defined",
+       "iyi tanımlı",
+       "the result does not depend on the choice made"
+      ],
+      [
+       "up to isomorphism",
+       "izomorfizm farkıyla",
+       "the same structure with different names"
+      ],
+      [
+       "without loss of generality (WLOG)",
+       "genelliği bozmadan",
+       "a special case covers all cases"
+      ],
+      [
+       "it suffices to show",
+       "… göstermek yeterlidir",
+       "reduces the goal to something simpler"
+      ],
+      [
+       "namely",
+       "yani, şöyle ki",
+       "gives the exact object"
+      ],
+      [
+       "respectively",
+       "sırasıyla",
+       "matches two lists in order"
+      ],
+      [
+       "trivial",
+       "aşikâr, basit",
+       "also the name of the group {e}"
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "Mini reading: the identity is unique",
+      "Mini okuma: Birim eleman tektir"
+     ],
+     "s": [
+      [
+       "Definition: A group is a set G with an operation · such that the operation is associative, there exists an identity element and every element has an inverse.",
+       "Tanım: Grup, işlemi birleşmeli olan, bir birim elemanı bulunan ve her elemanın tersi olduğu, · işlemiyle donatılmış bir G kümesidir."
+      ],
+      [
+       "An element e is said to be an identity if e · g = g · e = g for all g in G.",
+       "Her g ∈ G için e · g = g · e = g ise e elemanına birim eleman denir."
+      ],
+      [
+       "Proposition: The identity of a group is unique.",
+       "Önerme: Bir grubun birim elemanı tektir."
+      ],
+      [
+       "Proof: Suppose e and f are both identities, and it suffices to show that e = f.",
+       "İspat: e ve f'nin ikisinin de birim eleman olduğunu varsayalım, e = f olduğunu göstermek yeterlidir."
+      ],
+      [
+       "Since f is an identity, e · f = e, and since e is an identity, e · f = f.",
+       "f birim eleman olduğu için e · f = e, e birim eleman olduğu için de e · f = f."
+      ],
+      [
+       "Hence e = e · f = f. ∎",
+       "Dolayısıyla e = e · f = f. ∎"
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "A small note",
+      "Küçük not"
+     ],
+     "s": [
+      [
+       "The proof uses the same product e · f in two different ways.",
+       "İspat aynı e · f çarpımını iki farklı şekilde kullanıyor."
+      ],
+      [
+       "This trick of looking at one object from two sides appears again and again in algebra.",
+       "Tek bir nesneye iki taraftan bakma hilesi cebirde tekrar tekrar karşımıza çıkar."
+      ],
+      [
+       "Notice also that we never used inverses, so the same proof works for any structure with an identity.",
+       "Ayrıca terslerini hiç kullanmadığımıza dikkat et, yani aynı ispat birim elemanı olan her yapı için geçerli."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "well-defined",
+       "iyi tanımlı"
+      ],
+      [
+       "up to isomorphism",
+       "izomorfizm farkıyla"
+      ],
+      [
+       "identity element",
+       "birim eleman"
+      ],
+      [
+       "inverse",
+       "ters eleman"
+      ],
+      [
+       "it suffices to show",
+       "göstermek yeterlidir"
+      ],
+      [
+       "associative",
+       "birleşmeli"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "soru": "What did OpenAI release on 6 October 2026?",
+   "soru_tr": "OpenAI 6 Ekim 2026'da ne yayımladı?",
+   "secenekler": [
+    "A new calculator app",
+    "722 maths manuscripts from an unreleased model",
+    "The answers to the LGS",
+    "A proof of Fermat's Last Theorem"
+   ],
+   "dogru": 1,
+   "aciklama": "The manuscripts were put on GitHub and many came with Lean files, but mathematicians say they still need checking.",
+   "aciklama_tr": "Taslaklar GitHub'a kondu ve çoğu Lean dosyalarıyla geldi, ama matematikçiler hâlâ kontrol edilmeleri gerektiğini söylüyor."
+  },
+  {
+   "soru": "According to Galois, when can an equation be solved by radicals?",
+   "soru_tr": "Galois'ya göre bir denklem ne zaman köklerle çözülebilir?",
+   "secenekler": [
+    "When its degree is odd",
+    "When all its roots are real",
+    "When its Galois group is solvable",
+    "When its coefficients are integers"
+   ],
+   "dogru": 2,
+   "aciklama": "An equation is solvable by radicals if and only if its Galois group is solvable, and S₅ is not.",
+   "aciklama_tr": "Bir denklem ancak ve ancak Galois grubu çözülebilirse köklerle çözülebilir ve S₅ çözülebilir değildir."
+  },
+  {
+   "soru": "How many elements does the symmetric group S₅ have?",
+   "soru_tr": "S₅ simetrik grubunun kaç elemanı vardır?",
+   "secenekler": [
+    "5",
+    "25",
+    "60",
+    "120"
+   ],
+   "dogru": 3,
+   "aciklama": "S₅ contains every permutation of 5 roots, and 5! = 120.",
+   "aciklama_tr": "S₅, 5 kökün tüm permütasyonlarını içerir ve 5! = 120."
+  },
+  {
+   "soru": "What does the word \"chiral\" describe?",
+   "soru_tr": "\"Kiral\" kelimesi neyi anlatır?",
+   "secenekler": [
+    "An object that is different from its mirror image",
+    "A very small particle",
+    "A circle with no centre",
+    "A molecule with no atoms"
+   ],
+   "dogru": 0,
+   "aciklama": "Like our hands, a chiral object cannot be turned into its mirror image by rotation.",
+   "aciklama_tr": "Ellerimiz gibi, kiral bir nesne döndürülerek ayna görüntüsüne dönüştürülemez."
+  },
+  {
+   "soru": "Where is the IceCube Neutrino Observatory?",
+   "soru_tr": "IceCube Nötrino Gözlemevi nerededir?",
+   "secenekler": [
+    "On the Moon",
+    "In the ice at the South Pole",
+    "Under the sea near Japan",
+    "In a mine in Belgium"
+   ],
+   "dogru": 1,
+   "aciklama": "It uses about one cubic kilometre of Antarctic ice with thousands of light sensors.",
+   "aciklama_tr": "Binlerce ışık sensörü yerleştirilmiş yaklaşık bir kilometreküplük Antarktika buzunu kullanır."
+  },
+  {
+   "soru": "What is 1 + 3 + 5 + 7 + 9, the sum of the first five odd numbers?",
+   "soru_tr": "İlk beş tek sayının toplamı olan 1 + 3 + 5 + 7 + 9 kaçtır?",
+   "secenekler": [
+    "20",
+    "25",
+    "30",
+    "36"
+   ],
+   "dogru": 1,
+   "aciklama": "The sum of the first n odd numbers is n², so for n = 5 it is 25.",
+   "aciklama_tr": "İlk n tek sayının toplamı n²'dir, yani n = 5 için 25."
+  }
+ ],
+ "bulmacalar": [
+  {
+   "tip": "anagram",
+   "karisik": "UPGOR",
+   "cevap": "GROUP",
+   "ipucu": "Galois was the first to use this word in its modern mathematical sense.",
+   "ipucu_tr": "Galois bu kelimeyi bugünkü matematiksel anlamıyla ilk kullanan kişiydi."
+  },
+  {
+   "tip": "anagram",
+   "karisik": "DILEF",
+   "cevap": "FIELD",
+   "ipucu": "A number system where you can add, subtract, multiply and divide.",
+   "ipucu_tr": "Toplama, çıkarma, çarpma ve bölme yapabildiğin bir sayı sistemi."
+  },
+  {
+   "tip": "anagram",
+   "karisik": "CTIUNIQ",
+   "cevap": "QUINTIC",
+   "ipucu": "An equation of degree five.",
+   "ipucu_tr": "Beşinci dereceden bir denklem."
+  },
+  {
+   "tip": "anagram",
+   "karisik": "RRIMOR",
+   "cevap": "MIRROR",
+   "ipucu": "It shows your left hand as a right hand.",
+   "ipucu_tr": "Sol elini sağ el olarak gösterir."
+  },
+  {
+   "tip": "eslestir",
+   "baslik": "Match the terms",
+   "baslik_tr": "Terimleri eşleştir",
+   "ciftler": [
+    [
+     "permutation",
+     "permütasyon"
+    ],
+    [
+     "chiral",
+     "kiral"
+    ],
+    [
+     "finite field",
+     "sonlu cisim"
+    ],
+    [
+     "conjecture",
+     "sanı"
+    ],
+    [
+     "identity element",
+     "birim eleman"
+    ]
+   ]
+  },
+  {
+   "tip": "mantik",
+   "baslik": "The mirror clock",
+   "baslik_tr": "Aynadaki saat",
+   "soru": "You see a clock with hands in a mirror, and it seems to show 3:40. What is the real time?",
+   "soru_tr": "Akrep ve yelkovanlı bir saati aynada görüyorsun ve 3:40'ı gösteriyor gibi duruyor. Gerçek saat kaç?",
+   "cevap": "The real time is 8:20. A mirror reflects the clock face across the line from 12 to 6, so the real time and the mirror time always add up to 12 hours. 12:00 − 3:40 = 8:20.",
+   "cevap_tr": "Gerçek saat 8:20. Ayna saat kadranını 12 ile 6'yı birleştiren doğruya göre yansıtır, bu yüzden gerçek saat ile aynadaki saatin toplamı her zaman 12 saattir. 12:00 − 3:40 = 8:20."
+  },
+  {
+   "tip": "mantik",
+   "baslik": "Galois' next birthday",
+   "baslik_tr": "Galois'nın bir sonraki doğum günü",
+   "soru": "25 October 2026, Galois' 215th birthday, is a Sunday. 2027 is not a leap year. On which day of the week will 25 October 2027 fall? Why?",
+   "soru_tr": "Galois'nın 215. doğum günü olan 25 Ekim 2026 pazar günü. 2027 artık yıl değil. 25 Ekim 2027 haftanın hangi gününe denk gelecek? Neden?",
+   "cevap": "Monday. Between the two dates there are 365 days, because the February in between has 28 days. 365 = 52 × 7 + 1, so the weekday moves forward by one: Sunday + 1 = Monday.",
+   "cevap_tr": "Pazartesi. İki tarih arasında 365 gün var, çünkü aradaki şubat 28 gün çekiyor. 365 = 52 × 7 + 1, yani haftanın günü bir ileri kayar: Pazar + 1 = Pazartesi."
+  }
+ ],
+ "terimler": [
+  [
+   "manuscript",
+   "makale taslağı"
+  ],
+  [
+   "singularity",
+   "tekillik"
+  ],
+  [
+   "to reproduce",
+   "yeniden üretmek, tekrarlamak"
+  ],
+  [
+   "formal statement",
+   "biçimsel ifade"
+  ],
+  [
+   "unverified",
+   "doğrulanmamış"
+  ],
+  [
+   "advisory group",
+   "danışma grubu"
+  ],
+  [
+   "quintic",
+   "beşinci dereceden denklem"
+  ],
+  [
+   "solvable by radicals",
+   "köklerle çözülebilir"
+  ],
+  [
+   "permutation",
+   "permütasyon"
+  ],
+  [
+   "symmetric group",
+   "simetrik grup"
+  ],
+  [
+   "solvable group",
+   "çözülebilir grup"
+  ],
+  [
+   "field extension",
+   "cisim genişlemesi"
+  ],
+  [
+   "chiral",
+   "kiral"
+  ],
+  [
+   "enantiomer",
+   "enantiyomer, ayna izomeri"
+  ],
+  [
+   "homochirality",
+   "homokiralite, tek ellilik"
+  ],
+  [
+   "autocatalysis",
+   "otokataliz"
+  ],
+  [
+   "enantiomeric excess",
+   "enantiyomer fazlalığı"
+  ],
+  [
+   "reflection",
+   "yansıma"
+  ],
+  [
+   "group",
+   "grup"
+  ],
+  [
+   "normal subgroup",
+   "normal alt grup"
+  ],
+  [
+   "finite field",
+   "sonlu cisim"
+  ],
+  [
+   "duel",
+   "düello"
+  ],
+  [
+   "to decipher",
+   "deşifre etmek, çözmek"
+  ],
+  [
+   "to reject",
+   "reddetmek"
+  ],
+  [
+   "neutrino",
+   "nötrino"
+  ],
+  [
+   "observatory",
+   "gözlemevi"
+  ],
+  [
+   "cubic kilometre",
+   "kilometreküp"
+  ],
+  [
+   "analytic number theory",
+   "analitik sayılar teorisi"
+  ],
+  [
+   "additive combinatorics",
+   "toplamsal kombinatorik"
+  ],
+  [
+   "small cases",
+   "küçük durumlar"
+  ],
+  [
+   "conjecture",
+   "sanı"
+  ],
+  [
+   "perfect square",
+   "tam kare"
+  ],
+  [
+   "proof by induction",
+   "tümevarımla ispat"
+  ],
+  [
+   "diagonal",
+   "köşegen"
+  ],
+  [
+   "base ten",
+   "onluk taban"
+  ],
+  [
+   "binary",
+   "ikili sistem, ikilik taban"
+  ],
+  [
+   "triangular number",
+   "üçgensel sayı"
+  ],
+  [
+   "factorial",
+   "faktöriyel"
+  ],
+  [
+   "line symmetry",
+   "doğruya göre simetri"
+  ],
+  [
+   "rotation",
+   "dönme"
+  ],
+  [
+   "equilateral triangle",
+   "eşkenar üçgen"
+  ],
+  [
+   "composition",
+   "bileşke"
+  ],
+  [
+   "commutative",
+   "değişmeli"
+  ],
+  [
+   "common exam",
+   "ortak sınav"
+  ],
+  [
+   "open-ended question",
+   "açık uçlu soru"
+  ],
+  [
+   "mid-term break",
+   "ara tatil"
+  ],
+  [
+   "anniversary",
+   "yıl dönümü"
+  ],
+  [
+   "well-defined",
+   "iyi tanımlı"
+  ],
+  [
+   "up to isomorphism",
+   "izomorfizm farkıyla"
+  ],
+  [
+   "identity element",
+   "birim eleman"
+  ],
+  [
+   "inverse",
+   "ters eleman"
+  ],
+  [
+   "it suffices to show",
+   "göstermek yeterlidir"
+  ],
+  [
+   "associative",
+   "birleşmeli"
+  ]
+ ]
+}

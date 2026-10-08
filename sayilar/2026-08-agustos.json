@@ -1,0 +1,2313 @@
+{
+ "format": 2,
+ "no": 8,
+ "ad": "The Lost Planet",
+ "ad_tr": "Kayıp Gezegen",
+ "donem": "Ağustos 2026",
+ "donem_en": "August 2026",
+ "tema": "Gündelik hayatta ve doğada matematik",
+ "tema_en": "Maths in everyday life and nature",
+ "kapak": {
+  "renkler": [
+   "#2F6690",
+   "#1D4560"
+  ],
+  "desen": 3
+ },
+ "bolumler": [
+  {
+   "id": "editor",
+   "ikon": "edit_note",
+   "renk": "#6C63FF",
+   "baslik": "Editor's Note",
+   "baslik_tr": "Editörden",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "Hello, and welcome to our summer issue.",
+       "Merhaba, yaz sayımıza hoş geldin."
+      ],
+      [
+       "August 2026 starts on a Saturday and has 31 days.",
+       "Ağustos 2026 cumartesi günü başlıyor ve 31 gün sürüyor."
+      ],
+      [
+       "Since 31 = 4 × 7 + 3, the first three weekdays of the month appear five times.",
+       "31 = 4 × 7 + 3 olduğu için ayın ilk üç günü takvimde beşer kez geliyor."
+      ],
+      [
+       "So this August has five Saturdays, five Sundays and five Mondays, in other words five full weekends.",
+       "Yani bu ağustosta beş cumartesi, beş pazar ve beş pazartesi var, bir başka deyişle tam beş hafta sonu."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The theme of this month is **maths in everyday life and nature**.",
+       "Bu ayın teması **gündelik hayatta ve doğada matematik**."
+      ],
+      [
+       "On a summer night you only need to look up to see it.",
+       "Bir yaz gecesi onu görmek için başını kaldırman yeterli."
+      ],
+      [
+       "The Moon covered the Sun over Iceland and Spain, and the Perseid meteors filled the dark sky on the same night.",
+       "Ay, İzlanda ve İspanya üzerinde Güneş'i kapattı ve aynı gece Perseid meteorları karanlık gökyüzünü doldurdu."
+      ],
+      [
+       "Behind both events there are orbits, and behind orbits there is mathematics.",
+       "İki olayın arkasında da yörüngeler, yörüngelerin arkasında da matematik var."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Our mathematician of the month once found a lost planet with nothing but a pen, paper and a new idea.",
+       "Ayın matematikçisi bir zamanlar kaybolan bir gezegeni yalnızca kalem, kâğıt ve yeni bir fikirle buldu."
+      ],
+      [
+       "His name was Carl Friedrich Gauss, and you will meet him, his famous trick and his famous curve in this issue.",
+       "Adı Carl Friedrich Gauss'tu ve bu sayıda onunla, meşhur hilesiyle ve meşhur eğrisiyle tanışacaksın."
+      ],
+      [
+       "Find a shady spot and enjoy your break!",
+       "Gölgede bir köşe bul ve iyi molalar!"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "haber",
+   "ikon": "newspaper",
+   "renk": "#2E86DE",
+   "baslik": "News from the World of Maths",
+   "baslik_tr": "Matematik Dünyasından Haberler",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "An AI model called Astra and ten open problems",
+      "Astra adlı yapay zekâ modeli ve on açık problem"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "On 1 August 2026, OpenAI announced that an unreleased internal model called **Astra** had produced new results on 10 problems.",
+       "1 Ağustos 2026'da OpenAI, henüz yayımlanmamış **Astra** adlı bir iç modelin 10 problemde yeni sonuçlar ürettiğini duyurdu."
+      ],
+      [
+       "All of them came from mathematics and theoretical computer science, and each had been open for at least ten years.",
+       "Hepsi matematik ve teorik bilgisayar biliminden geliyordu ve her biri en az on yıldır açıktı."
+      ],
+      [
+       "Three of them were problems from the famous list of Paul Erdős.",
+       "Bunlardan üçü Paul Erdős'ün ünlü listesindeki problemlerdi."
+      ],
+      [
+       "Another one answered a question about so-called **sofic groups** that Mikhail Gromov had asked in 1999.",
+       "Bir diğeri, Mikhail Gromov'un 1999'da sorduğu, **sofik gruplar** denen yapılarla ilgili bir soruyu cevapladı."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The company published the proofs together with **Lean** certificates.",
+       "Şirket ispatları **Lean** sertifikalarıyla birlikte yayımladı."
+      ],
+      [
+       "Lean is a computer language that checks a proof step by step and gives a simple verdict: correct or not.",
+       "Lean, bir ispatı adım adım kontrol eden ve basit bir karar veren bir bilgisayar dili: doğru ya da değil."
+      ],
+      [
+       "However, a computer cannot decide whether the formal statement really matches the original problem.",
+       "Ancak bir bilgisayar, biçimsel ifadenin gerçekten orijinal problemle örtüşüp örtüşmediğine karar veremez."
+      ],
+      [
+       "That job still belongs to human mathematicians, and none of the ten results had been **peer reviewed** at the time of the announcement.",
+       "Bu iş hâlâ insan matematikçilere ait ve duyuru sırasında on sonucun hiçbiri **hakem değerlendirmesinden** geçmemişti."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Thomas Bloom, who runs the website erdosproblems.com, called the results \"big news\".",
+       "erdosproblems.com sitesini yöneten Thomas Bloom sonuçları \"büyük haber\" olarak nitelendirdi."
+      ],
+      [
+       "Two days later, Quanta Magazine reported that the site listed 565 solved and 652 open Erdős problems.",
+       "İki gün sonra Quanta Magazine, sitede 565 çözülmüş ve 652 açık Erdős problemi bulunduğunu yazdı."
+      ],
+      [
+       "The article also reminded readers that most Erdős problems come from number theory, combinatorics and graph theory, so these successes may not carry over to every area of mathematics.",
+       "Makale ayrıca Erdős problemlerinin çoğunun sayılar teorisi, kombinatorik ve graf teorisinden geldiğini, bu yüzden bu başarıların matematiğin her alanına taşınamayabileceğini hatırlattı."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The total solar eclipse of 12 August",
+      "12 Ağustos tam güneş tutulması"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "On 12 August 2026, the Moon's shadow crossed Greenland, Iceland and northern Spain.",
+       "12 Ağustos 2026'da Ay'ın gölgesi Grönland, İzlanda ve kuzey İspanya'dan geçti."
+      ],
+      [
+       "The greatest eclipse took place at 17:47 UTC, and the longest **totality** lasted 2 minutes and 18 seconds.",
+       "Tutulmanın en büyük anı 17:47 UTC'de yaşandı ve en uzun **tam evre** 2 dakika 18 saniye sürdü."
+      ],
+      [
+       "Cities such as A Coruña, Bilbao, Zaragoza, Valencia and Palma were inside the path, while Madrid and Barcelona were just outside it.",
+       "A Coruña, Bilbao, Zaragoza, Valencia ve Palma gibi şehirler yolun içindeydi, Madrid ve Barselona ise hemen dışında kaldı."
+      ]
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "It was the first total solar eclipse seen from mainland Spain since 30 August 1905.",
+       "Bu, 30 Ağustos 1905'ten beri İspanya anakarasından görülen ilk tam güneş tutulmasıydı."
+      ],
+      [
+       "For Iceland, it was the first one since 30 June 1954.",
+       "İzlanda için ise 30 Haziran 1954'ten beri ilk tam tutulmaydı."
+      ],
+      [
+       "Spain chose 660 official viewing sites for the event.",
+       "İspanya bu olay için 660 resmî gözlem noktası belirledi."
+      ],
+      [
+       "Spain will not wait long for the next one: on 2 August 2027 another total eclipse will cross the south of the country and North Africa.",
+       "İspanya bir sonrakini uzun süre beklemeyecek: 2 Ağustos 2027'de başka bir tam tutulma ülkenin güneyinden ve Kuzey Afrika'dan geçecek."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Where is the maths?",
+      "Matematiği nerede?"
+     ],
+     "s": [
+      [
+       "Astronomers can predict the time of an eclipse to the second, centuries in advance.",
+       "Astronomlar bir tutulmanın zamanını yüzyıllar öncesinden saniyesine kadar hesaplayabiliyor."
+      ],
+      [
+       "Eclipses also repeat in families called **Saros series**, with a period of about 18 years and 11 days.",
+       "Tutulmalar ayrıca yaklaşık 18 yıl 11 günlük bir periyotla, **Saros serileri** denen ailelerde tekrar ediyor."
+      ],
+      [
+       "This eclipse belongs to Saros 126.",
+       "Bu tutulma Saros 126 serisine ait."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "A new telescope on its way",
+      "Yola çıkan yeni bir teleskop"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "On 30 August 2026, NASA's **Nancy Grace Roman Space Telescope** was launched from Florida on a Falcon Heavy rocket.",
+       "30 Ağustos 2026'da NASA'nın **Nancy Grace Roman Uzay Teleskobu** Florida'dan bir Falcon Heavy roketiyle fırlatıldı."
+      ],
+      [
+       "Its view of the sky is about 100 times wider than Hubble's.",
+       "Gökyüzünü gören alanı Hubble'ınkinden yaklaşık 100 kat daha geniş."
+      ],
+      [
+       "It will study dark matter, dark energy and planets around other stars, and it is expected to catalogue about 20 billion stars.",
+       "Karanlık maddeyi, karanlık enerjiyi ve başka yıldızların etrafındaki gezegenleri inceleyecek ve yaklaşık 20 milyar yıldızı kataloglaması bekleniyor."
+      ],
+      [
+       "Mathematicians will be busy too, because handling so much data needs serious statistics.",
+       "Matematikçilerin de işi çok, çünkü bu kadar veriyle başa çıkmak ciddi bir istatistik gerektiriyor."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "For the classroom",
+      "Sınıf için"
+     ],
+     "s": [
+      [
+       "Ask students: if an AI writes a proof that a computer has checked, do we still need a human to read it?",
+       "Öğrencilere sor: Yapay zekâ bir ispat yazsa ve bir bilgisayar onu kontrol etse, yine de bir insanın okumasına ihtiyaç var mı?"
+      ],
+      [
+       "The Astra story shows that the answer is yes, because someone must check that the right question was proved.",
+       "Astra hikâyesi cevabın evet olduğunu gösteriyor, çünkü birinin doğru sorunun ispatlandığını kontrol etmesi gerekiyor."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "open problem",
+       "açık problem"
+      ],
+      [
+       "peer review",
+       "hakem değerlendirmesi"
+      ],
+      [
+       "formal verification",
+       "biçimsel doğrulama"
+      ],
+      [
+       "total solar eclipse",
+       "tam güneş tutulması"
+      ],
+      [
+       "totality",
+       "tam evre"
+      ],
+      [
+       "Saros cycle",
+       "Saros döngüsü"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "makale",
+   "ikon": "article",
+   "renk": "#8E44AD",
+   "baslik": "Paper of the Month: The Method of Least Squares",
+   "baslik_tr": "Ayın Makalesi: En Küçük Kareler Yöntemi",
+   "bloklar": [
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Source",
+      "Kaynak"
+     ],
+     "s": [
+      [
+       "C. F. Gauss, Theoria Motus Corporum Coelestium in Sectionibus Conicis Solem Ambientium (Theory of the Motion of Heavenly Bodies Moving about the Sun in Conic Sections), Hamburg, 1809.",
+       "C. F. Gauss, Theoria Motus Corporum Coelestium in Sectionibus Conicis Solem Ambientium (Güneş Etrafında Konik Kesitler Üzerinde Hareket Eden Gök Cisimlerinin Hareket Teorisi), Hamburg, 1809."
+      ],
+      [
+       "Adrien-Marie Legendre had published the same method a few years earlier, in 1805.",
+       "Adrien-Marie Legendre aynı yöntemi birkaç yıl önce, 1805'te yayımlamıştı."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The problem",
+      "Problem"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Every measurement contains a small **error**.",
+       "Her ölçüm küçük bir **hata** içerir."
+      ],
+      [
+       "If you measure the length of your desk three times, you may get 120.2 cm, 119.9 cm and 120.0 cm.",
+       "Masanın uzunluğunu üç kez ölçersen 120,2 cm, 119,9 cm ve 120,0 cm bulabilirsin."
+      ],
+      [
+       "Astronomers in 1800 had the same problem, only with planets.",
+       "1800'lerdeki astronomlar da aynı problemi yaşıyordu, sadece gezegenlerle."
+      ],
+      [
+       "They had many observations that did not agree exactly, and they wanted the single orbit that fitted them best.",
+       "Birbirini tam olarak tutmayan çok sayıda gözlemleri vardı ve onlara en iyi uyan tek bir yörüngeyi istiyorlardı."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The idea",
+      "Fikir"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "For each observation, look at the difference between the measured value and the value your model predicts.",
+       "Her gözlem için ölçülen değer ile modelinin öngördüğü değer arasındaki farka bak."
+      ],
+      [
+       "This difference is called a **residual**.",
+       "Bu farka **artık** denir."
+      ],
+      [
+       "Some residuals are positive and some are negative, so simply adding them is not useful.",
+       "Artıkların bazıları pozitif, bazıları negatif, bu yüzden onları doğrudan toplamak işe yaramaz."
+      ],
+      [
+       "Gauss's answer was to square them first and then choose the model that makes the sum of squares as small as possible.",
+       "Gauss'un cevabı, önce onların karesini almak ve sonra kareler toplamını olabildiğince küçük yapan modeli seçmekti."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "S = Σ (yᵢ − f(xᵢ))²  >  minimum"
+    },
+    {
+     "t": "h",
+     "s": [
+      "The simplest case: the mean",
+      "En basit durum: ortalama"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Suppose the model is just one number c, the \"true\" length of the desk.",
+       "Modelin tek bir c sayısı, yani masanın \"gerçek\" uzunluğu olduğunu varsayalım."
+      ],
+      [
+       "We want to minimise S(c) = Σ (xᵢ − c)².",
+       "S(c) = Σ (xᵢ − c)² ifadesini en küçük yapmak istiyoruz."
+      ],
+      [
+       "Take the **derivative** and set it equal to zero.",
+       "**Türevini** alıp sıfıra eşitleyelim."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "S′(c) = −2 · Σ (xᵢ − c) = 0   >   c = (x₁ + x₂ + … + xₙ) / n"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The best value is exactly the **arithmetic mean**.",
+       "En iyi değer tam olarak **aritmetik ortalamadır**."
+      ],
+      [
+       "For our desk, it is (120.2 + 119.9 + 120.0) / 3 = 120.03 cm.",
+       "Masamız için bu (120,2 + 119,9 + 120,0) / 3 = 120,03 cm."
+      ],
+      [
+       "So the average we learn in primary school is secretly a least squares answer.",
+       "Yani ilkokulda öğrendiğimiz ortalama, aslında gizli bir en küçük kareler cevabıdır."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Fitting a line",
+      "Doğru uydurmak"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Now let the model be a straight line, y = a + bx.",
+       "Şimdi model bir doğru olsun, y = a + bx."
+      ],
+      [
+       "We set the **partial derivatives** with respect to a and b equal to zero.",
+       "a'ya ve b'ye göre **kısmi türevleri** sıfıra eşitliyoruz."
+      ],
+      [
+       "This gives two linear equations, which are called the **normal equations**.",
+       "Bu bize **normal denklemler** denen iki doğrusal denklem verir."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "n · a + (Σxᵢ) · b = Σyᵢ"
+    },
+    {
+     "t": "formul",
+     "m": "(Σxᵢ) · a + (Σxᵢ²) · b = Σxᵢyᵢ"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Two unknowns and two equations: a student in grade 9 can already solve this.",
+       "İki bilinmeyen ve iki denklem: Bunu 9. sınıf öğrencisi bile çözebilir."
+      ],
+      [
+       "Every \"trend line\" in a spreadsheet is calculated in exactly this way.",
+       "Hesap tablosundaki her \"eğilim çizgisi\" tam olarak bu şekilde hesaplanır."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Where does the bell curve come from?",
+      "Çan eğrisi nereden geliyor?"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "In the same book Gauss asked a deeper question: why should we square the errors at all?",
+       "Gauss aynı kitapta daha derin bir soru sordu: Hataların karesini neden alalım ki?"
+      ],
+      [
+       "He assumed that the arithmetic mean of several measurements is always the most probable value.",
+       "Birkaç ölçümün aritmetik ortalamasının her zaman en olası değer olduğunu varsaydı."
+      ],
+      [
+       "From this single assumption he found the only error law that fits it.",
+       "Bu tek varsayımdan, ona uyan tek hata yasasını buldu."
+      ],
+      [
+       "Today we call it the **normal distribution**, or simply the **bell curve**.",
+       "Bugün ona **normal dağılım** ya da kısaca **çan eğrisi** diyoruz."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "f(x) = 1 / (σ√(2π)) · e^(−(x − μ)² / (2σ²))"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Here μ is the mean and σ is the **standard deviation**, which measures how spread out the errors are.",
+       "Burada μ ortalama, σ ise hataların ne kadar yayıldığını ölçen **standart sapmadır**."
+      ],
+      [
+       "When errors follow this curve, least squares is the most natural method of all.",
+       "Hatalar bu eğriyi izlediğinde en küçük kareler, yöntemlerin en doğalı olur."
+      ],
+      [
+       "Small errors are common, large errors are rare, and the curve is symmetric around the mean.",
+       "Küçük hatalar sık, büyük hatalar nadirdir ve eğri ortalamanın etrafında simetriktir."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Graduate corner",
+      "Yüksek lisans köşesi"
+     ],
+     "s": [
+      [
+       "In matrix form the normal equations become AᵀA x = Aᵀb, and this is the starting point of **linear regression**.",
+       "Matris biçiminde normal denklemler AᵀA x = Aᵀb olur ve bu, **doğrusal regresyonun** başlangıç noktasıdır."
+      ],
+      [
+       "Geometrically, Ax is the **orthogonal projection** of b onto the column space of A.",
+       "Geometrik olarak Ax, b'nin A'nın sütun uzayı üzerine **dik izdüşümüdür**."
+      ],
+      [
+       "A later result, the Gauss–Markov theorem, shows that least squares is the best linear unbiased estimator even without assuming normal errors.",
+       "Daha sonraki bir sonuç olan Gauss–Markov teoremi, hataların normal olduğu varsayılmasa bile en küçük karelerin en iyi doğrusal yansız tahmin edici olduğunu gösterir."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "least squares",
+       "en küçük kareler"
+      ],
+      [
+       "residual",
+       "artık"
+      ],
+      [
+       "normal equations",
+       "normal denklemler"
+      ],
+      [
+       "normal distribution",
+       "normal dağılım"
+      ],
+      [
+       "standard deviation",
+       "standart sapma"
+      ],
+      [
+       "linear regression",
+       "doğrusal regresyon"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bilim",
+   "ikon": "science",
+   "renk": "#0E7490",
+   "baslik": "Science Corner: Orbits, a Lost Planet and Shooting Stars",
+   "baslik_tr": "Bilim Köşesi: Yörüngeler, Kayıp Bir Gezegen ve Yıldız Kaymaları",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "Lost on the other side of the Sun",
+      "Güneş'in öbür yanında kaybolan"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "On 1 January 1801, the Italian astronomer **Giuseppe Piazzi** saw a small moving point of light from Palermo.",
+       "1 Ocak 1801'de İtalyan astronom **Giuseppe Piazzi**, Palermo'dan küçük, hareket eden bir ışık noktası gördü."
+      ],
+      [
+       "It was between the orbits of Mars and Jupiter, exactly where many astronomers expected a missing planet.",
+       "Mars ile Jüpiter'in yörüngeleri arasındaydı, tam da birçok astronomun kayıp bir gezegen beklediği yerde."
+      ],
+      [
+       "Piazzi followed it for about six weeks, but then it moved too close to the Sun in the sky and disappeared in its glare.",
+       "Piazzi onu yaklaşık altı hafta takip etti, ama sonra gökyüzünde Güneş'e fazla yaklaştı ve onun parıltısında kayboldu."
+      ],
+      [
+       "He had only a short arc of observations, and nobody knew where to look when it came back.",
+       "Elinde sadece kısa bir gözlem yayı vardı ve geri döndüğünde nereye bakılacağını kimse bilmiyordu."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The 24-year-old Gauss took up the challenge.",
+       "24 yaşındaki Gauss bu meydan okumayı kabul etti."
+      ],
+      [
+       "He developed a new method to calculate a whole **orbit** from just three observations.",
+       "Yalnızca üç gözlemden bütün bir **yörüngeyi** hesaplayan yeni bir yöntem geliştirdi."
+      ],
+      [
+       "On 31 December 1801, Franz Xaver von Zach found the object again, very close to the position Gauss had predicted.",
+       "31 Aralık 1801'de Franz Xaver von Zach cismi, Gauss'un öngördüğü konuma çok yakın bir yerde yeniden buldu."
+      ],
+      [
+       "Its name is **Ceres**, and since 2006 it has been called a **dwarf planet**.",
+       "Adı **Ceres** ve 2006'dan beri **cüce gezegen** olarak adlandırılıyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Kepler's third law",
+      "Kepler'in üçüncü yasası"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Planets move on ellipses with the Sun at one **focus**.",
+       "Gezegenler, Güneş'in bir **odakta** bulunduğu elipsler üzerinde hareket eder."
+      ],
+      [
+       "Johannes Kepler also discovered a simple rule that links the size of an orbit to the time it takes.",
+       "Johannes Kepler ayrıca bir yörüngenin büyüklüğünü onu tamamlama süresine bağlayan basit bir kural keşfetti."
+      ],
+      [
+       "If T is measured in years and the semi-major axis a in **astronomical units** (the Earth–Sun distance), then:",
+       "T yıl cinsinden ve büyük yarı eksen a **astronomik birim** (Dünya-Güneş uzaklığı) cinsinden ölçülürse:"
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "T² = a³"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "For Ceres, a ≈ 2.77, so T ≈ √(2.77³) ≈ 4.6 years.",
+       "Ceres için a ≈ 2,77, yani T ≈ √(2,77³) ≈ 4,6 yıl."
+      ],
+      [
+       "For Jupiter, a ≈ 5.2, so T ≈ 11.9 years.",
+       "Jüpiter için a ≈ 5,2, yani T ≈ 11,9 yıl."
+      ],
+      [
+       "A planet that is farther away does not only travel a longer path, it also moves more slowly.",
+       "Daha uzaktaki bir gezegen yalnızca daha uzun bir yol gitmez, aynı zamanda daha yavaş hareket eder."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The Perseids: crossing a comet's path",
+      "Perseidler: Bir kuyrukluyıldızın yolundan geçmek"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Every August, the Earth passes through a stream of dust left behind by **comet** 109P/Swift–Tuttle.",
+       "Her ağustos Dünya, 109P/Swift–Tuttle **kuyrukluyıldızının** arkasında bıraktığı bir toz akıntısının içinden geçer."
+      ],
+      [
+       "The tiny grains hit our atmosphere at about 59 km per second and burn up as **meteors**.",
+       "Küçük taneler atmosferimize saniyede yaklaşık 59 km hızla çarpar ve **meteor** olarak yanar."
+      ],
+      [
+       "Because the Earth's orbit meets the dust stream at the same point every year, the shower always comes in the same weeks.",
+       "Dünya'nın yörüngesi toz akıntısıyla her yıl aynı noktada kesiştiği için yağmur hep aynı haftalarda gelir."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "In 2026, the peak was on the night of 12 to 13 August.",
+       "2026'da en yoğun zaman 12'yi 13 Ağustos'a bağlayan geceydi."
+      ],
+      [
+       "It was also a **new Moon**, so there was no moonlight to hide the faint meteors.",
+       "Aynı zamanda **yeni ay** vardı, bu yüzden sönük meteorları gizleyecek ay ışığı yoktu."
+      ],
+      [
+       "This is not a coincidence with the eclipse: a solar eclipse can only happen at new Moon, when the Moon is between the Earth and the Sun.",
+       "Bunun tutulmayla aynı güne denk gelmesi tesadüf değil: Güneş tutulması yalnızca Ay'ın Dünya ile Güneş arasında olduğu yeni ay evresinde olabilir."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "The 400 coincidence",
+      "400 tesadüfü"
+     ],
+     "s": [
+      [
+       "The Sun is about 400 times wider than the Moon, but it is also about 400 times farther away.",
+       "Güneş, Ay'dan yaklaşık 400 kat daha geniş, ama aynı zamanda yaklaşık 400 kat daha uzakta."
+      ],
+      [
+       "That is why both look almost the same size in our sky, and why the Moon can cover the Sun so perfectly.",
+       "Bu yüzden ikisi gökyüzümüzde neredeyse aynı büyüklükte görünür ve Ay, Güneş'i bu kadar kusursuz kapatabilir."
+      ],
+      [
+       "Readers in Türkiye may remember the total eclipse of 29 March 2006, seen from Antalya.",
+       "Türkiye'deki okurlar Antalya'dan izlenen 29 Mart 2006 tam tutulmasını hatırlayabilir."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "orbit",
+       "yörünge"
+      ],
+      [
+       "dwarf planet",
+       "cüce gezegen"
+      ],
+      [
+       "focus (of an ellipse)",
+       "elipsin odağı"
+      ],
+      [
+       "astronomical unit",
+       "astronomik birim"
+      ],
+      [
+       "comet",
+       "kuyrukluyıldız"
+      ],
+      [
+       "meteor shower",
+       "meteor yağmuru"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "matematikci",
+   "ikon": "person",
+   "renk": "#E67E22",
+   "baslik": "Mathematician of the Month: Carl Friedrich Gauss",
+   "baslik_tr": "Ayın Matematikçisi: Carl Friedrich Gauss",
+   "bloklar": [
+    {
+     "t": "portre",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Carl_Friedrich_Gauss_1840_by_Jensen.jpg/500px-Carl_Friedrich_Gauss_1840_by_Jensen.jpg",
+     "ad": "Carl Friedrich Gauss",
+     "yillar": "1777 – 1855",
+     "s": [
+      [
+       "German mathematician, astronomer and physicist, often called the \"Prince of Mathematicians\".",
+       "Sıklıkla \"Matematikçilerin Prensi\" olarak anılan Alman matematikçi, astronom ve fizikçi."
+      ]
+     ],
+     "kaynak": "Portrait by Christian Albrecht Jensen, 1840 · Public domain, Wikimedia Commons"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Some mathematicians are famous for one great idea.",
+       "Bazı matematikçiler tek bir büyük fikirle ünlüdür."
+      ],
+      [
+       "Gauss left his mark on almost every part of mathematics and on a good part of physics, too.",
+       "Gauss ise matematiğin neredeyse her alanında, fiziğin de büyük bir kısmında iz bıraktı."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "His life",
+      "Hayatı"
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "He was born on 30 April 1777 in Braunschweig, Germany, into a poor family.",
+       "30 Nisan 1777'de Almanya'nın Braunschweig şehrinde yoksul bir ailede doğdu."
+      ],
+      [
+       "His talent was noticed early, and the Duke of Braunschweig paid for his education.",
+       "Yeteneği erken fark edildi ve Braunschweig Dükü eğitim masraflarını üstlendi."
+      ],
+      [
+       "In 1796, at the age of 18, he showed that a regular 17-sided polygon can be constructed with only a **compass** and a **straightedge**.",
+       "1796'da, 18 yaşındayken, düzgün 17 kenarlı bir çokgenin yalnızca **pergel** ve **cetvel** ile çizilebileceğini gösterdi."
+      ],
+      [
+       "Nobody had found a new constructible regular polygon with a prime number of sides since the ancient Greeks.",
+       "Antik Yunanlılardan beri kimse kenar sayısı asal olan yeni bir çizilebilir düzgün çokgen bulamamıştı."
+      ],
+      [
+       "In 1801 he published Disquisitiones Arithmeticae, the book that turned **number theory** into a modern subject.",
+       "1801'de **sayılar teorisini** modern bir alana dönüştüren kitap olan Disquisitiones Arithmeticae'yı yayımladı."
+      ],
+      [
+       "In the same year he found the lost Ceres, and from 1807 he directed the observatory in Göttingen for the rest of his life.",
+       "Aynı yıl kayıp Ceres'i buldu ve 1807'den hayatının sonuna kadar Göttingen'deki gözlemevini yönetti."
+      ],
+      [
+       "He died in Göttingen on 23 February 1855.",
+       "23 Şubat 1855'te Göttingen'de hayatını kaybetti."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "His contributions",
+      "Katkıları"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "**Modular arithmetic**: the symbol ≡ that we use for congruences, as in 17 ≡ 2 (mod 5), comes from Gauss.",
+       "**Modüler aritmetik**: 17 ≡ 2 (mod 5) örneğindeki gibi denklikler için kullandığımız ≡ sembolü Gauss'tan gelir."
+      ],
+      [
+       "He also proved the **law of quadratic reciprocity**, which he called the \"golden theorem\".",
+       "Ayrıca \"altın teorem\" adını verdiği **ikinci dereceden karşılıklılık yasasını** ispatladı."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "**The fundamental theorem of algebra**: in his doctoral thesis of 1799 he gave a proof that every polynomial equation has a root among the complex numbers.",
+       "**Cebirin temel teoremi**: 1799'daki doktora tezinde her polinom denkleminin karmaşık sayılar arasında bir kökü olduğuna dair bir ispat verdi."
+      ],
+      [
+       "He returned to this theorem several times in his life and gave four different proofs.",
+       "Hayatı boyunca bu teoreme birkaç kez geri döndü ve dört farklı ispat verdi."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "**Geometry of surfaces**: while he was measuring the land of the Kingdom of Hanover, he thought deeply about curved surfaces.",
+       "**Yüzeylerin geometrisi**: Hannover Krallığı'nın arazisini ölçerken eğri yüzeyler üzerine derinlemesine düşündü."
+      ],
+      [
+       "His Theorema Egregium, the \"remarkable theorem\" of 1827, says that the **curvature** of a surface can be measured from inside the surface.",
+       "1827 tarihli Theorema Egregium, yani \"dikkate değer teorem\", bir yüzeyin **eğriliğinin** yüzeyin içinden ölçülebileceğini söyler."
+      ],
+      [
+       "This is why you cannot flatten an orange peel without tearing it, and why every flat map of the Earth is distorted.",
+       "Bu yüzden bir portakal kabuğunu yırtmadan düzleştiremezsin ve Dünya'nın her düz haritası bozulmalıdır."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "**Physics**: with Wilhelm Weber he studied the Earth's magnetism, and in 1833 they built an electromagnetic telegraph in Göttingen.",
+       "**Fizik**: Wilhelm Weber ile birlikte Dünya'nın manyetizmasını inceledi ve 1833'te Göttingen'de elektromanyetik bir telgraf kurdular."
+      ],
+      [
+       "A unit of magnetic field, the gauss, is named after him.",
+       "Bir manyetik alan birimi olan gauss, onun adını taşır."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Few, but ripe",
+      "Az ama olgun"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Gauss's motto was \"Pauca sed matura\", which means \"few, but ripe\".",
+       "Gauss'un düsturu \"Pauca sed matura\" idi, yani \"az ama olgun\"."
+      ],
+      [
+       "He published only the results he considered complete and perfect.",
+       "Yalnızca tamamlanmış ve kusursuz bulduğu sonuçları yayımladı."
+      ],
+      [
+       "After his death, his notebooks showed that he had found some important ideas years before others published them.",
+       "Ölümünden sonra defterleri, bazı önemli fikirleri başkaları yayımlamadan yıllar önce bulduğunu gösterdi."
+      ],
+      [
+       "His face and the bell curve once appeared together on the German 10 Mark banknote.",
+       "Yüzü ve çan eğrisi bir zamanlar Alman 10 Mark banknotunda birlikte yer aldı."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "For the classroom",
+      "Sınıf için"
+     ],
+     "s": [
+      [
+       "Show students Gauss's notation with a clock: 17 o'clock is 5 o'clock on a 12-hour clock, so 17 ≡ 5 (mod 12).",
+       "Öğrencilere Gauss'un gösterimini bir saatle anlat: Saat 17, 12 saatlik kadranda saat 5'tir, yani 17 ≡ 5 (mod 12)."
+      ],
+      [
+       "Then ask: what day of the week will it be 100 days from today?",
+       "Sonra sor: Bugünden 100 gün sonra haftanın hangi günü olacak?"
+      ],
+      [
+       "Since 100 ≡ 2 (mod 7), it will be two days later in the week than today.",
+       "100 ≡ 2 (mod 7) olduğu için haftanın bugünden iki gün sonraki günü olacak."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "compass and straightedge",
+       "pergel ve cetvel"
+      ],
+      [
+       "number theory",
+       "sayılar teorisi"
+      ],
+      [
+       "congruence",
+       "denklik"
+      ],
+      [
+       "fundamental theorem of algebra",
+       "cebirin temel teoremi"
+      ],
+      [
+       "curvature",
+       "eğrilik"
+      ],
+      [
+       "motto",
+       "düstur, slogan"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "odul",
+   "ikon": "emoji_events",
+   "renk": "#D4A017",
+   "baslik": "Prize Corner",
+   "baslik_tr": "Ödüller Köşesi",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "Future Science Prize 2026: Xinyi Yuan",
+      "Future Science Prize 2026: Xinyi Yuan"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "On 13 August 2026, the laureates of the Future Science Prize were announced in Beijing and Hong Kong.",
+       "13 Ağustos 2026'da Future Science Prize sahipleri Pekin ve Hong Kong'da açıklandı."
+      ],
+      [
+       "This prize is often called \"China's Nobel Prize\", and each category is worth 1 million dollars.",
+       "Bu ödül sıklıkla \"Çin'in Nobel'i\" olarak anılıyor ve her kategori 1 milyon dolar değerinde."
+      ],
+      [
+       "The Mathematics and Computer Science Prize went to **Xinyi Yuan** of Peking University.",
+       "Matematik ve Bilgisayar Bilimi Ödülü, Pekin Üniversitesi'nden **Xinyi Yuan**'a verildi."
+      ],
+      [
+       "The prize recognises his fundamental contributions to **arithmetic geometry**.",
+       "Ödül, onun **aritmetik geometriye** yaptığı temel katkıları onurlandırıyor."
+      ],
+      [
+       "In particular, it mentions his theory of \"arithmetic bigness\" in Arakelov geometry and its applications to the uniform Bogomolov and uniform Mordell conjectures.",
+       "Özellikle Arakelov geometrisindeki \"aritmetik büyüklük\" teorisini ve bunun tek biçimli Bogomolov ve tek biçimli Mordell sanılarına uygulamalarını anıyor."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "What is the Mordell conjecture?",
+      "Mordell sanısı nedir?"
+     ],
+     "s": [
+      [
+       "Take an equation with two unknowns, such as y² = x⁵ + 1, and look for solutions where x and y are **rational numbers**.",
+       "y² = x⁵ + 1 gibi iki bilinmeyenli bir denklem al ve x ile y'nin **rasyonel sayı** olduğu çözümleri ara."
+      ],
+      [
+       "In 1922 Louis Mordell guessed that \"complicated\" curves of this kind, those of **genus** at least 2, have only finitely many rational points.",
+       "Louis Mordell 1922'de bu türden \"karmaşık\" eğrilerin, yani **cinsi** en az 2 olanların, yalnızca sonlu sayıda rasyonel noktası olduğunu tahmin etti."
+      ],
+      [
+       "Gerd Faltings proved this in 1983 and later won the Fields Medal.",
+       "Gerd Faltings bunu 1983'te ispatladı ve sonra Fields Madalyası kazandı."
+      ],
+      [
+       "The \"uniform\" versions ask for more: an upper bound on the number of points that does not depend on each curve separately, but mainly on simple data such as its genus.",
+       "\"Tek biçimli\" versiyonlar daha fazlasını istiyor: Nokta sayısı için her eğriye ayrı ayrı değil, esas olarak cinsi gibi basit verilere bağlı bir üst sınır."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Sylvester Medal 2026: Wendelin Werner",
+      "Sylvester Madalyası 2026: Wendelin Werner"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "On 27 August 2026, the Royal Society in London announced its medals and awards for the year.",
+       "27 Ağustos 2026'da Londra'daki Royal Society bu yılın madalya ve ödüllerini açıkladı."
+      ],
+      [
+       "The **Sylvester Medal**, given for the encouragement of mathematical research, went to **Wendelin Werner**.",
+       "Matematik araştırmalarını teşvik için verilen **Sylvester Madalyası**, **Wendelin Werner**'e verildi."
+      ],
+      [
+       "The Royal Society recognised his instrumental role in developing the **Schramm–Loewner evolution** (SLE).",
+       "Royal Society, onun **Schramm–Loewner evrimi** (SLE) teorisinin gelişimindeki belirleyici rolünü onurlandırdı."
+      ],
+      [
+       "Werner had already received the Fields Medal in 2006.",
+       "Werner 2006'da Fields Madalyası'nı da almıştı."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "SLE describes random curves in the plane.",
+       "SLE, düzlemdeki rastgele eğrileri tanımlar."
+      ],
+      [
+       "Imagine water slowly soaking through a porous stone, or the border of a random cluster on a grid.",
+       "Gözenekli bir taşın içinden yavaşça sızan suyu ya da bir ızgara üzerindeki rastgele bir kümenin sınırını düşün."
+      ],
+      [
+       "When the grid becomes very fine, these borders look like fractal curves, and SLE gives their exact laws.",
+       "Izgara çok incelince bu sınırlar fraktal eğrilere benzer ve SLE onların tam yasalarını verir."
+      ],
+      [
+       "In 2001, Werner, Gregory Lawler and Oded Schramm used these ideas to prove that the outer border of a random path in the plane, called Brownian motion, has **fractal dimension** 4/3, as Benoit Mandelbrot had predicted.",
+       "2001'de Werner, Gregory Lawler ve Oded Schramm bu fikirleri kullanarak düzlemde Brown hareketi denen rastgele bir yolun dış sınırının **fraktal boyutunun** Benoit Mandelbrot'un tahmin ettiği gibi 4/3 olduğunu ispatladı."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "High school link",
+      "Lise bağlantısı"
+     ],
+     "s": [
+      [
+       "A simple **random walk** is easy to play in class: flip a coin, step right for heads and left for tails.",
+       "Basit bir **rastgele yürüyüş** sınıfta kolayca oynanabilir: Yazı tura at, yazı gelirse sağa, tura gelirse sola bir adım at."
+      ],
+      [
+       "After 100 flips, how far from the start are you on average?",
+       "100 atıştan sonra başlangıçtan ortalama ne kadar uzaktasın?"
+      ],
+      [
+       "The typical distance grows like √n, so after 100 steps it is about 10 steps, not 50.",
+       "Tipik uzaklık √n gibi büyür, yani 100 adımdan sonra 50 değil, yaklaşık 10 adım."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "arithmetic geometry",
+       "aritmetik geometri"
+      ],
+      [
+       "rational point",
+       "rasyonel nokta"
+      ],
+      [
+       "genus",
+       "cins"
+      ],
+      [
+       "random walk",
+       "rastgele yürüyüş"
+      ],
+      [
+       "fractal dimension",
+       "fraktal boyut"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dusun",
+   "ikon": "psychology",
+   "renk": "#16A085",
+   "baslik": "Think Like a Mathematician: Pair It Up",
+   "baslik_tr": "Matematikçi Gibi Düşünmek: Eşleştir",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "According to a famous story, which may be partly legend, a teacher once wanted a quiet hour in class.",
+       "Kısmen efsane olabilecek ünlü bir hikâyeye göre bir öğretmen bir gün sınıfta sessiz bir saat geçirmek istemiş."
+      ],
+      [
+       "He asked the pupils to add up all the whole numbers from 1 to 100.",
+       "Öğrencilerden 1'den 100'e kadar bütün tam sayıları toplamalarını istemiş."
+      ],
+      [
+       "A few moments later, young Gauss put his slate on the desk with the correct answer.",
+       "Birkaç dakika sonra küçük Gauss, doğru cevabın yazılı olduğu yazı tahtasını masaya koymuş."
+      ],
+      [
+       "This month's strategy is his trick: **pair things up** so that every pair looks the same.",
+       "Bu ayın stratejisi onun hilesi: **Şeyleri eşleştir**, öyle ki her çift aynı görünsün."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "The problem",
+      "Problem"
+     ],
+     "s": [
+      [
+       "What is 1 + 2 + 3 + … + 99 + 100?",
+       "1 + 2 + 3 + … + 99 + 100 kaçtır?"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The solution",
+      "Çözüm"
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "Pair the first number with the last one: 1 + 100 = 101.",
+       "İlk sayıyı sonuncuyla eşleştir: 1 + 100 = 101."
+      ],
+      [
+       "Pair the second with the second-to-last: 2 + 99 = 101.",
+       "İkinciyi sondan ikinciyle eşleştir: 2 + 99 = 101."
+      ],
+      [
+       "Every pair gives the same sum, all the way to 50 + 51 = 101.",
+       "Her çift aynı toplamı verir, 50 + 51 = 101'e kadar."
+      ],
+      [
+       "There are 50 pairs, so the total is 50 × 101 = 5050.",
+       "50 çift var, yani toplam 50 × 101 = 5050."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The same idea works for any n.",
+       "Aynı fikir her n için işe yarar."
+      ],
+      [
+       "Write the sum forwards and backwards, then add the two lines term by term.",
+       "Toplamı bir düz, bir ters yaz ve iki satırı terim terim topla."
+      ],
+      [
+       "Each column gives n + 1, and there are n columns, so twice the sum is n(n + 1).",
+       "Her sütun n + 1 verir ve n sütun var, yani toplamın iki katı n(n + 1) olur."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "1 + 2 + … + n = n(n + 1) / 2"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "For example, 1 + 2 + … + 2026 = 2026 × 2027 / 2 = 2,053,351.",
+       "Örneğin 1 + 2 + … + 2026 = 2026 × 2027 / 2 = 2.053.351."
+      ],
+      [
+       "The trick works for every **arithmetic series**, where the difference between neighbouring terms is constant.",
+       "Hile, ardışık terimler arasındaki farkın sabit olduğu her **aritmetik seri** için geçerlidir."
+      ],
+      [
+       "The sum is always the number of terms times the average of the first and the last term.",
+       "Toplam her zaman terim sayısı çarpı ilk ve son terimin ortalamasıdır."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "The lesson",
+      "Ders"
+     ],
+     "s": [
+      [
+       "When a calculation looks long, look for **symmetry**.",
+       "Bir hesap uzun göründüğünde **simetri** ara."
+      ],
+      [
+       "If you can group the pieces so that every group is the same, a long sum becomes a single multiplication.",
+       "Parçaları her grup aynı olacak şekilde gruplayabiliyorsan uzun bir toplam tek bir çarpmaya dönüşür."
+      ],
+      [
+       "The same idea shows up in probability, in geometry and even in Gauss's work on finding orbits.",
+       "Aynı fikir olasılıkta, geometride, hatta Gauss'un yörünge bulma çalışmalarında bile karşına çıkar."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "Your turn",
+      "Senin sıran"
+     ],
+     "s": [
+      [
+       "Find the sum of all odd numbers from 1 to 99.",
+       "1'den 99'a kadar bütün tek sayıların toplamını bul."
+      ],
+      [
+       "Can you also see why the answer is a perfect square?",
+       "Cevabın neden bir tam kare olduğunu da görebiliyor musun?"
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "Answer",
+      "Cevap"
+     ],
+     "s": [
+      [
+       "There are 50 odd numbers, and pairs such as 1 + 99, 3 + 97 and 49 + 51 each give 100.",
+       "50 tek sayı var ve 1 + 99, 3 + 97, 49 + 51 gibi çiftlerin her biri 100 verir."
+      ],
+      [
+       "There are 25 pairs, so the sum is 25 × 100 = 2500.",
+       "25 çift var, yani toplam 25 × 100 = 2500."
+      ],
+      [
+       "In general, the sum of the first n odd numbers is n², and here 50² = 2500.",
+       "Genel olarak ilk n tek sayının toplamı n²'dir ve burada 50² = 2500."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "to pair up",
+       "eşleştirmek"
+      ],
+      [
+       "arithmetic series",
+       "aritmetik seri"
+      ],
+      [
+       "term",
+       "terim"
+      ],
+      [
+       "symmetry",
+       "simetri"
+      ],
+      [
+       "perfect square",
+       "tam kare"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eglence",
+   "ikon": "lightbulb",
+   "renk": "#E84393",
+   "baslik": "Fun Facts: August, 8 and Summer",
+   "baslik_tr": "Eğlenceli Bilgiler: Ağustos, 8 ve Yaz",
+   "bloklar": [
+    {
+     "t": "liste",
+     "s": [
+      [
+       "**A month named after an emperor**: the Romans called this month Sextilis, the sixth month, and in 8 BC it was renamed in honour of Emperor Augustus.",
+       "**Adını bir imparatordan alan ay**: Romalılar bu aya altıncı ay anlamında Sextilis diyordu ve MÖ 8'de İmparator Augustus'un onuruna adı değiştirildi."
+      ],
+      [
+       "A popular story says that Augustus took a day from February so that his month would be as long as July.",
+       "Popüler bir hikâyeye göre Augustus, kendi ayı temmuz kadar uzun olsun diye şubattan bir gün almış."
+      ],
+      [
+       "Historians think this is a **myth**, which appears for the first time in the Middle Ages.",
+       "Tarihçiler bunun ilk kez Orta Çağ'da ortaya çıkan bir **efsane** olduğunu düşünüyor."
+      ],
+      [
+       "**The number 8**: it is a **cube**, 8 = 2³, and it is also a Fibonacci number.",
+       "**8 sayısı**: Bir **küptür**, 8 = 2³, ve aynı zamanda bir Fibonacci sayısıdır."
+      ],
+      [
+       "In 2006 mathematicians proved that the only perfect powers in the Fibonacci sequence are 0, 1, 8 and 144.",
+       "2006'da matematikçiler Fibonacci dizisindeki tam kuvvetlerin yalnızca 0, 1, 8 ve 144 olduğunu ispatladı."
+      ],
+      [
+       "**Infinity on its side**: the symbol ∞ looks like a lying 8, and John Wallis introduced it in 1655.",
+       "**Yan yatmış sonsuz**: ∞ sembolü yan yatmış bir 8'e benzer ve onu 1655'te John Wallis kullanmaya başladı."
+      ],
+      [
+       "**Sunflowers**: the seeds of a sunflower form two families of spirals, and the numbers of spirals are usually neighbouring Fibonacci numbers, such as 34 and 55.",
+       "**Ayçiçekleri**: Ayçiçeğinin tohumları iki spiral ailesi oluşturur ve spiral sayıları genellikle 34 ve 55 gibi ardışık Fibonacci sayılarıdır."
+      ],
+      [
+       "**Honeycombs**: bees build hexagons, and in 1999 Thomas Hales proved that a hexagonal grid divides a plane into equal areas with the least total wall length.",
+       "**Bal petekleri**: Arılar altıgen yapar ve 1999'da Thomas Hales altıgen ızgaranın düzlemi eşit alanlara en kısa toplam duvar uzunluğuyla böldüğünü ispatladı."
+      ],
+      [
+       "**Prime cicadas**: some cicadas in North America come out of the ground only every 13 or 17 years, and both numbers are **prime**.",
+       "**Asal ağustosböcekleri**: Kuzey Amerika'daki bazı ağustosböcekleri topraktan yalnızca 13 ya da 17 yılda bir çıkar ve iki sayı da **asaldır**."
+      ],
+      [
+       "One popular explanation is that a prime cycle rarely lines up with the cycles of their enemies.",
+       "Popüler bir açıklamaya göre asal bir döngü, düşmanlarının döngüleriyle nadiren çakışır."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "myth",
+       "efsane, yanlış inanış"
+      ],
+      [
+       "perfect power",
+       "tam kuvvet"
+      ],
+      [
+       "spiral",
+       "sarmal, spiral"
+      ],
+      [
+       "hexagon",
+       "altıgen"
+      ],
+      [
+       "prime number",
+       "asal sayı"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sinif",
+   "ikon": "school",
+   "renk": "#27AE60",
+   "baslik": "In the Classroom",
+   "baslik_tr": "Sınıfta Matematik",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "Grades 6–8: A pocket-sized Solar System",
+      "6-8. sınıflar: Cep boyu Güneş Sistemi"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Goal: ratio and proportion, scale, and working with large numbers.",
+       "Hedef: Oran-orantı, ölçek ve büyük sayılarla çalışma."
+      ],
+      [
+       "Give students these rounded values.",
+       "Öğrencilere şu yuvarlanmış değerleri verin."
+      ]
+     ]
+    },
+    {
+     "t": "tablo",
+     "basliklar": [
+      "Object / Cisim",
+      "Diameter / Çap",
+      "Distance from Earth / Dünya'ya uzaklık"
+     ],
+     "satirlar": [
+      [
+       "Moon / Ay",
+       "3,500 km",
+       "384,000 km"
+      ],
+      [
+       "Sun / Güneş",
+       "1,400,000 km",
+       "150,000,000 km"
+      ]
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "First, find how many times wider the Sun is than the Moon, and how many times farther away it is.",
+       "Önce Güneş'in Ay'dan kaç kat geniş ve kaç kat uzak olduğunu bulun."
+      ],
+      [
+       "Both answers are close to 400, so they look the same size in the sky.",
+       "İki cevap da 400'e yakın, bu yüzden gökyüzünde aynı büyüklükte görünürler."
+      ],
+      [
+       "Now build a model: if the Moon is a 1 cm bead, the Sun must be a ball about 4 m wide.",
+       "Şimdi bir model kurun: Ay 1 cm'lik bir boncuksa, Güneş yaklaşık 4 m genişliğinde bir top olmalı."
+      ],
+      [
+       "In the same **scale**, the Moon is about 1.1 m from the Earth, and the Sun is more than 400 m away.",
+       "Aynı **ölçekte** Ay, Dünya'dan yaklaşık 1,1 m, Güneş ise 400 m'den fazla uzakta olur."
+      ],
+      [
+       "Go to the school yard and measure these distances with steps.",
+       "Okul bahçesine çıkın ve bu uzaklıkları adımlarla ölçün."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "Bonus question",
+      "Bonus soru"
+     ],
+     "s": [
+      [
+       "Hold a 1 cm bead with your arm straight out: can it cover the full Moon?",
+       "Kolunu düz uzatıp 1 cm'lik bir boncuk tut: Dolunayı kapatabilir mi?"
+      ],
+      [
+       "Yes, easily, because at that distance the Moon looks only about half a centimetre wide.",
+       "Evet, kolayca, çünkü o uzaklıkta Ay yalnızca yaklaşık yarım santimetre genişliğinde görünür."
+      ],
+      [
+       "This activity practises proportional reasoning and estimation, two skills that the Maarif model puts in the centre.",
+       "Bu etkinlik, Maarif modelinin merkeze koyduğu iki beceri olan orantısal akıl yürütmeyi ve tahmin etmeyi çalıştırıyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "High school: Fit a line like Gauss",
+      "Lise: Gauss gibi doğru uydur"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "A lemonade stand sells cups on five summer days.",
+       "Bir limonata standı beş yaz gününde bardak satıyor."
+      ],
+      [
+       "Let x be the day number and y the number of cups in tens: (1, 2), (2, 3), (3, 5), (4, 4) and (5, 6).",
+       "x gün numarası, y de onlar cinsinden bardak sayısı olsun: (1, 2), (2, 3), (3, 5), (4, 4) ve (5, 6)."
+      ],
+      [
+       "Students fill in a table with the columns x, y, x² and xy, and add each column.",
+       "Öğrenciler x, y, x² ve xy sütunlarından oluşan bir tablo doldurup her sütunu toplasın."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "Σx = 15,  Σy = 20,  Σx² = 55,  Σxy = 69"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Put these sums into the normal equations from our paper of the month.",
+       "Bu toplamları ayın makalesindeki normal denklemlere yerleştirin."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "5a + 15b = 20   and   15a + 55b = 69"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The solution is b = 0.9 and a = 1.3, so the best line is y = 1.3 + 0.9x.",
+       "Çözüm b = 0,9 ve a = 1,3, yani en iyi doğru y = 1,3 + 0,9x."
+      ],
+      [
+       "Check: the line passes through the point of means, (3, 4).",
+       "Kontrol: Doğru, ortalamalar noktası olan (3, 4)'ten geçer."
+      ],
+      [
+       "Finally, students enter the same data into a spreadsheet and compare their line with the program's trend line.",
+       "Son olarak öğrenciler aynı verileri bir hesap tablosuna girip kendi doğrularını programın eğilim çizgisiyle karşılaştırsın."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "Discussion questions",
+      "Tartışma soruları"
+     ],
+     "s": [
+      [
+       "What does the line predict for day 6, and how much should we trust it?",
+       "Doğru 6. gün için ne öngörüyor ve ona ne kadar güvenmeliyiz?"
+      ],
+      [
+       "Calculate the five residuals: what is their sum?",
+       "Beş artığı hesaplayın: Toplamları kaç?"
+      ],
+      [
+       "Hint: for a least squares line with a constant term, the residuals always add up to zero.",
+       "İpucu: Sabit terimi olan bir en küçük kareler doğrusunda artıkların toplamı her zaman sıfırdır."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "scale model",
+       "ölçekli model"
+      ],
+      [
+       "ratio",
+       "oran"
+      ],
+      [
+       "estimation",
+       "tahmin"
+      ],
+      [
+       "trend line",
+       "eğilim çizgisi"
+      ],
+      [
+       "point of means",
+       "ortalamalar noktası"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gundem",
+   "ikon": "campaign",
+   "renk": "#C0392B",
+   "baslik": "Education in Türkiye",
+   "baslik_tr": "Eğitim Gündemi",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "LGS placement results",
+      "LGS yerleştirme sonuçları"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The Ministry of National Education announced the 2026 LGS placement results on 5 August.",
+       "Millî Eğitim Bakanlığı 2026 LGS yerleştirme sonuçlarını 5 Ağustos'ta açıkladı."
+      ],
+      [
+       "Exam-based schools offered 198,905 places, and 190,473 of them were filled, a **placement rate** of 95.76%.",
+       "Sınavla öğrenci alan okullar 198.905 kontenjan sundu ve bunların 190.473'ü doldu, yani **yerleşme oranı** %95,76 oldu."
+      ],
+      [
+       "89.84% of students in central placement got one of their first five choices.",
+       "Merkezî yerleştirmedeki öğrencilerin %89,84'ü ilk beş tercihinden birine yerleşti."
+      ],
+      [
+       "Two rounds of **transfers** followed, with results on 10 and 14 August.",
+       "Ardından iki **nakil** dönemi yapıldı, sonuçlar 10 ve 14 Ağustos'ta açıklandı."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "A percentage question for grade 8",
+      "8. sınıf için yüzde sorusu"
+     ],
+     "s": [
+      [
+       "Ask your students to check the rate themselves: 190,473 ÷ 198,905 ≈ 0.9576.",
+       "Öğrencilerinizden oranı kendilerinin kontrol etmesini isteyin: 190.473 ÷ 198.905 ≈ 0,9576."
+      ],
+      [
+       "Then ask: how many places were left empty?",
+       "Sonra sorun: Kaç kontenjan boş kaldı?"
+      ],
+      [
+       "The answer is 8,432.",
+       "Cevap 8.432."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "YKS placement results",
+      "YKS yerleştirme sonuçları"
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "ÖSYM announced the 2026 YKS placement results on 18 August.",
+       "ÖSYM 2026 YKS yerleştirme sonuçlarını 18 Ağustos'ta açıkladı."
+      ],
+      [
+       "Placement scores were calculated for 2,187,747 candidates, and 1,279,439 candidates applied for placement.",
+       "2.187.747 adayın yerleştirme puanı hesaplandı ve 1.279.439 aday yerleştirmeye başvurdu."
+      ],
+      [
+       "In total, 730,854 candidates were placed in a programme.",
+       "Toplam 730.854 aday bir programa yerleşti."
+      ],
+      [
+       "In state universities' formal programmes, 479,392 of the 481,684 places were filled, an **occupancy rate** of 99.52%.",
+       "Devlet üniversitelerinin örgün programlarında 481.684 kontenjanın 479.392'si doldu, yani **doluluk oranı** %99,52 oldu."
+      ],
+      [
+       "University **registration** took place from 24 to 28 August.",
+       "Üniversite **kayıtları** 24-28 Ağustos tarihlerinde yapıldı."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Getting ready for the new school year",
+      "Yeni eğitim yılına hazırlık"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "According to the ministry's 2026–2027 calendar, teachers start their professional work on 1 September.",
+       "Bakanlığın 2026-2027 çalışma takvimine göre öğretmenler mesleki çalışmalarına 1 Eylül'de başlıyor."
+      ],
+      [
+       "The adjustment week for preschool and grade 1 pupils is 7–11 September, and lessons start on Monday, 14 September 2026.",
+       "Okul öncesi ve 1. sınıf öğrencileri için uyum haftası 7-11 Eylül'de, dersler ise 14 Eylül 2026 Pazartesi günü başlıyor."
+      ],
+      [
+       "The first mid-term break is on 16–20 November.",
+       "Birinci ara tatil 16-20 Kasım'da."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "A tip for the first week",
+      "İlk hafta için bir öneri"
+     ],
+     "s": [
+      [
+       "Start the year with a short \"summer maths\" lesson: the eclipse, the Perseids or the lemonade line in this issue.",
+       "Yıla kısa bir \"yaz matematiği\" dersiyle başlayın: Bu sayıdaki tutulma, Perseidler ya da limonata doğrusu."
+      ],
+      [
+       "A story from real life is the best way to wake up minds after a long holiday.",
+       "Uzun bir tatilden sonra zihinleri uyandırmanın en iyi yolu gerçek hayattan bir hikâyedir."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "placement rate",
+       "yerleşme oranı"
+      ],
+      [
+       "transfer",
+       "nakil"
+      ],
+      [
+       "occupancy rate",
+       "doluluk oranı"
+      ],
+      [
+       "registration",
+       "kayıt"
+      ],
+      [
+       "mid-term break",
+       "ara tatil"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "oku",
+   "ikon": "menu_book",
+   "renk": "#34495E",
+   "baslik": "Read Like a Mathematician",
+   "baslik_tr": "Matematikçi Gibi Oku",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "This month we look at the language of **estimates** and **approximations**.",
+       "Bu ay **tahminlerin** ve **yaklaşık değerlerin** diline bakıyoruz."
+      ],
+      [
+       "Real data is never perfect, so mathematicians need words that say \"almost\" in a precise way.",
+       "Gerçek veri hiçbir zaman kusursuz değildir, bu yüzden matematikçilerin \"neredeyse\" demenin kesin yollarına ihtiyacı var."
+      ]
+     ]
+    },
+    {
+     "t": "tablo",
+     "basliklar": [
+      "English",
+      "Türkçe",
+      "Note / Not"
+     ],
+     "satirlar": [
+      [
+       "approximately equal to (≈)",
+       "yaklaşık olarak eşittir",
+       "T ≈ 4.6 years / T ≈ 4,6 yıl"
+      ],
+      [
+       "is proportional to (∝)",
+       "… ile orantılıdır",
+       "T² ∝ a³"
+      ],
+      [
+       "to minimise / to maximise",
+       "en küçük / en büyük yapmak",
+       "minimise the sum of squares / kareler toplamını en küçük yap"
+      ],
+      [
+       "the best fit",
+       "en iyi uyum",
+       "the line that fits the data best / veriye en iyi uyan doğru"
+      ],
+      [
+       "on average",
+       "ortalamada",
+       "used with means / ortalamalarla kullanılır"
+      ],
+      [
+       "up to an error of …",
+       "… hata payıyla",
+       "states how accurate a value is / değerin ne kadar doğru olduğunu söyler"
+      ],
+      [
+       "Writing … in reverse order",
+       "… ters sırada yazarak",
+       "a typical step in a proof / ispatta tipik bir adım"
+      ],
+      [
+       "term by term",
+       "terim terim",
+       "adding or comparing two sums / iki toplamı toplarken ya da karşılaştırırken"
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "Mini reading: Gauss's sum as a proof",
+      "Mini okuma: İspat olarak Gauss toplamı"
+     ],
+     "s": [
+      [
+       "Theorem: For every positive integer n, 1 + 2 + … + n = n(n + 1)/2.",
+       "Teorem: Her pozitif n tam sayısı için 1 + 2 + … + n = n(n + 1)/2."
+      ],
+      [
+       "Proof: Let S = 1 + 2 + … + n.",
+       "İspat: S = 1 + 2 + … + n olsun."
+      ],
+      [
+       "Writing the same sum in reverse order, we have S = n + (n − 1) + … + 1.",
+       "Aynı toplamı ters sırada yazarak S = n + (n − 1) + … + 1 elde ederiz."
+      ],
+      [
+       "Adding the two equations term by term, we see that each of the n columns equals n + 1.",
+       "İki eşitliği terim terim topladığımızda n sütunun her birinin n + 1'e eşit olduğunu görürüz."
+      ],
+      [
+       "Hence 2S = n(n + 1), and therefore S = n(n + 1)/2. ∎",
+       "Dolayısıyla 2S = n(n + 1) ve bu yüzden S = n(n + 1)/2. ∎"
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "A small note",
+      "Küçük not"
+     ],
+     "s": [
+      [
+       "Notice the difference between \"≈\" and \"=\".",
+       "\"≈\" ile \"=\" arasındaki farka dikkat et."
+      ],
+      [
+       "The proof above gives an exact result, but the orbit of Ceres in the Science Corner is only approximate.",
+       "Yukarıdaki ispat kesin bir sonuç veriyor, ama Bilim Köşesi'ndeki Ceres yörüngesi yalnızca yaklaşık."
+      ],
+      [
+       "Good mathematical writing always tells the reader which one it means.",
+       "İyi matematik yazımı okura hangisini kastettiğini her zaman söyler."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "estimate",
+       "tahmin, kestirim"
+      ],
+      [
+       "approximation",
+       "yaklaşık değer"
+      ],
+      [
+       "proportional",
+       "orantılı"
+      ],
+      [
+       "best fit",
+       "en iyi uyum"
+      ],
+      [
+       "term by term",
+       "terim terim"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "soru": "What did OpenAI announce about its Astra model on 1 August 2026?",
+   "soru_tr": "OpenAI 1 Ağustos 2026'da Astra modeli hakkında ne duyurdu?",
+   "secenekler": [
+    "It won the Fields Medal",
+    "It produced new results on 10 long-open problems",
+    "It solved every Erdős problem",
+    "It replaced peer review"
+   ],
+   "dogru": 1,
+   "aciklama": "Astra produced new results on 10 problems that had been open for at least a decade, and the proofs came with Lean certificates.",
+   "aciklama_tr": "Astra en az on yıldır açık olan 10 problemde yeni sonuçlar üretti ve ispatlar Lean sertifikalarıyla birlikte geldi."
+  },
+  {
+   "soru": "Who first spotted Ceres on 1 January 1801?",
+   "soru_tr": "Ceres'i 1 Ocak 1801'de ilk kim gördü?",
+   "secenekler": [
+    "Gauss",
+    "Kepler",
+    "Giuseppe Piazzi",
+    "Franz Xaver von Zach"
+   ],
+   "dogru": 2,
+   "aciklama": "Piazzi discovered it in Palermo, Gauss calculated its orbit, and von Zach found it again on 31 December 1801.",
+   "aciklama_tr": "Piazzi onu Palermo'da keşfetti, Gauss yörüngesini hesapladı, von Zach ise 31 Aralık 1801'de yeniden buldu."
+  },
+  {
+   "soru": "Which value minimises the sum of squares Σ (xᵢ − c)²?",
+   "soru_tr": "Σ (xᵢ − c)² kareler toplamını hangi değer en küçük yapar?",
+   "secenekler": [
+    "The median",
+    "The largest value",
+    "The arithmetic mean",
+    "Zero"
+   ],
+   "dogru": 2,
+   "aciklama": "Setting the derivative −2 · Σ (xᵢ − c) equal to zero gives c = the arithmetic mean.",
+   "aciklama_tr": "−2 · Σ (xᵢ − c) türevini sıfıra eşitlemek c = aritmetik ortalama sonucunu verir."
+  },
+  {
+   "soru": "What is 1 + 2 + 3 + … + 100?",
+   "soru_tr": "1 + 2 + 3 + … + 100 kaçtır?",
+   "secenekler": [
+    "5000",
+    "5050",
+    "5100",
+    "10100"
+   ],
+   "dogru": 1,
+   "aciklama": "There are 50 pairs that each add up to 101, and 50 × 101 = 5050.",
+   "aciklama_tr": "Her biri 101 eden 50 çift var ve 50 × 101 = 5050."
+  },
+  {
+   "soru": "Why do the Perseids appear every August?",
+   "soru_tr": "Perseidler neden her ağustos görülür?",
+   "secenekler": [
+    "The Moon is closest to the Earth",
+    "The Earth crosses a comet's dust stream at the same point of its orbit",
+    "Jupiter pulls meteors towards us",
+    "The Sun is most active in summer"
+   ],
+   "dogru": 1,
+   "aciklama": "The Earth meets the dust of comet 109P/Swift–Tuttle at the same place in its orbit every year.",
+   "aciklama_tr": "Dünya, 109P/Swift–Tuttle kuyrukluyıldızının tozuyla her yıl yörüngesinin aynı yerinde karşılaşır."
+  },
+  {
+   "soru": "Which prize did Wendelin Werner receive in August 2026?",
+   "soru_tr": "Wendelin Werner Ağustos 2026'da hangi ödülü aldı?",
+   "secenekler": [
+    "The Royal Society's Sylvester Medal",
+    "The Future Science Prize",
+    "The Abel Prize",
+    "The Nobel Prize in Physics"
+   ],
+   "dogru": 0,
+   "aciklama": "The Royal Society announced on 27 August 2026 that Werner received the Sylvester Medal for his work on the Schramm–Loewner evolution.",
+   "aciklama_tr": "Royal Society 27 Ağustos 2026'da Werner'in Schramm–Loewner evrimi üzerine çalışmaları için Sylvester Madalyası'nı aldığını açıkladı."
+  }
+ ],
+ "bulmacalar": [
+  {
+   "tip": "anagram",
+   "karisik": "TIRBO",
+   "cevap": "ORBIT",
+   "ipucu": "The path of a planet around the Sun.",
+   "ipucu_tr": "Bir gezegenin Güneş etrafındaki yolu."
+  },
+  {
+   "tip": "anagram",
+   "karisik": "SPILECE",
+   "cevap": "ECLIPSE",
+   "ipucu": "When the Moon hides the Sun.",
+   "ipucu_tr": "Ay'ın Güneş'i gizlemesi."
+  },
+  {
+   "tip": "anagram",
+   "karisik": "TOREME",
+   "cevap": "METEOR",
+   "ipucu": "A shooting star in the night sky.",
+   "ipucu_tr": "Gece gökyüzünde kayan bir yıldız."
+  },
+  {
+   "tip": "anagram",
+   "karisik": "RORRE",
+   "cevap": "ERROR",
+   "ipucu": "Every measurement has a small one.",
+   "ipucu_tr": "Her ölçümde küçük bir tane vardır."
+  },
+  {
+   "tip": "eslestir",
+   "baslik": "Match the terms",
+   "baslik_tr": "Terimleri eşleştir",
+   "ciftler": [
+    [
+     "least squares",
+     "en küçük kareler"
+    ],
+    [
+     "dwarf planet",
+     "cüce gezegen"
+    ],
+    [
+     "meteor shower",
+     "meteor yağmuru"
+    ],
+    [
+     "arithmetic series",
+     "aritmetik seri"
+    ],
+    [
+     "standard deviation",
+     "standart sapma"
+    ]
+   ]
+  },
+  {
+   "tip": "mantik",
+   "baslik": "Odd against even",
+   "baslik_tr": "Teke karşı çift",
+   "soru": "Which is bigger: the sum of all even numbers from 2 to 100, or the sum of all odd numbers from 1 to 99? By how much?",
+   "soru_tr": "Hangisi daha büyük: 2'den 100'e kadar bütün çift sayıların toplamı mı, yoksa 1'den 99'a kadar bütün tek sayıların toplamı mı? Ne kadar fazla?",
+   "cevap": "Pair each odd number with the even number after it: 1 and 2, 3 and 4, up to 99 and 100. There are 50 pairs, and in each pair the even number is bigger by 1. So the even sum is bigger by 50. Indeed, 2550 − 2500 = 50.",
+   "cevap_tr": "Her tek sayıyı kendisinden sonra gelen çift sayıyla eşleştir: 1 ile 2, 3 ile 4, 99 ile 100'e kadar. 50 çift var ve her çiftte çift sayı 1 fazla. Yani çift sayıların toplamı 50 fazla. Gerçekten de 2550 − 2500 = 50."
+  },
+  {
+   "tip": "mantik",
+   "baslik": "The wandering eclipse",
+   "baslik_tr": "Gezgin tutulma",
+   "soru": "Eclipses in the same Saros series repeat after about 6585 days and 8 hours. The eclipse of 12 August 2026 belongs to Saros 126. Why will the next eclipse of this series not be seen from the same places?",
+   "soru_tr": "Aynı Saros serisindeki tutulmalar yaklaşık 6585 gün 8 saat sonra tekrar eder. 12 Ağustos 2026 tutulması Saros 126 serisine ait. Bu serinin bir sonraki tutulması neden aynı yerlerden görülmeyecek?",
+   "cevap": "The extra 8 hours are one third of a day. During those 8 hours the Earth turns one third of a full turn, which is 120°. So the shadow falls about 120° of longitude farther west. The next eclipse of Saros 126, on 23 August 2044, will be seen from North America instead of Europe.",
+   "cevap_tr": "Fazladan 8 saat bir günün üçte biridir. Bu 8 saatte Dünya tam bir turun üçte biri, yani 120° döner. Bu yüzden gölge yaklaşık 120° boylam daha batıya düşer. Saros 126'nın bir sonraki tutulması, 23 Ağustos 2044'te, Avrupa yerine Kuzey Amerika'dan görülecek."
+  }
+ ],
+ "terimler": [
+  [
+   "open problem",
+   "açık problem"
+  ],
+  [
+   "peer review",
+   "hakem değerlendirmesi"
+  ],
+  [
+   "formal verification",
+   "biçimsel doğrulama"
+  ],
+  [
+   "total solar eclipse",
+   "tam güneş tutulması"
+  ],
+  [
+   "totality",
+   "tam evre"
+  ],
+  [
+   "Saros cycle",
+   "Saros döngüsü"
+  ],
+  [
+   "least squares",
+   "en küçük kareler"
+  ],
+  [
+   "residual",
+   "artık"
+  ],
+  [
+   "normal equations",
+   "normal denklemler"
+  ],
+  [
+   "normal distribution",
+   "normal dağılım"
+  ],
+  [
+   "standard deviation",
+   "standart sapma"
+  ],
+  [
+   "linear regression",
+   "doğrusal regresyon"
+  ],
+  [
+   "orbit",
+   "yörünge"
+  ],
+  [
+   "dwarf planet",
+   "cüce gezegen"
+  ],
+  [
+   "focus (of an ellipse)",
+   "elipsin odağı"
+  ],
+  [
+   "astronomical unit",
+   "astronomik birim"
+  ],
+  [
+   "comet",
+   "kuyrukluyıldız"
+  ],
+  [
+   "meteor shower",
+   "meteor yağmuru"
+  ],
+  [
+   "compass and straightedge",
+   "pergel ve cetvel"
+  ],
+  [
+   "number theory",
+   "sayılar teorisi"
+  ],
+  [
+   "congruence",
+   "denklik"
+  ],
+  [
+   "fundamental theorem of algebra",
+   "cebirin temel teoremi"
+  ],
+  [
+   "curvature",
+   "eğrilik"
+  ],
+  [
+   "motto",
+   "düstur, slogan"
+  ],
+  [
+   "arithmetic geometry",
+   "aritmetik geometri"
+  ],
+  [
+   "rational point",
+   "rasyonel nokta"
+  ],
+  [
+   "genus",
+   "cins"
+  ],
+  [
+   "random walk",
+   "rastgele yürüyüş"
+  ],
+  [
+   "fractal dimension",
+   "fraktal boyut"
+  ],
+  [
+   "to pair up",
+   "eşleştirmek"
+  ],
+  [
+   "arithmetic series",
+   "aritmetik seri"
+  ],
+  [
+   "term",
+   "terim"
+  ],
+  [
+   "symmetry",
+   "simetri"
+  ],
+  [
+   "perfect square",
+   "tam kare"
+  ],
+  [
+   "myth",
+   "efsane, yanlış inanış"
+  ],
+  [
+   "perfect power",
+   "tam kuvvet"
+  ],
+  [
+   "spiral",
+   "sarmal, spiral"
+  ],
+  [
+   "hexagon",
+   "altıgen"
+  ],
+  [
+   "prime number",
+   "asal sayı"
+  ],
+  [
+   "scale model",
+   "ölçekli model"
+  ],
+  [
+   "ratio",
+   "oran"
+  ],
+  [
+   "estimation",
+   "tahmin"
+  ],
+  [
+   "trend line",
+   "eğilim çizgisi"
+  ],
+  [
+   "point of means",
+   "ortalamalar noktası"
+  ],
+  [
+   "placement rate",
+   "yerleşme oranı"
+  ],
+  [
+   "transfer",
+   "nakil"
+  ],
+  [
+   "occupancy rate",
+   "doluluk oranı"
+  ],
+  [
+   "registration",
+   "kayıt"
+  ],
+  [
+   "mid-term break",
+   "ara tatil"
+  ],
+  [
+   "estimate",
+   "tahmin, kestirim"
+  ],
+  [
+   "approximation",
+   "yaklaşık değer"
+  ],
+  [
+   "proportional",
+   "orantılı"
+  ],
+  [
+   "best fit",
+   "en iyi uyum"
+  ],
+  [
+   "term by term",
+   "terim terim"
+  ]
+ ]
+}

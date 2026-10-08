@@ -50,6 +50,56 @@
       "acilis": "2026-05-01",
       "dosya": "2026-05-mayis.json",
       "renk": "#C0602B"
+    },
+    {
+      "no": 6,
+      "ad": "Machines and Minds",
+      "ad_tr": "Makineler ve Zihinler",
+      "donem": "Haziran 2026",
+      "tema": "Makine neyi hesaplayabilir?",
+      "acilis": "2026-06-01",
+      "dosya": "2026-06-haziran.json",
+      "renk": "#5B4A9E"
+    },
+    {
+      "no": 7,
+      "ad": "Angles of Reflection",
+      "ad_tr": "Yansıma Açıları",
+      "donem": "Temmuz 2026",
+      "tema": "Yansımalar",
+      "acilis": "2026-07-01",
+      "dosya": "2026-07-temmuz.json",
+      "renk": "#A83F4F"
+    },
+    {
+      "no": 8,
+      "ad": "The Lost Planet",
+      "ad_tr": "Kayıp Gezegen",
+      "donem": "Ağustos 2026",
+      "tema": "Gündelik hayatta ve doğada matematik",
+      "acilis": "2026-08-01",
+      "dosya": "2026-08-agustos.json",
+      "renk": "#2F6690"
+    },
+    {
+      "no": 9,
+      "ad": "Hidden Order",
+      "ad_tr": "Gizli Düzen",
+      "donem": "Eylül 2026",
+      "tema": "Düzen ve Simetri",
+      "acilis": "2026-09-01",
+      "dosya": "2026-09-eylul.json",
+      "renk": "#8C6A1C"
+    },
+    {
+      "no": 10,
+      "ad": "Hidden Symmetries",
+      "ad_tr": "Gizli Simetriler",
+      "donem": "Ekim 2026",
+      "tema": "Simetri",
+      "acilis": "2026-10-01",
+      "dosya": "2026-10-ekim.json",
+      "renk": "#2E5E4E"
     }
   ]
 }
