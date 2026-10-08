@@ -1,0 +1,1442 @@
+{
+ "format": 2,
+ "no": 1,
+ "donem": "Ocak 2026",
+ "donem_en": "January 2026",
+ "tema": "Yeni bir yıl, yeni sorular",
+ "tema_en": "A new year, new questions",
+ "kapak": {
+  "renkler": [
+   "#6C63FF",
+   "#3B37C8"
+  ],
+  "desen": 1
+ },
+ "bolumler": [
+  {
+   "id": "editor",
+   "ikon": "edit_note",
+   "renk": "#6C63FF",
+   "baslik": "Editor's Note",
+   "baslik_tr": "Editörden",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "Hello and welcome to the very first issue of Formül.",
+       "Merhaba, Formül'ün ilk sayısına hoş geldin."
+      ],
+      [
+       "This is a break-time magazine: short pieces you can finish before your tea gets cold.",
+       "Bu bir teneffüs dergisi: Çayın soğumadan bitirebileceğin kısa yazılar."
+      ],
+      [
+       "Every sentence is in English, but you are never alone with it.",
+       "Her cümle İngilizce, ama onunla hiçbir zaman yalnız değilsin."
+      ],
+      [
+       "Tap any sentence and its Turkish translation will appear right below the paragraph.",
+       "Herhangi bir cümleye dokun, Türkçesi paragrafın hemen altında belirecek."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Each month you will find the same skeleton.",
+       "Her ay aynı iskeleti bulacaksın."
+      ],
+      [
+       "There is news from the world of mathematics, a research paper explained simply, a mathematician of the month and a corner for prizes.",
+       "Matematik dünyasından haberler, sadeleştirilmiş bir araştırma makalesi, ayın matematikçisi ve ödüller köşesi var."
+      ],
+      [
+       "You will also find thinking strategies, ideas for the classroom and, at the end, a quiz and a puzzle zone.",
+       "Ayrıca düşünme stratejileri, sınıf için fikirler ve en sonda bir quiz ile bulmaca bölümü bulacaksın."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The theme of our first issue is simple: **a new year, new questions**.",
+       "İlk sayımızın teması basit: **yeni bir yıl, yeni sorular**."
+      ],
+      [
+       "We started 2026 with an artificial intelligence solving a fifty-year-old problem.",
+       "2026'ya, yapay zekânın elli yıllık bir problemi çözmesiyle başladık."
+      ],
+      [
+       "Let us see what else the year will bring.",
+       "Bakalım yıl bize başka neler getirecek."
+      ],
+      [
+       "Enjoy your break!",
+       "İyi molalar!"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "haber",
+   "ikon": "newspaper",
+   "renk": "#2E86DE",
+   "baslik": "News from the World of Maths",
+   "baslik_tr": "Matematik Dünyasından Haberler",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "An AI almost solved an Erdős problem on its own",
+      "Yapay zekâ bir Erdős problemini neredeyse kendi başına çözdü"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Paul Erdős left hundreds of **open problems** behind him, and he even offered cash prizes for some of them.",
+       "Paul Erdős arkasında yüzlerce **açık problem** bıraktı ve bazılarına para ödülü bile koydu."
+      ],
+      [
+       "Today these problems are collected and numbered on a website called erdosproblems.com.",
+       "Bugün bu problemler erdosproblems.com adlı bir sitede toplanıp numaralandırılıyor."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "In the first days of January 2026, problem number 728 suddenly became famous.",
+       "Ocak 2026'nın ilk günlerinde 728 numaralı problem birden ünlü oldu."
+      ],
+      [
+       "It is a question from 1975 about the **divisibility** of factorials.",
+       "Faktöriyellerin **bölünebilirliği** hakkında 1975 tarihli bir soru bu."
+      ],
+      [
+       "A user produced a **proof** with OpenAI's GPT-5.2 Pro model.",
+       "Bir kullanıcı OpenAI'ın GPT-5.2 Pro modeliyle bir **ispat** üretti."
+      ],
+      [
+       "Then another AI system, called Aristotle, translated the proof into Lean, a language that checks proofs line by line.",
+       "Sonra Aristotle adlı başka bir yapay zekâ sistemi ispatı, ispatları satır satır kontrol eden Lean diline çevirdi."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The famous mathematician Terence Tao described it as a near-autonomous solution that had not appeared in the literature before.",
+       "Ünlü matematikçi Terence Tao bunu, literatürde daha önce görülmemiş, neredeyse otonom bir çözüm olarak tanımladı."
+      ],
+      [
+       "This matters because in some earlier cases the \"new\" AI solution turned out to be hidden in an old paper.",
+       "Bu önemli, çünkü daha önceki bazı durumlarda \"yeni\" yapay zekâ çözümünün eski bir makalede saklı olduğu ortaya çıkmıştı."
+      ],
+      [
+       "This time the proof was new, and a machine checked every single step.",
+       "Bu sefer ispat yeniydi ve bir makine her bir adımı kontrol etti."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "For the classroom",
+      "Sınıf için"
+     ],
+     "s": [
+      [
+       "Students may ask: \"If AI can solve everything, why should we learn maths?\"",
+       "Öğrenciler sorabilir: \"Yapay zekâ her şeyi çözüyorsa neden matematik öğrenelim?\""
+      ],
+      [
+       "A good answer: even here, it was mathematicians who asked the right question and judged the result.",
+       "Güzel bir cevap: Burada bile doğru soruyu soran ve sonucu değerlendiren yine matematikçilerdi."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "2026 is a Fields year",
+      "2026 bir Fields yılı"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The **Fields Medal**, one of the most prestigious awards in mathematics, is given every four years.",
+       "Matematiğin en prestijli ödüllerinden biri olan **Fields Madalyası** dört yılda bir verilir."
+      ],
+      [
+       "The 2026 International Congress of Mathematicians will take place in Philadelphia in July.",
+       "2026 Uluslararası Matematikçiler Kongresi temmuz ayında Philadelphia'da yapılacak."
+      ],
+      [
+       "Only mathematicians under the age of 40 can receive the medal.",
+       "Madalyayı yalnızca 40 yaşın altındaki matematikçiler alabilir."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "open problem",
+       "açık problem"
+      ],
+      [
+       "proof",
+       "ispat"
+      ],
+      [
+       "divisibility",
+       "bölünebilirlik"
+      ],
+      [
+       "formal verification",
+       "biçimsel doğrulama"
+      ],
+      [
+       "conjecture",
+       "sanı"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "makale",
+   "ikon": "article",
+   "renk": "#8E44AD",
+   "baslik": "Paper of the Month: The Eigenvector Behind Google",
+   "baslik_tr": "Ayın Makalesi: Google'ı Kuran Özvektör",
+   "bloklar": [
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Source",
+      "Kaynak"
+     ],
+     "s": [
+      [
+       "Sergey Brin and Lawrence Page, The Anatomy of a Large-Scale Hypertextual Web Search Engine, 1998.",
+       "Sergey Brin ve Lawrence Page, Büyük Ölçekli Hipermetin Web Arama Motorunun Anatomisi, 1998."
+      ],
+      [
+       "They wrote it as PhD students at Stanford.",
+       "Bu makaleyi Stanford'da doktora öğrencisiyken yazdılar."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The problem",
+      "Problem"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "There are billions of web pages.",
+       "Milyarlarca web sayfası var."
+      ],
+      [
+       "When you search for something, which page should appear first?",
+       "Bir şey aradığında hangi sayfa en üstte çıkmalı?"
+      ],
+      [
+       "Brin and Page had a simple idea: an important page is a page that important pages link to.",
+       "Brin ve Page'in basit bir fikri vardı: Önemli bir sayfa, önemli sayfaların bağlantı verdiği sayfadır."
+      ],
+      [
+       "The sentence sounds circular, but in mathematics this kind of definition has a name: an **eigenvalue** problem.",
+       "Cümle döngüsel görünüyor, ama matematikte bu tür bir tanımın adı var: **özdeğer** problemi."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Building the model",
+      "Modeli kuralım"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Give every page a score r.",
+       "Her sayfaya bir r puanı verelim."
+      ],
+      [
+       "Each page shares its score equally among the pages it links to.",
+       "Her sayfa puanını, bağlantı verdiği sayfalar arasında eşit olarak paylaştırır."
+      ],
+      [
+       "If we write this rule with a matrix M, we get a very short equation:",
+       "Bu kuralı bir M matrisiyle yazarsak çok kısa bir denklem elde ederiz:"
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "r = M · r"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "So the score vector is an **eigenvector** of M with eigenvalue 1.",
+       "Yani puan vektörü, M'nin 1 özdeğerine karşılık gelen bir **özvektörüdür**."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "A tiny internet",
+      "Minik bir internet"
+     ],
+     "s": [
+      [
+       "Imagine three pages: A links to B and C, B links to C, and C links to A.",
+       "Üç sayfa düşün: A, B ve C'ye bağlantı veriyor, B C'ye veriyor, C de A'ya veriyor."
+      ],
+      [
+       "Solving the equations gives A = 0.4, B = 0.2 and C = 0.4.",
+       "Denklemleri çözünce A = 0,4, B = 0,2 ve C = 0,4 çıkıyor."
+      ],
+      [
+       "C is strong because two pages point to it, and A is strong because a strong page points to it.",
+       "C güçlü çünkü iki sayfa onu gösteriyor, A güçlü çünkü güçlü bir sayfa onu gösteriyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The analysis part",
+      "İşin analiz kısmı"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "On the real internet, some pages link nowhere and some groups of pages only link to each other.",
+       "Gerçek internette bazı sayfalar hiçbir yere bağlantı vermez, bazı sayfa grupları da sadece birbirine bağlantı verir."
+      ],
+      [
+       "Then the eigenvector may not be unique.",
+       "O zaman özvektör tek olmayabilir."
+      ],
+      [
+       "Brin and Page added a **damping factor** d, usually about 0.85:",
+       "Brin ve Page genelde 0,85 civarında olan bir **sönümleme katsayısı** d eklediler:"
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "r = d · M · r + (1 − d) / n"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Think of a random surfer who clicks a link 85% of the time and jumps to a random page 15% of the time.",
+       "%85 ihtimalle bir bağlantıya tıklayan, %15 ihtimalle rastgele bir sayfaya ışınlanan rastgele bir gezgin düşün."
+      ],
+      [
+       "With this small change, the Perron–Frobenius theorem guarantees a single positive solution.",
+       "Bu küçük değişiklikle Perron–Frobenius teoremi tek ve pozitif bir çözümü garanti eder."
+      ],
+      [
+       "In practice the vector is found by **power iteration**: start anywhere and multiply by M again and again.",
+       "Pratikte vektör **kuvvet yöntemiyle** bulunur: Herhangi bir yerden başla ve M ile tekrar tekrar çarp."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Graduate corner",
+      "Yüksek lisans köşesi"
+     ],
+     "s": [
+      [
+       "This paper connects three courses: linear algebra, probability and numerical analysis.",
+       "Bu makale üç dersi birleştiriyor: lineer cebir, olasılık ve sayısal analiz."
+      ],
+      [
+       "Markov chains, convergence speed and network centrality are all great thesis topics.",
+       "Markov zincirleri, yakınsama hızı ve ağ merkeziliği harika tez konuları."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "eigenvector",
+       "özvektör"
+      ],
+      [
+       "eigenvalue",
+       "özdeğer"
+      ],
+      [
+       "damping factor",
+       "sönümleme katsayısı"
+      ],
+      [
+       "power iteration",
+       "kuvvet yöntemi"
+      ],
+      [
+       "convergence",
+       "yakınsama"
+      ],
+      [
+       "stationary distribution",
+       "durağan dağılım"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "matematikci",
+   "ikon": "person",
+   "renk": "#E67E22",
+   "baslik": "Mathematician of the Month: Cahit Arf",
+   "baslik_tr": "Ayın Matematikçisi: Cahit Arf",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "Our first mathematician is a name many of us once carried in our pockets.",
+       "İlk matematikçimiz, birçoğumuzun bir zamanlar cebinde taşıdığı bir isim."
+      ],
+      [
+       "His portrait and one of his formulas were printed on the back of the 10 lira banknote from 2009.",
+       "Portresi ve formüllerinden biri 2009 serisi 10 liralık banknotun arka yüzüne basılmıştı."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "His life",
+      "Hayatı"
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "He was born in Thessaloniki in 1910.",
+       "1910'da Selanik'te doğdu."
+      ],
+      [
+       "He studied mathematics in Paris, at the École Normale Supérieure.",
+       "Matematik eğitimini Paris'te, École Normale Supérieure'de aldı."
+      ],
+      [
+       "He completed his doctorate in Göttingen in 1938, under Helmut Hasse.",
+       "Doktorasını 1938'de Göttingen'de, Helmut Hasse'nin yanında tamamladı."
+      ],
+      [
+       "Back in Türkiye, he taught at Istanbul University and played an important role in the early years of TÜBİTAK.",
+       "Türkiye'ye dönünce İstanbul Üniversitesi'nde ders verdi ve TÜBİTAK'ın ilk yıllarında önemli rol oynadı."
+      ],
+      [
+       "He died in Istanbul in 1997.",
+       "1997'de İstanbul'da hayatını kaybetti."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "His contributions",
+      "Katkıları"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The **Hasse–Arf theorem** describes how prime numbers behave in field extensions, and it is now a standard part of class field theory.",
+       "**Hasse–Arf teoremi** asal sayıların cisim genişlemelerinde nasıl davrandığını anlatır ve bugün sınıf cisim teorisinin standart bir parçasıdır."
+      ],
+      [
+       "In 1941 he defined the **Arf invariant** to classify quadratic forms over fields of characteristic 2.",
+       "1941'de karakteristiği 2 olan cisimler üzerindeki kuadratik formları sınıflandırmak için **Arf değişmezini** tanımladı."
+      ],
+      [
+       "Decades later, this algebraic idea found an unexpected home in topology, in knot theory and the classification of manifolds.",
+       "Onlarca yıl sonra bu cebirsel fikir beklenmedik bir yerde, topolojide, düğüm teorisinde ve manifoldların sınıflandırılmasında karşılık buldu."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "For the classroom",
+      "Sınıf için"
+     ],
+     "s": [
+      [
+       "Ask your students whose face was on the old 10 lira note.",
+       "Öğrencilerine eski 10 liralıkta kimin yüzü olduğunu sor."
+      ],
+      [
+       "It is a great way to start talking about a Turkish mathematician who changed world mathematics.",
+       "Dünya matematiğini değiştirmiş bir Türk matematikçi hakkında konuşmaya başlamanın harika bir yolu."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "quadratic form",
+       "kuadratik form"
+      ],
+      [
+       "field extension",
+       "cisim genişlemesi"
+      ],
+      [
+       "invariant",
+       "değişmez"
+      ],
+      [
+       "ring",
+       "halka"
+      ],
+      [
+       "characteristic",
+       "karakteristik"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "odul",
+   "ikon": "emoji_events",
+   "renk": "#D4A017",
+   "baslik": "Prize Corner",
+   "baslik_tr": "Ödüller Köşesi",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "Abel Prize 2025: Masaki Kashiwara",
+      "Abel Ödülü 2025: Masaki Kashiwara"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The Abel Prize is often called the closest thing to a Nobel Prize in mathematics.",
+       "Abel Ödülü genellikle matematiğin Nobel'e en yakın ödülü olarak anılır."
+      ],
+      [
+       "In 2025 it went to Masaki Kashiwara, the first Japanese mathematician to receive it.",
+       "2025'te ödül, onu alan ilk Japon matematikçi olan Masaki Kashiwara'ya verildi."
+      ],
+      [
+       "He was honoured for his work in algebraic analysis and **representation theory**.",
+       "Cebirsel analiz ve **temsil teorisi** alanındaki çalışmaları için onurlandırıldı."
+      ],
+      [
+       "His D-module theory lets mathematicians study systems of **differential equations** with the tools of algebra.",
+       "D-modül teorisi, matematikçilerin **diferansiyel denklem** sistemlerini cebirin araçlarıyla incelemesini sağlıyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Nobel Prize in Physics 2025: quantum in a circuit",
+      "Nobel Fizik 2025: Devredeki kuantum"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "John Clarke, Michel Devoret and John Martinis showed in the 1980s that an electric circuit you can hold in your hand can behave like a quantum particle.",
+       "John Clarke, Michel Devoret ve John Martinis 1980'lerde, elde tutulabilecek bir elektrik devresinin kuantum parçacığı gibi davranabileceğini gösterdiler."
+      ],
+      [
+       "In classical physics, a ball cannot cross a hill without enough energy.",
+       "Klasik fizikte bir top, yeterli enerjisi yoksa bir tepeyi aşamaz."
+      ],
+      [
+       "In quantum mechanics it can \"tunnel\" through, and the chance of this decreases **exponentially** with the width of the barrier.",
+       "Kuantum mekaniğinde ise engelin içinden \"tünelleyebilir\" ve bunun olasılığı engelin genişliğiyle **üstel** olarak azalır."
+      ],
+      [
+       "Today's superconducting quantum computers are built on these experiments.",
+       "Bugünün süperiletken kuantum bilgisayarları bu deneylerin üzerine kurulu."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "High school link",
+      "Lise bağlantısı"
+     ],
+     "s": [
+      [
+       "When you teach exponential functions, ask how the tunnelling probability changes if the barrier gets thicker.",
+       "Üstel fonksiyonları işlerken, engel kalınlaşırsa tünelleme olasılığının nasıl değiştiğini sor."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "representation theory",
+       "temsil teorisi"
+      ],
+      [
+       "differential equation",
+       "diferansiyel denklem"
+      ],
+      [
+       "exponential decay",
+       "üstel azalma"
+      ],
+      [
+       "laureate",
+       "ödül sahibi"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dusun",
+   "ikon": "psychology",
+   "renk": "#16A085",
+   "baslik": "Think Like a Mathematician: A Pattern Is Not a Proof",
+   "baslik_tr": "Matematikçi Gibi Düşünmek: Örüntü Kanıt Değildir",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "Every month we will learn one thinking strategy.",
+       "Her ay bir düşünme stratejisi öğreneceğiz."
+      ],
+      [
+       "This month's strategy: try small cases and look for a **pattern**.",
+       "Bu ayın stratejisi: Küçük durumları dene ve bir **örüntü** ara."
+      ],
+      [
+       "But be careful, because a pattern is a hint, not a proof.",
+       "Ama dikkat et, çünkü örüntü bir ipucudur, kanıt değil."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "The problem",
+      "Problem"
+     ],
+     "s": [
+      [
+       "Put n points on a circle and join every pair with a **chord**.",
+       "Bir çemberin üzerine n nokta koy ve her iki noktayı bir **kirişle** birleştir."
+      ],
+      [
+       "Into how many regions can the inside of the circle be divided?",
+       "Çemberin içi en fazla kaç bölgeye ayrılabilir?"
+      ]
+     ]
+    },
+    {
+     "t": "tablo",
+     "basliklar": [
+      "Points",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+     ],
+     "satirlar": [
+      [
+       "Regions",
+       "1",
+       "2",
+       "4",
+       "8",
+       "16",
+       "?"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The pattern looks obvious: the number doubles every time, so the next answer should be 32.",
+       "Örüntü apaçık görünüyor: Sayı her seferinde ikiye katlanıyor, o hâlde sonraki cevap 32 olmalı."
+      ],
+      [
+       "Surprisingly, the correct answer for 6 points is **31**.",
+       "Şaşırtıcı şekilde 6 nokta için doğru cevap **31**."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "regions = C(n, 4) + C(n, 2) + 1"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Every crossing point inside the circle comes from a group of 4 points, and every chord adds one more region.",
+       "Çemberin içindeki her kesişim noktası 4 noktalık bir gruptan gelir ve her kiriş bir bölge daha ekler."
+      ],
+      [
+       "For n = 6 we get 15 + 15 + 1 = 31.",
+       "n = 6 için 15 + 15 + 1 = 31 buluruz."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "The lesson",
+      "Ders"
+     ],
+     "s": [
+      [
+       "Mathematicians love patterns but never trust them.",
+       "Matematikçiler örüntüleri sever ama onlara asla güvenmez."
+      ],
+      [
+       "Drawing 6 points on the board and counting 31 regions is an unforgettable moment in class.",
+       "Tahtaya 6 nokta çizip 31 bölgeyi saydırmak sınıfta unutulmaz bir an."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "pattern",
+       "örüntü"
+      ],
+      [
+       "chord",
+       "kiriş"
+      ],
+      [
+       "region",
+       "bölge"
+      ],
+      [
+       "counterexample",
+       "karşı örnek"
+      ],
+      [
+       "binomial coefficient",
+       "binom katsayısı"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eglence",
+   "ikon": "lightbulb",
+   "renk": "#E84393",
+   "baslik": "Fun Facts: The Secrets of 2026",
+   "baslik_tr": "Eğlenceli Bilgiler: 2026 Sayısının Sırları",
+   "bloklar": [
+    {
+     "t": "liste",
+     "s": [
+      [
+       "2025 was a **perfect square**: 2025 = 45², and also 2025 = (1 + 2 + … + 9)².",
+       "2025 bir **tam kareydi**: 2025 = 45², ayrıca 2025 = (1 + 2 + … + 9)²."
+      ],
+      [
+       "2026 = 45² + 1², so it is a sum of two squares.",
+       "2026 = 45² + 1², yani iki kare toplamı."
+      ],
+      [
+       "2026 = 2 × 1013, and 1013 is a **prime number**.",
+       "2026 = 2 × 1013 ve 1013 bir **asal sayı**."
+      ],
+      [
+       "If you could fold a 0.1 mm sheet of paper 42 times, it would be thicker than the distance to the Moon.",
+       "0,1 mm'lik bir kâğıdı 42 kez katlayabilseydin, kalınlığı Ay'a olan uzaklıktan fazla olurdu."
+      ],
+      [
+       "A year has 31,536,000 seconds, which is surprisingly close to π × 10⁷.",
+       "Bir yıl 31.536.000 saniye ve bu şaşırtıcı derecede π × 10⁷'ye yakın."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "perfect square",
+       "tam kare"
+      ],
+      [
+       "prime number",
+       "asal sayı"
+      ],
+      [
+       "sum of two squares",
+       "iki kare toplamı"
+      ],
+      [
+       "exponential growth",
+       "üstel büyüme"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sinif",
+   "ikon": "school",
+   "renk": "#27AE60",
+   "baslik": "In the Classroom",
+   "baslik_tr": "Sınıfta Matematik",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "Grades 6–8: The 2026 Game",
+      "6-8. sınıflar: 2026 Oyunu"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Use the digits 2, 0, 2 and 6 exactly once each to make the numbers from 1 to 30.",
+       "2, 0, 2 ve 6 rakamlarını her birini tam bir kez kullanarak 1'den 30'a kadar sayıları elde edin."
+      ],
+      [
+       "The four operations, brackets, powers and square roots are all allowed, and you may also join digits, as in 20 or 26.",
+       "Dört işlem, parantez, üs ve karekök serbest, rakamları 20 ya da 26 gibi yan yana da yazabilirsiniz."
+      ],
+      [
+       "For example, 1 = (6 − 2 − 2)⁰ and 28 = 26 + 2 + 0.",
+       "Örneğin 1 = (6 − 2 − 2)⁰ ve 28 = 26 + 2 + 0."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "Variation",
+      "Varyasyon"
+     ],
+     "s": [
+      [
+       "Play in groups for 15 minutes, and put the numbers nobody could find on the wall as \"open problems\".",
+       "15 dakika gruplar hâlinde oynayın ve kimsenin bulamadığı sayıları \"açık problem\" olarak panoya asın."
+      ],
+      [
+       "Just like Erdős did!",
+       "Tıpkı Erdős'ün yaptığı gibi!"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "High school: Fold the paper to the Moon",
+      "Lise: Kâğıdı Ay'a katla"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Give each student a sheet of A4 paper and let them see how many times they can fold it.",
+       "Her öğrenciye bir A4 kâğıt verin ve kaç kez katlayabildiklerini görsünler."
+      ],
+      [
+       "If the paper is 0.1 mm thick, after n folds it is 0.1 × 2ⁿ mm thick.",
+       "Kâğıt 0,1 mm kalınlığındaysa n katlamadan sonra kalınlığı 0,1 × 2ⁿ mm olur."
+      ],
+      [
+       "Using logarithms, students can find that 42 folds are enough to reach the Moon.",
+       "Öğrenciler logaritma kullanarak Ay'a ulaşmak için 42 katlamanın yettiğini bulabilir."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "2ⁿ ≥ 3.84 × 10¹²  ⟹  n ≥ 41.8"
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "order of operations",
+       "işlem önceliği"
+      ],
+      [
+       "exponent",
+       "üs"
+      ],
+      [
+       "logarithm",
+       "logaritma"
+      ],
+      [
+       "estimate",
+       "tahmin etmek"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gundem",
+   "ikon": "campaign",
+   "renk": "#C0392B",
+   "baslik": "Education in Türkiye",
+   "baslik_tr": "Eğitim Gündemi",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "Where is the new curriculum?",
+      "Yeni müfredat hangi sınıflarda?"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "In the 2025–2026 school year, the Türkiye Century Education Model is being introduced step by step.",
+       "2025-2026 eğitim öğretim yılında Türkiye Yüzyılı Maarif Modeli kademeli olarak uygulanıyor."
+      ],
+      [
+       "In mathematics this means grades 5 and 6 in middle school and grades 9 and 10 in high school.",
+       "Matematikte bu, ortaokulda 5 ve 6. sınıflar, lisede 9 ve 10. sınıflar demek."
+      ],
+      [
+       "So a teacher with grade 6 and grade 7 classes works with two different programmes this year.",
+       "Yani 6. ve 7. sınıfları okutan bir öğretmen bu yıl iki farklı programla çalışıyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "LGS 2026",
+      "LGS 2026"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "LGS will take place on Saturday, 13 June 2026, in two sessions.",
+       "LGS 13 Haziran 2026 Cumartesi günü, iki oturumda yapılacak."
+      ],
+      [
+       "Mathematics is in the second session together with science: 40 questions in 80 minutes.",
+       "Matematik, fen bilimleriyle birlikte ikinci oturumda: 80 dakikada 40 soru."
+      ],
+      [
+       "January is a good time to analyse mock exam results before the second term.",
+       "Ocak, ikinci dönemden önce deneme sınavı sonuçlarını analiz etmek için iyi bir zaman."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "curriculum",
+       "müfredat"
+      ],
+      [
+       "learning outcome",
+       "kazanım"
+      ],
+      [
+       "mock exam",
+       "deneme sınavı"
+      ],
+      [
+       "term",
+       "dönem"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "oku",
+   "ikon": "menu_book",
+   "renk": "#34495E",
+   "baslik": "Read Like a Mathematician",
+   "baslik_tr": "Matematikçi Gibi Oku",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "Every paper and textbook uses the same small phrases.",
+       "Her makale ve ders kitabı aynı küçük kalıpları kullanır."
+      ],
+      [
+       "Once you know them, reading a proof in English becomes much easier.",
+       "Onları tanıdığında İngilizce bir ispatı okumak çok daha kolaylaşır."
+      ]
+     ]
+    },
+    {
+     "t": "tablo",
+     "basliklar": [
+      "English",
+      "Türkçe"
+     ],
+     "satirlar": [
+      [
+       "Let x be …",
+       "x … olsun"
+      ],
+      [
+       "Suppose that …",
+       "… olduğunu varsayalım"
+      ],
+      [
+       "if and only if (iff)",
+       "ancak ve ancak"
+      ],
+      [
+       "It follows that …",
+       "buradan … çıkar"
+      ],
+      [
+       "Without loss of generality",
+       "genelliği bozmadan"
+      ],
+      [
+       "Q.E.D. / ∎",
+       "ispat bitti"
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "Mini reading",
+      "Mini okuma"
+     ],
+     "s": [
+      [
+       "Claim: If n² is even, then n is even.",
+       "İddia: n² çiftse n de çifttir."
+      ],
+      [
+       "Proof: Suppose that n is odd, so n = 2k + 1 for some integer k.",
+       "İspat: n'nin tek olduğunu varsayalım, yani bir k tam sayısı için n = 2k + 1."
+      ],
+      [
+       "It follows that n² = 4k² + 4k + 1, which is odd.",
+       "Buradan n² = 4k² + 4k + 1 çıkar ve bu tektir."
+      ],
+      [
+       "This contradicts our assumption. ∎",
+       "Bu varsayımımızla çelişir. ∎"
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "proof by contradiction",
+       "olmayana ergi"
+      ],
+      [
+       "contrapositive",
+       "karşıt ters"
+      ],
+      [
+       "assumption",
+       "varsayım"
+      ],
+      [
+       "claim",
+       "iddia"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "soru": "Which AI system checked the proof of Erdős problem 728 in Lean?",
+   "soru_tr": "Erdős 728 probleminin ispatını Lean'de hangi yapay zekâ sistemi kontrol etti?",
+   "secenekler": [
+    "GPT-5.2 Pro",
+    "Aristotle",
+    "Gemini",
+    "AlphaGo"
+   ],
+   "dogru": 1,
+   "aciklama": "GPT-5.2 Pro wrote the proof, and Aristotle formalised it in Lean.",
+   "aciklama_tr": "İspatı GPT-5.2 Pro yazdı, Aristotle ise Lean'de biçimselleştirdi."
+  },
+  {
+   "soru": "In PageRank, the score vector r satisfies r = M · r. What is r?",
+   "soru_tr": "PageRank'te puan vektörü r, r = M · r eşitliğini sağlar. r nedir?",
+   "secenekler": [
+    "A determinant",
+    "An eigenvector of M",
+    "The inverse of M",
+    "A random number"
+   ],
+   "dogru": 1,
+   "aciklama": "r is an eigenvector of M with eigenvalue 1.",
+   "aciklama_tr": "r, M'nin 1 özdeğerine karşılık gelen özvektörüdür."
+  },
+  {
+   "soru": "What is the usual value of the damping factor d?",
+   "soru_tr": "Sönümleme katsayısı d genelde kaçtır?",
+   "secenekler": [
+    "0.15",
+    "0.5",
+    "0.85",
+    "1"
+   ],
+   "dogru": 2,
+   "aciklama": "The random surfer follows a link 85% of the time.",
+   "aciklama_tr": "Rastgele gezgin %85 ihtimalle bir bağlantıyı takip eder."
+  },
+  {
+   "soru": "Cahit Arf defined his invariant to classify …",
+   "soru_tr": "Cahit Arf, değişmezini neyi sınıflandırmak için tanımladı?",
+   "secenekler": [
+    "prime numbers",
+    "quadratic forms",
+    "triangles",
+    "fractals"
+   ],
+   "dogru": 1,
+   "aciklama": "The Arf invariant classifies quadratic forms in characteristic 2.",
+   "aciklama_tr": "Arf değişmezi karakteristik 2'deki kuadratik formları sınıflandırır."
+  },
+  {
+   "soru": "With 6 points on a circle, how many regions do the chords make?",
+   "soru_tr": "Çemberdeki 6 nokta için kirişler kaç bölge oluşturur?",
+   "secenekler": [
+    "30",
+    "31",
+    "32",
+    "36"
+   ],
+   "dogru": 1,
+   "aciklama": "C(6,4) + C(6,2) + 1 = 15 + 15 + 1 = 31, not 32.",
+   "aciklama_tr": "C(6,4) + C(6,2) + 1 = 15 + 15 + 1 = 31, 32 değil."
+  },
+  {
+   "soru": "Which phrase means \"genelliği bozmadan\"?",
+   "soru_tr": "Hangi kalıp \"genelliği bozmadan\" anlamına gelir?",
+   "secenekler": [
+    "It follows that",
+    "If and only if",
+    "Without loss of generality",
+    "Suppose that"
+   ],
+   "dogru": 2,
+   "aciklama": "WLOG = without loss of generality.",
+   "aciklama_tr": "WLOG, without loss of generality'nin kısaltmasıdır."
+  }
+ ],
+ "bulmacalar": [
+  {
+   "tip": "anagram",
+   "karisik": "TGNANTE",
+   "cevap": "TANGENT",
+   "ipucu": "A line that touches a curve at one point.",
+   "ipucu_tr": "Bir eğriye tek noktada dokunan doğru."
+  },
+  {
+   "tip": "anagram",
+   "karisik": "RMIEP",
+   "cevap": "PRIME",
+   "ipucu": "Divisible only by 1 and itself.",
+   "ipucu_tr": "Sadece 1'e ve kendisine bölünür."
+  },
+  {
+   "tip": "anagram",
+   "karisik": "TIRMXA",
+   "cevap": "MATRIX",
+   "ipucu": "Numbers arranged in rows and columns.",
+   "ipucu_tr": "Satır ve sütunlara dizilmiş sayılar."
+  },
+  {
+   "tip": "anagram",
+   "karisik": "FROPO",
+   "cevap": "PROOF",
+   "ipucu": "What a mathematician must write.",
+   "ipucu_tr": "Bir matematikçinin yazması gereken şey."
+  },
+  {
+   "tip": "eslestir",
+   "baslik": "Match the terms",
+   "baslik_tr": "Terimleri eşleştir",
+   "ciftler": [
+    [
+     "eigenvector",
+     "özvektör"
+    ],
+    [
+     "chord",
+     "kiriş"
+    ],
+    [
+     "prime number",
+     "asal sayı"
+    ],
+    [
+     "invariant",
+     "değişmez"
+    ],
+    [
+     "convergence",
+     "yakınsama"
+    ]
+   ]
+  },
+  {
+   "tip": "mantik",
+   "baslik": "Who is the liar?",
+   "baslik_tr": "Yalancı kim?",
+   "soru": "Ayşe, Burak and Cem: one always tells the truth, one always lies, one sometimes lies. Ayşe: \"Burak always lies.\" Burak: \"Cem always tells the truth.\" Cem: \"I sometimes lie.\" Who is who?",
+   "soru_tr": "Ayşe, Burak ve Cem'den biri hep doğru söyler, biri hep yalan söyler, biri bazen yalan söyler. Ayşe: \"Burak hep yalan söyler.\" Burak: \"Cem hep doğru söyler.\" Cem: \"Ben bazen yalan söylerim.\" Kim hangisi?",
+   "cevap": "Cem cannot always tell the truth or always lie, so he sometimes lies. Then Burak's sentence is false, so Burak always lies, and Ayşe always tells the truth.",
+   "cevap_tr": "Cem hep doğru da hep yalancı da olamaz, demek ki bazen yalan söyleyen o. O zaman Burak'ın sözü yanlış, yani Burak hep yalancı. Ayşe de hep doğru söyleyen."
+  },
+  {
+   "tip": "mantik",
+   "baslik": "The year puzzle",
+   "baslik_tr": "Yılın bulmacası",
+   "soru": "What is the largest number of consecutive positive integers whose sum is 2026?",
+   "soru_tr": "Toplamı 2026 olan en fazla kaç ardışık pozitif tam sayı vardır?",
+   "cevap": "Four: 505 + 506 + 507 + 508 = 2026.",
+   "cevap_tr": "Dört: 505 + 506 + 507 + 508 = 2026."
+  }
+ ],
+ "terimler": [
+  [
+   "open problem",
+   "açık problem"
+  ],
+  [
+   "proof",
+   "ispat"
+  ],
+  [
+   "divisibility",
+   "bölünebilirlik"
+  ],
+  [
+   "formal verification",
+   "biçimsel doğrulama"
+  ],
+  [
+   "conjecture",
+   "sanı"
+  ],
+  [
+   "eigenvector",
+   "özvektör"
+  ],
+  [
+   "eigenvalue",
+   "özdeğer"
+  ],
+  [
+   "damping factor",
+   "sönümleme katsayısı"
+  ],
+  [
+   "power iteration",
+   "kuvvet yöntemi"
+  ],
+  [
+   "convergence",
+   "yakınsama"
+  ],
+  [
+   "stationary distribution",
+   "durağan dağılım"
+  ],
+  [
+   "quadratic form",
+   "kuadratik form"
+  ],
+  [
+   "field extension",
+   "cisim genişlemesi"
+  ],
+  [
+   "invariant",
+   "değişmez"
+  ],
+  [
+   "ring",
+   "halka"
+  ],
+  [
+   "characteristic",
+   "karakteristik"
+  ],
+  [
+   "representation theory",
+   "temsil teorisi"
+  ],
+  [
+   "differential equation",
+   "diferansiyel denklem"
+  ],
+  [
+   "exponential decay",
+   "üstel azalma"
+  ],
+  [
+   "laureate",
+   "ödül sahibi"
+  ],
+  [
+   "pattern",
+   "örüntü"
+  ],
+  [
+   "chord",
+   "kiriş"
+  ],
+  [
+   "region",
+   "bölge"
+  ],
+  [
+   "counterexample",
+   "karşı örnek"
+  ],
+  [
+   "binomial coefficient",
+   "binom katsayısı"
+  ],
+  [
+   "perfect square",
+   "tam kare"
+  ],
+  [
+   "prime number",
+   "asal sayı"
+  ],
+  [
+   "sum of two squares",
+   "iki kare toplamı"
+  ],
+  [
+   "exponential growth",
+   "üstel büyüme"
+  ],
+  [
+   "order of operations",
+   "işlem önceliği"
+  ],
+  [
+   "exponent",
+   "üs"
+  ],
+  [
+   "logarithm",
+   "logaritma"
+  ],
+  [
+   "estimate",
+   "tahmin etmek"
+  ],
+  [
+   "curriculum",
+   "müfredat"
+  ],
+  [
+   "learning outcome",
+   "kazanım"
+  ],
+  [
+   "mock exam",
+   "deneme sınavı"
+  ],
+  [
+   "term",
+   "dönem"
+  ],
+  [
+   "proof by contradiction",
+   "olmayana ergi"
+  ],
+  [
+   "contrapositive",
+   "karşıt ters"
+  ],
+  [
+   "assumption",
+   "varsayım"
+  ],
+  [
+   "claim",
+   "iddia"
+  ]
+ ]
+}

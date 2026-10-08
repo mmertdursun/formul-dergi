@@ -1,12 +1,12 @@
 {
-  "surum": 1,
+  "surum": 2,
   "sayilar": [
     {
       "no": 1,
       "donem": "Ocak 2026",
       "tema": "Yeni bir yıl, yeni sorular",
       "acilis": "2026-01-01",
-      "dosya": "2026-01-ocak.md"
+      "dosya": "2026-01-ocak.json"
     },
     {
       "no": 2,
