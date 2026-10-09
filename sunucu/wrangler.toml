@@ -1,6 +1,6 @@
 # Formül hikâye Worker'ı için yapılandırma (ücretsiz plan)
 # Kullanım: npx wrangler deploy
-# Gizli değerler: npx wrangler secret put GEMINI_API_KEY / APP_TOKEN / IP_TUZU
+# Gizli değerler: npx wrangler secret put GEMINI_API_KEY / APP_TOKEN / IP_TUZU / SA_JSON
 name = "formul-hikaye"
 main = "hikaye-worker.js"
 compatibility_date = "2025-09-01"
@@ -8,6 +8,10 @@ compatibility_date = "2025-09-01"
 [vars]
 GUNLUK_IP_LIMIT = "20"
 GUNLUK_TOPLAM = "1000"
+UCRETSIZ_AYLIK = "3"
+PREMIUM_AYLIK = "200"
+FIREBASE_PROJE = "formul-8ddde"
+PAKET = "com.kelimeyagmuru.memur"
 
 # IP başına dakikada 3 istek. period yalnızca 10 veya 60 olabilir.
 # namespace_id hesabınızda benzersiz herhangi bir tam sayı.
@@ -23,9 +27,18 @@ namespace_id = "2026"
 name = "SAYAC"
 class_name = "GunlukSayac"
 
+# Üye başına aylık hikâye hakkı
+[[durable_objects.bindings]]
+name = "AYLIK"
+class_name = "AylikSayac"
+
 [[migrations]]
 tag = "v1"
 new_sqlite_classes = ["GunlukSayac"]
+
+[[migrations]]
+tag = "v2"
+new_sqlite_classes = ["AylikSayac"]
 
 [observability]
 enabled = true

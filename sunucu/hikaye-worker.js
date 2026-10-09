@@ -9,6 +9,7 @@
 //   MODEL           (Text, isteğe bağlı)  varsayılan gemini-2.5-flash
 //   GUNLUK_IP_LIMIT (Text, isteğe bağlı)  IP başına günlük hikâye, varsayılan 20
 //   GUNLUK_TOPLAM   (Text, isteğe bağlı)  tüm kullanıcılar için günlük tavan, varsayılan 1000
+//   SA_JSON         (Secret, isteğe bağlı) Google hizmet hesabı JSON anahtarı. Varsa premium doğrulama ve üye başına aylık hak açılır
 //
 // İsteğe bağlı bağlamalar (wrangler.toml'da tanımlı, ikisi de ücretsiz planda var):
 //   DAKIKA_LIMIT  Rate Limiting binding (IP başına dakikada 3 istek, ani yüklenmeyi keser)
@@ -25,6 +26,8 @@ const MAKS_GEMINI_CAGRISI = 3;      // bir istek en fazla bu kadar Gemini çağr
 export default {
   async fetch(istek, env) {
     if (istek.method !== "POST") return cevap({ hata: "POST bekleniyor" }, 405);
+    const yol = new URL(istek.url).pathname;
+    if (yol === "/premium/dogrula") return premiumDogrula(istek, env);
 
     // Yapılandırma eksikse kapalı kal (eski sürüm APP_TOKEN yoksa herkese açıktı)
     if (!env.APP_TOKEN || !env.GEMINI_API_KEY) return cevap({ hata: "servis yapılandırılmamış" }, 503);
@@ -64,6 +67,19 @@ export default {
     const gun = new Date().toISOString().slice(0, 10);
     const ipLimit = parseInt(env.GUNLUK_IP_LIMIT || "20", 10);
     const toplamLimit = parseInt(env.GUNLUK_TOPLAM || "1000", 10);
+    // Üye ise aylık hak hesaba göre sayılır. Premium'u sunucu Google Play'den doğrular.
+    const uid = await kimlikDogrula(istek, env);
+    if (uid && env.SA_JSON) {
+      const premium = await premiumMu(env, uid);
+      const ay = gun.slice(0, 7);
+      const limit = premium ? parseInt(env.PREMIUM_AYLIK || "200", 10) : parseInt(env.UCRETSIZ_AYLIK || "3", 10);
+      const hak = await aylikSay(env, ay, uid, limit);
+      if (!hak.ok) {
+        return premium
+          ? cevap({ hata: "Bu ayki hikâye sınırına ulaştın. Gelecek ay yenilenir." }, 429)
+          : cevap({ hata: `Bu ayki ${limit} ücretsiz hikâye hakkını kullandın. Premium ile sınırsız yazabilirsin.`, limit: true }, 402);
+      }
+    }
     const izin = await gunlukSay(env, gun, ipOzeti, ipLimit, toplamLimit);
     if (!izin.ok) {
       return cevap({ hata: izin.neden === "ip"
@@ -141,6 +157,201 @@ export class GunlukSayac {
     return Response.json({ ok: true });
   }
   async alarm() { await this.state.storage.deleteAll(); } // IP özetleri 2 gün sonra silinir (KVKK: saklama sınırı)
+}
+
+// ── Aylık hak (üye başına) ───────────────────────────────────────────────────
+
+async function aylikSay(env, ay, uid, limit) {
+  if (!env.AYLIK) return { ok: true }; // bağlama yoksa sınır uygulanmaz (istemci sayacı devrede)
+  try {
+    const nesne = env.AYLIK.get(env.AYLIK.idFromName(`ay-${ay}`));
+    const r = await nesne.fetch("https://sayac/arttir", { method: "POST", body: JSON.stringify({ uid, limit }) });
+    return await r.json();
+  } catch (e) {
+    console.log("aylık sayaç hatası", String(e).slice(0, 200));
+    return { ok: true };
+  }
+}
+
+// Her ay için tek nesne. Kayıtlar 40 gün sonra silinir.
+export class AylikSayac {
+  constructor(state) { this.state = state; }
+  async fetch(istek) {
+    const { uid, limit } = await istek.json();
+    const depo = this.state.storage;
+    const say = (await depo.get(`u:${uid}`)) || 0;
+    if (say >= limit) return Response.json({ ok: false, kullanilan: say });
+    await depo.put(`u:${uid}`, say + 1);
+    if (!(await depo.getAlarm())) await depo.setAlarm(Date.now() + 40 * 24 * 3600 * 1000);
+    return Response.json({ ok: true, kullanilan: say + 1 });
+  }
+  async alarm() { await this.state.storage.deleteAll(); }
+}
+
+// ── Premium: Google Play aboneliğini doğrula, Firestore'a yaz ────────────────
+// Gerekli gizli değişken: SA_JSON (Google Cloud hizmet hesabı anahtarı, JSON metni).
+// Hizmet hesabının Play Console'da "Finansal verileri görüntüle" ve Firestore yazma yetkisi olmalı.
+// Değişkenler: FIREBASE_PROJE (varsayılan formul-8ddde), PAKET (varsayılan com.kelimeyagmuru.memur)
+
+const PREMIUM_URUN = "formul_premium";
+const AKTIF_DURUMLAR = ["SUBSCRIPTION_STATE_ACTIVE", "SUBSCRIPTION_STATE_IN_GRACE_PERIOD"];
+
+async function premiumDogrula(istek, env) {
+  if (!env.SA_JSON) return cevap({ hata: "premium yapılandırılmamış" }, 503);
+  const uid = await kimlikDogrula(istek, env);
+  if (!uid) return cevap({ hata: "giriş gerekli" }, 401);
+  const ham = await istek.text();
+  if (ham.length > MAKS_GOVDE) return cevap({ hata: "istek çok büyük" }, 413);
+  let g;
+  try { g = JSON.parse(ham); } catch { return cevap({ hata: "geçersiz JSON" }, 400); }
+  const jeton = typeof g?.jeton === "string" ? g.jeton : "";
+  if (!jeton || jeton.length > 1000 || g.urun !== PREMIUM_URUN) return cevap({ hata: "geçersiz istek" }, 400);
+
+  const abonelik = await playAbonelik(env, jeton);
+  if (!abonelik) return cevap({ premium: false, hata: "satın alma doğrulanamadı" }, 400);
+  // Satın alma başka bir hesaba bağlıysa (jeton paylaşımı) kabul etme
+  const bagliHesap = abonelik.externalAccountIdentifiers?.obfuscatedExternalAccountId;
+  if (bagliHesap && bagliHesap !== uid) return cevap({ premium: false, hata: "satın alma başka hesaba ait" }, 403);
+  const sonuc = aboneligiOzetle(abonelik);
+  await premiumYaz(env, uid, sonuc.aktif, sonuc.bitis, jeton);
+  return cevap({ premium: sonuc.aktif, bitis: sonuc.bitis });
+}
+
+function aboneligiOzetle(a) {
+  const kalemler = (a.lineItems || []).filter((k) => k.productId === PREMIUM_URUN);
+  const bitis = kalemler.map((k) => k.expiryTime).filter(Boolean).sort().pop() || null;
+  const aktif = kalemler.length > 0 && AKTIF_DURUMLAR.includes(a.subscriptionState) &&
+    (!bitis || Date.parse(bitis) > Date.now());
+  return { aktif, bitis };
+}
+
+// Profildeki premium bilgisi. Süresi geçmişse kayıtlı jetonla Play'e tekrar sorulur (yenileme).
+async function premiumMu(env, uid) {
+  try {
+    const belge = await firestoreOku(env, uid);
+    const f = belge?.fields || {};
+    const premium = f.premium?.booleanValue === true;
+    const bitis = f.premium_bitis?.timestampValue;
+    if (premium && bitis && Date.parse(bitis) > Date.now()) return true;
+    const jeton = f.premium_jeton?.stringValue;
+    if (!jeton) return false;
+    const a = await playAbonelik(env, jeton);
+    if (!a) return false;
+    const s = aboneligiOzetle(a);
+    await premiumYaz(env, uid, s.aktif, s.bitis, jeton);
+    return s.aktif;
+  } catch (e) {
+    console.log("premium kontrol hatası", String(e).slice(0, 200));
+    return false;
+  }
+}
+
+async function playAbonelik(env, jeton) {
+  const paket = env.PAKET || "com.kelimeyagmuru.memur";
+  const erisim = await googleErisim(env);
+  const r = await fetch(`https://androidpublisher.googleapis.com/androidpublisher/v3/applications/${paket}/purchases/subscriptionsv2/tokens/${encodeURIComponent(jeton)}`,
+    { headers: { authorization: `Bearer ${erisim}` } });
+  if (!r.ok) { console.log("play hatası", r.status, (await r.text()).slice(0, 200)); return null; }
+  return r.json();
+}
+
+function firestoreAdres(env, uid) {
+  const proje = env.FIREBASE_PROJE || "formul-8ddde";
+  return `https://firestore.googleapis.com/v1/projects/${proje}/databases/(default)/documents/profiller/${encodeURIComponent(uid)}`;
+}
+
+async function firestoreOku(env, uid) {
+  const r = await fetch(firestoreAdres(env, uid), { headers: { authorization: `Bearer ${await googleErisim(env)}` } });
+  return r.ok ? r.json() : null;
+}
+
+async function premiumYaz(env, uid, aktif, bitis, jeton) {
+  const alanlar = ["premium", "premium_bitis", "premium_jeton"].map((a) => `updateMask.fieldPaths=${a}`).join("&");
+  const fields = {
+    premium: { booleanValue: aktif },
+    premium_bitis: bitis ? { timestampValue: bitis } : { nullValue: null },
+    premium_jeton: { stringValue: jeton },
+  };
+  // currentDocument.exists=true: profili olmayan (üye olmamış) uid için belge açılmaz
+  const r = await fetch(`${firestoreAdres(env, uid)}?${alanlar}&currentDocument.exists=true`, {
+    method: "PATCH",
+    headers: { authorization: `Bearer ${await googleErisim(env)}`, "content-type": "application/json" },
+    body: JSON.stringify({ fields }),
+  });
+  if (!r.ok) console.log("firestore yazma hatası", r.status, (await r.text()).slice(0, 200));
+}
+
+// Hizmet hesabıyla Google erişim jetonu (JWT > OAuth). Isolate içinde 50 dk önbellekte tutulur.
+let erisimOnbellek = { jeton: "", bitis: 0 };
+async function googleErisim(env) {
+  if (erisimOnbellek.jeton && erisimOnbellek.bitis > Date.now() + 60000) return erisimOnbellek.jeton;
+  const sa = JSON.parse(env.SA_JSON);
+  const simdi = Math.floor(Date.now() / 1000);
+  const govde = {
+    iss: sa.client_email,
+    scope: "https://www.googleapis.com/auth/androidpublisher https://www.googleapis.com/auth/datastore",
+    aud: "https://oauth2.googleapis.com/token",
+    iat: simdi,
+    exp: simdi + 3600,
+  };
+  const b64 = (o) => b64url(new TextEncoder().encode(JSON.stringify(o)));
+  const imzalanacak = `${b64({ alg: "RS256", typ: "JWT" })}.${b64(govde)}`;
+  const der = Uint8Array.from(atob(sa.private_key.replace(/-----[^-]+-----|\s/g, "")), (c) => c.charCodeAt(0));
+  const anahtar = await crypto.subtle.importKey("pkcs8", der, { name: "RSASSA-PKCS1-v1_5", hash: "SHA-256" }, false, ["sign"]);
+  const imza = await crypto.subtle.sign("RSASSA-PKCS1-v1_5", anahtar, new TextEncoder().encode(imzalanacak));
+  const r = await fetch("https://oauth2.googleapis.com/token", {
+    method: "POST",
+    headers: { "content-type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams({
+      grant_type: "urn:ietf:params:oauth:grant-type:jwt-bearer",
+      assertion: `${imzalanacak}.${b64url(new Uint8Array(imza))}`,
+    }),
+  });
+  if (!r.ok) throw new Error(`oauth ${r.status}`);
+  const j = await r.json();
+  erisimOnbellek = { jeton: j.access_token, bitis: Date.now() + (j.expires_in - 600) * 1000 };
+  return j.access_token;
+}
+
+// ── Firebase kimlik doğrulama (ID jetonu) ────────────────────────────────────
+
+let jwkOnbellek = { anahtarlar: null, bitis: 0 };
+async function kimlikDogrula(istek, env) {
+  const baslik = istek.headers.get("authorization") || "";
+  const m = baslik.match(/^Bearer ([\w-]+\.[\w-]+\.[\w-]+)$/);
+  if (!m) return null;
+  try {
+    const [h, p, s] = m[1].split(".");
+    const ust = JSON.parse(new TextDecoder().decode(b64urlCoz(h)));
+    const yuk = JSON.parse(new TextDecoder().decode(b64urlCoz(p)));
+    const proje = env.FIREBASE_PROJE || "formul-8ddde";
+    const simdi = Math.floor(Date.now() / 1000);
+    if (ust.alg !== "RS256" || !ust.kid) return null;
+    if (yuk.aud !== proje || yuk.iss !== `https://securetoken.google.com/${proje}`) return null;
+    if (!(yuk.exp > simdi) || !(yuk.iat <= simdi + 300) || typeof yuk.sub !== "string" || !yuk.sub) return null;
+    if (!jwkOnbellek.anahtarlar || jwkOnbellek.bitis < Date.now()) {
+      const r = await fetch("https://www.googleapis.com/service_accounts/v1/jwk/securetoken@system.gserviceaccount.com");
+      jwkOnbellek = { anahtarlar: (await r.json()).keys, bitis: Date.now() + 3600 * 1000 };
+    }
+    const jwk = jwkOnbellek.anahtarlar.find((k) => k.kid === ust.kid);
+    if (!jwk) return null;
+    const anahtar = await crypto.subtle.importKey("jwk", jwk, { name: "RSASSA-PKCS1-v1_5", hash: "SHA-256" }, false, ["verify"]);
+    const gecerli = await crypto.subtle.verify("RSASSA-PKCS1-v1_5", anahtar, b64urlCoz(s), new TextEncoder().encode(`${h}.${p}`));
+    return gecerli ? yuk.sub : null;
+  } catch {
+    return null;
+  }
+}
+
+function b64url(bayt) {
+  let s = "";
+  for (const b of bayt) s += String.fromCharCode(b);
+  return btoa(s).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+}
+
+function b64urlCoz(s) {
+  const t = s.replace(/-/g, "+").replace(/_/g, "/").padEnd(Math.ceil(s.length / 4) * 4, "=");
+  return Uint8Array.from(atob(t), (c) => c.charCodeAt(0));
 }
 
 // ── Gemini ───────────────────────────────────────────────────────────────────
