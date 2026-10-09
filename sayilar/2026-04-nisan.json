@@ -64,8 +64,8 @@
      "t": "p",
      "s": [
       [
-       "Our mathematician of the month has his signature on two of them, and his birthday is on 15 April: **Leonhard Euler**.",
-       "Ayın matematikçisinin bu soruların ikisinde imzası var ve doğum günü 15 Nisan'da: **Leonhard Euler**."
+       "Our mathematician of the month is the man behind the bridge question, and his birthday is on 15 April: **Leonhard Euler**.",
+       "Ayın matematikçisi köprü sorusunun arkasındaki isim ve doğum günü 15 Nisan'da: **Leonhard Euler**."
       ],
       [
        "Enjoy your break!",
@@ -98,7 +98,7 @@
       ],
       [
        "The main prize in mathematics went to the French mathematician **Frank Merle**, who works on **nonlinear** wave equations.",
-       "Matematikteki büyük ödül, doğrusal olmayan dalga denklemleri üzerine çalışan Fransız matematikçi **Frank Merle**'e verildi."
+       "Matematikteki büyük ödül, **doğrusal olmayan** dalga denklemleri üzerine çalışan Fransız matematikçi **Frank Merle**'e verildi."
       ],
       [
        "One of the New Horizons prizes for young mathematicians went to **Hong Wang**, who solved a problem more than 100 years old last year.",
@@ -174,16 +174,16 @@
        "harmonik analiz"
       ],
       [
-       "laureate",
-       "ödül sahibi"
+       "prediction",
+       "tahmin"
       ],
       [
        "to announce",
        "açıklamak, duyurmak"
       ],
       [
-       "conjecture",
-       "sanı"
+       "to stand out",
+       "öne çıkmak"
       ]
      ]
     }
@@ -574,8 +574,8 @@
        "Yüz milyonlarca alveol sayesinde bir yetişkinin akciğerlerinin iç **yüzey alanı** yaklaşık 70 metrekare."
       ],
       [
-       "That is about the floor area of a small flat, folded into a space smaller than a football.",
-       "Bu, küçük bir dairenin taban alanı kadar ve bir futbol topundan daha küçük bir hacme katlanmış durumda."
+       "That is about the floor area of a small flat, folded into a space of only about five or six litres.",
+       "Bu, küçük bir dairenin taban alanı kadar ve yalnızca beş altı litrelik bir hacme katlanmış durumda."
       ]
      ]
     },
@@ -638,8 +638,8 @@
        "dallanma"
       ],
       [
-       "surface area",
-       "yüzey alanı"
+       "windpipe / trachea",
+       "soluk borusu / trakea"
       ],
       [
        "volume",
@@ -706,7 +706,7 @@
       ],
       [
        "The famous mathematician **Johann Bernoulli** noticed the young man's talent and persuaded his father to let him study mathematics.",
-       "Ünlü matematikçi **Johann Bernoulli** gencin yeteneğini fark etti ve babasını matematiğe izin vermeye ikna etti."
+       "Ünlü matematikçi **Johann Bernoulli** gencin yeteneğini fark etti ve babasını, oğlunun matematik okumasına izin vermeye ikna etti."
       ],
       [
        "He spent most of his life at the academies of St Petersburg and Berlin.",
@@ -1281,8 +1281,8 @@
        "varlık"
       ],
       [
-       "to guarantee",
-       "garanti etmek"
+       "generous",
+       "cömert"
       ],
       [
        "diagonal",
@@ -1585,8 +1585,8 @@
        "geometrik seri"
       ],
       [
-       "to converge",
-       "yakınsamak"
+       "to sum a series",
+       "bir seriyi toplamak"
       ]
      ]
     }
@@ -1618,8 +1618,12 @@
        "Bayrama uygun küçük bir matematik etkinliği: Öğrencilerden Türk bayrağındaki ay ve yıldızın geometrik oranlarını araştırmalarını isteyin."
       ],
       [
-       "The Flag Law defines each measurement, such as the diameters of the crescent circles, the distance between their centres and the circle around the star, in terms of the flag's width.",
-       "Bayrak Kanunu ay dairelerinin çapları, merkezler arası uzaklık ve yıldızın çevrel çemberi gibi her ölçüyü bayrağın genişliğine göre tanımlar."
+       "The Flag Law defines every measurement in terms of the flag's width.",
+       "Bayrak Kanunu her ölçüyü bayrağın genişliğine göre tanımlar."
+      ],
+      [
+       "This includes the diameters of the crescent circles, the distance between their centres and the circle around the star.",
+       "Ay dairelerinin çapları, merkezler arası uzaklık ve yıldızın çevrel çemberi de bunlara dahildir."
       ],
       [
        "Drawing a correct flag with a ruler and a **compass** is one of the most meaningful applications of **ratio and proportion**.",
@@ -1839,8 +1843,12 @@
      ],
      "s": [
       [
-       "The word \"respectively\" is usually translated as \"sırasıyla\" at the end of the Turkish sentence.",
-       "\"Respectively\" kelimesi Türkçede çoğu zaman cümlenin sonuna \"sırasıyla\" olarak çevrilir."
+       "In English, \"respectively\" usually comes at the end of the sentence.",
+       "İngilizcede \"respectively\" genellikle cümlenin sonunda gelir."
+      ],
+      [
+       "In Turkish, \"sırasıyla\" usually comes before the list: \"a ve b sırasıyla 3 ve 5'tir.\"",
+       "Türkçede ise \"sırasıyla\" genellikle listeden önce gelir: \"a ve b sırasıyla 3 ve 5'tir.\""
       ],
       [
        "It appears on almost every page of a maths paper.",
@@ -2080,12 +2088,12 @@
    "soru": "Who solved the three-dimensional Kakeya conjecture in 2025?",
    "soru_tr": "Üç boyutlu Kakeya sanısını 2025'te kim çözdü?",
    "secenekler": [
-    "Frank Merle",
     "Hong Wang and Joshua Zahl",
+    "Frank Merle",
     "Abram Besicovitch",
     "Otis Chodosh"
    ],
-   "dogru": 1,
+   "dogru": 0,
    "aciklama": "Hong Wang and Joshua Zahl announced the solution in 2025.",
    "aciklama_tr": "Hong Wang ile Joshua Zahl çözümü 2025'te duyurdu."
   },
@@ -2107,11 +2115,11 @@
    "soru_tr": "Königsberg yürüyüşü neden imkânsızdı?",
    "secenekler": [
     "The bridges were too long",
-    "All four parts had an odd number of bridges",
+    "The river was too wide",
     "There were only seven bridges",
-    "The river was too wide"
+    "All four parts had an odd number of bridges"
    ],
-   "dogru": 1,
+   "dogru": 3,
    "aciklama": "A walk can have at most two parts with an odd number of bridges, but Königsberg had four.",
    "aciklama_tr": "Bir yürüyüşte tek sayıda köprüye sahip en fazla iki parça olabilir, Königsberg'de ise dört tane vardı."
   }
@@ -2201,16 +2209,16 @@
    "harmonik analiz"
   ],
   [
-   "laureate",
-   "ödül sahibi"
+   "prediction",
+   "tahmin"
   ],
   [
    "to announce",
    "açıklamak, duyurmak"
   ],
   [
-   "conjecture",
-   "sanı"
+   "to stand out",
+   "öne çıkmak"
   ],
   [
    "coastline",
@@ -2245,8 +2253,8 @@
    "dallanma"
   ],
   [
-   "surface area",
-   "yüzey alanı"
+   "windpipe / trachea",
+   "soluk borusu / trakea"
   ],
   [
    "volume",
@@ -2317,8 +2325,8 @@
    "varlık"
   ],
   [
-   "to guarantee",
-   "garanti etmek"
+   "generous",
+   "cömert"
   ],
   [
    "diagonal",
@@ -2361,8 +2369,8 @@
    "geometrik seri"
   ],
   [
-   "to converge",
-   "yakınsamak"
+   "to sum a series",
+   "bir seriyi toplamak"
   ],
   [
    "ratio / proportion",

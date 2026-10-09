@@ -265,6 +265,10 @@
      "t": "p",
      "s": [
       [
+       "We met this problem briefly in our April issue, and now it is time for a closer look.",
+       "Bu problemle nisan sayımızda kısaca tanışmıştık, şimdi ona daha yakından bakma zamanı."
+      ],
+      [
        "In 1917, the Japanese mathematician **Sōichi Kakeya** asked a simple question.",
        "1917'de Japon matematikçi **Sōichi Kakeya** basit bir soru sordu."
       ],
@@ -398,7 +402,7 @@
     },
     {
      "t": "formul",
-     "m": "K ⊂ ℝ³ a Kakeya set  >  dim K = 3"
+     "m": "K ⊂ ℝ³ is a Kakeya set  ⟹  dim K = 3"
     },
     {
      "t": "p",
@@ -451,20 +455,20 @@
        "Kakeya kümesi"
       ],
       [
-       "measure zero",
-       "ölçüsü sıfır"
+       "unit segment",
+       "birim doğru parçası"
       ],
       [
-       "Hausdorff dimension",
-       "Hausdorff boyutu"
+       "to sweep",
+       "süpürmek"
       ],
       [
        "box-counting dimension",
        "kutu sayma boyutu"
       ],
       [
-       "harmonic analysis",
-       "harmonik analiz"
+       "tube",
+       "tüp"
       ],
       [
        "to overlap",
@@ -551,7 +555,7 @@
       ],
       [
        "In a **glancing** collision, the two balls move away at a right angle to each other.",
-       "**Sıyırarak** olan bir çarpışmada iki top birbirine dik açıyla uzaklaşır."
+       "**Sıyırarak** gerçekleşen bir çarpışmada iki top birbirine dik açıyla uzaklaşır."
       ],
       [
        "The reason is that v² = v₁² + v₂², which is just the Pythagorean theorem for the velocity vectors.",
@@ -653,8 +657,8 @@
        "yansıma açısı"
       ],
       [
-       "momentum",
-       "momentum"
+       "kinetic energy",
+       "kinetik enerji"
       ],
       [
        "elastic collision",
@@ -696,8 +700,12 @@
      "t": "p",
      "s": [
       [
-       "As a child, Maryam Mirzakhani wanted to become a writer.",
-       "Maryam Mirzakhani çocukken yazar olmak istiyordu."
+       "We first introduced Maryam Mirzakhani in our March issue, and this month we tell her full story.",
+       "Maryam Mirzakhani'yi ilk kez mart sayımızda tanıtmıştık, bu ay onun hikâyesini baştan sona anlatıyoruz."
+      ],
+      [
+       "As a child, she wanted to become a writer.",
+       "Çocukken yazar olmak istiyordu."
       ],
       [
        "She read every novel she could find.",
@@ -1086,8 +1094,8 @@
        "simplektik geometri"
       ],
       [
-       "optimisation",
-       "optimizasyon, eniyileme"
+       "holomorphic curve",
+       "holomorf eğri"
       ],
       [
        "public outreach",
@@ -1316,12 +1324,12 @@
        "Ve 142857 × 7 = 999999."
       ],
       [
-       "**The impossible heptagon**: you cannot draw a regular seven-sided polygon with only a compass and a straightedge, as Gauss's work showed.",
-       "**İmkânsız yedigen**: Gauss'un çalışmalarının gösterdiği gibi, düzgün yedigen yalnızca pergel ve cetvelle çizilemez."
+       "**The impossible heptagon**: you cannot draw a regular seven-sided polygon with only a compass and a straightedge, as the work of Gauss and Pierre Wantzel showed.",
+       "**İmkânsız yedigen**: Gauss'un ve Pierre Wantzel'in çalışmalarının gösterdiği gibi, düzgün yedigen yalnızca pergel ve cetvelle çizilemez."
       ],
       [
-       "**Seven bridges**: in 1736, Euler proved that nobody can walk across the seven bridges of Königsberg exactly once each, and graph theory was born.",
-       "**Yedi köprü**: 1736'da Euler, Königsberg'in yedi köprüsünün her birinden tam bir kez geçen bir yürüyüş olmadığını ispatladı ve graf teorisi doğdu."
+       "**Seven colours on a doughnut**: four colours are enough for any map on a flat sheet, but a map on the surface of a doughnut may need seven.",
+       "**Simitte yedi renk**: Düz bir kâğıttaki her harita için dört renk yeter, ama bir simidin yüzeyindeki bir harita yedi renk gerektirebilir."
       ],
       [
        "**Seven problems, one million dollars each**: in 2000, the Clay Mathematics Institute listed seven **Millennium Prize Problems**, and so far only one, the Poincaré conjecture, has been solved.",
@@ -1357,8 +1365,8 @@
        "pergel ve cetvel"
       ],
       [
-       "Millennium Prize Problems",
-       "Milenyum Ödül Problemleri"
+       "Poincaré conjecture",
+       "Poincaré sanısı"
       ],
       [
        "motto",
@@ -1521,8 +1529,8 @@
      "t": "terimler",
      "items": [
       [
-       "diagonal",
-       "köşegen"
+       "squared paper",
+       "kareli kâğıt"
       ],
       [
        "bounce",
@@ -1665,8 +1673,8 @@
        "nakil"
       ],
       [
-       "candidate",
-       "aday"
+       "score",
+       "puan"
       ]
      ]
     }
@@ -1764,7 +1772,7 @@
       ],
       [
        "Indeed, ℓ is the perpendicular bisector of BB', so P is at the same distance from B and B'.",
-       "Gerçekten de ℓ, BB' doğru parçasının orta dikmesidir, bu yüzden P, B ve B''ne eşit uzaklıktadır."
+       "Gerçekten de ℓ, BB' doğru parçasının orta dikmesidir, bu yüzden P, B ve B' noktalarına eşit uzaklıktadır."
       ],
       [
        "Hence AP + PB = AP + PB', which is at least AB' by the triangle inequality.",
@@ -1835,12 +1843,12 @@
    "soru": "Where and when did ICM 2026 take place?",
    "soru_tr": "ICM 2026 nerede ve ne zaman yapıldı?",
    "secenekler": [
-    "Seoul, August 2014",
     "Philadelphia, 23–30 July 2026",
+    "Seoul, August 2014",
     "Shanghai, 10–21 July 2026",
     "Oslo, July 1936"
    ],
-   "dogru": 1,
+   "dogru": 0,
    "aciklama": "The congress was held in Philadelphia from 23 to 30 July 2026, and the Fields Medals were announced on the first day.",
    "aciklama_tr": "Kongre 23-30 Temmuz 2026'da Philadelphia'da yapıldı ve Fields Madalyaları ilk gün açıklandı."
   },
@@ -1849,37 +1857,37 @@
    "soru_tr": "Hangi 2026 Fields madalyası sahibi madalyayı kazanan üçüncü kadın?",
    "secenekler": [
     "Hannah Fry",
-    "Maryna Viazovska",
     "Hong Wang",
+    "Maryna Viazovska",
     "Maryam Mirzakhani"
    ],
-   "dogru": 2,
+   "dogru": 1,
    "aciklama": "Hong Wang follows Maryam Mirzakhani (2014) and Maryna Viazovska (2022).",
    "aciklama_tr": "Hong Wang, Maryam Mirzakhani (2014) ve Maryna Viazovska'nın (2022) ardından geliyor."
   },
   {
-   "soru": "What did Wang and Zahl prove about Kakeya sets in three dimensions?",
-   "soru_tr": "Wang ve Zahl üç boyutta Kakeya kümeleri hakkında neyi ispatladı?",
+   "soru": "In 1971, Roy Davies proved that every Kakeya set in the plane has dimension …",
+   "soru_tr": "1971'de Roy Davies düzlemdeki her Kakeya kümesinin boyutunun … olduğunu ispatladı.",
    "secenekler": [
-    "Their volume is always 1",
-    "Their dimension is exactly 3",
-    "They do not exist",
-    "Their dimension is 2"
+    "0",
+    "1",
+    "1.5",
+    "2"
    ],
-   "dogru": 1,
-   "aciklama": "A Kakeya set in space can have almost no volume, but its dimension is 3.",
-   "aciklama_tr": "Uzaydaki bir Kakeya kümesinin neredeyse hiç hacmi olmayabilir, ama boyutu 3'tür."
+   "dogru": 3,
+   "aciklama": "A Kakeya set in the plane can have zero area, but it is still fully two-dimensional.",
+   "aciklama_tr": "Düzlemdeki bir Kakeya kümesinin alanı sıfır olabilir, ama yine de tam iki boyutludur."
   },
   {
    "soru": "Two billiard balls of equal mass collide head-on. What happens to the moving ball?",
    "soru_tr": "Kütleleri eşit iki bilardo topu kafa kafaya çarpışıyor. Hareket eden topa ne olur?",
    "secenekler": [
     "It bounces back with the same speed",
-    "It stops",
+    "It doubles its speed",
     "It moves at a right angle",
-    "It doubles its speed"
+    "It stops"
    ],
-   "dogru": 1,
+   "dogru": 3,
    "aciklama": "Momentum and kinetic energy are both kept, so the two balls exchange their velocities.",
    "aciklama_tr": "Momentum ve kinetik enerji korunduğu için iki top hızlarını değiş tokuş eder."
   },
@@ -1888,11 +1896,11 @@
    "soru_tr": "Mirzakhani, uzunluğu L'den kısa basit kapalı jeodeziklerin sayısı hakkında ne gösterdi?",
    "secenekler": [
     "It is always finite and constant",
-    "It grows like a polynomial in L",
     "It grows exponentially in L",
+    "It grows like a polynomial in L",
     "It is always zero"
    ],
-   "dogru": 1,
+   "dogru": 2,
    "aciklama": "For a closed surface with g holes, it grows like c · L⁶ᵍ⁻⁶.",
    "aciklama_tr": "g delikli kapalı bir yüzey için c · L⁶ᵍ⁻⁶ gibi büyür."
   },
@@ -1900,14 +1908,14 @@
    "soru": "In Heron's river problem, why do we reflect the point B?",
    "soru_tr": "Heron'un nehir probleminde B noktasını neden yansıtıyoruz?",
    "secenekler": [
-    "To make the river longer",
     "Because reflection keeps distances, so the bent path becomes a straight line",
+    "To make the river longer",
     "To change the answer",
     "Because B is on the river"
    ],
-   "dogru": 1,
+   "dogru": 0,
    "aciklama": "PB = PB', so the shortest path is the straight line from A to B'.",
-   "aciklama_tr": "PB = PB' olduğu için en kısa yol A'dan B''ne giden doğrudur."
+   "aciklama_tr": "PB = PB' olduğu için en kısa yol, A'dan B' noktasına giden doğru parçasıdır."
   }
  ],
  "bulmacalar": [
@@ -1970,19 +1978,19 @@
    "tip": "mantik",
    "baslik": "Paper billiards",
    "baslik_tr": "Kâğıt bilardo",
-   "soru": "A ball leaves the bottom left corner of a 3×5 table (3 high, 5 wide) at 45°. How many times does it bounce before it reaches a corner, and which corner is it?",
-   "soru_tr": "Bir top 3×5'lik bir masanın (3 yüksekliğinde, 5 genişliğinde) sol alt köşesinden 45°'lik açıyla çıkıyor. Bir köşeye ulaşmadan önce kaç kez seker ve hangi köşede durur?",
-   "cevap": "Unfold the table: the ball moves on the line y = x until it reaches a point where both coordinates are multiples, which is (15, 15). It crosses 2 vertical lines (x = 5, 10) and 4 horizontal lines (y = 3, 6, 9, 12), so it bounces 6 times. Since 15/5 = 3 and 15/3 = 5 are both odd, it ends in the top right corner, opposite the start.",
-   "cevap_tr": "Masayı aç: Top y = x doğrusu üzerinde, iki koordinatın da kat olduğu ilk noktaya, yani (15, 15)'e kadar ilerler. 2 dikey çizgiyi (x = 5, 10) ve 4 yatay çizgiyi (y = 3, 6, 9, 12) geçer, yani 6 kez seker. 15/5 = 3 ve 15/3 = 5 ikisi de tek olduğu için başlangıcın karşısındaki sağ üst köşede durur."
+   "soru": "A ball leaves the bottom left corner of a 4×7 table (4 high, 7 wide) at 45°. How many times does it bounce before it reaches a corner, and which corner is it?",
+   "soru_tr": "Bir top 4×7'lik bir masanın (4 yüksekliğinde, 7 genişliğinde) sol alt köşesinden 45°'lik açıyla çıkıyor. Bir köşeye ulaşmadan önce kaç kez seker ve hangi köşede durur?",
+   "cevap": "Unfold the table: the ball moves on the line y = x until both coordinates are multiples of the sides, which first happens at (28, 28). It crosses 3 vertical lines (x = 7, 14, 21) and 6 horizontal lines (y = 4, 8, …, 24), so it bounces 9 times. It travels 28/7 = 4 widths, an even number, so it ends on the left side, and 28/4 = 7 heights, an odd number, so it ends at the top. The ball stops in the top left corner.",
+   "cevap_tr": "Masayı aç: Top y = x doğrusu üzerinde, iki koordinat da kenarların katı olana kadar ilerler ve bu ilk kez (28, 28)'de olur. 3 dikey çizgiyi (x = 7, 14, 21) ve 6 yatay çizgiyi (y = 4, 8, …, 24) geçer, yani 9 kez seker. 28/7 = 4 genişlik gider, bu çift sayı olduğu için sol kenarda biter, 28/4 = 7 yükseklik gider, bu tek sayı olduğu için üstte biter. Top sol üst köşede durur."
   },
   {
    "tip": "mantik",
-   "baslik": "Seven coins",
-   "baslik_tr": "Yedi madeni para",
-   "soru": "You have 7 coins that look the same, but one of them is fake and lighter. With a balance scale, what is the smallest number of weighings that always finds the fake coin?",
-   "soru_tr": "Birbirinin aynısı görünen 7 madeni paran var, ama biri sahte ve daha hafif. Eşit kollu bir terazi ile sahte parayı her durumda bulan en az tartı sayısı kaçtır?",
-   "cevap": "Two. First put 3 coins on each side. If they balance, the seventh coin is fake. If not, take the lighter group of 3 and weigh 1 coin against 1 coin: the lighter one is fake, and if they balance, it is the third coin. One weighing is not enough, because it has only 3 possible results but there are 7 possible fake coins.",
-   "cevap_tr": "İki. Önce her kefeye 3 para koy. Denge olursa yedinci para sahtedir. Olmazsa hafif gelen 3'lü grubu al ve 1 parayı 1 parayla tart: Hafif olan sahtedir, denge olursa sahte üçüncü paradır. Tek tartı yetmez, çünkü yalnızca 3 olası sonucu var ama sahte para 7 farklı para olabilir."
+   "baslik": "Two mirrors",
+   "baslik_tr": "İki ayna",
+   "soru": "Two flat mirrors stand on a table and meet at a right angle. You put a coin between them. How many images of the coin can you see? What if the angle is 60°?",
+   "soru_tr": "Masanın üzerinde iki düz ayna dik açıyla birleşiyor. Aralarına bir para koyuyorsun. Paranın kaç görüntüsünü görebilirsin? Açı 60° olursa ne olur?",
+   "cevap": "Three images. Reflect the corner in each mirror again and again: the 360° around the corner is filled by 360/90 = 4 copies of the space between the mirrors. One copy holds the real coin, so you see 4 − 1 = 3 images: two from one reflection and one from a double reflection. For 60° there are 360/60 = 6 copies, so you see 5 images.",
+   "cevap_tr": "Üç görüntü. Köşeyi her aynada tekrar tekrar yansıt: Köşenin etrafındaki 360°, aynaların arasındaki bölgenin 360/90 = 4 kopyasıyla dolar. Kopyalardan birinde gerçek para var, yani 4 − 1 = 3 görüntü görürsün: İkisi tek yansımadan, biri çift yansımadan. 60° için 360/60 = 6 kopya olur, yani 5 görüntü görürsün."
   }
  ],
  "terimler": [
@@ -2011,20 +2019,20 @@
    "Kakeya kümesi"
   ],
   [
-   "measure zero",
-   "ölçüsü sıfır"
+   "unit segment",
+   "birim doğru parçası"
   ],
   [
-   "Hausdorff dimension",
-   "Hausdorff boyutu"
+   "to sweep",
+   "süpürmek"
   ],
   [
    "box-counting dimension",
    "kutu sayma boyutu"
   ],
   [
-   "harmonic analysis",
-   "harmonik analiz"
+   "tube",
+   "tüp"
   ],
   [
    "to overlap",
@@ -2039,8 +2047,8 @@
    "yansıma açısı"
   ],
   [
-   "momentum",
-   "momentum"
+   "kinetic energy",
+   "kinetik enerji"
   ],
   [
    "elastic collision",
@@ -2087,8 +2095,8 @@
    "simplektik geometri"
   ],
   [
-   "optimisation",
-   "optimizasyon, eniyileme"
+   "holomorphic curve",
+   "holomorf eğri"
   ],
   [
    "public outreach",
@@ -2127,16 +2135,16 @@
    "pergel ve cetvel"
   ],
   [
-   "Millennium Prize Problems",
-   "Milenyum Ödül Problemleri"
+   "Poincaré conjecture",
+   "Poincaré sanısı"
   ],
   [
    "motto",
    "slogan, şiar"
   ],
   [
-   "diagonal",
-   "köşegen"
+   "squared paper",
+   "kareli kâğıt"
   ],
   [
    "bounce",
@@ -2171,8 +2179,8 @@
    "nakil"
   ],
   [
-   "candidate",
-   "aday"
+   "score",
+   "puan"
   ],
   [
    "we claim that",

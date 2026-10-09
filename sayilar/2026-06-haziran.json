@@ -105,8 +105,8 @@
        "Şubat sayımızda, yapay zekâyı yayımlanmamış araştırma sorularıyla sınayan bir deney olan **First Proof**'u tanıtmıştık."
       ],
       [
-       "On 12 June 2026, the full results of the **second batch** were made public.",
-       "12 Haziran 2026'da **ikinci turun** sonuçlarının tamamı kamuoyuyla paylaşıldı."
+       "On 10 June 2026, the organisers published the results of the **second batch**, together with the referee reports.",
+       "10 Haziran 2026'da düzenleyiciler **ikinci turun** sonuçlarını hakem raporlarıyla birlikte yayımladı."
       ],
       [
        "This time the rules were even stricter.",
@@ -118,24 +118,24 @@
      "t": "liste",
      "s": [
       [
-       "Leading mathematicians contributed ten new problems, from stochastic PDEs to combinatorial topology and logic.",
-       "Önde gelen matematikçiler, stokastik kısmi diferansiyel denklemlerden kombinatoryal topolojiye ve mantığa kadar on yeni problem hazırladı."
+       "Leading mathematicians contributed ten new research problems from different areas of mathematics.",
+       "Önde gelen matematikçiler, matematiğin farklı alanlarından on yeni araştırma problemi hazırladı."
       ],
       [
-       "Each problem had a human solution of at most eight pages that had never been published.",
-       "Her problemin en fazla sekiz sayfalık, hiç yayımlanmamış bir insan çözümü vardı."
+       "Each problem had a short human solution that had never been published.",
+       "Her problemin kısa ve hiç yayımlanmamış bir insan çözümü vardı."
       ],
       [
-       "Four AI systems took part, one commercial model from OpenAI and three academic systems built on commercial models.",
-       "Dört yapay zekâ sistemi katıldı: OpenAI'ın ticari bir modeli ve ticari modeller üzerine kurulmuş üç akademik sistem."
+       "Four publicly available AI systems took part: one model from OpenAI and three systems that university teams had built on commercial models.",
+       "Herkesin erişebildiği dört yapay zekâ sistemi katıldı: OpenAI'ın bir modeli ve üniversite ekiplerinin ticari modeller üzerine kurduğu üç sistem."
       ],
       [
-       "Each system had **24 hours** for all ten problems, with no human help at all.",
-       "Her sistemin on problemin tamamı için **24 saati** vardı ve hiçbir insan yardımı almadı."
+       "The organisers ran the tests themselves, so nobody could help the systems along the way.",
+       "Testleri düzenleyiciler kendileri yürüttü, böylece kimse yol boyunca sistemlere yardım edemedi."
       ],
       [
-       "Thirty expert mathematicians then graded the solutions at Harvard.",
-       "Ardından otuz uzman matematikçi çözümleri Harvard'da notlandırdı."
+       "Thirty mathematicians then graded the solutions **blind**, without knowing which system had written them.",
+       "Ardından otuz matematikçi çözümleri hangi sistemin yazdığını bilmeden, yani **kör** biçimde notlandırdı."
       ]
      ]
     },
@@ -151,12 +151,12 @@
        "On problemin yedisi, **hakemlerin** esasen doğru bulduğu en az bir çözüm aldı."
       ],
       [
-       "For one problem, a system even found a new approach that was different from the human solution.",
-       "Bir problemde bir sistem, insan çözümünden farklı yeni bir yaklaşım bile buldu."
+       "The best system, built by a team at ETH Zurich, solved six problems.",
+       "ETH Zürih'teki bir ekibin kurduğu en başarılı sistem altı problemi çözdü."
       ],
       [
-       "For another problem, no system made any real progress.",
-       "Başka bir problemde ise hiçbir sistem gerçek bir ilerleme kaydedemedi."
+       "Three problems were not solved by any system.",
+       "Üç problemi ise hiçbir sistem çözemedi."
       ]
      ]
     },
@@ -164,20 +164,20 @@
      "t": "p",
      "s": [
       [
-       "The referees also noticed a pattern.",
-       "Hakemler bir örüntü de fark etti."
+       "The report also pointed to some patterns.",
+       "Rapor bazı örüntülere de dikkat çekti."
       ],
       [
-       "The systems did best when a problem looked like results that were already in the literature.",
-       "Sistemler, problem literatürdeki sonuçlara benzediğinde en iyi performansı gösterdi."
+       "According to the organisers, the unsolved problems tended to be further away from results that were already in the literature.",
+       "Düzenleyicilere göre çözülemeyen problemler, literatürde zaten var olan sonuçlardan daha uzak olma eğilimindeydi."
       ],
       [
-       "They often explained the **routine** steps in great detail but passed quickly over the difficult ones.",
-       "**Sıradan** adımları çoğu zaman çok ayrıntılı açıkladılar, ama zor adımların üzerinden hızla geçtiler."
+       "On one problem, several systems copied phrases and notation from an earlier paper without **citing** it.",
+       "Bir problemde birkaç sistem, önceki bir makaleden ifadeleri ve gösterimleri **kaynak göstermeden** kopyaladı."
       ],
       [
-       "The organisers said the results show genuine capability, but also systematic weaknesses.",
-       "Düzenleyiciler sonuçların gerçek bir yetenek gösterdiğini, ama sistematik zayıflıkları da ortaya koyduğunu söyledi."
+       "Overall, the results show genuine capability, but also clear weaknesses.",
+       "Genel olarak sonuçlar gerçek bir yetenek gösteriyor, ama açık zayıflıkları da ortaya koyuyor."
       ]
      ]
     },
@@ -242,12 +242,12 @@
      ],
      "s": [
       [
-       "Show students one sentence from the First Proof report: the AI explained easy steps in detail but skipped the hard ones.",
-       "Öğrencilere First Proof raporundan şu cümleyi gösterin: Yapay zekâ kolay adımları ayrıntılı anlattı, zor olanları ise atladı."
+       "Tell students one finding from the First Proof report: some AI answers copied an earlier paper without saying where the ideas came from.",
+       "Öğrencilere First Proof raporundaki bir bulguyu anlatın: Bazı yapay zekâ cevapları, fikirlerin nereden geldiğini söylemeden önceki bir makaleyi kopyaladı."
       ],
       [
-       "Then ask them: do you ever do the same thing in your own written solutions?",
-       "Sonra sorun: Siz de kendi yazılı çözümlerinizde aynı şeyi yapıyor musunuz?"
+       "Then ask them: why do mathematicians always name their sources, even when the proof is correct?",
+       "Sonra sorun: İspat doğru olsa bile matematikçiler neden kaynaklarını her zaman belirtir?"
       ]
      ]
     },
@@ -263,8 +263,8 @@
        "hakem"
       ],
       [
-       "routine step",
-       "sıradan, rutin adım"
+       "to cite",
+       "kaynak göstermek, atıf yapmak"
       ],
       [
        "genuine capability",
@@ -522,7 +522,7 @@
      "s": [
       [
        "The trick in the proof is Cantor's **diagonal argument**, the same idea that shows the real numbers are uncountable.",
-       "İspattaki hile, Cantor'un **köşegen yöntemi**, yani reel sayıların sayılamaz olduğunu gösteren fikrin ta kendisi."
+       "İspatın püf noktası Cantor'un **köşegen yöntemi**, yani reel sayıların sayılamaz olduğunu gösteren fikrin ta kendisi."
       ],
       [
        "Turing also noted that there are only countably many machines, so almost every real number is **not computable**.",
@@ -716,8 +716,12 @@
        "3 ve 11 asallarını alalım, yani n = 33."
       ],
       [
-       "The public key is e = 3 and the secret key is d = 7, because 3 · 7 = 21 leaves a remainder of 1 when divided by (3 − 1)(11 − 1) = 20.",
-       "Açık anahtar e = 3, gizli anahtar d = 7, çünkü 3 · 7 = 21 sayısı (3 − 1)(11 − 1) = 20'ye bölündüğünde 1 kalanını verir."
+       "The public key is e = 3, and the secret key is d = 7.",
+       "Açık anahtar e = 3, gizli anahtar d = 7."
+      ],
+      [
+       "This works because 3 · 7 = 21 leaves a remainder of 1 when divided by (3 − 1)(11 − 1) = 20.",
+       "Bu işe yarar, çünkü 3 · 7 = 21 sayısı (3 − 1)(11 − 1) = 20'ye bölündüğünde 1 kalanını verir."
       ],
       [
        "To send the message 4, compute 4³ = 64, and 64 mod 33 = 31.",
@@ -841,7 +845,7 @@
        "Savaştan sonra **program saklayan** ilk bilgisayarlardan birini tasarladı, daha sonra Manchester'da çalıştı."
       ],
       [
-       "In 1952 he was convicted for his homosexuality, which was a crime in Britain at that time, and was forced to undergo hormone treatment.",
+       "In 1952 he was convicted of homosexual acts, which were a crime in Britain at that time, and he was forced to undergo hormone treatment.",
        "1952'de, o dönem İngiltere'de suç sayılan eşcinselliği nedeniyle mahkûm edildi ve hormon tedavisine zorlandı."
       ],
       [
@@ -927,8 +931,8 @@
        "1947'de bir maratonu 2 saat 46 dakikada koştu, bu süre 1948 Olimpiyat maratonunun galibinden yalnızca 11 dakika kadar yavaştı."
       ],
       [
-       "He sometimes ran about 40 miles from Cambridge to London for meetings.",
-       "Bazen toplantılar için Cambridge'den Londra'ya yaklaşık 40 mil koşardı."
+       "During the war he sometimes ran about 40 miles from Bletchley Park to London for meetings.",
+       "Savaş yıllarında bazen toplantılar için Bletchley Park'tan Londra'ya yaklaşık 40 mil koşardı."
       ]
      ]
     },
@@ -1045,8 +1049,8 @@
        "2011'de MacDonald ve doktora sonrası araştırmacısı böyle bir bükülmenin elektronların davranışını nasıl değiştirdiğini tarif etti."
       ],
       [
-       "In 2018, Jarillo-Herrero's group turned one layer by precisely 1.1° and found that the material could become a **superconductor**.",
-       "2018'de Jarillo-Herrero'nun grubu bir tabakayı tam 1,1° döndürdü ve malzemenin **süperiletken** hâle gelebildiğini buldu."
+       "In 2018, Jarillo-Herrero's group turned one layer by about 1.1° and found that the material could become a **superconductor**.",
+       "2018'de Jarillo-Herrero'nun grubu bir tabakayı yaklaşık 1,1° döndürdü ve malzemenin **süperiletken** hâle gelebildiğini buldu."
       ]
      ]
     },
@@ -1055,7 +1059,7 @@
      "s": [
       [
        "Where is the maths?",
-       "Matematiği nerede?"
+       "Peki matematik nerede?"
       ],
       [
        "When two identical grids are turned slightly, a much larger pattern appears, called a **moiré pattern**.",
@@ -1079,12 +1083,12 @@
      "t": "p",
      "s": [
       [
-       "Here a is the distance between atoms, about 0.246 nanometres for graphene, and θ is the twist angle.",
-       "Burada a atomlar arası mesafe, grafen için yaklaşık 0,246 nanometre, θ ise bükülme açısı."
+       "Here a is the spacing of the atomic grid, about 0.246 nanometres for graphene, and θ is the twist angle.",
+       "Burada a atom ızgarasının aralığı, grafen için yaklaşık 0,246 nanometre, θ ise bükülme açısı."
       ],
       [
-       "For θ = 1.1°, the pattern is about 13 nanometres wide, more than fifty times larger than the distance between atoms.",
-       "θ = 1,1° için desen yaklaşık 13 nanometre genişliğinde, yani atomlar arası mesafenin elli katından fazla."
+       "For θ = 1.1°, the pattern is about 13 nanometres wide, more than fifty times larger than a.",
+       "θ = 1,1° için desen yaklaşık 13 nanometre genişliğinde, yani a'nın elli katından fazla."
       ]
      ]
     },
@@ -1355,12 +1359,12 @@
      "t": "terimler",
      "items": [
       [
-       "proof by contradiction",
-       "olmayana ergi yöntemi"
+       "to assume the opposite",
+       "tersini varsaymak"
       ],
       [
-       "assumption",
-       "varsayım"
+       "consequence",
+       "sonuç"
       ],
       [
        "irrational",
@@ -1401,12 +1405,16 @@
        "**Arılar geometri biliyor**: Bal peteği **altıgenlerden** oluşur ve 1999'da Thomas Hales, altıgenlerin bir düzlemi eşit alanlara en kısa toplam duvar uzunluğuyla böldüğünü kanıtladı."
       ],
       [
-       "**Six-fold snow**: snow crystals usually have six arms, because water molecules freeze in a hexagonal pattern.",
-       "**Altı kollu kar**: Kar kristallerinin genellikle altı kolu vardır, çünkü su molekülleri altıgen bir düzende donar."
+       "**Six around one**: exactly six coins of the same size can touch one coin on a table, and this number is called the **kissing number** of the plane.",
+       "**Birin etrafında altı**: Masadaki bir paraya aynı büyüklükte tam altı para değebilir ve bu sayıya düzlemin **öpüşme sayısı** denir."
       ],
       [
-       "**6! = 720**, which is exactly the number of minutes in 12 hours.",
-       "**6! = 720**, bu tam olarak 12 saatteki dakika sayısı."
+       "**Six at a party**: among any six people, there are always three who all know each other or three who are all strangers.",
+       "**Partideki altı kişi**: Herhangi altı kişi arasında her zaman ya birbirini tanıyan üç kişi ya da birbirine tamamen yabancı üç kişi vardır."
+      ],
+      [
+       "With five people this is not guaranteed, so 6 is the smallest such number, a first result of **Ramsey theory**.",
+       "Beş kişiyle bu garanti değildir, yani 6 bu özelliğe sahip en küçük sayıdır ve bu, **Ramsey teorisinin** ilk sonuçlarından biridir."
       ],
       [
        "**June has 30 days**, and 30 = 2 · 3 · 5 is the product of the first three primes.",
@@ -1438,8 +1446,12 @@
        "altıgen"
       ],
       [
-       "factorial",
-       "faktöriyel"
+       "kissing number",
+       "öpüşme sayısı"
+      ],
+      [
+       "Ramsey theory",
+       "Ramsey teorisi"
       ],
       [
        "binary",
@@ -1708,24 +1720,24 @@
      "t": "liste",
      "s": [
       [
-       "TYT was on Saturday, 20 June, with about 2.42 million candidates.",
-       "TYT 20 Haziran Cumartesi günü yaklaşık 2,42 milyon adayla yapıldı."
+       "About 2.43 million candidates applied for YKS, and TYT was on Saturday, 20 June.",
+       "YKS'ye yaklaşık 2,43 milyon aday başvurdu ve TYT 20 Haziran Cumartesi günü yapıldı."
       ],
       [
-       "AYT was on Sunday, 21 June, with about 1.62 million candidates.",
-       "AYT 21 Haziran Pazar günü yaklaşık 1,62 milyon adayla yapıldı."
+       "AYT was on Sunday, 21 June, with about 1.63 million applicants.",
+       "AYT 21 Haziran Pazar günü yapıldı ve yaklaşık 1,63 milyon başvurusu vardı."
       ],
       [
-       "YDT took place on the same afternoon, with 203,639 candidates.",
-       "YDT aynı gün öğleden sonra 203.639 adayla yapıldı."
+       "YDT took place on the same afternoon, with about 204,000 applicants.",
+       "YDT aynı gün öğleden sonra yapıldı ve yaklaşık 204.000 başvurusu vardı."
       ],
       [
        "921,248 candidates applied for YKS for the first time.",
        "921.248 aday YKS'ye ilk kez başvurdu."
       ],
       [
-       "According to the ÖSYM calendar, the results will be announced on 22 July 2026.",
-       "ÖSYM takvimine göre sonuçlar 22 Temmuz 2026'da açıklanacak."
+       "According to the ÖSYM calendar, the results will be announced in the second half of July.",
+       "ÖSYM takvimine göre sonuçlar temmuzun ikinci yarısında açıklanacak."
       ]
      ]
     },
@@ -1837,14 +1849,14 @@
        "the two possible fates of a program"
       ],
       [
-       "is said to be",
-       "… olarak adlandırılır",
-       "A number is said to be computable if …"
+       "in finitely many steps",
+       "sonlu sayıda adımda",
+       "what every algorithm must do"
       ],
       [
-       "we claim that",
-       "iddia ediyoruz ki",
-       "announces what will be proved next"
+       "in principle",
+       "ilke olarak, kuramsal olarak",
+       "possible, but maybe not in practice"
       ],
       [
        "by construction",
@@ -1852,19 +1864,19 @@
        "true because of how we built the object"
       ],
       [
-       "it follows that",
-       "buradan … çıkar",
-       "states a consequence"
+       "otherwise",
+       "aksi hâlde",
+       "the case when the condition fails"
       ],
       [
-       "without loss of generality",
-       "genelliği bozmadan",
-       "often written as WLOG"
+       "we may assume that",
+       "… olduğunu varsayabiliriz",
+       "makes a proof shorter without losing anything"
       ],
       [
-       "if and only if",
-       "ancak ve ancak",
-       "both directions are true"
+       "there is no … that …",
+       "… olan bir … yoktur",
+       "the form of an impossibility result"
       ]
      ]
     },
@@ -1889,12 +1901,16 @@
        "Bunun yerine soruyu test edilebilen bir oyunla değiştirir."
       ],
       [
-       "An interrogator asks written questions, and it follows that the answers are judged only by their content, not by a voice or a face.",
-       "Bir sorgulayıcı yazılı sorular sorar ve buradan cevapların ses ya da yüzle değil, yalnızca içerikleriyle değerlendirildiği sonucu çıkar."
+       "An interrogator asks written questions, so the answers are judged only by their content, not by a voice or a face.",
+       "Bir sorgulayıcı yazılı sorular sorar, bu yüzden cevaplar ses ya da yüzle değil, yalnızca içerikleriyle değerlendirilir."
       ],
       [
-       "A machine is said to pass the test if the interrogator cannot reliably tell it apart from a human.",
-       "Sorgulayıcı makineyi bir insandan güvenilir biçimde ayırt edemezse makinenin testi geçtiği söylenir."
+       "If the interrogator cannot reliably tell the machine apart from a human, the machine passes the test.",
+       "Sorgulayıcı makineyi bir insandan güvenilir biçimde ayırt edemezse makine testi geçer."
+      ],
+      [
+       "Otherwise, it fails.",
+       "Aksi hâlde testi geçemez."
       ]
      ]
     },
@@ -1932,12 +1948,12 @@
        "kuruluşu gereği"
       ],
       [
-       "it follows that",
-       "buradan … çıkar"
+       "otherwise",
+       "aksi hâlde"
       ],
       [
-       "without loss of generality",
-       "genelliği bozmadan"
+       "in finitely many steps",
+       "sonlu sayıda adımda"
       ],
       [
        "interrogator",
@@ -1953,12 +1969,12 @@
    "soru": "What did the halting problem show?",
    "soru_tr": "Durma problemi neyi gösterdi?",
    "secenekler": [
-    "Every program eventually stops",
     "No program can decide for every program and input whether it halts",
+    "Every program eventually stops",
     "Computers are faster than humans",
     "Every problem has an algorithm"
    ],
-   "dogru": 1,
+   "dogru": 0,
    "aciklama": "Turing showed with a diagonal argument that such a program H would lead to a contradiction.",
    "aciklama_tr": "Turing köşegen yöntemiyle böyle bir H programının çelişkiye yol açacağını gösterdi."
   },
@@ -1972,8 +1988,8 @@
     "Ten"
    ],
    "dogru": 2,
-   "aciklama": "Seven problems received at least one passing solution, and one problem saw no real progress.",
-   "aciklama_tr": "Yedi problem en az bir geçer çözüm aldı, bir problemde ise gerçek bir ilerleme olmadı."
+   "aciklama": "Seven problems received at least one passing solution, and three problems were not solved by any system.",
+   "aciklama_tr": "Yedi problem en az bir geçer çözüm aldı, üç problemi ise hiçbir sistem çözemedi."
   },
   {
    "soru": "What is the main idea of a Caesar cipher?",
@@ -1993,11 +2009,11 @@
    "soru_tr": "Turing, bugün Turing testi dediğimiz teste ne ad verdi?",
    "secenekler": [
     "The thinking game",
-    "The imitation game",
     "The halting test",
+    "The imitation game",
     "The Enigma test"
    ],
-   "dogru": 1,
+   "dogru": 2,
    "aciklama": "In his 1950 paper he described it as the imitation game.",
    "aciklama_tr": "1950 tarihli makalesinde onu taklit oyunu olarak tanımladı."
   },
@@ -2019,11 +2035,11 @@
    "soru_tr": "Olmayana ergi yönteminde başta neyi varsayarsın?",
    "secenekler": [
     "That the statement is true",
-    "That the statement is false",
+    "That the answer is zero",
     "Nothing at all",
-    "That the answer is zero"
+    "That the statement is false"
    ],
-   "dogru": 1,
+   "dogru": 3,
    "aciklama": "You assume the opposite of what you want to prove and look for an impossible consequence.",
    "aciklama_tr": "Kanıtlamak istediğin şeyin tersini varsayar ve imkânsız bir sonuç ararsın."
   }
@@ -2086,21 +2102,21 @@
   },
   {
    "tip": "mantik",
-   "baslik": "Turing's first birthday",
-   "baslik_tr": "Turing'in ilk doğum günü",
-   "soru": "Alan Turing was born on Sunday, 23 June 1912. On which day of the week was his first birthday, 23 June 1913? Why?",
-   "soru_tr": "Alan Turing 23 Haziran 1912 Pazar günü doğdu. İlk doğum günü olan 23 Haziran 1913 haftanın hangi gününe denk geldi? Neden?",
-   "cevap": "Monday. From 23 June 1912 to 23 June 1913 there are 365 days, because 29 February 1912 had already passed and 1913 was not a leap year. Since 365 = 52 × 7 + 1, the weekday moves forward by one day: Sunday + 1 = Monday.",
-   "cevap_tr": "Pazartesi. 23 Haziran 1912 ile 23 Haziran 1913 arasında 365 gün var, çünkü 29 Şubat 1912 çoktan geçmişti ve 1913 artık yıl değildi. 365 = 52 × 7 + 1 olduğu için haftanın günü bir gün ileri kayar: Pazar + 1 = Pazartesi."
+   "baslik": "A message from Caesar",
+   "baslik_tr": "Sezar'dan bir mesaj",
+   "soru": "A spy used a Caesar cipher with shift 3 on the English alphabet and sent the word WXULQJ. What was the original word? And what is the encrypted form of ENIGMA?",
+   "soru_tr": "Bir casus İngiliz alfabesinde 3 kaydırmalı bir Sezar şifresi kullandı ve WXULQJ kelimesini gönderdi. Asıl kelime neydi? ENIGMA kelimesinin şifreli hâli nedir?",
+   "cevap": "To decrypt, shift every letter 3 places back: W > T, X > U, U > R, L > I, Q > N, J > G, so the word is TURING. To encrypt ENIGMA, shift every letter 3 places forward: E > H, N > Q, I > L, G > J, M > P, A > D, so you get HQLJPD.",
+   "cevap_tr": "Şifreyi çözmek için her harfi 3 basamak geri kaydır: W > T, X > U, U > R, L > I, Q > N, J > G, yani kelime TURING. ENIGMA'yı şifrelemek için her harfi 3 basamak ileri kaydır: E > H, N > Q, I > L, G > J, M > P, A > D, yani HQLJPD elde edilir."
   },
   {
    "tip": "mantik",
-   "baslik": "Two robots",
-   "baslik_tr": "İki robot",
-   "soru": "On an island, every robot either always tells the truth or always lies. Robot A says: \"We are both liars.\" What are A and B?",
-   "soru_tr": "Bir adada her robot ya her zaman doğruyu söyler ya da her zaman yalan söyler. A robotu şöyle diyor: \"İkimiz de yalancıyız.\" A ve B nedir?",
-   "cevap": "If A told the truth, A would be a liar, which is impossible. So A is a liar and the sentence is false. That means they are not both liars, so B tells the truth. Notice that this is a small proof by contradiction.",
-   "cevap_tr": "A doğru söyleseydi A yalancı olurdu, bu imkânsız. Demek ki A yalancı ve cümle yanlış. Bu da ikisinin birden yalancı olmadığı anlamına gelir, yani B doğruyu söylüyor. Dikkat et, bu küçük bir olmayana ergi ispatı."
+   "baslik": "The village barber",
+   "baslik_tr": "Köyün berberi",
+   "soru": "In a small village, the barber shaves exactly those men who do not shave themselves. The barber is a man who lives in the village. Who shaves the barber?",
+   "soru_tr": "Küçük bir köyde berber, kendini tıraş etmeyen erkeklerin hepsini ve yalnızca onları tıraş ediyor. Berber de köyde yaşayan bir erkek. Berberi kim tıraş eder?",
+   "cevap": "Nobody, because such a barber cannot exist. If he shaves himself, then by the rule he must not shave himself. If he does not shave himself, then by the rule he must shave himself. Both answers lead to a contradiction. This is the same trick as Turing's program D: something that does the opposite of what it says about itself.",
+   "cevap_tr": "Kimse, çünkü böyle bir berber var olamaz. Kendini tıraş ederse, kurala göre kendini tıraş etmemesi gerekir. Kendini tıraş etmezse, kurala göre kendini tıraş etmesi gerekir. İki cevap da çelişkiye götürür. Bu, Turing'in D programındaki hilenin aynısı: Kendisi hakkında söylenenin tersini yapan bir şey."
   }
  ],
  "terimler": [
@@ -2113,8 +2129,8 @@
    "hakem"
   ],
   [
-   "routine step",
-   "sıradan, rutin adım"
+   "to cite",
+   "kaynak göstermek, atıf yapmak"
   ],
   [
    "genuine capability",
@@ -2217,12 +2233,12 @@
    "küçük açı yaklaşımı"
   ],
   [
-   "proof by contradiction",
-   "olmayana ergi yöntemi"
+   "to assume the opposite",
+   "tersini varsaymak"
   ],
   [
-   "assumption",
-   "varsayım"
+   "consequence",
+   "sonuç"
   ],
   [
    "irrational",
@@ -2241,8 +2257,12 @@
    "altıgen"
   ],
   [
-   "factorial",
-   "faktöriyel"
+   "kissing number",
+   "öpüşme sayısı"
+  ],
+  [
+   "Ramsey theory",
+   "Ramsey teorisi"
   ],
   [
    "binary",
@@ -2301,12 +2321,12 @@
    "kuruluşu gereği"
   ],
   [
-   "it follows that",
-   "buradan … çıkar"
+   "otherwise",
+   "aksi hâlde"
   ],
   [
-   "without loss of generality",
-   "genelliği bozmadan"
+   "in finitely many steps",
+   "sonlu sayıda adımda"
   ],
   [
    "interrogator",

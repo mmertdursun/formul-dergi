@@ -97,20 +97,20 @@
      "t": "p",
      "s": [
       [
-       "On 19 March 2026, the Norwegian Academy of Science and Letters gave this year's Abel Prize to the German mathematician **Gerd Faltings**.",
-       "Norveç Bilim Akademisi 19 Mart 2026'da bu yılın Abel Ödülü'nü Alman matematikçi **Gerd Faltings**'e verdi."
+       "On 19 March 2026, the Norwegian Academy of Science and Letters announced that this year's Abel Prize goes to the German mathematician **Gerd Faltings**.",
+       "Norveç Bilim ve Edebiyat Akademisi 19 Mart 2026'da bu yılın Abel Ödülü'nün Alman matematikçi **Gerd Faltings**'e verileceğini açıkladı."
       ],
       [
        "He was honoured for bringing powerful tools to **arithmetic geometry**.",
-       "Aritmetik geometriye güçlü araçlar kazandırdığı için onurlandırıldı."
+       "**Aritmetik geometriye** güçlü araçlar kazandırdığı için onurlandırıldı."
       ],
       [
        "He also resolved the **long-standing** conjectures of Mordell and Lang.",
        "Ayrıca Mordell ve Lang'ın **uzun süredir açık duran** sanılarını çözdü."
       ],
       [
-       "Today Faltings works at the Max Planck Institute for Mathematics in Bonn.",
-       "Faltings bugün Bonn'daki Max Planck Matematik Enstitüsü'nde çalışıyor."
+       "Today Faltings is an emeritus director of the Max Planck Institute for Mathematics in Bonn.",
+       "Faltings bugün Bonn'daki Max Planck Matematik Enstitüsü'nün emekli direktörü."
       ],
       [
        "You can read the full story in this issue's Prize Corner.",
@@ -254,7 +254,7 @@
      "t": "h",
      "s": [
       "The key idea: information is surprise",
-      "Temel fikir: Bilgi, şaşkınlıktır"
+      "Temel fikir: Bilgi, sürprizdir"
      ]
     },
     {
@@ -349,8 +349,12 @@
        "Shannon, bir mesajın **hiçbir bilgi kaybetmeden** entropisinin altına sıkıştırılamayacağını kanıtladı."
       ],
       [
-       "ZIP files, JPEGs and MP3s all live with this limit.",
-       "ZIP dosyaları, JPEG'ler ve MP3'ler bu sınırla yaşıyor."
+       "ZIP files obey this limit.",
+       "ZIP dosyaları bu sınıra uyar."
+      ],
+      [
+       "JPEGs and MP3s can go below it only because they throw away details we hardly notice.",
+       "JPEG'ler ve MP3'ler bu sınırın altına ancak neredeyse fark etmediğimiz ayrıntıları atarak inebilir."
       ]
      ]
     },
@@ -377,8 +381,8 @@
        "Shannon, her kanalın bir **kapasitesi** (C) olduğunu kanıtladı."
       ],
       [
-       "Below this capacity, there **exist** codes that make the chance of an error as small as we want.",
-       "Bu kapasitenin altındaki hızlarda, hata olasılığını istediğimiz kadar küçük yapan kodlar **vardır**."
+       "At any speed below this capacity, there **exist** codes that make the chance of an error as small as we want.",
+       "Bu kapasitenin altındaki her hızda, hata olasılığını istediğimiz kadar küçük yapan kodlar **vardır**."
       ]
      ]
     },
@@ -443,7 +447,7 @@
       ],
       [
        "Shannon's noisy channel proof uses \"random coding\": to show that a good object exists, you pick a random one and prove that it is good on average.",
-       "Shannon'ın gürültülü kanal ispatı \"rastgele kodlama\" kullanır: İyi bir nesnenin var olduğunu göstermek için rastgele bir nesne seçer ve ortalamada iyi olduğunu kanıtlarsın."
+       "Shannon'ın gürültülü kanal ispatı \"rastgele kodlama\" kullanır: İyi bir nesnenin var olduğunu göstermek için rastgele bir nesne seçersin ve ortalamada iyi olduğunu kanıtlarsın."
       ],
       [
        "In combinatorics, this technique is known as the **probabilistic method**, and Erdős loved it.",
@@ -502,7 +506,7 @@
       ],
       [
        "Every living cell also stores and copies information, and it uses a code written in **DNA**.",
-       "Her canlı hücre de bilgi saklar ve kopyalar ve bunun için **DNA**'ya yazılmış bir kod kullanır."
+       "Her canlı hücre de bilgi saklayıp kopyalar ve bunun için **DNA**'ya yazılmış bir kod kullanır."
       ],
       [
        "Let us look at this code with the eyes of a mathematician.",
@@ -882,8 +886,8 @@
        "Bu sanıyı 60 yıl boyunca kimse kanıtlayamadı."
       ],
       [
-       "In 1983, at the age of 29, Faltings proved it with new tools that joined algebraic geometry and number theory.",
-       "1983'te, 29 yaşındaki Faltings onu cebirsel geometri ile sayılar teorisini birleştiren yeni araçlarla kanıtladı."
+       "In 1983, at the age of 28, Faltings proved it with new tools that joined algebraic geometry and number theory.",
+       "1983'te, 28 yaşındaki Faltings onu cebirsel geometri ile sayılar teorisini birleştiren yeni araçlarla kanıtladı."
       ],
       [
        "This proof brought him the **Fields Medal** in 1986.",
@@ -904,8 +908,8 @@
      ],
      "s": [
       [
-       "Faltings' theorem also says that for every n ≥ 4, the equation xⁿ + yⁿ = zⁿ has at most finitely many solutions with no common divisor.",
-       "Faltings teoremi ayrıca her n ≥ 4 için xⁿ + yⁿ = zⁿ denkleminin ortak böleni olmayan çözümlerinin en fazla sonlu sayıda olduğunu söyler."
+       "Faltings' theorem also says that for every n ≥ 4, the equation xⁿ + yⁿ = zⁿ has at most finitely many solutions in positive integers with no common divisor.",
+       "Faltings teoremi ayrıca her n ≥ 4 için xⁿ + yⁿ = zⁿ denkleminin ortak böleni olmayan pozitif tam sayı çözümlerinin en fazla sonlu sayıda olduğunu söyler."
       ],
       [
        "This did not prove Fermat's Last Theorem, but it showed that the question was about \"finitely many\", not \"infinitely many\".",
@@ -944,7 +948,7 @@
        "2017'de 40 yaşında hayatını kaybetti."
       ],
       [
-       "Her birthday, **12 May**, is now celebrated around the world as the Women in Mathematics Day.",
+       "Her birthday, **12 May**, is now celebrated around the world as Women in Mathematics Day.",
        "Doğum günü olan **12 Mayıs**, bugün dünyada Matematikte Kadınlar Günü olarak kutlanıyor."
       ]
      ]
@@ -1095,8 +1099,12 @@
        "Her tur rakibin 1, 2 ya da 3 sayı söyler ve sen turu 4'e tamamlarsın."
       ],
       [
-       "So 4 is the **invariant** of the game, and last month's strategy joins this month's.",
-       "Yani 4 oyunun **değişmezi** ve geçen ayın stratejisi bu ayınkiyle birleşiyor."
+       "So the **invariant** of the game is simple: after each of your turns, the last number said is one more than a multiple of 4.",
+       "Yani oyunun **değişmezi** basit: Senin her hamlenden sonra söylenen son sayı, 4'ün bir katından 1 fazladır."
+      ],
+      [
+       "Last month's strategy joins this month's!",
+       "Geçen ayın stratejisi bu ayınkiyle birleşiyor!"
       ]
      ]
     },
@@ -1174,8 +1182,12 @@
      "t": "liste",
      "s": [
       [
-       "In the 3rd century BC, Archimedes drew 96-sided **polygons** inside and outside a circle and showed that 3 + 10/71 < π < 3 + 1/7, that is, 3.1408 < π < 3.1429.",
-       "M.Ö. 3. yüzyılda Arşimet, bir çemberin içine ve dışına 96 kenarlı **çokgenler** çizerek 3 + 10/71 < π < 3 + 1/7, yani 3,1408 < π < 3,1429 olduğunu gösterdi."
+       "In the 3rd century BC, Archimedes drew 96-sided **polygons** inside and outside a circle.",
+       "M.Ö. 3. yüzyılda Arşimet, bir çemberin içine ve dışına 96 kenarlı **çokgenler** çizdi."
+      ],
+      [
+       "In this way he showed that 3 + 10/71 < π < 3 + 1/7, that is, 3.1408 < π < 3.1429.",
+       "Bu yolla 3 + 10/71 < π < 3 + 1/7, yani 3,1408 < π < 3,1429 olduğunu gösterdi."
       ],
       [
        "In the 5th century, the Chinese mathematician Zu Chongzhi **approximated** π with the fraction 355/113.",
@@ -1190,8 +1202,8 @@
        "π'nin 762. ondalık basamağından itibaren art arda altı tane 9 geliyor: …999999…"
       ],
       [
-       "The physicist Richard Feynman once said he would like to memorise π up to that point and finish with \"nine nine nine nine nine nine and so on\".",
-       "Fizikçi Richard Feynman bir keresinde π'yi oraya kadar ezberleyip \"dokuz dokuz dokuz dokuz dokuz dokuz ve böyle devam eder\" diyerek bitirmek istediğini söylemişti."
+       "The physicist Richard Feynman is said to have joked that he would like to memorise π up to that point and finish with \"nine nine nine nine nine nine and so on\".",
+       "Fizikçi Richard Feynman'ın, π'yi oraya kadar ezberleyip \"dokuz dokuz dokuz dokuz dokuz dokuz ve böyle devam eder\" diyerek bitirmek istediğini şakayla söylediği anlatılır."
       ],
       [
        "Two coincidences of 14 March: Albert Einstein was born on 14 March 1879, and Stephen Hawking died on 14 March 2018.",
@@ -1269,7 +1281,7 @@
       ],
       [
        "He only needed two numbers that he could calculate, one too small and one too large.",
-       "Sadece hesaplayabildiği iki sayıya ihtiyacı vardı: Biri çok küçük, biri çok büyük."
+       "Sadece hesaplayabildiği iki sayıya ihtiyacı vardı: Biri π'den küçük, biri π'den büyük."
       ],
       [
        "Today this idea is one of the most important tools in analysis, and you will meet it again as the **squeeze theorem**.",
@@ -1406,8 +1418,8 @@
      "t": "liste",
      "s": [
       [
-       "Drop the toothpicks onto the paper at random, and five groups with 100 throws each is ideal.",
-       "Kürdanları kâğıdın üzerine rastgele atın, 100'er atış yapan beş grup idealdir."
+       "Drop the toothpicks onto the paper at random: five groups of 100 throws each is ideal.",
+       "Kürdanları kâğıdın üzerine rastgele atın: 100'er atış yapan beş grup idealdir."
       ],
       [
        "Count the toothpicks that cross a line.",
@@ -1700,7 +1712,7 @@
      ],
      "s": [
       [
-       "In mathematical texts, the word \"trivial\" is not an insult, and it simply means \"easy to see\".",
+       "In mathematical texts, the word \"trivial\" is not an insult: it simply means \"easy to see\".",
        "Matematiksel metinlerde \"trivial\" kelimesi küçümseme değil, sadece \"hemen görülüyor\" anlamına gelir."
       ],
       [
@@ -1708,8 +1720,8 @@
        "Ama bir makalede \"this is trivial\" yazıyorsa ve sen göremiyorsan endişelenme."
       ],
       [
-       "These may be the two words that have cost the most hours in the history of mathematics.",
-       "Bu iki kelime, matematik tarihinde en çok saat harcatan iki kelime olabilir."
+       "This little phrase may have cost more hours than any other in the history of mathematics.",
+       "Bu küçük ifade, matematik tarihinde belki de en çok saat harcatan ifadedir."
       ]
      ]
     },
@@ -1746,12 +1758,12 @@
    "soru": "Who received the 2026 Abel Prize?",
    "soru_tr": "2026 Abel Ödülü'nü kim aldı?",
    "secenekler": [
-    "Andrew Wiles",
     "Gerd Faltings",
+    "Andrew Wiles",
     "Masaki Kashiwara",
     "Louis Mordell"
    ],
-   "dogru": 1,
+   "dogru": 0,
    "aciklama": "Gerd Faltings won it for his work in arithmetic geometry and for proving the Mordell conjecture.",
    "aciklama_tr": "Gerd Faltings ödülü aritmetik geometrideki çalışmaları ve Mordell sanısını kanıtlaması için aldı."
   },
@@ -1773,11 +1785,11 @@
    "soru_tr": "Noether teoremine göre fizik yasaları zamanla değişmiyorsa ne korunur?",
    "secenekler": [
     "Momentum",
-    "Angular momentum",
     "Energy",
+    "Angular momentum",
     "Mass"
    ],
-   "dogru": 2,
+   "dogru": 1,
    "aciklama": "Symmetry in time corresponds to the conservation of energy.",
    "aciklama_tr": "Zamandaki simetri enerjinin korunumuna karşılık gelir."
   },

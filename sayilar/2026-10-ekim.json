@@ -5,8 +5,8 @@
  "ad_tr": "Çözülemeyen Denklem",
  "donem": "Ekim 2026",
  "donem_en": "October 2026",
- "tema": "Simetri",
- "tema_en": "Symmetry",
+ "tema": "Gizli simetriler",
+ "tema_en": "Hidden symmetries",
  "kapak": {
   "renkler": [
    "#2E5E4E",
@@ -47,12 +47,12 @@
      "t": "p",
      "s": [
       [
-       "The theme of this month is **symmetry**.",
-       "Bu ayın teması **simetri**."
+       "The theme of this month is **hidden symmetries**.",
+       "Bu ayın teması **gizli simetriler**."
       ],
       [
        "Our mathematician of the month, Évariste Galois, was born on 25 October 1811.",
-       "Ayın matematikçimiz Évariste Galois 25 Ekim 1811'de doğdu."
+       "Ayın matematikçisi Évariste Galois 25 Ekim 1811'de doğdu."
       ],
       [
        "He discovered that the roots of an equation have hidden symmetries, and that these symmetries decide whether a formula for the roots can exist.",
@@ -97,8 +97,8 @@
     {
      "t": "h",
      "s": [
-      "OpenAI released 722 maths papers written by an unreleased AI model",
-      "OpenAI, henüz yayımlanmamış bir yapay zekâ modelinin yazdığı 722 matematik makalesini paylaştı"
+      "OpenAI shares 722 maths papers that it says an unreleased AI model wrote",
+      "OpenAI, henüz yayımlanmamış bir yapay zekâ modelinin yazdığını söylediği 722 matematik makalesini paylaştı"
      ]
     },
     {
@@ -113,12 +113,12 @@
        "Şirkete göre bunların hepsi, kamuoyunun henüz kullanamadığı şirket içi bir model tarafından üretildi."
       ],
       [
-       "The manuscripts are grouped into 372 families of results and cover about twenty areas of mathematics.",
-       "Taslaklar 372 sonuç ailesine ayrılmış durumda ve matematiğin yaklaşık yirmi alanını kapsıyor."
+       "The manuscripts are grouped into 372 families of results and cover many areas of mathematics.",
+       "Taslaklar 372 sonuç ailesine ayrılmış durumda ve matematiğin birçok alanını kapsıyor."
       ],
       [
-       "Among them are results on the zeros of the **Riemann zeta function**, on matrix multiplication and on partial differential equations.",
-       "Aralarında **Riemann zeta fonksiyonunun** sıfırları, matris çarpımı ve kısmi diferansiyel denklemler üzerine sonuçlar var."
+       "Among them are results on the zeros of the **Riemann zeta function**, on how well π can be approximated by fractions and on equations from physics.",
+       "Aralarında **Riemann zeta fonksiyonunun** sıfırları, π'ye kesirlerle ne kadar iyi yaklaşılabileceği ve fizikten gelen denklemler üzerine sonuçlar var."
       ]
      ]
     },
@@ -130,12 +130,16 @@
        "Bir ay önce, 8 Eylül'de, OpenAI çok daha büyük bir iddiada bulunmuştu."
       ],
       [
-       "It said that the same model had settled the **Navier–Stokes problem**, one of the seven Millennium Prize Problems of the Clay Mathematics Institute.",
-       "Aynı modelin, Clay Matematik Enstitüsü'nün yedi Milenyum Ödülü Probleminden biri olan **Navier–Stokes problemini** çözdüğünü söyledi."
+       "It said that one of its internal models had settled the **Navier–Stokes problem**, one of the seven Millennium Prize Problems of the Clay Mathematics Institute.",
+       "Şirket içi modellerinden birinin, Clay Matematik Enstitüsü'nün yedi Milenyum Ödülü Probleminden biri olan **Navier–Stokes problemini** çözdüğünü söyledi."
       ],
       [
-       "According to OpenAI, a smooth fluid can develop a **singularity**, a point where the solution breaks down.",
-       "OpenAI'a göre düzgün bir akışkanda bir **tekillik**, yani çözümün bozulduğu bir nokta oluşabiliyor."
+       "According to OpenAI, a fluid that starts out smooth can develop a **singularity**, a point where the solution breaks down.",
+       "OpenAI'a göre başlangıçta düzgün olan bir akışkanda bir **tekillik**, yani çözümün bozulduğu bir nokta oluşabiliyor."
+      ],
+      [
+       "In the claimed example, a carefully chosen outside force keeps pushing the fluid, which the official problem statement allows.",
+       "İddia edilen örnekte özenle seçilmiş bir dış kuvvet akışkanı itmeye devam ediyor ve resmî problem metni buna izin veriyor."
       ],
       [
        "The company said that about 10,000 AI agents worked on it for about 88 hours, and that it does not intend to claim the one-million-dollar prize.",
@@ -166,40 +170,44 @@
        "Biçimsel ifadenin gerçekten orijinal problemle aynı şeyi söyleyip söylemediği ise insan işi ve Navier–Stokes için bu kontrol hâlâ sürüyor."
       ],
       [
-       "MIT mathematician Andrew Sutherland said the claims should be treated as unverified until others can run the model and **reproduce** the results.",
-       "MIT'den matematikçi Andrew Sutherland, başkaları modeli çalıştırıp sonuçları **yeniden üretene** kadar iddiaların doğrulanmamış kabul edilmesi gerektiğini söyledi."
+       "None of the results has been peer reviewed yet, and some manuscripts have no Lean files at all.",
+       "Sonuçların hiçbiri henüz hakem değerlendirmesinden geçmedi ve bazı taslakların hiç Lean dosyası yok."
+      ],
+      [
+       "Until other mathematicians have checked them in detail, they should be treated as **unverified** claims.",
+       "Diğer matematikçiler onları ayrıntılı biçimde kontrol edene kadar **doğrulanmamış** iddialar olarak görülmeliler."
       ]
      ]
     },
     {
      "t": "h",
      "s": [
-      "Mathematicians set up an advisory group",
-      "Matematikçiler bir danışma grubu kurdu"
+      "An advisory group of mathematicians",
+      "Matematikçilerden bir danışma grubu"
      ]
     },
     {
      "t": "p",
      "s": [
       [
-       "In late September, nine leading mathematicians formed the **Advisory Group on Mathematics and Artificial Intelligence** (AGMAI).",
-       "Eylül sonunda dokuz önde gelen matematikçi **Matematik ve Yapay Zekâ Danışma Grubu**'nu (AGMAI) kurdu."
+       "On 21 September, OpenAI announced an independent **Advisory Group on Mathematics and Artificial Intelligence** (AGMAI) with nine leading mathematicians.",
+       "21 Eylül'de OpenAI, dokuz önde gelen matematikçiden oluşan bağımsız bir **Matematik ve Yapay Zekâ Danışma Grubu** (AGMAI) kurulduğunu duyurdu."
       ],
       [
        "The group is hosted by the Institute for Advanced Study in Princeton, and its members include Timothy Gowers, Martin Hairer and Edward Witten.",
        "Grubun ev sahibi Princeton'daki İleri Araştırmalar Enstitüsü ve üyeleri arasında Timothy Gowers, Martin Hairer ve Edward Witten var."
       ],
       [
-       "Its members are not paid, and the group says it has no power to make decisions for the company.",
-       "Üyeler ücret almıyor ve grup, şirket adına karar verme yetkisi olmadığını söylüyor."
+       "Its members are not paid, and the institute says that the group has no power to make decisions at any AI company.",
+       "Üyeler ücret almıyor ve enstitü, grubun hiçbir yapay zekâ şirketinde karar verme yetkisi olmadığını söylüyor."
       ],
       [
-       "In its guidelines of 29 September, it asked AI labs to publish their prompts, time and computing costs.",
-       "29 Eylül tarihli yönergelerinde yapay zekâ laboratuvarlarından istemlerini, harcanan zamanı ve hesaplama maliyetlerini yayımlamalarını istedi."
+       "In its guidelines of 29 September, it asked AI labs to publish the prompts, the time taken and the estimated computing cost for every result.",
+       "29 Eylül tarihli yönergelerinde yapay zekâ laboratuvarlarından her sonuç için istemleri, harcanan zamanı ve tahmini hesaplama maliyetini yayımlamalarını istedi."
       ],
       [
-       "After the release of the 722 papers, it called the moment \"the beginning, not the completion, of the process of human understanding\".",
-       "722 makale yayımlandıktan sonra bu anı \"insan anlayışı sürecinin tamamlanması değil, başlangıcı\" olarak nitelendirdi."
+       "It also asked them to share results in places that no AI lab controls, and not to use them for marketing.",
+       "Ayrıca sonuçları hiçbir yapay zekâ laboratuvarının kontrol etmediği yerlerde paylaşmalarını ve onları reklam için kullanmamalarını istedi."
       ]
      ]
     },
@@ -229,12 +237,12 @@
        "makale taslağı"
       ],
       [
-       "singularity",
-       "tekillik"
+       "outside force",
+       "dış kuvvet"
       ],
       [
-       "to reproduce",
-       "yeniden üretmek, tekrarlamak"
+       "repository",
+       "depo"
       ],
       [
        "formal statement",
@@ -520,8 +528,8 @@
        "çözülebilir grup"
       ],
       [
-       "field extension",
-       "cisim genişlemesi"
+       "radical",
+       "kök (radikal)"
       ]
      ]
     }
@@ -620,8 +628,8 @@
        "Ödül gerekçesi şöyle: \"asimetrik organik sentezde doğrusal olmayan etkilerin ve otokatalizin keşfi için\"."
       ],
       [
-       "Kagan was born in 1930 and Soai in 1950, and they will share 12 million Swedish crowns.",
-       "Kagan 1930'da, Soai 1950'de doğdu ve 12 milyon İsveç kronunu paylaşacaklar."
+       "Kagan was born in 1930 and Soai in 1950.",
+       "Kagan 1930'da, Soai 1950'de doğdu."
       ]
      ]
     },
@@ -668,7 +676,7 @@
      "stil": "bilgi",
      "baslik": [
       "Where is the maths?",
-      "Matematiği nerede?"
+      "Matematik nerede?"
      ],
      "s": [
       [
@@ -717,8 +725,8 @@
        "enantiyomer fazlalığı"
       ],
       [
-       "reflection",
-       "yansıma"
+       "catalyst",
+       "katalizör"
       ]
      ]
     }
@@ -979,8 +987,8 @@
        "Halzen 1988'de onları yakalamak için Güney Kutbu'nun altındaki buzu kullanmayı önerdi."
       ],
       [
-       "The detector, completed in 2011, is about one **cubic kilometre** of ice with 5,160 light sensors inside.",
-       "2011'de tamamlanan dedektör, içinde 5.160 ışık sensörü bulunan yaklaşık bir **kilometreküp** buzdan oluşuyor."
+       "The detector, completed in 2010, is about one **cubic kilometre** of ice with 5,160 light sensors inside.",
+       "2010'da tamamlanan dedektör, içinde 5.160 ışık sensörü bulunan yaklaşık bir **kilometreküp** buzdan oluşuyor."
       ],
       [
        "In 2013 the team announced the first high-energy neutrinos from outside our solar system, and in 2023 they made the first image of the Milky Way in neutrinos.",
@@ -993,7 +1001,7 @@
      "s": [
       [
        "Where is the maths?",
-       "Matematiği nerede?"
+       "Peki matematik nerede?"
       ],
       [
        "When a neutrino hits the ice, it makes a faint flash of blue light.",
@@ -1012,32 +1020,36 @@
     {
      "t": "h",
      "s": [
-      "SASTRA Ramanujan Prize 2026: Sarah Peluse",
-      "SASTRA Ramanujan Ödülü 2026: Sarah Peluse"
+      "Why is there no Nobel Prize in mathematics?",
+      "Matematikte neden Nobel Ödülü yok?"
      ]
     },
     {
      "t": "p",
      "s": [
       [
-       "On 25 September 2026, the SASTRA Ramanujan Prize was given to **Sarah Peluse**, an associate professor at Stanford University.",
-       "25 Eylül 2026'da SASTRA Ramanujan Ödülü, Stanford Üniversitesi'nde doçent olan **Sarah Peluse**'a verildi."
+       "Every October, when the Nobel Prizes are announced, many people ask the same question: why is there no Nobel Prize in mathematics?",
+       "Her ekim Nobel Ödülleri açıklanırken pek çok kişi aynı soruyu soruyor: Matematikte neden Nobel Ödülü yok?"
       ],
       [
-       "The prize is for mathematicians aged 32 or under who work in areas influenced by Ramanujan, and it comes with 10,000 dollars.",
-       "Ödül, Ramanujan'ın etkilediği alanlarda çalışan 32 yaş ve altındaki matematikçilere veriliyor ve 10.000 dolar değerinde."
+       "A popular story blames a quarrel between Alfred Nobel and the Swedish mathematician Gösta Mittag-Leffler.",
+       "Popüler bir hikâye bunu Alfred Nobel ile İsveçli matematikçi Gösta Mittag-Leffler arasındaki bir kavgaya bağlar."
       ],
       [
-       "She was chosen for her work in **analytic number theory**, **additive combinatorics**, combinatorial geometry and group theory.",
-       "**Analitik sayılar teorisi**, **toplamsal kombinatorik**, kombinatoryal geometri ve grup teorisindeki çalışmaları nedeniyle seçildi."
+       "However, historians have found no **evidence** for this story.",
+       "Ancak tarihçiler bu hikâyeyi destekleyen hiçbir **kanıt** bulamadı."
       ],
       [
-       "Her doctoral advisor, Kannan Soundararajan, was one of the first two winners of the prize in 2005.",
-       "Doktora danışmanı Kannan Soundararajan, 2005'te ödülü ilk alan iki kişiden biriydi."
+       "A simpler explanation is that Nobel, an inventor and businessman, chose fields close to his own interests when he wrote his **will** in 1895.",
+       "Daha basit bir açıklamaya göre bir mucit ve iş insanı olan Nobel, 1895'te **vasiyetnamesini** yazarken kendi ilgi alanlarına yakın dalları seçti."
       ],
       [
-       "The prize will be presented on 22 December, Ramanujan's birthday.",
-       "Ödül 22 Aralık'ta, Ramanujan'ın doğum gününde takdim edilecek."
+       "Today the Fields Medal and the Abel Prize, first given in 2003, fill this gap.",
+       "Bugün bu boşluğu Fields Madalyası ve ilk kez 2003'te verilen Abel Ödülü dolduruyor."
+      ],
+      [
+       "Mathematicians still win Nobel Prizes in other fields, for example John Nash in economics in 1994 and Roger Penrose in physics in 2020.",
+       "Matematikçiler yine de başka alanlarda Nobel kazanıyor, örneğin 1994'te ekonomide John Nash ve 2020'de fizikte Roger Penrose."
       ]
      ]
     },
@@ -1067,20 +1079,20 @@
        "nötrino"
       ],
       [
-       "observatory",
-       "gözlemevi"
+       "light sensor",
+       "ışık sensörü"
       ],
       [
        "cubic kilometre",
        "kilometreküp"
       ],
       [
-       "analytic number theory",
-       "analitik sayılar teorisi"
+       "will (legal document)",
+       "vasiyetname"
       ],
       [
-       "additive combinatorics",
-       "toplamsal kombinatorik"
+       "evidence",
+       "kanıt"
       ]
      ]
     }
@@ -1090,27 +1102,27 @@
    "id": "dusun",
    "ikon": "psychology",
    "renk": "#16A085",
-   "baslik": "Think Like a Mathematician: Try Small Cases",
-   "baslik_tr": "Matematikçi Gibi Düşünmek: Küçük Durumlarla Başla",
+   "baslik": "Think Like a Mathematician: Build on the Smaller Case",
+   "baslik_tr": "Matematikçi Gibi Düşünmek: Bir Küçüğünden Kur",
    "bloklar": [
     {
      "t": "p",
      "s": [
       [
-       "When a problem is about a general number n, it can feel too big to start.",
-       "Bir problem genel bir n sayısıyla ilgili olduğunda başlamak için fazla büyük gelebilir."
+       "In January we learned that a pattern from small cases is only a hint.",
+       "Ocak sayımızda küçük durumlardan gelen bir örüntünün yalnızca bir ipucu olduğunu öğrenmiştik."
       ],
       [
-       "A good first step is to try **small cases**: n = 1, 2, 3, 4.",
-       "İyi bir ilk adım **küçük durumları** denemektir: n = 1, 2, 3, 4."
+       "This month we go one step further: we use the answer for n to build the answer for n + 1.",
+       "Bu ay bir adım daha ileri gidiyoruz: n için bulduğumuz cevabı n + 1'in cevabını kurmak için kullanıyoruz."
       ],
       [
-       "You collect data, look for a **pattern**, make a **conjecture** and then try to prove it.",
-       "Veri toplarsın, bir **örüntü** ararsın, bir **sanı** oluşturursun ve sonra onu kanıtlamaya çalışırsın."
+       "A rule that gives each answer from the one before is called a **recurrence relation**, and this way of thinking is called **recursion**.",
+       "Her cevabı bir öncekinden veren kurala **indirgeme bağıntısı**, bu düşünme biçimine de **özyineleme** denir."
       ],
       [
-       "Galois himself started from small examples, because degrees 2, 3 and 4 showed him what was special about degree 5.",
-       "Galois da küçük örneklerden başladı, çünkü 2, 3 ve 4. dereceler ona 5. derecenin neden özel olduğunu gösterdi."
+       "Galois also learned from the smaller degrees, because degrees 2, 3 and 4 showed him what was special about degree 5.",
+       "Galois da küçük derecelerden öğrendi, çünkü 2, 3 ve 4. dereceler ona 5. derecenin neden özel olduğunu gösterdi."
       ]
      ]
     },
@@ -1118,104 +1130,119 @@
      "t": "kutu",
      "stil": "soru",
      "baslik": [
-      "The problem: adding odd numbers",
-      "Problem: Tek sayıları toplamak"
+      "The problem: the Tower of Hanoi",
+      "Problem: Hanoi Kulesi"
      ],
      "s": [
       [
-       "What is the sum of the first n odd numbers, 1 + 3 + 5 + … + (2n − 1)?",
-       "İlk n tek sayının toplamı, yani 1 + 3 + 5 + … + (2n − 1) kaçtır?"
+       "There are three pegs, and n discs of different sizes sit on the first peg, the largest at the bottom.",
+       "Üç çubuk var ve farklı büyüklükteki n disk, en büyüğü altta olacak şekilde ilk çubukta duruyor."
+      ],
+      [
+       "You may move one disc at a time, and you may never put a larger disc on a smaller one.",
+       "Her seferinde bir disk taşıyabilirsin ve büyük bir diski asla küçük bir diskin üstüne koyamazsın."
+      ],
+      [
+       "What is the smallest number of moves needed to carry the whole tower to the third peg?",
+       "Bütün kuleyi üçüncü çubuğa taşımak için gereken en az hamle sayısı kaçtır?"
       ]
      ]
     },
     {
      "t": "h",
      "s": [
-      "Step 1: small cases",
-      "1. adım: Küçük durumlar"
+      "Step 1: a table of small cases",
+      "1. adım: Küçük durumların tablosu"
      ]
     },
     {
      "t": "tablo",
      "basliklar": [
       "n",
-      "sum",
+      "moves",
       "result"
      ],
      "satirlar": [
       [
        "1",
-       "1",
+       "move the disc",
        "1"
       ],
       [
        "2",
-       "1 + 3",
-       "4"
+       "small, big, small",
+       "3"
       ],
       [
        "3",
-       "1 + 3 + 5",
-       "9"
+       "3 + 1 + 3",
+       "7"
       ],
       [
        "4",
-       "1 + 3 + 5 + 7",
-       "16"
-      ]
-     ]
-    },
-    {
-     "t": "p",
-     "s": [
-      [
-       "The results 1, 4, 9 and 16 are all **perfect squares**.",
-       "1, 4, 9 ve 16 sonuçlarının hepsi **tam kare**."
-      ],
-      [
-       "So we make a conjecture: the sum of the first n odd numbers is n².",
-       "Bu yüzden bir sanı oluşturuyoruz: İlk n tek sayının toplamı n²'dir."
+       "7 + 1 + 7",
+       "15"
       ]
      ]
     },
     {
      "t": "h",
      "s": [
-      "Step 2: prove it",
-      "2. adım: Kanıtla"
+      "Step 2: find the recurrence",
+      "2. adım: İndirgeme bağıntısını bul"
      ]
     },
     {
      "t": "p",
      "s": [
       [
-       "Four cases are not a proof, so we need a reason that works for every n.",
-       "Dört durum kanıt değildir, bu yüzden her n için işleyen bir gerekçeye ihtiyacımız var."
+       "Look at the middle column: each line uses the line above it twice.",
+       "Ortadaki sütuna bak: Her satır, üstündeki satırı iki kez kullanıyor."
       ],
       [
-       "Draw an n × n square of dots.",
-       "n × n'lik bir nokta karesi çiz."
+       "Before the largest disc can move, the n smaller discs above it must all be on the middle peg.",
+       "En büyük disk hareket edebilmeden önce üstündeki n küçük diskin hepsi ortadaki çubukta olmalı."
       ],
       [
-       "To make the next square, (n + 1) × (n + 1), you add one new row and one new column that share a corner.",
-       "Bir sonraki kareyi, yani (n + 1) × (n + 1)'lik kareyi yapmak için köşesi ortak olan yeni bir satır ve yeni bir sütun eklersin."
-      ],
-      [
-       "This L-shape has n + n + 1 = 2n + 1 dots, which is exactly the next odd number.",
-       "Bu L şeklinde n + n + 1 = 2n + 1 nokta var ve bu tam olarak bir sonraki tek sayı."
+       "So to move n + 1 discs, you move n discs out of the way, then the largest disc, and then the n discs back on top of it.",
+       "Yani n + 1 diski taşımak için önce n diski kenara çekersin, sonra en büyük diski taşırsın, sonra n diski yeniden onun üstüne koyarsın."
       ]
      ]
     },
     {
      "t": "formul",
-     "m": "n² + (2n + 1) = (n + 1)²"
+     "m": "h(n + 1) = 2 · h(n) + 1,   h(1) = 1"
+    },
+    {
+     "t": "h",
+     "s": [
+      "Step 3: solve it",
+      "3. adım: Çöz"
+     ]
     },
     {
      "t": "p",
      "s": [
       [
-       "So every new odd number turns a square into the next square, and the conjecture is true for all n.",
-       "Yani her yeni tek sayı bir kareyi bir sonraki kareye dönüştürür ve sanı her n için doğrudur."
+       "The results 1, 3, 7 and 15 are all one less than a **power of two**, so we guess that h(n) = 2ⁿ − 1.",
+       "1, 3, 7 ve 15 sonuçlarının hepsi **ikinin bir kuvvetinden** bir eksik, bu yüzden h(n) = 2ⁿ − 1 olduğunu tahmin ediyoruz."
+      ],
+      [
+       "The recurrence turns this guess into a proof.",
+       "İndirgeme bağıntısı bu tahmini bir ispata dönüştürüyor."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "2 · (2ⁿ − 1) + 1 = 2ⁿ⁺¹ − 1"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "So if the formula is true for n discs, it is also true for n + 1 discs, and our guess is true for all n.",
+       "Yani formül n disk için doğruysa n + 1 disk için de doğrudur ve tahminimiz her n için geçerlidir."
       ],
       [
        "This step-by-step argument is called **proof by induction**.",
@@ -1232,16 +1259,16 @@
      ],
      "s": [
       [
-       "Small cases give you ideas, but only a proof gives you certainty.",
-       "Küçük durumlar sana fikir verir, ama kesinliği yalnızca ispat verir."
+       "Do not only ask \"What is the answer for n?\", but also ask \"How does the answer for n help with n + 1?\"",
+       "Yalnızca \"n için cevap ne?\" diye sorma, \"n'nin cevabı n + 1 için nasıl yardım eder?\" diye de sor."
       ],
       [
-       "Write your small cases in a neat table, because patterns are much easier to see that way.",
-       "Küçük durumlarını düzenli bir tabloya yaz, çünkü örüntüler böyle çok daha kolay görünür."
+       "A recurrence explains why the pattern continues, so it often leads straight to an induction proof.",
+       "İndirgeme bağıntısı örüntünün neden devam ettiğini açıklar, bu yüzden çoğu zaman doğrudan bir tümevarım ispatına götürür."
       ],
       [
-       "While you calculate, look for the reason behind the numbers, because it is often the key to the proof.",
-       "Hesaplarken sayıların arkasındaki nedeni ara, çünkü o çoğu zaman ispatın anahtarıdır."
+       "Computer scientists use the same idea every day, because many programs call themselves on a smaller input.",
+       "Bilgisayar bilimciler aynı fikri her gün kullanır, çünkü birçok program kendini daha küçük bir girdiyle çağırır."
       ]
      ]
     },
@@ -1258,8 +1285,8 @@
        "n kenarlı bir çokgenin kaç **köşegeni** vardır?"
       ],
       [
-       "Start with a triangle, a square, a pentagon and a hexagon.",
-       "Bir üçgen, bir kare, bir beşgen ve bir altıgenle başla."
+       "Find a recurrence: what changes when you add one more corner to the polygon?",
+       "Bir indirgeme bağıntısı bul: Çokgene bir köşe daha eklediğinde ne değişir?"
       ]
      ]
     },
@@ -1272,20 +1299,20 @@
      ],
      "s": [
       [
-       "The small cases give 0, 2, 5 and 9 diagonals for n = 3, 4, 5 and 6.",
-       "Küçük durumlar n = 3, 4, 5 ve 6 için 0, 2, 5 ve 9 köşegen verir."
+       "Put a new corner between two neighbouring corners of an n-gon.",
+       "n kenarlı bir çokgenin iki komşu köşesinin arasına yeni bir köşe koy."
       ],
       [
-       "The reason: from each corner you can draw a diagonal to every other corner except itself and its two neighbours, so to n − 3 corners.",
-       "Nedeni şu: Her köşeden, kendisi ve iki komşusu dışındaki her köşeye, yani n − 3 köşeye köşegen çizebilirsin."
+       "The new corner gets a diagonal to every old corner except its two neighbours, which is n − 2 new diagonals.",
+       "Yeni köşe, iki komşusu dışındaki her eski köşeye bir köşegen alır, bu da n − 2 yeni köşegen eder."
       ],
       [
-       "That gives n(n − 3) ends, but every diagonal has two ends, so the answer is n(n − 3) / 2.",
-       "Bu n(n − 3) uç eder, ama her köşegenin iki ucu var, bu yüzden cevap n(n − 3) / 2."
+       "The old side between the two neighbours also becomes a diagonal, so d(n + 1) = d(n) + n − 1.",
+       "İki komşu arasındaki eski kenar da köşegen olur, yani d(n + 1) = d(n) + n − 1."
       ],
       [
-       "Check: for n = 6, 6 × 3 / 2 = 9.",
-       "Kontrol et: n = 6 için 6 × 3 / 2 = 9."
+       "Starting from d(3) = 0, we get 2, 5 and 9 for n = 4, 5 and 6, and in general d(n) = n(n − 3) / 2.",
+       "d(3) = 0'dan başlayınca n = 4, 5 ve 6 için 2, 5 ve 9 buluruz ve genel olarak d(n) = n(n − 3) / 2."
       ]
      ]
     },
@@ -1293,24 +1320,24 @@
      "t": "terimler",
      "items": [
       [
-       "small cases",
-       "küçük durumlar"
+       "recursion",
+       "özyineleme"
       ],
       [
-       "conjecture",
-       "sanı"
+       "recurrence relation",
+       "indirgeme bağıntısı"
       ],
       [
-       "perfect square",
-       "tam kare"
+       "power of two",
+       "ikinin kuvveti"
       ],
       [
-       "proof by induction",
-       "tümevarımla ispat"
+       "peg",
+       "çubuk"
       ],
       [
-       "diagonal",
-       "köşegen"
+       "neighbouring",
+       "komşu"
       ]
      ]
     }
@@ -1327,16 +1354,16 @@
      "t": "liste",
      "s": [
       [
-       "**The wrong name**: October comes from the Latin word octo, which means eight.",
-       "**Yanlış isim**: October, sekiz anlamına gelen Latince octo kelimesinden gelir."
+       "**Ten and ten**: October is the tenth month of the year, and this is our tenth issue.",
+       "**On ve on**: Ekim yılın onuncu ayı ve bu da onuncu sayımız."
       ],
       [
-       "In the oldest Roman calendar the year started in March, so October really was the eighth month.",
-       "En eski Roma takviminde yıl martta başlıyordu, yani ekim gerçekten sekizinci aydı."
+       "**Two prime pairs**: 10 = 3 + 7 = 5 + 5, and 10 is the smallest number that is a sum of two primes in two different ways.",
+       "**İki asal çift**: 10 = 3 + 7 = 5 + 5 ve 10, iki asalın toplamı olarak iki farklı biçimde yazılabilen en küçük sayıdır."
       ],
       [
-       "Today it is our tenth month, and this is our tenth issue.",
-       "Bugün onuncu ayımız ve bu da onuncu sayımız."
+       "Goldbach guessed in 1742 that every even number greater than 2 is a sum of two primes, and nobody has proved it yet.",
+       "Goldbach 1742'de 2'den büyük her çift sayının iki asalın toplamı olduğunu tahmin etti ve bunu henüz kimse kanıtlayamadı."
       ],
       [
        "**Ten fingers**: most historians think we count in **base ten** simply because we have ten fingers.",
@@ -1380,8 +1407,8 @@
        "onluk taban"
       ],
       [
-       "binary",
-       "ikili sistem, ikilik taban"
+       "base two",
+       "ikilik taban"
       ],
       [
        "triangular number",
@@ -1405,16 +1432,16 @@
     {
      "t": "h",
      "s": [
-      "Grades 6–8: The Mirror Alphabet",
-      "6-8. sınıflar: Ayna Alfabesi"
+      "Grades 6–8: Left-handed and right-handed shapes",
+      "6-8. sınıflar: Solak ve sağlak şekiller"
      ]
     },
     {
      "t": "p",
      "s": [
       [
-       "Goal: recognising **line symmetry** and rotational symmetry, and linking them to the Nobel story of left and right hands.",
-       "Hedef: **Doğruya göre simetriyi** ve dönme simetrisini tanımak ve bunları sağ ve sol ellerin Nobel hikâyesine bağlamak."
+       "Goal: recognising **mirror images** and linking them to the Nobel story of left and right hands.",
+       "Hedef: **Ayna görüntülerini** tanımak ve onları sağ ve sol ellerin Nobel hikâyesine bağlamak."
       ]
      ]
     },
@@ -1422,24 +1449,28 @@
      "t": "liste",
      "s": [
       [
-       "Write the capital letters A to Z on the board and give each group a small mirror.",
-       "Tahtaya A'dan Z'ye büyük harfleri yazın ve her gruba küçük bir ayna verin."
+       "A **pentomino** is a shape made of five equal squares joined edge to edge.",
+       "**Pentomino**, kenar kenara birleşmiş beş eş kareden oluşan bir şekildir."
       ],
       [
-       "Groups sort the letters into a table: a vertical line of symmetry (A, M, T…), a horizontal line (B, C, D…), both (H, O, X…) or none.",
-       "Gruplar harfleri bir tabloya ayırsın: Dikey simetri ekseni olanlar (A, M, T…), yatay olanlar (B, C, D…), ikisi de olanlar (H, O, X…) ve hiç olmayanlar."
+       "Groups cut squares from squared paper and try to find all the different pentominoes.",
+       "Gruplar kareli kâğıttan kareler kesip bütün farklı pentominoları bulmaya çalışsın."
       ],
       [
-       "Then ask: which letters look the same after a half turn? (N, S, Z…)",
-       "Sonra sorun: Hangi harfler yarım tur döndürülünce aynı görünüyor? (N, S, Z…)"
+       "Shapes that can be turned or flipped onto each other count as the same, and there are exactly 12 of them.",
+       "Döndürülerek ya da ters çevrilerek birbirinin üstüne gelen şekiller aynı sayılır ve tam 12 tane vardır."
       ],
       [
-       "Finally, ask them to find a word that reads the same in a mirror held under it, such as BOOK or CHOICE.",
-       "Son olarak, altına tutulan bir aynada aynı okunan bir kelime bulmalarını isteyin, örneğin BOOK ya da CHOICE."
+       "Now give each group a small mirror and ask: which pentominoes have a line of symmetry?",
+       "Şimdi her gruba küçük bir ayna verin ve sorun: Hangi pentominoların simetri ekseni var?"
       ],
       [
-       "Discuss: F has no symmetry at all, so F and its mirror image are like a left hand and a right hand.",
-       "Tartışın: F'nin hiç simetrisi yok, yani F ile ayna görüntüsü bir sol el ile bir sağ el gibi."
+       "Six of them (I, T, U, V, W, X) have one, and the other six (F, L, N, P, Y, Z) have none.",
+       "Altısının (I, T, U, V, W, X) simetri ekseni var, diğer altısının (F, L, N, P, Y, Z) ise yok."
+      ],
+      [
+       "If you may not flip the pieces over, each of these six comes in a left-handed and a right-handed version, just like chiral molecules.",
+       "Parçaları ters çevirmek yasaksa bu altı şeklin her birinin, tıpkı kiral moleküller gibi, solak ve sağlak bir versiyonu olur."
       ]
      ]
     },
@@ -1452,12 +1483,12 @@
      ],
      "s": [
       [
-       "Can you write a three-letter word that has a vertical line of symmetry?",
-       "Dikey simetri ekseni olan üç harfli bir kelime yazabilir misin?"
+       "How many different pieces are there if flipping is not allowed?",
+       "Ters çevirmeye izin verilmezse kaç farklı parça vardır?"
       ],
       [
-       "One answer is TOT, and in Turkish AHA works too.",
-       "Cevaplardan biri TOT, Türkçede AHA da olur."
+       "The answer is 6 + 2 × 6 = 18.",
+       "Cevap 6 + 2 × 6 = 18."
       ],
       [
        "This activity practises classification, careful observation and explaining a rule in your own words.",
@@ -1554,8 +1585,12 @@
      "t": "terimler",
      "items": [
       [
-       "line symmetry",
-       "doğruya göre simetri"
+       "to flip",
+       "ters çevirmek"
+      ],
+      [
+       "pentomino",
+       "pentomino"
       ],
       [
        "rotation",
@@ -1715,8 +1750,8 @@
        "açık uçlu soru"
       ],
       [
-       "mid-term break",
-       "ara tatil"
+       "Republic Day",
+       "Cumhuriyet Bayramı"
       ],
       [
        "anniversary",
@@ -1755,14 +1790,14 @@
      ],
      "satirlar": [
       [
-       "is said to be",
-       "… olduğu söylenir, … denir",
+       "is called",
+       "… denir",
        "used in definitions"
       ],
       [
-       "well-defined",
-       "iyi tanımlı",
-       "the result does not depend on the choice made"
+       "is closed under",
+       "… altında kapalıdır",
+       "the result stays inside the set"
       ],
       [
        "up to isomorphism",
@@ -1770,14 +1805,14 @@
        "the same structure with different names"
       ],
       [
-       "without loss of generality (WLOG)",
-       "genelliği bozmadan",
-       "a special case covers all cases"
+       "the following are equivalent (TFAE)",
+       "aşağıdakiler denktir",
+       "a list of conditions that are all the same"
       ],
       [
-       "it suffices to show",
-       "… göstermek yeterlidir",
-       "reduces the goal to something simpler"
+       "is uniquely determined",
+       "tek türlü belirlidir",
+       "there is exactly one such object"
       ],
       [
        "namely",
@@ -1785,14 +1820,14 @@
        "gives the exact object"
       ],
       [
-       "respectively",
-       "sırasıyla",
-       "matches two lists in order"
+       "is generated by",
+       "… tarafından üretilir",
+       "every element is built from a few"
       ],
       [
-       "trivial",
-       "aşikâr, basit",
-       "also the name of the group {e}"
+       "vice versa",
+       "ve tersi",
+       "the same is true the other way round"
       ]
      ]
     },
@@ -1805,20 +1840,24 @@
      ],
      "s": [
       [
-       "Definition: A group is a set G with an operation · such that the operation is associative, there exists an identity element and every element has an inverse.",
-       "Tanım: Grup, işlemi birleşmeli olan, bir birim elemanı bulunan ve her elemanın tersi olduğu, · işlemiyle donatılmış bir G kümesidir."
+       "Definition: A group is a set G with an operation · that has four properties.",
+       "Tanım: Grup, dört özelliği olan bir · işlemiyle donatılmış bir G kümesidir."
       ],
       [
-       "An element e is said to be an identity if e · g = g · e = g for all g in G.",
+       "G is closed under ·, the operation is associative, there exists an identity element and every element has an inverse.",
+       "G, · işlemi altında kapalıdır, işlem birleşmelidir, bir birim eleman vardır ve her elemanın tersi vardır."
+      ],
+      [
+       "An element e is called an identity if e · g = g · e = g for all g in G.",
        "Her g ∈ G için e · g = g · e = g ise e elemanına birim eleman denir."
       ],
       [
-       "Proposition: The identity of a group is unique.",
-       "Önerme: Bir grubun birim elemanı tektir."
+       "Proposition: The identity of a group is uniquely determined.",
+       "Önerme: Bir grubun birim elemanı tek türlü belirlidir."
       ],
       [
-       "Proof: Suppose e and f are both identities, and it suffices to show that e = f.",
-       "İspat: e ve f'nin ikisinin de birim eleman olduğunu varsayalım, e = f olduğunu göstermek yeterlidir."
+       "Proof: Let e and f be identities of G. We show that they are the same element, namely that e = f.",
+       "İspat: e ve f, G'nin birim elemanları olsun. Bunların aynı eleman olduğunu, yani e = f olduğunu gösteriyoruz."
       ],
       [
        "Since f is an identity, e · f = e, and since e is an identity, e · f = f.",
@@ -1856,8 +1895,8 @@
      "t": "terimler",
      "items": [
       [
-       "well-defined",
-       "iyi tanımlı"
+       "closed under",
+       "… altında kapalı"
       ],
       [
        "up to isomorphism",
@@ -1872,8 +1911,8 @@
        "ters eleman"
       ],
       [
-       "it suffices to show",
-       "göstermek yeterlidir"
+       "uniquely determined",
+       "tek türlü belirli"
       ],
       [
        "associative",
@@ -1889,12 +1928,12 @@
    "soru": "What did OpenAI release on 6 October 2026?",
    "soru_tr": "OpenAI 6 Ekim 2026'da ne yayımladı?",
    "secenekler": [
-    "A new calculator app",
     "722 maths manuscripts from an unreleased model",
+    "A new calculator app",
     "The answers to the LGS",
     "A proof of Fermat's Last Theorem"
    ],
-   "dogru": 1,
+   "dogru": 0,
    "aciklama": "The manuscripts were put on GitHub and many came with Lean files, but mathematicians say they still need checking.",
    "aciklama_tr": "Taslaklar GitHub'a kondu ve çoğu Lean dosyalarıyla geldi, ama matematikçiler hâlâ kontrol edilmeleri gerektiğini söylüyor."
   },
@@ -1903,11 +1942,11 @@
    "soru_tr": "Galois'ya göre bir denklem ne zaman köklerle çözülebilir?",
    "secenekler": [
     "When its degree is odd",
-    "When all its roots are real",
     "When its Galois group is solvable",
+    "When all its roots are real",
     "When its coefficients are integers"
    ],
-   "dogru": 2,
+   "dogru": 1,
    "aciklama": "An equation is solvable by radicals if and only if its Galois group is solvable, and S₅ is not.",
    "aciklama_tr": "Bir denklem ancak ve ancak Galois grubu çözülebilirse köklerle çözülebilir ve S₅ çözülebilir değildir."
   },
@@ -1928,12 +1967,12 @@
    "soru": "What does the word \"chiral\" describe?",
    "soru_tr": "\"Kiral\" kelimesi neyi anlatır?",
    "secenekler": [
-    "An object that is different from its mirror image",
-    "A very small particle",
     "A circle with no centre",
+    "A very small particle",
+    "An object that is different from its mirror image",
     "A molecule with no atoms"
    ],
-   "dogru": 0,
+   "dogru": 2,
    "aciklama": "Like our hands, a chiral object cannot be turned into its mirror image by rotation.",
    "aciklama_tr": "Ellerimiz gibi, kiral bir nesne döndürülerek ayna görüntüsüne dönüştürülemez."
   },
@@ -1942,26 +1981,26 @@
    "soru_tr": "IceCube Nötrino Gözlemevi nerededir?",
    "secenekler": [
     "On the Moon",
-    "In the ice at the South Pole",
+    "In a mine in Belgium",
     "Under the sea near Japan",
-    "In a mine in Belgium"
+    "In the ice at the South Pole"
    ],
-   "dogru": 1,
+   "dogru": 3,
    "aciklama": "It uses about one cubic kilometre of Antarctic ice with thousands of light sensors.",
    "aciklama_tr": "Binlerce ışık sensörü yerleştirilmiş yaklaşık bir kilometreküplük Antarktika buzunu kullanır."
   },
   {
-   "soru": "What is 1 + 3 + 5 + 7 + 9, the sum of the first five odd numbers?",
-   "soru_tr": "İlk beş tek sayının toplamı olan 1 + 3 + 5 + 7 + 9 kaçtır?",
+   "soru": "What is the smallest number of moves for a Tower of Hanoi with 5 discs?",
+   "soru_tr": "5 diskli bir Hanoi Kulesi için en az hamle sayısı kaçtır?",
    "secenekler": [
-    "20",
     "25",
-    "30",
-    "36"
+    "31",
+    "32",
+    "63"
    ],
    "dogru": 1,
-   "aciklama": "The sum of the first n odd numbers is n², so for n = 5 it is 25.",
-   "aciklama_tr": "İlk n tek sayının toplamı n²'dir, yani n = 5 için 25."
+   "aciklama": "n discs need 2ⁿ − 1 moves, so 5 discs need 2⁵ − 1 = 31 moves.",
+   "aciklama_tr": "n disk için 2ⁿ − 1 hamle gerekir, yani 5 disk için 2⁵ − 1 = 31 hamle."
   }
  ],
  "bulmacalar": [
@@ -1988,10 +2027,10 @@
   },
   {
    "tip": "anagram",
-   "karisik": "RRIMOR",
-   "cevap": "MIRROR",
-   "ipucu": "It shows your left hand as a right hand.",
-   "ipucu_tr": "Sol elini sağ el olarak gösterir."
+   "karisik": "CIRALDA",
+   "cevap": "RADICAL",
+   "ipucu": "A square root or a cube root in a formula.",
+   "ipucu_tr": "Bir formüldeki karekök ya da küpkök."
   },
   {
    "tip": "eslestir",
@@ -2031,12 +2070,12 @@
   },
   {
    "tip": "mantik",
-   "baslik": "Galois' next birthday",
-   "baslik_tr": "Galois'nın bir sonraki doğum günü",
-   "soru": "25 October 2026, Galois' 215th birthday, is a Sunday. 2027 is not a leap year. On which day of the week will 25 October 2027 fall? Why?",
-   "soru_tr": "Galois'nın 215. doğum günü olan 25 Ekim 2026 pazar günü. 2027 artık yıl değil. 25 Ekim 2027 haftanın hangi gününe denk gelecek? Neden?",
-   "cevap": "Monday. Between the two dates there are 365 days, because the February in between has 28 days. 365 = 52 × 7 + 1, so the weekday moves forward by one: Sunday + 1 = Monday.",
-   "cevap_tr": "Pazartesi. İki tarih arasında 365 gün var, çünkü aradaki şubat 28 gün çekiyor. 365 = 52 × 7 + 1, yani haftanın günü bir ileri kayar: Pazar + 1 = Pazartesi."
+   "baslik": "The shuffling cups",
+   "baslik_tr": "Karışan bardaklar",
+   "soru": "A magician repeats the same shuffle with three cups: the left cup goes to the middle, the middle cup goes to the right, and the right cup goes to the left. After how many shuffles are the cups back in their starting places for the first time? Where is the cup that started on the left after 2026 shuffles?",
+   "soru_tr": "Bir sihirbaz üç bardakla aynı karıştırmayı tekrar tekrar yapıyor: Soldaki bardak ortaya, ortadaki sağa, sağdaki de sola gidiyor. Kaç karıştırmadan sonra bardaklar ilk kez başlangıçtaki yerlerine döner? 2026 karıştırmadan sonra başta solda olan bardak nerededir?",
+   "cevap": "After 3 shuffles. The left cup goes left > middle > right > left, so every cup is home again after 3 moves. This shuffle is a permutation of order 3, an element of the group S₃. Since 2026 = 3 × 675 + 1, 2026 shuffles do the same as a single shuffle, so the cup that started on the left is in the middle.",
+   "cevap_tr": "3 karıştırmadan sonra. Soldaki bardak sol > orta > sağ > sol yolunu izler, yani 3 hamleden sonra her bardak yerine döner. Bu karıştırma, S₃ grubunun 3. mertebeden bir elemanı olan bir permütasyondur. 2026 = 3 × 675 + 1 olduğu için 2026 karıştırma tek bir karıştırmayla aynı işi yapar, yani başta solda olan bardak ortadadır."
   }
  ],
  "terimler": [
@@ -2045,12 +2084,12 @@
    "makale taslağı"
   ],
   [
-   "singularity",
-   "tekillik"
+   "outside force",
+   "dış kuvvet"
   ],
   [
-   "to reproduce",
-   "yeniden üretmek, tekrarlamak"
+   "repository",
+   "depo"
   ],
   [
    "formal statement",
@@ -2085,8 +2124,8 @@
    "çözülebilir grup"
   ],
   [
-   "field extension",
-   "cisim genişlemesi"
+   "radical",
+   "kök (radikal)"
   ],
   [
    "chiral",
@@ -2109,8 +2148,8 @@
    "enantiyomer fazlalığı"
   ],
   [
-   "reflection",
-   "yansıma"
+   "catalyst",
+   "katalizör"
   ],
   [
    "group",
@@ -2141,48 +2180,48 @@
    "nötrino"
   ],
   [
-   "observatory",
-   "gözlemevi"
+   "light sensor",
+   "ışık sensörü"
   ],
   [
    "cubic kilometre",
    "kilometreküp"
   ],
   [
-   "analytic number theory",
-   "analitik sayılar teorisi"
+   "will (legal document)",
+   "vasiyetname"
   ],
   [
-   "additive combinatorics",
-   "toplamsal kombinatorik"
+   "evidence",
+   "kanıt"
   ],
   [
-   "small cases",
-   "küçük durumlar"
+   "recursion",
+   "özyineleme"
   ],
   [
-   "conjecture",
-   "sanı"
+   "recurrence relation",
+   "indirgeme bağıntısı"
   ],
   [
-   "perfect square",
-   "tam kare"
+   "power of two",
+   "ikinin kuvveti"
   ],
   [
-   "proof by induction",
-   "tümevarımla ispat"
+   "peg",
+   "çubuk"
   ],
   [
-   "diagonal",
-   "köşegen"
+   "neighbouring",
+   "komşu"
   ],
   [
    "base ten",
    "onluk taban"
   ],
   [
-   "binary",
-   "ikili sistem, ikilik taban"
+   "base two",
+   "ikilik taban"
   ],
   [
    "triangular number",
@@ -2193,8 +2232,12 @@
    "faktöriyel"
   ],
   [
-   "line symmetry",
-   "doğruya göre simetri"
+   "to flip",
+   "ters çevirmek"
+  ],
+  [
+   "pentomino",
+   "pentomino"
   ],
   [
    "rotation",
@@ -2221,16 +2264,16 @@
    "açık uçlu soru"
   ],
   [
-   "mid-term break",
-   "ara tatil"
+   "Republic Day",
+   "Cumhuriyet Bayramı"
   ],
   [
    "anniversary",
    "yıl dönümü"
   ],
   [
-   "well-defined",
-   "iyi tanımlı"
+   "closed under",
+   "… altında kapalı"
   ],
   [
    "up to isomorphism",
@@ -2245,8 +2288,8 @@
    "ters eleman"
   ],
   [
-   "it suffices to show",
-   "göstermek yeterlidir"
+   "uniquely determined",
+   "tek türlü belirli"
   ],
   [
    "associative",

@@ -68,8 +68,8 @@
        "İlk sayımızın teması basit: **yeni bir yıl, yeni sorular**."
       ],
       [
-       "We started 2026 with an artificial intelligence solving a fifty-year-old problem.",
-       "2026'ya, yapay zekânın elli yıllık bir problemi çözmesiyle başladık."
+       "We started 2026 with news of an AI solving a fifty-year-old problem.",
+       "2026'ya, yapay zekânın elli yıllık bir problemi çözdüğü haberiyle başladık."
       ],
       [
        "Let us see what else the year will bring.",
@@ -451,8 +451,8 @@
        "1827'de botanikçi **Robert Brown** sudaki polenlere mikroskopla baktı."
       ],
       [
-       "Tiny particles from the pollen were moving all the time, in short and nervous zigzags.",
-       "Polenden çıkan minik parçacıklar sürekli, kısa ve huzursuz zikzaklarla hareket ediyordu."
+       "Tiny particles from the pollen were moving all the time, in short, jittery zigzags.",
+       "Polenden çıkan minik parçacıklar sürekli, kısa ve titrek zikzaklarla hareket ediyordu."
       ],
       [
        "Today we call this **Brownian motion**.",
@@ -468,8 +468,8 @@
        "1905'te Albert Einstein bunu açıkladı."
       ],
       [
-       "Water **molecules** hit the particle from every side, millions of times each second.",
-       "Su **molekülleri** parçacığa her yönden, saniyede milyonlarca kez çarpar."
+       "Water **molecules** hit the particle from every side, far more times each second than anyone could count.",
+       "Su **molekülleri** parçacığa her yönden, saniyede sayılamayacak kadar çok kez çarpar."
       ],
       [
        "The hits do not cancel perfectly, so the particle makes a **random walk**.",
@@ -623,8 +623,12 @@
      "t": "p",
      "s": [
       [
-       "The **Hasse–Arf theorem** describes how prime numbers behave in field extensions, and it is now a standard part of class field theory.",
-       "**Hasse–Arf teoremi** asal sayıların cisim genişlemelerinde nasıl davrandığını anlatır ve bugün sınıf cisim teorisinin standart bir parçasıdır."
+       "The **Hasse–Arf theorem** reveals a hidden regularity in how prime numbers break up, or ramify, in abelian field extensions.",
+       "**Hasse–Arf teoremi**, asal sayıların değişmeli (abelyen) cisim genişlemelerinde nasıl ayrıştığında, yani dallandığında, gizli bir düzen olduğunu gösterir."
+      ],
+      [
+       "It is now a standard part of class field theory.",
+       "Bugün sınıf cisim teorisinin standart bir parçasıdır."
       ],
       [
        "In 1941 he defined the **Arf invariant** to classify quadratic forms over fields of characteristic 2.",
@@ -818,8 +822,8 @@
        "Bir çemberin üzerine n nokta koy ve her iki noktayı bir **kirişle** birleştir."
       ],
       [
-       "Into how many regions can the inside of the circle be divided?",
-       "Çemberin içi en fazla kaç bölgeye ayrılabilir?"
+       "What is the largest number of regions the chords can divide the inside of the circle into?",
+       "Kirişler çemberin içini en fazla kaç bölgeye ayırabilir?"
       ]
      ]
     },
@@ -867,8 +871,12 @@
      "t": "p",
      "s": [
       [
-       "Every crossing point inside the circle comes from a group of 4 points, and every chord adds one more region.",
-       "Çemberin içindeki her kesişim noktası 4 noktalık bir gruptan gelir ve her kiriş bir bölge daha ekler."
+       "Every crossing point inside the circle comes from a group of 4 points, so there are C(n, 4) crossings.",
+       "Çemberin içindeki her kesişim noktası 4 noktalık bir gruptan gelir, yani C(n, 4) kesişim vardır."
+      ],
+      [
+       "Starting from 1 region, every chord and every crossing adds one more region.",
+       "1 bölgeden başlayınca her kiriş ve her kesişim bir bölge daha ekler."
       ],
       [
        "For n = 6 we get 15 + 15 + 1 = 31.",
@@ -1002,8 +1010,8 @@
        "Dört işlem, parantez, üs ve karekök serbest, rakamları 20 ya da 26 gibi yan yana da yazabilirsiniz."
       ],
       [
-       "For example, 1 = (6 − 2 − 2)⁰ and 28 = 26 + 2 + 0.",
-       "Örneğin 1 = (6 − 2 − 2)⁰ ve 28 = 26 + 2 + 0."
+       "For example, 1 = 2 ÷ 2 + 0 × 6 and 28 = 26 + 2 + 0.",
+       "Örneğin 1 = 2 ÷ 2 + 0 × 6 ve 28 = 26 + 2 + 0."
       ]
      ]
     },
@@ -1122,8 +1130,8 @@
        "LGS 13 Haziran 2026 Cumartesi günü, iki oturumda yapılacak."
       ],
       [
-       "Mathematics is in the second session together with science: 40 questions in 80 minutes.",
-       "Matematik, fen bilimleriyle birlikte ikinci oturumda: 80 dakikada 40 soru."
+       "Mathematics is in the second session together with science: 20 maths and 20 science questions in 80 minutes.",
+       "Matematik, fen bilimleriyle birlikte ikinci oturumda: 80 dakikada 20 matematik ve 20 fen sorusu."
       ],
       [
        "January is a good time to analyse mock exam results before the second term.",
@@ -1228,8 +1236,8 @@
        "Buradan n² = 4k² + 4k + 1 çıkar ve bu tektir."
       ],
       [
-       "This contradicts our assumption. ∎",
-       "Bu varsayımımızla çelişir. ∎"
+       "This contradicts the fact that n² is even. ∎",
+       "Bu, n²'nin çift olmasıyla çelişir. ∎"
       ]
      ]
     },
@@ -1259,15 +1267,15 @@
  ],
  "quiz": [
   {
-   "soru": "Which AI system checked the proof of Erdős problem 728 in Lean?",
-   "soru_tr": "Erdős 728 probleminin ispatını Lean'de hangi yapay zekâ sistemi kontrol etti?",
+   "soru": "Which AI system translated the proof of Erdős problem 728 into Lean?",
+   "soru_tr": "Erdős 728 probleminin ispatını hangi yapay zekâ sistemi Lean diline çevirdi?",
    "secenekler": [
-    "GPT-5.2 Pro",
     "Aristotle",
+    "GPT-5.2 Pro",
     "Gemini",
     "AlphaGo"
    ],
-   "dogru": 1,
+   "dogru": 0,
    "aciklama": "GPT-5.2 Pro wrote the proof, and Aristotle formalised it in Lean.",
    "aciklama_tr": "İspatı GPT-5.2 Pro yazdı, Aristotle ise Lean'de biçimselleştirdi."
   },
@@ -1276,11 +1284,11 @@
    "soru_tr": "PageRank'te puan vektörü r, r = M · r eşitliğini sağlar. r nedir?",
    "secenekler": [
     "A determinant",
-    "An eigenvector of M",
+    "A random number",
     "The inverse of M",
-    "A random number"
+    "An eigenvector of M"
    ],
-   "dogru": 1,
+   "dogru": 3,
    "aciklama": "r is an eigenvector of M with eigenvalue 1.",
    "aciklama_tr": "r, M'nin 1 özdeğerine karşılık gelen özvektörüdür."
   },

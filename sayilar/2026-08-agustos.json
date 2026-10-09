@@ -34,8 +34,8 @@
        "Ağustos 2026 cumartesi günü başlıyor ve 31 gün sürüyor."
       ],
       [
-       "Since 31 = 4 × 7 + 3, the first three weekdays of the month appear five times.",
-       "31 = 4 × 7 + 3 olduğu için ayın ilk üç günü takvimde beşer kez geliyor."
+       "Since 31 = 4 × 7 + 3, the weekdays of the 1st, 2nd and 3rd of the month appear five times.",
+       "31 = 4 × 7 + 3 olduğu için ayın 1, 2 ve 3'üne denk gelen günler takvimde beşer kez geliyor."
       ],
       [
        "So this August has five Saturdays, five Sundays and five Mondays, in other words five full weekends.",
@@ -102,11 +102,11 @@
      "s": [
       [
        "On 1 August 2026, OpenAI announced that an unreleased internal model called **Astra** had produced new results on 10 problems.",
-       "1 Ağustos 2026'da OpenAI, henüz yayımlanmamış **Astra** adlı bir iç modelin 10 problemde yeni sonuçlar ürettiğini duyurdu."
+       "1 Ağustos 2026'da OpenAI, henüz yayımlanmamış **Astra** adlı şirket içi bir modelin 10 problemde yeni sonuçlar ürettiğini duyurdu."
       ],
       [
-       "All of them came from mathematics and theoretical computer science, and each had been open for at least ten years.",
-       "Hepsi matematik ve teorik bilgisayar biliminden geliyordu ve her biri en az on yıldır açıktı."
+       "According to the company, all of them came from mathematics and theoretical computer science, and each had been open for at least ten years.",
+       "Şirkete göre hepsi matematik ve teorik bilgisayar biliminden geliyordu ve her biri en az on yıldır açıktı."
       ],
       [
        "Three of them were problems from the famous list of Paul Erdős.",
@@ -206,7 +206,7 @@
      "stil": "bilgi",
      "baslik": [
       "Where is the maths?",
-      "Matematiği nerede?"
+      "Matematik nerede?"
      ],
      "s": [
       [
@@ -273,16 +273,16 @@
      "t": "terimler",
      "items": [
       [
-       "open problem",
-       "açık problem"
+       "internal model",
+       "şirket içi model"
       ],
       [
        "peer review",
        "hakem değerlendirmesi"
       ],
       [
-       "formal verification",
-       "biçimsel doğrulama"
+       "certificate",
+       "sertifika"
       ],
       [
        "total solar eclipse",
@@ -344,8 +344,8 @@
        "Masanın uzunluğunu üç kez ölçersen 120,2 cm, 119,9 cm ve 120,0 cm bulabilirsin."
       ],
       [
-       "Astronomers in 1800 had the same problem, only with planets.",
-       "1800'lerdeki astronomlar da aynı problemi yaşıyordu, sadece gezegenlerle."
+       "Around 1800, astronomers had the same problem, only with planets.",
+       "1800 civarında astronomlar da aynı problemi yaşıyordu, sadece gezegenlerle."
       ],
       [
        "They had many observations that did not agree exactly, and they wanted the single orbit that fitted them best.",
@@ -383,7 +383,7 @@
     },
     {
      "t": "formul",
-     "m": "S = Σ (yᵢ − f(xᵢ))²  >  minimum"
+     "m": "minimise  S = Σ (yᵢ − f(xᵢ))²"
     },
     {
      "t": "h",
@@ -411,7 +411,7 @@
     },
     {
      "t": "formul",
-     "m": "S′(c) = −2 · Σ (xᵢ − c) = 0   >   c = (x₁ + x₂ + … + xₙ) / n"
+     "m": "S′(c) = −2 · Σ (xᵢ − c) = 0   ⟹   c = (x₁ + x₂ + … + xₙ) / n"
     },
     {
      "t": "p",
@@ -931,8 +931,8 @@
        "Ölümünden sonra defterleri, bazı önemli fikirleri başkaları yayımlamadan yıllar önce bulduğunu gösterdi."
       ],
       [
-       "His face and the bell curve once appeared together on the German 10 Mark banknote.",
-       "Yüzü ve çan eğrisi bir zamanlar Alman 10 Mark banknotunda birlikte yer aldı."
+       "His face and the bell curve once appeared together on the German 10-Deutsche-Mark banknote.",
+       "Yüzü ve çan eğrisi bir zamanlar 10 Alman Markı'lık banknotta birlikte yer aldı."
       ]
      ]
     },
@@ -962,8 +962,8 @@
      "t": "terimler",
      "items": [
       [
-       "compass and straightedge",
-       "pergel ve cetvel"
+       "constructible polygon",
+       "çizilebilir çokgen"
       ],
       [
        "number theory",
@@ -982,8 +982,8 @@
        "eğrilik"
       ],
       [
-       "motto",
-       "düstur, slogan"
+       "ripe",
+       "olgun"
       ]
      ]
     }
@@ -1049,8 +1049,12 @@
        "Gerd Faltings bunu 1983'te ispatladı ve sonra Fields Madalyası kazandı."
       ],
       [
-       "The \"uniform\" versions ask for more: an upper bound on the number of points that does not depend on each curve separately, but mainly on simple data such as its genus.",
-       "\"Tek biçimli\" versiyonlar daha fazlasını istiyor: Nokta sayısı için her eğriye ayrı ayrı değil, esas olarak cinsi gibi basit verilere bağlı bir üst sınır."
+       "The \"uniform\" versions ask for more: an upper bound on the number of points.",
+       "\"Tek biçimli\" versiyonlar daha fazlasını istiyor: Nokta sayısı için bir üst sınır."
+      ],
+      [
+       "This bound should not depend on each curve separately, but mainly on simple data such as its genus.",
+       "Bu sınır her eğriye ayrı ayrı değil, esas olarak cinsi gibi basit verilere bağlı olmalı."
       ]
      ]
     },
@@ -1098,8 +1102,12 @@
        "Izgara çok incelince bu sınırlar fraktal eğrilere benzer ve SLE onların tam yasalarını verir."
       ],
       [
-       "In 2001, Werner, Gregory Lawler and Oded Schramm used these ideas to prove that the outer border of a random path in the plane, called Brownian motion, has **fractal dimension** 4/3, as Benoit Mandelbrot had predicted.",
-       "2001'de Werner, Gregory Lawler ve Oded Schramm bu fikirleri kullanarak düzlemde Brown hareketi denen rastgele bir yolun dış sınırının **fraktal boyutunun** Benoit Mandelbrot'un tahmin ettiği gibi 4/3 olduğunu ispatladı."
+       "In 2001, Werner, Gregory Lawler and Oded Schramm used these ideas to study a random path in the plane called Brownian motion.",
+       "2001'de Werner, Gregory Lawler ve Oded Schramm bu fikirleri kullanarak düzlemde Brown hareketi denen rastgele bir yolu incelediler."
+      ],
+      [
+       "They proved that its outer border has **fractal dimension** 4/3, as Benoit Mandelbrot had predicted.",
+       "Bu yolun dış sınırının **fraktal boyutunun**, Benoit Mandelbrot'un tahmin ettiği gibi 4/3 olduğunu ispatladılar."
       ]
      ]
     },
@@ -1112,16 +1120,24 @@
      ],
      "s": [
       [
-       "A simple **random walk** is easy to play in class: flip a coin, step right for heads and left for tails.",
-       "Basit bir **rastgele yürüyüş** sınıfta kolayca oynanabilir: Yazı tura at, yazı gelirse sağa, tura gelirse sola bir adım at."
+       "You can build a random cluster in class with **percolation**.",
+       "Sınıfta **perkolasyon** ile rastgele bir küme kurabilirsiniz."
       ],
       [
-       "After 100 flips, how far from the start are you on average?",
-       "100 atıştan sonra başlangıçtan ortalama ne kadar uzaktasın?"
+       "Draw a 10 × 10 grid and toss a coin for every square: colour it blue for heads and leave it white for tails.",
+       "10 × 10'luk bir ızgara çizin ve her kare için yazı tura atın: Yazı gelirse kareyi maviye boyayın, tura gelirse beyaz bırakın."
       ],
       [
-       "The typical distance grows like √n, so after 100 steps it is about 10 steps, not 50.",
-       "Tipik uzaklık √n gibi büyür, yani 100 adımdan sonra 50 değil, yaklaşık 10 adım."
+       "Is there a path of blue squares, joined by their sides, from the top row to the bottom row?",
+       "Kenarlarıyla birleşen mavi karelerden üst sıradan alt sıraya giden bir yol var mı?"
+      ],
+      [
+       "Compare the grids of the whole class and estimate the probability of such a path.",
+       "Bütün sınıfın ızgaralarını karşılaştırın ve böyle bir yolun olasılığını tahmin edin."
+      ],
+      [
+       "The border of a blue cluster is exactly the kind of random curve that SLE describes.",
+       "Mavi bir kümenin sınırı, tam da SLE'nin tanımladığı türden rastgele bir eğridir."
       ]
      ]
     },
@@ -1129,24 +1145,24 @@
      "t": "terimler",
      "items": [
       [
-       "arithmetic geometry",
-       "aritmetik geometri"
+       "upper bound",
+       "üst sınır"
       ],
       [
-       "rational point",
-       "rasyonel nokta"
+       "uniform",
+       "tek biçimli"
       ],
       [
-       "genus",
-       "cins"
+       "porous",
+       "gözenekli"
       ],
       [
-       "random walk",
-       "rastgele yürüyüş"
+       "percolation",
+       "perkolasyon, süzülme"
       ],
       [
-       "fractal dimension",
-       "fraktal boyut"
+       "random curve",
+       "rastgele eğri"
       ]
      ]
     }
@@ -1167,16 +1183,16 @@
        "Kısmen efsane olabilecek ünlü bir hikâyeye göre bir öğretmen bir gün sınıfta sessiz bir saat geçirmek istemiş."
       ],
       [
-       "He asked the pupils to add up all the whole numbers from 1 to 100.",
-       "Öğrencilerden 1'den 100'e kadar bütün tam sayıları toplamalarını istemiş."
+       "He asked the pupils to add up all the whole numbers from 1 to 100, but young Gauss had the answer in a few moments.",
+       "Öğrencilerden 1'den 100'e kadar bütün tam sayıları toplamalarını istemiş, ama küçük Gauss cevabı birkaç dakikada bulmuş."
       ],
       [
-       "A few moments later, young Gauss put his slate on the desk with the correct answer.",
-       "Birkaç dakika sonra küçük Gauss, doğru cevabın yazılı olduğu yazı tahtasını masaya koymuş."
+       "As we saw in our May issue, he paired 1 with 100, 2 with 99 and so on, and every pair gave 101.",
+       "Mayıs sayımızda gördüğümüz gibi 1'i 100'le, 2'yi 99'la eşleştirmiş ve her çift 101 etmiş."
       ],
       [
-       "This month's strategy is his trick: **pair things up** so that every pair looks the same.",
-       "Bu ayın stratejisi onun hilesi: **Şeyleri eşleştir**, öyle ki her çift aynı görünsün."
+       "This month we turn his trick into a strategy: **pair things up** so that every pair looks the same.",
+       "Bu ay onun hilesini bir stratejiye dönüştürüyoruz: **Şeyleri eşleştir**, öyle ki her çift aynı görünsün."
       ]
      ]
     },
@@ -1184,13 +1200,17 @@
      "t": "kutu",
      "stil": "soru",
      "baslik": [
-      "The problem",
-      "Problem"
+      "The problem: a thousand numbers",
+      "Problem: Bin sayı"
      ],
      "s": [
       [
-       "What is 1 + 2 + 3 + … + 99 + 100?",
-       "1 + 2 + 3 + … + 99 + 100 kaçtır?"
+       "Write down all the whole numbers from 0 to 999.",
+       "0'dan 999'a kadar bütün tam sayıları yaz."
+      ],
+      [
+       "What is the sum of all the **digits** you wrote?",
+       "Yazdığın bütün **rakamların** toplamı kaçtır?"
       ]
      ]
     },
@@ -1205,20 +1225,24 @@
      "t": "liste",
      "s": [
       [
-       "Pair the first number with the last one: 1 + 100 = 101.",
-       "İlk sayıyı sonuncuyla eşleştir: 1 + 100 = 101."
+       "Adding about 2,900 digits one by one would take hours, so we pair the numbers instead.",
+       "Yaklaşık 2.900 rakamı tek tek toplamak saatler sürer, bu yüzden onun yerine sayıları eşleştiriyoruz."
       ],
       [
-       "Pair the second with the second-to-last: 2 + 99 = 101.",
-       "İkinciyi sondan ikinciyle eşleştir: 2 + 99 = 101."
+       "Pair each number n with 999 − n: 0 with 999, 1 with 998, 123 with 876, and so on.",
+       "Her n sayısını 999 − n ile eşleştir: 0'ı 999'la, 1'i 998'le, 123'ü 876'yla ve bu şekilde devam et."
       ],
       [
-       "Every pair gives the same sum, all the way to 50 + 51 = 101.",
-       "Her çift aynı toplamı verir, 50 + 51 = 101'e kadar."
+       "In every pair, the digits in each place add up to 9, because subtracting from 999 never needs borrowing.",
+       "Her çiftte her basamaktaki rakamların toplamı 9'dur, çünkü 999'dan çıkarma yaparken hiç onluk bozmak gerekmez."
       ],
       [
-       "There are 50 pairs, so the total is 50 × 101 = 5050.",
-       "50 çift var, yani toplam 50 × 101 = 5050."
+       "So the digits of each pair add up to 9 + 9 + 9 = 27.",
+       "Yani her çiftin rakamları toplamı 9 + 9 + 9 = 27 eder."
+      ],
+      [
+       "There are 1000 numbers, so there are 500 pairs, and the total is 500 × 27 = 13,500.",
+       "1000 sayı var, yani 500 çift var ve toplam 500 × 27 = 13.500."
       ]
      ]
     },
@@ -1226,16 +1250,12 @@
      "t": "p",
      "s": [
       [
-       "The same idea works for any n.",
-       "Aynı fikir her n için işe yarar."
+       "The same idea gives Gauss's formula for any n.",
+       "Aynı fikir her n için Gauss'un formülünü verir."
       ],
       [
-       "Write the sum forwards and backwards, then add the two lines term by term.",
-       "Toplamı bir düz, bir ters yaz ve iki satırı terim terim topla."
-      ],
-      [
-       "Each column gives n + 1, and there are n columns, so twice the sum is n(n + 1).",
-       "Her sütun n + 1 verir ve n sütun var, yani toplamın iki katı n(n + 1) olur."
+       "The first and the last term, the second and the second-to-last term, and so on, always have the same sum n + 1.",
+       "İlk ve son terim, ikinci ve sondan ikinci terim ve diğerleri her zaman aynı n + 1 toplamını verir."
       ]
      ]
     },
@@ -1277,8 +1297,8 @@
        "Parçaları her grup aynı olacak şekilde gruplayabiliyorsan uzun bir toplam tek bir çarpmaya dönüşür."
       ],
       [
-       "The same idea shows up in probability, in geometry and even in Gauss's work on finding orbits.",
-       "Aynı fikir olasılıkta, geometride, hatta Gauss'un yörünge bulma çalışmalarında bile karşına çıkar."
+       "Pairing also works when you want to count things, not only when you want to add them, as the next problem shows.",
+       "Bir sonraki problemin gösterdiği gibi eşleştirme yalnızca toplarken değil, sayarken de işe yarar."
       ]
      ]
     },
@@ -1291,12 +1311,12 @@
      ],
      "s": [
       [
-       "Find the sum of all odd numbers from 1 to 99.",
-       "1'den 99'a kadar bütün tek sayıların toplamını bul."
+       "Show that 40 has an even number of **divisors** but 36 has an odd number.",
+       "40'ın çift sayıda, 36'nın ise tek sayıda **böleni** olduğunu göster."
       ],
       [
-       "Can you also see why the answer is a perfect square?",
-       "Cevabın neden bir tam kare olduğunu da görebiliyor musun?"
+       "Which whole numbers have an odd number of divisors?",
+       "Hangi tam sayıların tek sayıda böleni vardır?"
       ]
      ]
     },
@@ -1309,16 +1329,20 @@
      ],
      "s": [
       [
-       "There are 50 odd numbers, and pairs such as 1 + 99, 3 + 97 and 49 + 51 each give 100.",
-       "50 tek sayı var ve 1 + 99, 3 + 97, 49 + 51 gibi çiftlerin her biri 100 verir."
+       "Pair each divisor d of a number n with n/d.",
+       "n sayısının her d bölenini n/d ile eşleştir."
       ],
       [
-       "There are 25 pairs, so the sum is 25 × 100 = 2500.",
-       "25 çift var, yani toplam 25 × 100 = 2500."
+       "For 40, the pairs are 1 and 40, 2 and 20, 4 and 10, 5 and 8, so there are 8 divisors.",
+       "40 için çiftler 1 ile 40, 2 ile 20, 4 ile 10, 5 ile 8, yani 8 bölen var."
       ],
       [
-       "In general, the sum of the first n odd numbers is n², and here 50² = 2500.",
-       "Genel olarak ilk n tek sayının toplamı n²'dir ve burada 50² = 2500."
+       "For 36, we get 1 and 36, 2 and 18, 3 and 12, 4 and 9, but 6 is paired with itself, so there are 9 divisors.",
+       "36 için 1 ile 36, 2 ile 18, 3 ile 12, 4 ile 9 çiftleri çıkar, ama 6 kendisiyle eşleşir, yani 9 bölen var."
+      ],
+      [
+       "A divisor can be its own partner only when d · d = n, so exactly the **perfect squares** have an odd number of divisors.",
+       "Bir bölen ancak d · d = n olduğunda kendi eşi olabilir, yani tek sayıda böleni olanlar tam olarak **tam karelerdir**."
       ]
      ]
     },
@@ -1334,16 +1358,16 @@
        "aritmetik seri"
       ],
       [
-       "term",
-       "terim"
+       "partner",
+       "eş"
       ],
       [
-       "symmetry",
-       "simetri"
+       "borrowing (in subtraction)",
+       "onluk bozma"
       ],
       [
-       "perfect square",
-       "tam kare"
+       "number of terms",
+       "terim sayısı"
       ]
      ]
     }
@@ -1388,8 +1412,12 @@
        "**Ayçiçekleri**: Ayçiçeğinin tohumları iki spiral ailesi oluşturur ve spiral sayıları genellikle 34 ve 55 gibi ardışık Fibonacci sayılarıdır."
       ],
       [
-       "**Honeycombs**: bees build hexagons, and in 1999 Thomas Hales proved that a hexagonal grid divides a plane into equal areas with the least total wall length.",
-       "**Bal petekleri**: Arılar altıgen yapar ve 1999'da Thomas Hales altıgen ızgaranın düzlemi eşit alanlara en kısa toplam duvar uzunluğuyla böldüğünü ispatladı."
+       "**Rainbows**: a rainbow always appears about 42° away from the point directly opposite the Sun, an angle that René Descartes calculated in 1637.",
+       "**Gökkuşakları**: Gökkuşağı her zaman Güneş'in tam karşısındaki noktadan yaklaşık 42° uzakta görünür ve bu açıyı René Descartes 1637'de hesapladı."
+      ],
+      [
+       "So from the ground you can only see a rainbow when the Sun is lower than 42° in the sky, which in summer means the morning or the late afternoon.",
+       "Bu yüzden yerden gökkuşağını yalnızca Güneş gökyüzünde 42°'den alçaktayken görebilirsin, bu da yazın sabah ya da öğleden sonra geç saatler demektir."
       ],
       [
        "**Prime cicadas**: some cicadas in North America come out of the ground only every 13 or 17 years, and both numbers are **prime**.",
@@ -1417,12 +1445,12 @@
        "sarmal, spiral"
       ],
       [
-       "hexagon",
-       "altıgen"
+       "rainbow",
+       "gökkuşağı"
       ],
       [
-       "prime number",
-       "asal sayı"
+       "cicada",
+       "ağustosböceği"
       ]
      ]
     }
@@ -1768,16 +1796,16 @@
        "yerleşme oranı"
       ],
       [
-       "transfer",
-       "nakil"
+       "percentage",
+       "yüzde"
       ],
       [
        "occupancy rate",
        "doluluk oranı"
       ],
       [
-       "registration",
-       "kayıt"
+       "state university",
+       "devlet üniversitesi"
       ],
       [
        "mid-term break",
@@ -1846,9 +1874,9 @@
        "states how accurate a value is / değerin ne kadar doğru olduğunu söyler"
       ],
       [
-       "Writing … in reverse order",
-       "… ters sırada yazarak",
-       "a typical step in a proof / ispatta tipik bir adım"
+       "is never negative",
+       "hiçbir zaman negatif değildir",
+       "typical for squares / kareler için tipiktir"
       ],
       [
        "term by term",
@@ -1861,29 +1889,29 @@
      "t": "kutu",
      "stil": "soru",
      "baslik": [
-      "Mini reading: Gauss's sum as a proof",
-      "Mini okuma: İspat olarak Gauss toplamı"
+      "Mini reading: why the mean is the best fit",
+      "Mini okuma: Ortalama neden en iyi uyumdur?"
      ],
      "s": [
       [
-       "Theorem: For every positive integer n, 1 + 2 + … + n = n(n + 1)/2.",
-       "Teorem: Her pozitif n tam sayısı için 1 + 2 + … + n = n(n + 1)/2."
+       "Theorem: Let x̄ be the mean of x₁, …, xₙ. Then for every number c, Σ (xᵢ − c)² ≥ Σ (xᵢ − x̄)².",
+       "Teorem: x̄, x₁, …, xₙ sayılarının ortalaması olsun. O zaman her c sayısı için Σ (xᵢ − c)² ≥ Σ (xᵢ − x̄)²."
       ],
       [
-       "Proof: Let S = 1 + 2 + … + n.",
-       "İspat: S = 1 + 2 + … + n olsun."
+       "Proof: Write xᵢ − c = (xᵢ − x̄) + (x̄ − c), square both sides and add term by term.",
+       "İspat: xᵢ − c = (xᵢ − x̄) + (x̄ − c) yaz, iki tarafın karesini al ve terim terim topla."
       ],
       [
-       "Writing the same sum in reverse order, we have S = n + (n − 1) + … + 1.",
-       "Aynı toplamı ters sırada yazarak S = n + (n − 1) + … + 1 elde ederiz."
+       "The middle sum is 2(x̄ − c) · Σ (xᵢ − x̄), which equals zero, because the residuals from the mean add up to zero.",
+       "Ortadaki toplam 2(x̄ − c) · Σ (xᵢ − x̄) olur ve bu sıfıra eşittir, çünkü ortalamaya göre artıkların toplamı sıfırdır."
       ],
       [
-       "Adding the two equations term by term, we see that each of the n columns equals n + 1.",
-       "İki eşitliği terim terim topladığımızda n sütunun her birinin n + 1'e eşit olduğunu görürüz."
+       "Hence Σ (xᵢ − c)² = Σ (xᵢ − x̄)² + n(x̄ − c)².",
+       "Dolayısıyla Σ (xᵢ − c)² = Σ (xᵢ − x̄)² + n(x̄ − c)²."
       ],
       [
-       "Hence 2S = n(n + 1), and therefore S = n(n + 1)/2. ∎",
-       "Dolayısıyla 2S = n(n + 1) ve bu yüzden S = n(n + 1)/2. ∎"
+       "The last term is never negative, and it is zero only when c = x̄. ∎",
+       "Son terim hiçbir zaman negatif değildir ve yalnızca c = x̄ olduğunda sıfırdır. ∎"
       ]
      ]
     },
@@ -1900,8 +1928,8 @@
        "\"≈\" ile \"=\" arasındaki farka dikkat et."
       ],
       [
-       "The proof above gives an exact result, but the orbit of Ceres in the Science Corner is only approximate.",
-       "Yukarıdaki ispat kesin bir sonuç veriyor, ama Bilim Köşesi'ndeki Ceres yörüngesi yalnızca yaklaşık."
+       "The proof above gives an exact result without any derivatives, but the orbit of Ceres in the Science Corner is only approximate.",
+       "Yukarıdaki ispat hiç türev kullanmadan kesin bir sonuç veriyor, ama Bilim Köşesi'ndeki Ceres yörüngesi yalnızca yaklaşık."
       ],
       [
        "Good mathematical writing always tells the reader which one it means.",
@@ -1913,8 +1941,8 @@
      "t": "terimler",
      "items": [
       [
-       "estimate",
-       "tahmin, kestirim"
+       "to minimise",
+       "en küçük yapmak"
       ],
       [
        "approximation",
@@ -1942,25 +1970,25 @@
    "soru": "What did OpenAI announce about its Astra model on 1 August 2026?",
    "soru_tr": "OpenAI 1 Ağustos 2026'da Astra modeli hakkında ne duyurdu?",
    "secenekler": [
-    "It won the Fields Medal",
     "It produced new results on 10 long-open problems",
+    "It won the Fields Medal",
     "It solved every Erdős problem",
     "It replaced peer review"
    ],
-   "dogru": 1,
-   "aciklama": "Astra produced new results on 10 problems that had been open for at least a decade, and the proofs came with Lean certificates.",
-   "aciklama_tr": "Astra en az on yıldır açık olan 10 problemde yeni sonuçlar üretti ve ispatlar Lean sertifikalarıyla birlikte geldi."
+   "dogru": 0,
+   "aciklama": "OpenAI said that Astra produced new results on 10 problems that had been open for at least a decade, and the proofs came with Lean certificates.",
+   "aciklama_tr": "OpenAI, Astra'nın en az on yıldır açık olan 10 problemde yeni sonuçlar ürettiğini söyledi ve ispatlar Lean sertifikalarıyla birlikte geldi."
   },
   {
    "soru": "Who first spotted Ceres on 1 January 1801?",
    "soru_tr": "Ceres'i 1 Ocak 1801'de ilk kim gördü?",
    "secenekler": [
     "Gauss",
-    "Kepler",
     "Giuseppe Piazzi",
+    "Kepler",
     "Franz Xaver von Zach"
    ],
-   "dogru": 2,
+   "dogru": 1,
    "aciklama": "Piazzi discovered it in Palermo, Gauss calculated its orbit, and von Zach found it again on 31 December 1801.",
    "aciklama_tr": "Piazzi onu Palermo'da keşfetti, Gauss yörüngesini hesapladı, von Zach ise 31 Aralık 1801'de yeniden buldu."
   },
@@ -1970,36 +1998,36 @@
    "secenekler": [
     "The median",
     "The largest value",
-    "The arithmetic mean",
-    "Zero"
+    "Zero",
+    "The arithmetic mean"
    ],
-   "dogru": 2,
+   "dogru": 3,
    "aciklama": "Setting the derivative −2 · Σ (xᵢ − c) equal to zero gives c = the arithmetic mean.",
    "aciklama_tr": "−2 · Σ (xᵢ − c) türevini sıfıra eşitlemek c = aritmetik ortalama sonucunu verir."
   },
   {
-   "soru": "What is 1 + 2 + 3 + … + 100?",
-   "soru_tr": "1 + 2 + 3 + … + 100 kaçtır?",
+   "soru": "Which of these numbers has an odd number of divisors?",
+   "soru_tr": "Bu sayılardan hangisinin tek sayıda böleni vardır?",
    "secenekler": [
-    "5000",
-    "5050",
-    "5100",
-    "10100"
+    "40",
+    "30",
+    "36",
+    "50"
    ],
-   "dogru": 1,
-   "aciklama": "There are 50 pairs that each add up to 101, and 50 × 101 = 5050.",
-   "aciklama_tr": "Her biri 101 eden 50 çift var ve 50 × 101 = 5050."
+   "dogru": 2,
+   "aciklama": "Divisors come in pairs d and n/d, and only a perfect square like 36 = 6 × 6 has a divisor that is paired with itself.",
+   "aciklama_tr": "Bölenler d ve n/d çiftleri hâlinde gelir ve yalnızca 36 = 6 × 6 gibi bir tam karenin kendisiyle eşleşen bir böleni vardır."
   },
   {
    "soru": "Why do the Perseids appear every August?",
    "soru_tr": "Perseidler neden her ağustos görülür?",
    "secenekler": [
-    "The Moon is closest to the Earth",
     "The Earth crosses a comet's dust stream at the same point of its orbit",
+    "The Moon is closest to the Earth",
     "Jupiter pulls meteors towards us",
     "The Sun is most active in summer"
    ],
-   "dogru": 1,
+   "dogru": 0,
    "aciklama": "The Earth meets the dust of comet 109P/Swift–Tuttle at the same place in its orbit every year.",
    "aciklama_tr": "Dünya, 109P/Swift–Tuttle kuyrukluyıldızının tozuyla her yıl yörüngesinin aynı yerinde karşılaşır."
   },
@@ -2007,12 +2035,12 @@
    "soru": "Which prize did Wendelin Werner receive in August 2026?",
    "soru_tr": "Wendelin Werner Ağustos 2026'da hangi ödülü aldı?",
    "secenekler": [
-    "The Royal Society's Sylvester Medal",
     "The Future Science Prize",
+    "The Royal Society's Sylvester Medal",
     "The Abel Prize",
     "The Nobel Prize in Physics"
    ],
-   "dogru": 0,
+   "dogru": 1,
    "aciklama": "The Royal Society announced on 27 August 2026 that Werner received the Sylvester Medal for his work on the Schramm–Loewner evolution.",
    "aciklama_tr": "Royal Society 27 Ağustos 2026'da Werner'in Schramm–Loewner evrimi üzerine çalışmaları için Sylvester Madalyası'nı aldığını açıkladı."
   }
@@ -2020,10 +2048,10 @@
  "bulmacalar": [
   {
    "tip": "anagram",
-   "karisik": "TIRBO",
-   "cevap": "ORBIT",
-   "ipucu": "The path of a planet around the Sun.",
-   "ipucu_tr": "Bir gezegenin Güneş etrafındaki yolu."
+   "karisik": "TOMEC",
+   "cevap": "COMET",
+   "ipucu": "109P/Swift–Tuttle is one, and its dust gives us the Perseids.",
+   "ipucu_tr": "109P/Swift–Tuttle bunlardan biridir ve tozu bize Perseidleri getirir."
   },
   {
    "tip": "anagram",
@@ -2075,12 +2103,12 @@
   },
   {
    "tip": "mantik",
-   "baslik": "Odd against even",
-   "baslik_tr": "Teke karşı çift",
-   "soru": "Which is bigger: the sum of all even numbers from 2 to 100, or the sum of all odd numbers from 1 to 99? By how much?",
-   "soru_tr": "Hangisi daha büyük: 2'den 100'e kadar bütün çift sayıların toplamı mı, yoksa 1'den 99'a kadar bütün tek sayıların toplamı mı? Ne kadar fazla?",
-   "cevap": "Pair each odd number with the even number after it: 1 and 2, 3 and 4, up to 99 and 100. There are 50 pairs, and in each pair the even number is bigger by 1. So the even sum is bigger by 50. Indeed, 2550 − 2500 = 50.",
-   "cevap_tr": "Her tek sayıyı kendisinden sonra gelen çift sayıyla eşleştir: 1 ile 2, 3 ile 4, 99 ile 100'e kadar. 50 çift var ve her çiftte çift sayı 1 fazla. Yani çift sayıların toplamı 50 fazla. Gerçekten de 2550 − 2500 = 50."
+   "baslik": "The knockout tournament",
+   "baslik_tr": "Eleme turnuvası",
+   "soru": "100 players enter a knockout table tennis tournament. In each match one player is knocked out, and when a round has an odd number of players, one of them goes to the next round without playing. How many matches are played in total?",
+   "soru_tr": "Bir masa tenisi eleme turnuvasına 100 oyuncu katılıyor. Her maçta bir oyuncu eleniyor ve bir turda tek sayıda oyuncu varsa biri oynamadan bir sonraki tura geçiyor. Toplam kaç maç oynanır?",
+   "cevap": "99 matches. Do not follow the rounds. Instead, pair every match with the player who loses it. Each match has exactly one loser, and every player except the champion loses exactly once. So there are as many matches as losers: 100 − 1 = 99.",
+   "cevap_tr": "99 maç. Turları takip etme. Onun yerine her maçı, o maçı kaybeden oyuncuyla eşleştir. Her maçın tam bir kaybedeni var ve şampiyon dışındaki her oyuncu tam bir kez kaybediyor. Yani maç sayısı kaybeden sayısına eşit: 100 − 1 = 99."
   },
   {
    "tip": "mantik",
@@ -2094,16 +2122,16 @@
  ],
  "terimler": [
   [
-   "open problem",
-   "açık problem"
+   "internal model",
+   "şirket içi model"
   ],
   [
    "peer review",
    "hakem değerlendirmesi"
   ],
   [
-   "formal verification",
-   "biçimsel doğrulama"
+   "certificate",
+   "sertifika"
   ],
   [
    "total solar eclipse",
@@ -2166,8 +2194,8 @@
    "meteor yağmuru"
   ],
   [
-   "compass and straightedge",
-   "pergel ve cetvel"
+   "constructible polygon",
+   "çizilebilir çokgen"
   ],
   [
    "number theory",
@@ -2186,28 +2214,28 @@
    "eğrilik"
   ],
   [
-   "motto",
-   "düstur, slogan"
+   "ripe",
+   "olgun"
   ],
   [
-   "arithmetic geometry",
-   "aritmetik geometri"
+   "upper bound",
+   "üst sınır"
   ],
   [
-   "rational point",
-   "rasyonel nokta"
+   "uniform",
+   "tek biçimli"
   ],
   [
-   "genus",
-   "cins"
+   "porous",
+   "gözenekli"
   ],
   [
-   "random walk",
-   "rastgele yürüyüş"
+   "percolation",
+   "perkolasyon, süzülme"
   ],
   [
-   "fractal dimension",
-   "fraktal boyut"
+   "random curve",
+   "rastgele eğri"
   ],
   [
    "to pair up",
@@ -2218,16 +2246,16 @@
    "aritmetik seri"
   ],
   [
-   "term",
-   "terim"
+   "partner",
+   "eş"
   ],
   [
-   "symmetry",
-   "simetri"
+   "borrowing (in subtraction)",
+   "onluk bozma"
   ],
   [
-   "perfect square",
-   "tam kare"
+   "number of terms",
+   "terim sayısı"
   ],
   [
    "myth",
@@ -2242,12 +2270,12 @@
    "sarmal, spiral"
   ],
   [
-   "hexagon",
-   "altıgen"
+   "rainbow",
+   "gökkuşağı"
   ],
   [
-   "prime number",
-   "asal sayı"
+   "cicada",
+   "ağustosböceği"
   ],
   [
    "scale model",
@@ -2274,24 +2302,24 @@
    "yerleşme oranı"
   ],
   [
-   "transfer",
-   "nakil"
+   "percentage",
+   "yüzde"
   ],
   [
    "occupancy rate",
    "doluluk oranı"
   ],
   [
-   "registration",
-   "kayıt"
+   "state university",
+   "devlet üniversitesi"
   ],
   [
    "mid-term break",
    "ara tatil"
   ],
   [
-   "estimate",
-   "tahmin, kestirim"
+   "to minimise",
+   "en küçük yapmak"
   ],
   [
    "approximation",

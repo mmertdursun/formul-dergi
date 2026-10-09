@@ -1,0 +1,31 @@
+# Formül hikâye Worker'ı için yapılandırma (ücretsiz plan)
+# Kullanım: npx wrangler deploy
+# Gizli değerler: npx wrangler secret put GEMINI_API_KEY / APP_TOKEN / IP_TUZU
+name = "formul-hikaye"
+main = "hikaye-worker.js"
+compatibility_date = "2025-09-01"
+
+[vars]
+GUNLUK_IP_LIMIT = "20"
+GUNLUK_TOPLAM = "1000"
+
+# IP başına dakikada 3 istek. period yalnızca 10 veya 60 olabilir.
+# namespace_id hesabınızda benzersiz herhangi bir tam sayı.
+[[ratelimits]]
+name = "DAKIKA_LIMIT"
+namespace_id = "2026"
+  [ratelimits.simple]
+  limit = 3
+  period = 60
+
+# Kesin günlük sayaç: SQLite tabanlı Durable Object (ücretsiz planda kullanılabilir)
+[[durable_objects.bindings]]
+name = "SAYAC"
+class_name = "GunlukSayac"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["GunlukSayac"]
+
+[observability]
+enabled = true
