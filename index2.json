@@ -100,6 +100,16 @@
       "acilis": "2026-10-01",
       "dosya": "2026-10-ekim.json",
       "renk": "#2E5E4E"
+    },
+    {
+      "no": 11,
+      "ad": "The Vibrating String",
+      "ad_tr": "Titreşen Tel",
+      "donem": "Kasım 2026",
+      "tema": "Dalgalar ve titreşimler",
+      "acilis": "2026-11-01",
+      "dosya": "2026-11-kasim.json",
+      "renk": "#7A3E6E"
     }
   ]
 }
