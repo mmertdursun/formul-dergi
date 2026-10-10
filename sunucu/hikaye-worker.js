@@ -16,7 +16,7 @@
 //   SAYAC         Durable Object (SQLite) ile kesin günlük sayaç
 // Bağlamalar yoksa Worker yine çalışır, günlük sayaç bellek içi (yaklaşık) olur.
 
-const MODELLER = ["gemini-2.5-flash", "gemini-2.0-flash"];
+const MODELLER = ["gemini-2.5-flash", "gemini-flash-latest", "gemini-2.5-flash-lite"];
 const MAKS_GOVDE = 4096;            // bayt
 const MAKS_KELIME = 15;
 const MAKS_KELIME_UZUNLUK = 40;
@@ -111,7 +111,7 @@ export default {
     }
     if (enIyi) return cevap(enIyi);
     console.log("gemini hatası", sonHata.slice(0, 200)); // ayrıntı yalnızca Worker loguna
-    return cevap({ hata: "Hikâye yazılamadı" }, 502);
+    return cevap({ hata: "Hikâye yazılamadı", ayrinti: sonHata.slice(0, 160) }, 502);
   },
 };
 
