@@ -1,0 +1,2343 @@
+{
+ "format": 2,
+ "no": 11,
+ "ad": "The Vibrating String",
+ "ad_tr": "Titreşen Tel",
+ "donem": "Kasım 2026",
+ "donem_en": "November 2026",
+ "tema": "Dalgalar ve titreşimler",
+ "tema_en": "Waves and vibrations",
+ "kapak": {
+  "renkler": [
+   "#7A3E6E",
+   "#512848"
+  ],
+  "desen": 1
+ },
+ "bolumler": [
+  {
+   "id": "editor",
+   "ikon": "edit_note",
+   "renk": "#6C63FF",
+   "baslik": "Editor's Note",
+   "baslik_tr": "Editörden",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "Hello, and welcome to our November issue.",
+       "Merhaba, kasım sayımıza hoş geldin."
+      ],
+      [
+       "November is a month of remembrance and gratitude for all of us.",
+       "Kasım hepimiz için bir anma ve minnet ayı."
+      ],
+      [
+       "On 10 November, we remember Mustafa Kemal Atatürk with respect and longing, 88 years after his death.",
+       "10 Kasım'da, aramızdan ayrılışının 88. yılında Mustafa Kemal Atatürk'ü saygı ve özlemle anıyoruz."
+      ],
+      [
+       "On 24 November, we celebrate Teachers' Day, so happy Teachers' Day to every teacher who reads these pages!",
+       "24 Kasım'da Öğretmenler Günü'nü kutluyoruz, bu sayfaları okuyan bütün öğretmenlerimizin Öğretmenler Günü kutlu olsun!"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The theme of this month is **waves**.",
+       "Bu ayın teması **dalgalar**."
+      ],
+      [
+       "A guitar string, the shaking ground in an earthquake and a flash of blue light all follow the same kind of mathematics.",
+       "Bir gitar teli, depremde sarsılan zemin ve mavi bir ışık çakması aynı türden bir matematiğe uyar."
+      ],
+      [
+       "Our mathematician of the month, Jean le Rond d'Alembert, was born in Paris in November 1717.",
+       "Ayın matematikçisi Jean le Rond d'Alembert, Kasım 1717'de Paris'te doğdu."
+      ],
+      [
+       "He was found as a baby on the steps of a church, and he grew up to write down the first **wave equation** in 1747.",
+       "Bebekken bir kilisenin basamaklarında bulundu ve büyüyünce 1747'de ilk **dalga denklemini** yazdı."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "In the news, a 55-year-old puzzle linked to juggling has been solved, and mathematicians are still discussing what AI means for their work.",
+       "Haberlerde, jonglörlükle bağlantılı 55 yıllık bir bulmaca çözüldü ve matematikçiler yapay zekânın kendi işleri için ne anlama geldiğini hâlâ tartışıyor."
+      ],
+      [
+       "There is also a short break in the middle of the month, from 16 to 20 November.",
+       "Ayın ortasında, 16-20 Kasım arasında kısa bir ara tatil de var."
+      ],
+      [
+       "Enjoy your break!",
+       "İyi molalar!"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "haber",
+   "ikon": "newspaper",
+   "renk": "#2E86DE",
+   "baslik": "News from the World of Maths",
+   "baslik_tr": "Matematik Dünyasından Haberler",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "A juggler's puzzle is solved after 55 years",
+      "Bir jonglörün bulmacası 55 yıl sonra çözüldü"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "In 1971, the American mathematician **Ronald Graham** asked a simple-looking question.",
+       "1971'de Amerikalı matematikçi **Ronald Graham** basit görünen bir soru sordu."
+      ],
+      [
+       "Take some different non-zero numbers on a \"clock\" with p hours, where p is a **prime number**.",
+       "p bir **asal sayı** olmak üzere, p saatlik bir \"saat\" üzerinde sıfırdan ve birbirinden farklı birkaç sayı al."
+      ],
+      [
+       "Can you always put them in an order so that all the **running totals** land on different hours?",
+       "Bu sayıları her zaman, bütün **ara toplamlar** farklı saatlere denk gelecek şekilde sıralayabilir misin?"
+      ],
+      [
+       "Graham was also a serious juggler, and some mathematicians think that juggling inspired the question.",
+       "Graham aynı zamanda ciddi bir jonglördü ve bazı matematikçiler sorunun jonglörlükten esinlendiğini düşünüyor."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "On 28 September 2026, Quanta Magazine told the story of how the question was finally answered.",
+       "28 Eylül 2026'da Quanta Magazine sorunun sonunda nasıl cevaplandığını anlattı."
+      ],
+      [
+       "The proof is spread over four papers by several teams, and the last piece came from **Lisa Sauermann** and **Huy Tuan Pham** in February 2026.",
+       "İspat birkaç ekibin yazdığı dört makaleye yayılmış durumda ve son parça Şubat 2026'da **Lisa Sauermann** ile **Huy Tuan Pham**'dan geldi."
+      ],
+      [
+       "Their main tool was **randomness**: put the numbers in a random order, then repair the few places where something goes wrong.",
+       "Temel araçları **rastgelelikti**: Sayıları rastgele bir sıraya koy, sonra bir şeylerin ters gittiği birkaç yeri onar."
+      ],
+      [
+       "The proof works for every prime that is large enough, so strictly speaking, some smaller primes still have to be checked.",
+       "İspat yeterince büyük her asal için geçerli, yani kesin konuşmak gerekirse bazı küçük asalların hâlâ kontrol edilmesi gerekiyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "arXiv sets a monthly limit",
+      "arXiv'e aylık sınır"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "**arXiv** is a free online archive where mathematicians and physicists share new papers before they appear in journals.",
+       "**arXiv**, matematikçilerin ve fizikçilerin yeni makalelerini dergilerde çıkmadan önce paylaştığı ücretsiz bir çevrimiçi arşiv."
+      ],
+      [
+       "Since 1 October 2026, each submitter may send at most two submissions per calendar month.",
+       "1 Ekim 2026'dan bu yana her gönderen kişi bir takvim ayında en fazla iki gönderim yapabiliyor."
+      ],
+      [
+       "According to arXiv, September 2026 brought a record 40,363 submissions and almost 9,000 requests for help.",
+       "arXiv'e göre Eylül 2026'da rekor düzeyde 40.363 gönderim yapıldı ve neredeyse 9.000 destek talebi geldi."
+      ],
+      [
+       "It named very thin papers, single works split into many small papers and dense AI-written papers as problems for its volunteer **moderators**.",
+       "Arşiv çok zayıf makaleleri, birçok küçük makaleye bölünmüş tek bir çalışmayı ve yoğun, yapay zekâyla yazılmış makaleleri gönüllü **moderatörleri** için birer sorun olarak gösterdi."
+      ],
+      [
+       "Co-authors are not affected, because the rule only counts the person who submits the paper.",
+       "Ortak yazarlar bundan etkilenmiyor, çünkü kural yalnızca makaleyi gönderen kişiyi sayıyor."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Mathematicians discuss the future",
+      "Matematikçiler geleceği tartışıyor"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "In our October issue, we reported that OpenAI had posted more than 700 AI-written manuscripts at once.",
+       "Ekim sayımızda OpenAI'ın, yapay zekânın yazdığı 700'ü aşkın makale taslağını tek seferde yayımladığını aktarmıştık."
+      ],
+      [
+       "On 7 October, the journal Nature reported that the release had divided mathematicians.",
+       "7 Ekim'de Nature dergisi bu paylaşımın matematikçileri ikiye böldüğünü yazdı."
+      ],
+      [
+       "Some celebrated new results on old problems.",
+       "Bazıları eski problemlerdeki yeni sonuçları kutladı."
+      ],
+      [
+       "Others complained that their own projects had been overtaken, or that they were being handed a messy first draft to clean up.",
+       "Diğerleri ise kendi projelerinin önünün kesildiğinden ya da temizlemeleri için önlerine dağınık bir ilk taslak bırakıldığından yakındı."
+      ],
+      [
+       "In an essay on Terence Tao's blog on 5 October, Jeremy Avigad of Carnegie Mellon University wrote that mathematics is above all a culture of careful reasoning and communication.",
+       "5 Ekim'de Terence Tao'nun blogunda yayımlanan bir yazıda Carnegie Mellon Üniversitesi'nden Jeremy Avigad, matematiğin her şeyden önce titiz bir akıl yürütme ve iletişim kültürü olduğunu yazdı."
+      ],
+      [
+       "He summed it up in one sentence: \"Whether or not AI can think, it can't think for us.\"",
+       "Bunu tek bir cümleyle özetledi: \"Yapay zekâ düşünebilse de düşünemese de bizim yerimize düşünemez.\""
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "For the classroom",
+      "Sınıf için"
+     ],
+     "s": [
+      [
+       "Try Graham's question with your class on a 7-hour clock, using the numbers 1, 3, 4 and 6.",
+       "Graham'ın sorusunu sınıfınızla 7 saatlik bir saat üzerinde, 1, 3, 4 ve 6 sayılarıyla deneyin."
+      ],
+      [
+       "Which numbers must never stand next to each other, and why?",
+       "Hangi sayılar asla yan yana gelmemeli ve neden?"
+      ],
+      [
+       "You will find the answer in the puzzle zone at the end of this issue.",
+       "Cevabı bu sayının sonundaki bulmaca bölümünde bulacaksınız."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "running total",
+       "ara toplam"
+      ],
+      [
+       "juggler",
+       "jonglör"
+      ],
+      [
+       "submitter",
+       "gönderen kişi"
+      ],
+      [
+       "calendar month",
+       "takvim ayı"
+      ],
+      [
+       "moderator",
+       "moderatör"
+      ],
+      [
+       "first draft",
+       "ilk taslak"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "makale",
+   "ikon": "article",
+   "renk": "#8E44AD",
+   "baslik": "Paper of the Month: The Equation of a Vibrating String",
+   "baslik_tr": "Ayın Makalesi: Titreşen Telin Denklemi",
+   "bloklar": [
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Source",
+      "Kaynak"
+     ],
+     "s": [
+      [
+       "J. le Rond d'Alembert, Recherches sur la courbe que forme une corde tenduë mise en vibration, Histoire de l'Académie Royale des Sciences et Belles-Lettres de Berlin, vol. 3 (for the year 1747), pp. 214–219.",
+       "J. le Rond d'Alembert, Gergin Bir Telin Titreşirken Aldığı Eğri Üzerine Araştırmalar, Histoire de l'Académie Royale des Sciences et Belles-Lettres de Berlin, 3. cilt (1747 yılı), s. 214-219."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "A very old question",
+      "Çok eski bir soru"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Pluck a guitar string and it sings.",
+       "Bir gitar telini çekip bırak, tel şarkı söylemeye başlar."
+      ],
+      [
+       "The Pythagoreans already knew that a string half as long gives a note one **octave** higher.",
+       "Pisagorcular, yarı uzunluktaki bir telin bir **oktav** daha ince bir nota verdiğini zaten biliyordu."
+      ],
+      [
+       "In 1636, Marin Mersenne described how the note depends on the length, the tension and the mass of the string.",
+       "1636'da Marin Mersenne notanın telin uzunluğuna, gerginliğine ve kütlesine nasıl bağlı olduğunu anlattı."
+      ],
+      [
+       "In 1713, the English mathematician Brook Taylor calculated the frequency of its simplest vibration.",
+       "1713'te İngiliz matematikçi Brook Taylor telin en basit titreşiminin frekansını hesapladı."
+      ],
+      [
+       "But nobody had an equation for the motion of the whole string.",
+       "Ama telin bütün hareketini anlatan bir denklem henüz kimsede yoktu."
+      ],
+      [
+       "In 1747, d'Alembert wrote one down and solved it, and his paper is the first place where the **wave equation** appears in print.",
+       "1747'de d'Alembert böyle bir denklem yazdı ve onu çözdü, **dalga denklemi** de ilk kez onun makalesinde basılı olarak yer aldı."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The equation",
+      "Denklem"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Let y(x, t) be the height of the string at position x and time t.",
+       "y(x, t), telin x konumunda ve t anındaki yüksekliği olsun."
+      ],
+      [
+       "d'Alembert's key idea was simple: a small piece of string accelerates more strongly where the string around it is more curved.",
+       "d'Alembert'in temel fikri basitti: Telin küçük bir parçası, çevresindeki tel ne kadar eğriyse o kadar güçlü ivmelenir."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "∂²y/∂t² = c² · ∂²y/∂x²"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The left side is the **acceleration** of a point of the string, and the right side measures how strongly the string bends at that point.",
+       "Sol taraf telin bir noktasının **ivmesi**, sağ taraf ise telin o noktada ne kadar büküldüğünün ölçüsüdür."
+      ],
+      [
+       "The symbol ∂ means that we let only one variable change and keep the other one fixed, and such a derivative is called a **partial derivative**.",
+       "∂ sembolü yalnızca bir değişkeni değiştirip diğerini sabit tuttuğumuz anlamına gelir ve böyle bir türeve **kısmi türev** denir."
+      ],
+      [
+       "The constant c depends on the tension T of the string and on its mass per metre μ.",
+       "c sabiti telin T gerilmesine ve metre başına düşen μ kütlesine bağlıdır."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "c = √(T / μ)"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "As we will see in a moment, c is the speed at which waves run along the string.",
+       "Birazdan göreceğimiz gibi c, dalgaların tel boyunca ilerleme hızıdır."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Two waves passing through each other",
+      "Birbirinin içinden geçen iki dalga"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "d'Alembert found that every solution has a surprisingly simple form.",
+       "d'Alembert her çözümün şaşırtıcı derecede basit bir biçimi olduğunu buldu."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "y(x, t) = f(x − ct) + g(x + ct)"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The graph of f(x − ct) is the graph of f sliding to the right with speed c, without changing its shape.",
+       "f(x − ct)'nin grafiği, f'nin grafiğinin şeklini değiştirmeden c hızıyla sağa kaymış hâlidir."
+      ],
+      [
+       "In the same way, g(x + ct) is a shape sliding to the left.",
+       "Aynı şekilde g(x + ct) de sola kayan bir şekildir."
+      ],
+      [
+       "So every motion of the string is the sum of two **travelling waves** that pass through each other.",
+       "Yani telin her hareketi, birbirinin içinden geçen iki **ilerleyen dalganın** toplamıdır."
+      ],
+      [
+       "Today this is known as **d'Alembert's solution** of the wave equation.",
+       "Bugün buna dalga denkleminin **d'Alembert çözümü** denir."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Why a guitar plays notes",
+      "Gitar neden nota çalar?"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "A guitar string is fixed at both ends, so the waves bounce back and forth between them.",
+       "Gitar teli iki ucundan sabitlenmiştir, bu yüzden dalgalar iki uç arasında gidip gelir."
+      ],
+      [
+       "Only special shapes survive, the **standing waves**, which fit a whole number of half-waves into the length L of the string.",
+       "Yalnızca telin L uzunluğuna tam sayıda yarım dalga sığdıran özel şekiller, yani **duran dalgalar** kalıcı olur."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "fₙ = n · c / (2L),   n = 1, 2, 3, …"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The lowest frequency f₁ gives the note that we hear, and the others, 2f₁, 3f₁ and so on, are its **overtones**.",
+       "En düşük frekans olan f₁ duyduğumuz notayı verir, diğerleri yani 2f₁, 3f₁ ve devamı ise onun **üst tonlarıdır**."
+      ],
+      [
+       "Their mixture is the reason why a guitar and a violin sound different even when they play the same note.",
+       "Bir gitarla bir kemanın aynı notayı çalarken bile farklı duyulmasının nedeni bu karışımdır."
+      ],
+      [
+       "For example, on a guitar with a string length of 65 cm, the A string vibrates at 110 Hz.",
+       "Örneğin tel uzunluğu 65 cm olan bir gitarda La teli 110 Hz'de titreşir."
+      ],
+      [
+       "So the waves on it travel at c = 2 × 0.65 m × 110 Hz = 143 m/s.",
+       "Demek ki bu tel üzerindeki dalgalar c = 2 × 0,65 m × 110 Hz = 143 m/s hızla ilerler."
+      ],
+      [
+       "If you press the string at the 12th fret, exactly in the middle, L is halved and you hear 220 Hz, the same note one octave higher.",
+       "Tam ortadaki 12. perdeye basarsan L yarıya iner ve 220 Hz duyarsın, yani aynı notanın bir oktav incesini."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "A famous quarrel",
+      "Ünlü bir tartışma"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Leonhard Euler, who was working in Berlin at the time, soon argued that d'Alembert's solution was too narrow.",
+       "O sırada Berlin'de çalışan Leonhard Euler, kısa süre sonra d'Alembert'in çözümünün fazla dar olduğunu öne sürdü."
+      ],
+      [
+       "A plucked string starts with a sharp corner, so its first shape cannot be written as one smooth formula, and Euler wanted to allow such shapes.",
+       "Parmakla çekilen bir telin başlangıçta keskin bir köşesi vardır, yani ilk şekli tek bir düzgün formülle yazılamaz ve Euler bu tür şekillere de izin verilmesini istiyordu."
+      ],
+      [
+       "A few years later, Daniel Bernoulli claimed that every vibration is a sum of simple sine-shaped standing waves.",
+       "Birkaç yıl sonra Daniel Bernoulli her titreşimin, sinüs biçimli basit duran dalgaların toplamı olduğunu ileri sürdü."
+      ],
+      [
+       "d'Alembert disagreed with both of them, and the argument went on for many years.",
+       "d'Alembert ikisine de karşı çıktı ve tartışma uzun yıllar sürdü."
+      ],
+      [
+       "Behind it was a deep question, \"What exactly is a **function**?\", and in the early 1800s Joseph Fourier showed how far sums of sines and cosines can go.",
+       "Tartışmanın arkasında \"**Fonksiyon** tam olarak nedir?\" diye derin bir soru vardı ve 1800'lerin başında Joseph Fourier sinüs ve kosinüs toplamlarıyla ne kadar ileri gidilebileceğini gösterdi."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Graduate corner",
+      "Yüksek lisans köşesi"
+     ],
+     "s": [
+      [
+       "The wave equation is the model example of a **hyperbolic** partial differential equation.",
+       "Dalga denklemi **hiperbolik** kısmi diferansiyel denklemlerin örnek modelidir."
+      ],
+      [
+       "If the string starts with shape φ(x) and velocity ψ(x), the value y(x, t) depends only on φ and ψ between x − ct and x + ct.",
+       "Tel φ(x) şekli ve ψ(x) hızıyla harekete başlarsa, y(x, t) değeri yalnızca φ ve ψ'nin x − ct ile x + ct arasındaki değerlerine bağlıdır."
+      ],
+      [
+       "So information travels at the finite speed c along the lines x ± ct = constant, which are called **characteristics**.",
+       "Yani bilgi, **karakteristik** adı verilen x ± ct = sabit doğruları boyunca sonlu c hızıyla yayılır."
+      ],
+      [
+       "Writing down the exact formula for y(x, t) and checking it is a classic first exercise in a course on partial differential equations.",
+       "y(x, t) için tam formülü yazıp doğrulamak, kısmi diferansiyel denklemler dersinin klasik ilk alıştırmalarından biridir."
+      ],
+      [
+       "The old quarrel about the plucked string was finally settled in the 20th century with **weak solutions** and the theory of distributions.",
+       "Çekilen tel hakkındaki eski tartışma ancak 20. yüzyılda **zayıf çözümler** ve dağılımlar teorisiyle kesin olarak çözüldü."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "wave equation",
+       "dalga denklemi"
+      ],
+      [
+       "partial derivative",
+       "kısmi türev"
+      ],
+      [
+       "travelling wave",
+       "ilerleyen dalga"
+      ],
+      [
+       "standing wave",
+       "duran dalga"
+      ],
+      [
+       "overtone",
+       "üst ton, harmonik"
+      ],
+      [
+       "octave",
+       "oktav"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bilim",
+   "ikon": "science",
+   "renk": "#0E7490",
+   "baslik": "Science Corner: Waves Inside the Earth",
+   "baslik_tr": "Bilim Köşesi: Dünya'nın İçindeki Dalgalar",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "When the rocks along a **fault** suddenly slip, the energy of the earthquake spreads out as **seismic waves**.",
+       "Bir **fay** boyunca kayalar aniden kaydığında depremin enerjisi **sismik dalgalar** hâlinde yayılır."
+      ],
+      [
+       "They obey the same kind of wave equation as d'Alembert's string, but they travel through solid rock.",
+       "Bu dalgalar da d'Alembert'in teline benzer bir dalga denklemine uyar, ama katı kayaların içinden geçerek ilerler."
+      ],
+      [
+       "Türkiye lies on several active faults, such as the North Anatolian Fault, so these waves are part of our lives.",
+       "Türkiye, Kuzey Anadolu Fayı gibi birçok aktif fayın üzerinde yer alıyor, bu yüzden bu dalgalar hayatımızın bir parçası."
+      ],
+      [
+       "Scientists record them with instruments called **seismometers**.",
+       "Bilim insanları onları **sismometre** adı verilen aletlerle kaydeder."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Two messengers",
+      "İki haberci"
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "**P waves** (primary waves) push and pull the rock in the direction in which they travel, like sound waves in air.",
+       "**P dalgaları** (birincil dalgalar), tıpkı havadaki ses dalgaları gibi, kayayı ilerledikleri yönde itip çeker."
+      ],
+      [
+       "They are the fastest, about 6 km per second in the rocks near the surface, and they can pass through solids, liquids and gases.",
+       "En hızlı dalgalar bunlardır, yüzeye yakın kayalarda saniyede yaklaşık 6 km yol alırlar ve katılardan, sıvılardan ve gazlardan geçebilirler."
+      ],
+      [
+       "**S waves** (secondary waves) shake the rock from side to side, like a wave on a rope.",
+       "**S dalgaları** (ikincil dalgalar), tıpkı bir ipteki dalga gibi, kayayı bir yandan öbür yana sallar."
+      ],
+      [
+       "They are slower, about 3.5 km per second, and they cannot travel through liquids.",
+       "Daha yavaştırlar, saniyede yaklaşık 3,5 km yol alırlar ve sıvıların içinden geçemezler."
+      ],
+      [
+       "**Surface waves** arrive last and travel along the ground, and they often cause the most damage.",
+       "**Yüzey dalgaları** en son gelir ve zemin boyunca ilerler, en büyük hasara da çoğunlukla bunlar yol açar."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "How far away was it?",
+      "Ne kadar uzaktaydı?"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "At a seismometer, the P wave always arrives first and the S wave arrives a little later.",
+       "Bir sismometreye her zaman önce P dalgası, biraz sonra da S dalgası ulaşır."
+      ],
+      [
+       "The longer the gap between them, the further away the earthquake was.",
+       "Aradaki süre ne kadar uzunsa deprem o kadar uzakta olmuştur."
+      ],
+      [
+       "If the distance is d kilometres, the two waves need d / 6 and d / 3.5 seconds, and the difference is the gap Δt.",
+       "Uzaklık d kilometre ise iki dalganın yolculuğu d / 6 ve d / 3,5 saniye sürer, aradaki fark da Δt süresidir."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "d / 3.5 − d / 6 = Δt"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Solving for d gives d = 8.4 · Δt, with d in kilometres and Δt in seconds.",
+       "Bu denklem d için çözülünce, d kilometre ve Δt saniye cinsinden olmak üzere d = 8,4 · Δt bulunur."
+      ],
+      [
+       "So a gap of 10 seconds means that the earthquake was about 84 km away.",
+       "Yani 10 saniyelik bir fark, depremin yaklaşık 84 km uzakta olduğunu gösterir."
+      ],
+      [
+       "One station only gives a distance, so the earthquake could be anywhere on a circle around it.",
+       "Tek bir istasyon yalnızca bir uzaklık verir, yani deprem istasyonun çevresindeki bir çemberin herhangi bir yerinde olabilir."
+      ],
+      [
+       "With three stations, the three circles meet at one point, the **epicentre**, which is the point on the surface right above the place where the rock broke.",
+       "Üç istasyonla üç çember tek bir noktada kesişir: Kayanın kırıldığı yerin tam üstündeki yüzey noktası olan **dış merkez**."
+      ],
+      [
+       "In Türkiye, AFAD and Boğaziçi University's Kandilli Observatory use data from many stations to locate earthquakes within minutes.",
+       "Türkiye'de AFAD ve Boğaziçi Üniversitesi Kandilli Rasathanesi, depremlerin yerini dakikalar içinde belirlemek için birçok istasyondan gelen verileri kullanır."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "An X-ray of the Earth",
+      "Dünya'nın röntgeni"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Seismic waves also show us what lies deep inside the Earth, where no one can ever go.",
+       "Sismik dalgalar bize, kimsenin asla gidemeyeceği Dünya'nın derinliklerinde neler olduğunu da gösterir."
+      ],
+      [
+       "Seismologists noticed that the S waves of a large earthquake never arrive directly on the far side of the Earth.",
+       "Sismologlar büyük bir depremin S dalgalarının Dünya'nın öbür tarafına hiçbir zaman doğrudan ulaşmadığını fark etti."
+      ],
+      [
+       "Since S waves cannot cross liquids, they concluded that the Earth has a liquid **outer core**, which starts about 2,900 km below our feet.",
+       "S dalgaları sıvılardan geçemediği için, Dünya'nın ayaklarımızın yaklaşık 2.900 km altında başlayan sıvı bir **dış çekirdeği** olduğu sonucuna vardılar."
+      ],
+      [
+       "In 1936, the Danish seismologist **Inge Lehmann** studied the waves of a 1929 earthquake in New Zealand.",
+       "1936'da Danimarkalı sismolog **Inge Lehmann**, 1929'da Yeni Zelanda'da olan bir depremin dalgalarını inceledi."
+      ],
+      [
+       "Some weak P waves arrived where they should not have, and she explained them with a solid **inner core** inside the liquid one.",
+       "Bazı zayıf P dalgaları ulaşmamaları gereken yerlere ulaşmıştı ve Lehmann bunu sıvı çekirdeğin içindeki katı bir **iç çekirdekle** açıkladı."
+      ],
+      [
+       "Her paper had one of the shortest titles in science: P′.",
+       "Makalesinin başlığı bilimdeki en kısa başlıklardan biriydi: P′."
+      ],
+      [
+       "Lehmann lived to the age of 104.",
+       "Lehmann 104 yaşına kadar yaşadı."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Where is the maths?",
+      "Matematik nerede?"
+     ],
+     "s": [
+      [
+       "The speed of a seismic wave follows the same pattern as on a string: it is the square root of a stiffness divided by a density.",
+       "Sismik dalgaların hızı teldekiyle aynı kalıba uyar: Bir sertlik değerinin yoğunluğa bölümünün kareköküdür."
+      ],
+      [
+       "Rock resists being squeezed more strongly than it resists being sheared, and this is why P waves are faster than S waves.",
+       "Kaya, sıkıştırılmaya kaydırılmaktan daha güçlü direnç gösterir ve P dalgalarının S dalgalarından hızlı olmasının nedeni budur."
+      ],
+      [
+       "Finding a point from three distances is called **trilateration**, and the GPS in your phone uses a similar idea.",
+       "Üç uzaklıktan bir noktayı bulmaya **trilaterasyon** denir ve telefonundaki GPS de benzer bir fikir kullanır."
+      ],
+      [
+       "Magnitude scales are **logarithmic**: one step up on the scale means about 32 times more energy, because 10^1.5 ≈ 31.6.",
+       "Büyüklük ölçekleri **logaritmiktir**: Ölçekte bir basamak yukarı çıkmak yaklaşık 32 kat daha fazla enerji demektir, çünkü 10^1,5 ≈ 31,6."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "fault",
+       "fay"
+      ],
+      [
+       "seismic wave",
+       "sismik dalga"
+      ],
+      [
+       "seismometer",
+       "sismometre"
+      ],
+      [
+       "epicentre",
+       "dış merkez"
+      ],
+      [
+       "outer core",
+       "dış çekirdek"
+      ],
+      [
+       "trilateration",
+       "trilaterasyon"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "matematikci",
+   "ikon": "person",
+   "renk": "#E67E22",
+   "baslik": "Mathematician of the Month: Jean le Rond d'Alembert",
+   "baslik_tr": "Ayın Matematikçisi: Jean le Rond d'Alembert",
+   "bloklar": [
+    {
+     "t": "portre",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Maurice_Quentin_de_La_Tour_-_Portrait_de_Jean_Le_Rond_d%27Alembert.jpg/500px-Maurice_Quentin_de_La_Tour_-_Portrait_de_Jean_Le_Rond_d%27Alembert.jpg",
+     "ad": "Jean le Rond d'Alembert",
+     "yillar": "1717 – 1783",
+     "s": [
+      [
+       "French mathematician, physicist and philosopher who wrote down the first wave equation.",
+       "İlk dalga denklemini yazan Fransız matematikçi, fizikçi ve filozof."
+      ]
+     ],
+     "kaynak": "Pastel portrait by Maurice Quentin de La Tour, 1753 · Photo Didier Descouens, CC BY-SA 4.0, Wikimedia Commons"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "d'Alembert started life as a **foundling**, a baby left alone by his parents, without even a family name.",
+       "d'Alembert hayata **kimsesiz** bir bebek olarak başladı: Ailesi onu terk etmişti ve bir soyadı bile yoktu."
+      ],
+      [
+       "He became one of the best-known scientists and thinkers of the **Enlightenment**.",
+       "Sonunda **Aydınlanma** çağının en tanınmış bilim insanlarından ve düşünürlerinden biri oldu."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "His life",
+      "Hayatı"
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "He was born in Paris in November 1717, and sources give his birthday as either the 16th or the 17th.",
+       "Kasım 1717'de Paris'te doğdu, kaynaklar doğum gününü 16 ya da 17 Kasım olarak veriyor."
+      ],
+      [
+       "Soon after his birth, his mother left him on the steps of the church of Saint-Jean-le-Rond, and he was named after the church.",
+       "Doğumundan kısa süre sonra annesi onu Saint-Jean-le-Rond kilisesinin basamaklarına bıraktı ve ona kilisenin adı verildi."
+      ],
+      [
+       "His father, an artillery officer, secretly paid for his education.",
+       "Bir topçu subayı olan babası eğitiminin masraflarını gizlice karşıladı."
+      ],
+      [
+       "He grew up in the home of a **glazier** and his wife, Madame Rousseau, whom he always saw as his real mother.",
+       "Bir **camcının** ve eşi Madame Rousseau'nun evinde büyüdü ve bu kadını her zaman gerçek annesi olarak gördü."
+      ],
+      [
+       "He studied law and then medicine, but mathematics was his true love.",
+       "Önce hukuk, sonra tıp okudu, ama asıl tutkusu matematikti."
+      ],
+      [
+       "In 1741, at the age of 23, he became a member of the Paris Academy of Sciences.",
+       "1741'de, 23 yaşındayken Paris Bilimler Akademisi'nin üyesi oldu."
+      ],
+      [
+       "He turned down an offer from Frederick the Great to lead the Berlin Academy and an invitation from Catherine the Great to teach her son.",
+       "Büyük Frederick'in Berlin Akademisi'nin başına geçme teklifini ve Büyük Katerina'nın oğluna hocalık yapma davetini geri çevirdi."
+      ],
+      [
+       "He died in Paris on 29 October 1783, about six weeks after Euler.",
+       "29 Ekim 1783'te, Euler'den yaklaşık altı hafta sonra Paris'te hayatını kaybetti."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "The Encyclopédie",
+      "Ansiklopedi"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Together with the writer Denis Diderot, he edited the **Encyclopédie**, a huge work that tried to collect all human knowledge.",
+       "Yazar Denis Diderot ile birlikte, insanlığın bütün bilgisini toplamaya çalışan dev bir eser olan **Encyclopédie**'nin editörlüğünü yaptı."
+      ],
+      [
+       "In 1751 he wrote its famous introduction, the Preliminary Discourse, and over the years more than a thousand of its articles.",
+       "1751'de eserin ünlü giriş yazısı olan Discours préliminaire'i, yıllar içinde de maddelerinden binden fazlasını yazdı."
+      ],
+      [
+       "In 1754 he was elected to the Académie française, and in 1772 he became its permanent secretary.",
+       "1754'te Fransız Akademisi'ne seçildi, 1772'de de akademinin daimi sekreteri oldu."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "His contributions",
+      "Katkıları"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "**Mechanics**: in his Traité de dynamique of 1743, he showed how to turn a problem about moving bodies into a problem about balance.",
+       "**Mekanik**: 1743 tarihli Traité de dynamique adlı eserinde, hareket eden cisimlerle ilgili bir problemin bir denge problemine nasıl dönüştürüleceğini gösterdi."
+      ],
+      [
+       "This idea is now called **d'Alembert's principle**.",
+       "Bu fikre bugün **d'Alembert ilkesi** denir."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "**Series**: his **ratio test** decides whether an infinite sum has a finite value by comparing each term with the one before it.",
+       "**Seriler**: Onun **oran testi**, her terimi bir öncekiyle karşılaştırarak sonsuz bir toplamın sonlu bir değeri olup olmadığına karar verir."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "**Algebra**: he tried to prove that every polynomial equation has a root among the complex numbers.",
+       "**Cebir**: Her polinom denkleminin karmaşık sayılar arasında bir kökü olduğunu kanıtlamaya çalıştı."
+      ],
+      [
+       "His proof had gaps, but in France this result is still called the d'Alembert–Gauss theorem.",
+       "İspatında boşluklar vardı, ama Fransa'da bu sonuca hâlâ d'Alembert-Gauss teoremi deniyor."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "**Fluids**: he found a famous puzzle, **d'Alembert's paradox**, which says that in a perfect fluid without friction, a moving body would feel no drag at all.",
+       "**Akışkanlar**: Sürtünmesiz ideal bir akışkanda hareket eden bir cismin hiç direnç hissetmeyeceğini söyleyen ünlü bir bilmece buldu: **d'Alembert paradoksu**."
+      ],
+      [
+       "The puzzle was only solved in 1904, when Ludwig Prandtl showed how a thin layer of fluid sticks to the surface of a moving body.",
+       "Bilmece ancak 1904'te, Ludwig Prandtl hareket eden bir cismin yüzeyine ince bir akışkan tabakasının nasıl yapıştığını gösterdiğinde çözüldü."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "For the classroom",
+      "Sınıf için"
+     ],
+     "s": [
+      [
+       "The ratio test is easy to try with 1 + 1/2 + 1/4 + 1/8 + …",
+       "Oran testini 1 + 1/2 + 1/4 + 1/8 + … toplamıyla denemek kolay."
+      ],
+      [
+       "Each term is half of the one before, so the ratio is 1/2, which is less than 1, and the sum is finite: in fact, it is exactly 2.",
+       "Her terim bir öncekinin yarısı, yani oran 1'den küçük olan 1/2 ve toplam sonlu: Hatta tam olarak 2."
+      ],
+      [
+       "Then ask students about 1 + 1/2 + 1/3 + 1/4 + …, where the ratio gets closer and closer to 1, so the test cannot decide.",
+       "Sonra öğrencilere 1 + 1/2 + 1/3 + 1/4 + … toplamını sorun: Burada oran 1'e gittikçe yaklaşır, bu yüzden test karar veremez."
+      ],
+      [
+       "This sum actually grows without limit, which is a lovely surprise to prove in class.",
+       "Bu toplam aslında sınırsızca büyür ve bunu sınıfta kanıtlamak çok güzel bir sürprizdir."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "foundling",
+       "kimsesiz bulunmuş çocuk"
+      ],
+      [
+       "glazier",
+       "camcı"
+      ],
+      [
+       "Enlightenment",
+       "Aydınlanma"
+      ],
+      [
+       "ratio test",
+       "oran testi"
+      ],
+      [
+       "paradox",
+       "paradoks"
+      ],
+      [
+       "to turn down",
+       "geri çevirmek"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "odul",
+   "ikon": "emoji_events",
+   "renk": "#D4A017",
+   "baslik": "Prize Corner",
+   "baslik_tr": "Ödüller Köşesi",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "Nobel Prize in Physiology or Medicine 2026: switching nerve cells on with light",
+      "Nobel Fizyoloji veya Tıp Ödülü 2026: Sinir hücrelerini ışıkla uyarmak"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "On 5 October 2026, the prize went to **Karl Deisseroth** of Stanford University, **Peter Hegemann** of Humboldt University in Berlin and **Georg Nagel** of the University of Würzburg.",
+       "5 Ekim 2026'da ödül Stanford Üniversitesi'nden **Karl Deisseroth**, Berlin'deki Humboldt Üniversitesi'nden **Peter Hegemann** ve Würzburg Üniversitesi'nden **Georg Nagel**'e verildi."
+      ],
+      [
+       "The citation reads \"for their discoveries concerning light-gated ion channels and optogenetics\".",
+       "Ödül gerekçesi şöyle: \"ışıkla açılan iyon kanalları ve optogenetik ile ilgili keşifleri için\"."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The story starts with Chlamydomonas, a tiny green alga made of a single cell, which swims towards light.",
+       "Hikâye, ışığa doğru yüzen ve tek bir hücreden oluşan minicik yeşil bir alg olan Chlamydomonas ile başlıyor."
+      ],
+      [
+       "In 2002 and 2003, Hegemann, Nagel and their colleagues described two proteins that it uses, called **channelrhodopsins**.",
+       "2002 ve 2003'te Hegemann, Nagel ve meslektaşları algin kullandığı, **kanalrodopsin** adı verilen iki proteini tanımladı."
+      ],
+      [
+       "They are **ion channels**, tiny gates in the cell membrane that open when light hits them and let charged particles in.",
+       "Bunlar **iyon kanalları**, yani hücre zarında bulunan, ışık çarptığında açılıp yüklü parçacıkları içeri alan minicik kapılardır."
+      ],
+      [
+       "In 2005, Deisseroth's team put the gene for channelrhodopsin-2 into nerve cells from rats and made them fire with flashes of blue light.",
+       "2005'te Deisseroth'un ekibi kanalrodopsin-2'nin genini sıçanlardan alınan sinir hücrelerine yerleştirdi ve bu hücreleri mavi ışık çakmalarıyla uyardı."
+      ],
+      [
+       "This method is called **optogenetics**, and it lets scientists switch chosen nerve cells on and off within thousandths of a second.",
+       "Bu yönteme **optogenetik** denir ve bilim insanlarının seçtikleri sinir hücrelerini saniyenin binde biri kadar kısa sürelerde açıp kapatmasını sağlar."
+      ],
+      [
+       "Today it helps researchers study memory, emotions and movement, and a related method has even given back some sight to a blind patient.",
+       "Bugün araştırmacıların bellek, duygular ve hareketi incelemesine yardım ediyor ve benzer bir yöntem kör bir hastanın görme yetisini kısmen geri bile kazandırdı."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "bilgi",
+     "baslik": [
+      "Where are the waves?",
+      "Dalgalar nerede?"
+     ],
+     "s": [
+      [
+       "Light is a wave too, and its colour depends on its wavelength λ.",
+       "Işık da bir dalgadır ve rengi λ dalga boyuna bağlıdır."
+      ],
+      [
+       "Channelrhodopsin-2 responds best to blue light with a wavelength of about 470 nanometres.",
+       "Kanalrodopsin-2 en iyi, dalga boyu yaklaşık 470 nanometre olan mavi ışığa tepki verir."
+      ],
+      [
+       "Light travels at about 300,000 km per second, so its frequency is f = c / λ ≈ (3 × 10⁸) / (4.7 × 10⁻⁷) ≈ 6.4 × 10¹⁴ Hz.",
+       "Işık saniyede yaklaşık 300.000 km yol alır, bu yüzden frekansı f = c / λ ≈ (3 × 10⁸) / (4,7 × 10⁻⁷) ≈ 6,4 × 10¹⁴ Hz olur."
+      ],
+      [
+       "That is about 640 trillion vibrations every second, compared with 110 for the A string of a guitar.",
+       "Bu, saniyede yaklaşık 640 trilyon titreşim demek, gitarın La telinde ise bu sayı yalnızca 110."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Ramanujan Prize 2026: Mahesh Kakde",
+      "Ramanujan Ödülü 2026: Mahesh Kakde"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "On 30 September 2026, the International Centre for Theoretical Physics (ICTP) and the International Mathematical Union announced this year's Ramanujan Prize.",
+       "30 Eylül 2026'da Uluslararası Kuramsal Fizik Merkezi (ICTP) ile Uluslararası Matematik Birliği bu yılın Ramanujan Ödülü'nü açıkladı."
+      ],
+      [
+       "The prize is for young mathematicians from developing countries, and it went to **Mahesh Kakde**, a professor at the Indian Institute of Science in Bengaluru.",
+       "Gelişmekte olan ülkelerden genç matematikçilere verilen ödül, Bengaluru'daki Hindistan Bilim Enstitüsü'nde profesör olan **Mahesh Kakde**'nin oldu."
+      ],
+      [
+       "Winners must be under the age of 45.",
+       "Ödülü alacak kişinin 45 yaşından küçük olması gerekiyor."
+      ],
+      [
+       "Kakde works in **algebraic number theory** and is known for his results on the Brumer–Stark and Gross–Stark conjectures.",
+       "Kakde **cebirsel sayılar teorisi** alanında çalışıyor ve Brumer-Stark ile Gross-Stark sanıları üzerine sonuçlarıyla tanınıyor."
+      ],
+      [
+       "According to ICTP, his work has implications for **Hilbert's 12th problem**, one of the 23 problems that David Hilbert listed in 1900.",
+       "ICTP'ye göre çalışmaları, David Hilbert'in 1900'de sıraladığı 23 problemden biri olan **Hilbert'in 12. problemi** için de önem taşıyor."
+      ],
+      [
+       "This is a different prize from the SASTRA Ramanujan Prize that we reported in September.",
+       "Bu ödül, eylül sayımızda yer verdiğimiz SASTRA Ramanujan Ödülü'nden farklı."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "ion channel",
+       "iyon kanalı"
+      ],
+      [
+       "optogenetics",
+       "optogenetik"
+      ],
+      [
+       "alga",
+       "alg, su yosunu"
+      ],
+      [
+       "nerve cell",
+       "sinir hücresi"
+      ],
+      [
+       "cell membrane",
+       "hücre zarı"
+      ],
+      [
+       "algebraic number theory",
+       "cebirsel sayılar teorisi"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dusun",
+   "ikon": "psychology",
+   "renk": "#16A085",
+   "baslik": "Think Like a Mathematician: Check the Units",
+   "baslik_tr": "Matematikçi Gibi Düşünmek: Birimleri Kontrol Et",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "A good mathematician checks an answer before trusting it.",
+       "İyi bir matematikçi bir cevaba güvenmeden önce onu kontrol eder."
+      ],
+      [
+       "One of the fastest checks in science is to look at the **units**.",
+       "Bilimdeki en hızlı kontrollerden biri **birimlere** bakmaktır."
+      ],
+      [
+       "Both sides of a correct formula must have the same units, just as you cannot add 3 metres to 5 seconds.",
+       "Doğru bir formülün iki tarafının birimleri aynı olmalıdır, tıpkı 3 metreyle 5 saniyeyi toplayamayacağın gibi."
+      ],
+      [
+       "This idea is called **dimensional analysis**, and it can even help you guess a formula that you have never seen.",
+       "Bu fikre **boyut analizi** denir ve hiç görmediğin bir formülü tahmin etmene bile yardım edebilir."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "The problem: how fast is a wave on a string?",
+      "Problem: Teldeki bir dalga ne kadar hızlıdır?"
+     ],
+     "s": [
+      [
+       "Suppose that the speed v of a wave on a string depends only on the **tension** T and the mass per metre μ.",
+       "Bir teldeki dalganın v hızının yalnızca T **gerilmesine** ve metre başına düşen μ kütlesine bağlı olduğunu varsayalım."
+      ],
+      [
+       "Tension is a force, measured in newtons, and 1 N = 1 kg · m / s².",
+       "Gerilme bir kuvvettir, newton ile ölçülür ve 1 N = 1 kg · m / s²."
+      ],
+      [
+       "Mass per metre is measured in kg / m.",
+       "Metre başına kütle kg / m ile ölçülür."
+      ],
+      [
+       "Can you find the formula for v, apart from a number in front?",
+       "Önündeki bir sayı dışında v'nin formülünü bulabilir misin?"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Step 1: write a general guess",
+      "1. adım: Genel bir tahmin yaz"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Suppose that v = k · Tᵃ · μᵇ, where k is a pure number without units.",
+       "k birimsiz bir sayı olmak üzere v = k · Tᵃ · μᵇ olduğunu varsayalım."
+      ],
+      [
+       "Now write down the units of both sides.",
+       "Şimdi iki tarafın birimlerini yaz."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "m / s = (kg · m / s²)ᵃ · (kg / m)ᵇ"
+    },
+    {
+     "t": "h",
+     "s": [
+      "Step 2: match the units",
+      "2. adım: Birimleri eşleştir"
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "**Kilograms**: there are none on the left, so a + b = 0.",
+       "**Kilogram**: Sol tarafta hiç yok, yani a + b = 0."
+      ],
+      [
+       "**Metres**: the left side has m¹, so a − b = 1.",
+       "**Metre**: Sol tarafta m¹ var, yani a − b = 1."
+      ],
+      [
+       "**Seconds**: the left side has s⁻¹, so −2a = −1.",
+       "**Saniye**: Sol tarafta s⁻¹ var, yani −2a = −1."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The last line gives a = 1/2, and then the first line gives b = −1/2.",
+       "Son satır a = 1/2 verir, ardından ilk satır da b = −1/2 verir."
+      ],
+      [
+       "The second line agrees with both, which is a good sign.",
+       "İkinci satır da ikisiyle uyumlu, bu iyi bir işaret."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "v = k · √(T / μ)"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "This is exactly the wave speed c in d'Alembert's equation, and the full theory shows that k = 1.",
+       "Bu tam olarak d'Alembert denklemindeki c dalga hızıdır ve tam teori k = 1 olduğunu gösterir."
+      ],
+      [
+       "Units alone told us that a tighter string carries waves faster and a heavier string carries them more slowly.",
+       "Yalnızca birimler bile bize daha gergin bir telin dalgaları daha hızlı, daha ağır bir telin ise daha yavaş taşıdığını söyledi."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "The lesson",
+      "Ders"
+     ],
+     "s": [
+      [
+       "Before you trust a formula, check that its units match on both sides.",
+       "Bir formüle güvenmeden önce iki tarafının birimlerinin uyuştuğunu kontrol et."
+      ],
+      [
+       "If they do not, the formula is wrong, even if the numbers look nice.",
+       "Uyuşmuyorsa, sayılar ne kadar güzel görünürse görünsün formül yanlıştır."
+      ],
+      [
+       "But matching units do not prove a formula, because they cannot see pure numbers such as 1, 2 or 2π.",
+       "Ama birimlerin uyuşması formülü kanıtlamaz, çünkü birimler 1, 2 ya da 2π gibi birimsiz sayıları göremez."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "Your turn",
+      "Senin sıran"
+     ],
+     "s": [
+      [
+       "The time P of one full swing of a **pendulum**, there and back, might depend on its length L, the mass M of the weight and the gravitational acceleration g.",
+       "Bir **sarkacın** gidip gelerek yaptığı tam bir salınımın P süresi, sarkacın L uzunluğuna, ucundaki ağırlığın M kütlesine ve g yer çekimi ivmesine bağlı olabilir."
+      ],
+      [
+       "L is measured in m, M in kg and g in m / s².",
+       "L metre, M kilogram, g ise m / s² ile ölçülür."
+      ],
+      [
+       "Use units to find the formula, apart from a number in front.",
+       "Birimleri kullanarak formülü, önündeki sayı dışında bul."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "Answer",
+      "Cevap"
+     ],
+     "s": [
+      [
+       "Try P = k · Lᵃ · Mᵇ · gᶜ.",
+       "P = k · Lᵃ · Mᵇ · gᶜ biçiminde dene."
+      ],
+      [
+       "Kilograms appear only in M, so b = 0, which means that the mass does not matter at all!",
+       "Kilogram yalnızca M'de görünüyor, yani b = 0 ve bu, kütlenin hiç önemli olmadığı anlamına geliyor!"
+      ],
+      [
+       "For seconds, 1 = −2c, so c = −1/2, and for metres, 0 = a + c, so a = 1/2.",
+       "Saniye için 1 = −2c, yani c = −1/2, metre için de 0 = a + c, yani a = 1/2."
+      ],
+      [
+       "So P = k · √(L / g), and the full theory gives k = 2π.",
+       "Yani P = k · √(L / g) ve tam teori k = 2π verir."
+      ],
+      [
+       "A pendulum 1 metre long therefore needs about 2 seconds for one small swing there and back.",
+       "Dolayısıyla 1 metre uzunluğundaki bir sarkaç, küçük bir salınımla yaklaşık 2 saniyede gidip gelir."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "dimensional analysis",
+       "boyut analizi"
+      ],
+      [
+       "tension",
+       "gerilme"
+      ],
+      [
+       "mass per unit length",
+       "birim uzunluk başına kütle"
+      ],
+      [
+       "pendulum",
+       "sarkaç"
+      ],
+      [
+       "gravitational acceleration",
+       "yer çekimi ivmesi"
+      ],
+      [
+       "pure number",
+       "birimsiz sayı"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eglence",
+   "ikon": "lightbulb",
+   "renk": "#E84393",
+   "baslik": "Fun Facts: November and the Number 11",
+   "baslik_tr": "Eğlenceli Bilgiler: Kasım ve 11 Sayısı",
+   "bloklar": [
+    {
+     "t": "liste",
+     "s": [
+      [
+       "**Eleven and eleven**: November is the 11th month of the year, and this is our 11th issue.",
+       "**On bir ve on bir**: Kasım yılın 11. ayı ve bu da 11. sayımız."
+      ],
+      [
+       "**The rule of 11**: starting from the right, add and subtract the digits in turn, and if the result is divisible by 11, so is the number.",
+       "**11 kuralı**: Sağdan başlayarak rakamları sırayla bir ekle bir çıkar, sonuç 11'e bölünüyorsa sayı da 11'e bölünür."
+      ],
+      [
+       "For 918,082: 2 − 8 + 0 − 8 + 1 − 9 = −22, so 918,082 is divisible by 11.",
+       "918.082 için: 2 − 8 + 0 − 8 + 1 − 9 = −22, yani 918.082 sayısı 11'e bölünür."
+      ],
+      [
+       "It works because 10 and 1000 are 1 less than a multiple of 11, while 100 and 10,000 are 1 more.",
+       "Bunun nedeni 10 ve 1000'in 11'in bir katından 1 eksik, 100 ve 10.000'in ise 1 fazla olması."
+      ],
+      [
+       "**A fast trick**: to multiply a two-digit number by 11, write the sum of its digits in the middle, for example 35 × 11 = 385.",
+       "**Hızlı bir hile**: İki basamaklı bir sayıyı 11 ile çarpmak için rakamlarının toplamını ortaya yaz, örneğin 35 × 11 = 385."
+      ],
+      [
+       "If the sum is 10 or more, carry the 1, as in 78 × 11 = 858.",
+       "Toplam 10 ya da daha büyükse eldeki 1'i soldaki rakama ekle, örneğin 78 × 11 = 858."
+      ],
+      [
+       "**Palindromes**: 11² = 121, 111² = 12321 and 1111² = 1234321.",
+       "**Palindromlar**: 11² = 121, 111² = 12321 ve 1111² = 1234321."
+      ],
+      [
+       "The pattern goes on until 111111111² = 12345678987654321, and then it breaks.",
+       "Örüntü 111111111² = 12345678987654321'e kadar sürer, sonra bozulur."
+      ],
+      [
+       "**Not every Mersenne number is prime**: 2² − 1, 2³ − 1, 2⁵ − 1 and 2⁷ − 1 are all prime, but 2¹¹ − 1 = 2047 = 23 × 89.",
+       "**Her Mersenne sayısı asal değil**: 2² − 1, 2³ − 1, 2⁵ − 1 ve 2⁷ − 1 sayılarının hepsi asal, ama 2¹¹ − 1 = 2047 = 23 × 89."
+      ],
+      [
+       "**A slow wave on the Sun**: the number of sunspots rises and falls in a cycle of about 11 years, and astronomers have numbered these cycles since 1755.",
+       "**Güneş'te yavaş bir dalga**: Güneş lekelerinin sayısı yaklaşık 11 yıllık bir döngüyle artıp azalır ve gökbilimciler bu döngüleri 1755'ten beri numaralandırıyor."
+      ],
+      [
+       "**A team of eleven**: football and cricket teams both have 11 players on the field.",
+       "**On bir kişilik takım**: Futbol ve kriket takımlarının ikisinde de sahada 11 oyuncu bulunur."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "palindrome",
+       "palindrom"
+      ],
+      [
+       "divisible by",
+       "… ile bölünebilir"
+      ],
+      [
+       "to carry (a digit)",
+       "eldeyi aktarmak"
+      ],
+      [
+       "sunspot",
+       "Güneş lekesi"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sinif",
+   "ikon": "school",
+   "renk": "#27AE60",
+   "baslik": "In the Classroom",
+   "baslik_tr": "Sınıfta Matematik",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "Grades 6–8: How far away is the storm?",
+      "6-8. sınıflar: Fırtına ne kadar uzakta?"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Goal: using speed, time and distance, and practising **ratios** with a real-life rule.",
+       "Hedef: Hız, zaman ve yol ilişkisini kullanmak ve gerçek hayattan bir kuralla **oranları** çalışmak."
+      ]
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "Light reaches us almost instantly, but sound travels through air at about 343 metres per second.",
+       "Işık bize neredeyse anında ulaşır, ama ses havada saniyede yaklaşık 343 metre yol alır."
+      ],
+      [
+       "So sound needs about 3 seconds to travel 1 km.",
+       "Yani ses 1 km'yi yaklaşık 3 saniyede alır."
+      ],
+      [
+       "When students see a flash of **lightning**, they count the seconds until they hear the **thunder** and divide by 3 to get the distance in kilometres.",
+       "Öğrenciler bir **şimşek** gördüklerinde **gök gürültüsünü** duyana kadar saniyeleri sayar ve sonucu 3'e bölerek uzaklığı kilometre cinsinden bulur."
+      ],
+      [
+       "Remind them to count from a safe place indoors!",
+       "Saymayı içeride, güvenli bir yerde yapmalarını hatırlatın!"
+      ],
+      [
+       "Practice: 6 seconds means about 2 km, and 15 seconds means about 5 km.",
+       "Alıştırma: 6 saniye yaklaşık 2 km, 15 saniye yaklaşık 5 km demektir."
+      ],
+      [
+       "Ask: why is this rule only approximate, and what changes on a very cold day, when sound is a little slower?",
+       "Sorun: Bu kural neden yalnızca yaklaşık sonuç verir ve sesin biraz daha yavaş olduğu çok soğuk bir günde ne değişir?"
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "Bonus question",
+      "Bonus soru"
+     ],
+     "s": [
+      [
+       "Light travels at about 300,000 km per second, so how long does the flash need to cover 3 km?",
+       "Işık saniyede yaklaşık 300.000 km yol alır, peki şimşeğin ışığı 3 km'yi ne kadar sürede alır?"
+      ],
+      [
+       "The answer is 3 / 300,000 = 0.00001 seconds, which is why we can ignore it.",
+       "Cevap 3 / 300.000 = 0,00001 saniye, bu yüzden bu süreyi yok sayabiliriz."
+      ],
+      [
+       "Seismologists use the same idea with P and S waves, as you can read in our Science Corner.",
+       "Bilim Köşemizde okuyabileceğiniz gibi sismologlar aynı fikri P ve S dalgalarıyla kullanır."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "High school: The frets of a guitar",
+      "Lise: Gitarın perdeleri"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "Modern guitars use **equal temperament**, which divides the octave into 12 equal steps.",
+       "Modern gitarlar, oktavı 12 eşit basamağa bölen **eşit tamperaman** sistemini kullanır."
+      ],
+      [
+       "\"Equal\" here means equal ratios, so every fret multiplies the frequency by the same number r.",
+       "Buradaki \"eşit\" eşit oranlar demektir, yani her perde frekansı aynı r sayısıyla çarpar."
+      ],
+      [
+       "Twelve steps make one octave, so r¹² = 2.",
+       "On iki basamak bir oktav eder, bu yüzden r¹² = 2."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "r = ¹²√2 ≈ 1.0595"
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "The frequency is **inversely proportional** to the length of the vibrating part of the string.",
+       "Frekans, telin titreşen kısmının uzunluğuyla **ters orantılıdır**."
+      ],
+      [
+       "So after fret n, the vibrating part has length L · 2^(−n/12), and the distance from the nut to fret n is dₙ below.",
+       "Yani n. perdeden sonra telin titreşen kısmının uzunluğu L · 2^(−n/12) olur ve eşikten n. perdeye kadar olan uzaklık aşağıdaki dₙ'dir."
+      ]
+     ]
+    },
+    {
+     "t": "formul",
+     "m": "dₙ = L · (1 − 2^(−n/12))"
+    },
+    {
+     "t": "tablo",
+     "basliklar": [
+      "Fret / Perde",
+      "Ratio / Oran",
+      "dₙ (L = 65 cm)"
+     ],
+     "satirlar": [
+      [
+       "1",
+       "1.059",
+       "3.6 cm"
+      ],
+      [
+       "7",
+       "1.498",
+       "21.6 cm"
+      ],
+      [
+       "12",
+       "2",
+       "32.5 cm"
+      ],
+      [
+       "19",
+       "2.997",
+       "43.3 cm"
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "Discussion questions",
+      "Tartışma soruları"
+     ],
+     "s": [
+      [
+       "Why do the frets get closer and closer together as you go up the neck?",
+       "Sapın yukarısına doğru çıktıkça perdeler neden birbirine gittikçe yaklaşır?"
+      ],
+      [
+       "Fret 7 gives the ratio 2^(7/12) ≈ 1.498, which is very close to the Pythagorean fifth 3/2, but not exactly equal to it.",
+       "7. perde 2^(7/12) ≈ 1,498 oranını verir, bu oran Pisagor'un beşlisi olan 3/2'ye çok yakındır ama tam olarak ona eşit değildir."
+      ],
+      [
+       "Why can no fret give exactly three times the frequency of the open string?",
+       "Neden hiçbir perde boş telin frekansının tam üç katını veremez?"
+      ],
+      [
+       "Hint: 2^(n/12) = 3 would mean 2ⁿ = 3¹², but the left side is even and the right side is odd.",
+       "İpucu: 2^(n/12) = 3 olsaydı 2ⁿ = 3¹² olurdu, ama sol taraf çift, sağ taraf tek."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "This activity brings exponential functions, ratios and music together in one hands-on task.",
+       "Bu etkinlik üstel fonksiyonları, oranları ve müziği tek bir uygulamalı görevde bir araya getiriyor."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "lightning",
+       "şimşek"
+      ],
+      [
+       "thunder",
+       "gök gürültüsü"
+      ],
+      [
+       "speed of sound",
+       "ses hızı"
+      ],
+      [
+       "equal temperament",
+       "eşit tamperaman"
+      ],
+      [
+       "fret",
+       "perde (gitarda)"
+      ],
+      [
+       "inversely proportional",
+       "ters orantılı"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gundem",
+   "ikon": "campaign",
+   "renk": "#C0392B",
+   "baslik": "Education in Türkiye",
+   "baslik_tr": "Eğitim Gündemi",
+   "bloklar": [
+    {
+     "t": "h",
+     "s": [
+      "November at school",
+      "Okulda kasım"
+     ]
+    },
+    {
+     "t": "liste",
+     "s": [
+      [
+       "**10 November** (Tuesday): we commemorate Atatürk on the 88th anniversary of his death.",
+       "**10 Kasım** (salı): Atatürk'ü aramızdan ayrılışının 88. yıl dönümünde anıyoruz."
+      ],
+      [
+       "**11–12 November**: the first common written exams of the year, with maths exams for grades 6 and 9.",
+       "**11-12 Kasım**: Yılın ilk ortak yazılı sınavları, matematik sınavları 6. ve 9. sınıflar için."
+      ],
+      [
+       "**16–20 November**: the first mid-term break, and lessons start again on Monday, 23 November.",
+       "**16-20 Kasım**: Birinci ara tatil, dersler 23 Kasım pazartesi günü yeniden başlıyor."
+      ],
+      [
+       "**24 November** (Tuesday): Teachers' Day.",
+       "**24 Kasım** (salı): Öğretmenler Günü."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "10 November: a minute of silence at 09:05",
+      "10 Kasım: Saat 09.05'te saygı duruşu"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "At 09:05 on 10 November, sirens sound and the whole country stops for a **moment of silence**.",
+       "10 Kasım'da saat 09.05'te sirenler çalar ve bütün ülke **saygı duruşunda** bulunur."
+      ],
+      [
+       "This is the time when Atatürk died in Dolmabahçe Palace in Istanbul in 1938.",
+       "Bu, Atatürk'ün 1938'de İstanbul'daki Dolmabahçe Sarayı'nda hayata gözlerini yumduğu saattir."
+      ],
+      [
+       "In our May issue, we introduced his book Geometri, which helped to spread words such as açı, üçgen and köşegen.",
+       "Mayıs sayımızda, açı, üçgen ve köşegen gibi kelimelerin yaygınlaşmasına katkıda bulunan Geometri kitabını tanıtmıştık."
+      ],
+      [
+       "This month is a good time to show students a page from it.",
+       "Bu ay öğrencilere kitaptan bir sayfa göstermek için iyi bir zaman."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "s": [
+      "Why 24 November?",
+      "Neden 24 Kasım?"
+     ]
+    },
+    {
+     "t": "p",
+     "s": [
+      [
+       "On 24 November 1928, with the regulation of the Nation's Schools, Atatürk officially became their **Head Teacher**.",
+       "24 Kasım 1928'de Millet Mektepleri Talimatnamesi ile Atatürk resmen Millet Mekteplerinin **Başöğretmeni** oldu."
+      ],
+      [
+       "These schools taught adults to read and write with the new Turkish alphabet.",
+       "Bu okullar yetişkinlere yeni Türk alfabesiyle okuma yazma öğretiyordu."
+      ],
+      [
+       "Since 1981, this day has been celebrated as Teachers' Day.",
+       "1981'den beri bu gün Öğretmenler Günü olarak kutlanıyor."
+      ],
+      [
+       "A small question for the class: how many years have passed since 1928, and how many Teachers' Days have there been from 1981 to 2026?",
+       "Sınıf için küçük bir soru: 1928'den bu yana kaç yıl geçti ve 1981'den 2026'ya kadar kaç Öğretmenler Günü kutlandı?"
+      ],
+      [
+       "The answers are 98 and 46, because we must count both 1981 and 2026.",
+       "Cevaplar 98 ve 46, çünkü hem 1981'i hem de 2026'yı saymalıyız."
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "sinif",
+     "baslik": [
+      "For teachers before the common exams",
+      "Ortak sınavlar öncesinde öğretmenlere"
+     ],
+     "s": [
+      [
+       "In open-ended questions, students must show their reasoning, not only the final number.",
+       "Açık uçlu sorularda öğrenciler yalnızca sonucu değil, akıl yürütmelerini de göstermelidir."
+      ],
+      [
+       "Ask them to write the units next to every number, as in this month's \"Think Like a Mathematician\".",
+       "Bu ayki \"Matematikçi Gibi Düşünmek\" bölümünde olduğu gibi, her sayının yanına birimini yazmalarını isteyin."
+      ],
+      [
+       "This small habit catches many mistakes before the teacher does.",
+       "Bu küçük alışkanlık birçok hatayı öğretmenden önce yakalar."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "commemoration",
+       "anma"
+      ],
+      [
+       "moment of silence",
+       "saygı duruşu"
+      ],
+      [
+       "Teachers' Day",
+       "Öğretmenler Günü"
+      ],
+      [
+       "head teacher",
+       "başöğretmen"
+      ],
+      [
+       "alphabet",
+       "alfabe"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "oku",
+   "ikon": "menu_book",
+   "renk": "#34495E",
+   "baslik": "Read Like a Mathematician",
+   "baslik_tr": "Matematikçi Gibi Oku",
+   "bloklar": [
+    {
+     "t": "p",
+     "s": [
+      [
+       "Texts on physics and differential equations have their own favourite phrases.",
+       "Fizik ve diferansiyel denklem metinlerinin kendine has gözde kalıpları vardır."
+      ],
+      [
+       "This month we look at phrases you will meet whenever an equation describes something that changes in time.",
+       "Bu ay, bir denklemin zamanla değişen bir şeyi anlattığı her yerde karşılaşacağın kalıplara bakıyoruz."
+      ],
+      [
+       "Many of them are also used in economics, biology and engineering.",
+       "Bunların çoğu ekonomide, biyolojide ve mühendislikte de kullanılır."
+      ]
+     ]
+    },
+    {
+     "t": "tablo",
+     "basliklar": [
+      "English",
+      "Türkçe",
+      "Note"
+     ],
+     "satirlar": [
+      [
+       "with respect to",
+       "… göre",
+       "which variable changes in a derivative"
+      ],
+      [
+       "holding t fixed",
+       "t sabit tutularak",
+       "the other variable does not change"
+      ],
+      [
+       "satisfies",
+       "… sağlar",
+       "makes the equation true"
+      ],
+      [
+       "a solution of the form",
+       "… biçiminde bir çözüm",
+       "a general shape for the answer"
+      ],
+      [
+       "subject to",
+       "… koşuluyla",
+       "extra conditions that must also hold"
+      ],
+      [
+       "initial condition",
+       "başlangıç koşulu",
+       "the state at time t = 0"
+      ],
+      [
+       "boundary condition",
+       "sınır koşulu",
+       "what happens at the ends"
+      ],
+      [
+       "differentiating twice",
+       "iki kez türev alınarak",
+       "taking the second derivative"
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "soru",
+     "baslik": [
+      "Mini reading: a wave that keeps its shape",
+      "Mini okuma: Şeklini koruyan bir dalga"
+     ],
+     "s": [
+      [
+       "Claim: for every constant c, the function y(x, t) = sin(x − ct) satisfies the wave equation.",
+       "İddia: Her c sabiti için y(x, t) = sin(x − ct) fonksiyonu dalga denklemini sağlar."
+      ],
+      [
+       "Proof: Differentiating twice with respect to x, holding t fixed, we get ∂²y/∂x² = −sin(x − ct).",
+       "İspat: t sabit tutularak x'e göre iki kez türev alınınca ∂²y/∂x² = −sin(x − ct) bulunur."
+      ],
+      [
+       "Differentiating twice with respect to t, holding x fixed, the chain rule gives ∂²y/∂t² = −c² · sin(x − ct).",
+       "x sabit tutularak t'ye göre iki kez türev alınınca zincir kuralı ∂²y/∂t² = −c² · sin(x − ct) verir."
+      ],
+      [
+       "Hence ∂²y/∂t² = c² · ∂²y/∂x², as required. ∎",
+       "Dolayısıyla istendiği gibi ∂²y/∂t² = c² · ∂²y/∂x². ∎"
+      ]
+     ]
+    },
+    {
+     "t": "kutu",
+     "stil": "ipucu",
+     "baslik": [
+      "A small note",
+      "Küçük not"
+     ],
+     "s": [
+      [
+       "The only real work was the chain rule: the inner function x − ct has derivative 1 with respect to x and −c with respect to t.",
+       "Asıl iş yalnızca zincir kuralıydı: İçteki x − ct fonksiyonunun x'e göre türevi 1, t'ye göre türevi −c."
+      ],
+      [
+       "So the same argument shows that f(x − ct) is a solution for every twice-differentiable function f, which is the first half of d'Alembert's solution.",
+       "Yani aynı akıl yürütme, iki kez türevlenebilir her f fonksiyonu için f(x − ct)'nin bir çözüm olduğunu gösterir ve bu, d'Alembert çözümünün ilk yarısıdır."
+      ],
+      [
+       "Try it yourself with g(x + ct) to check the second half.",
+       "İkinci yarıyı kontrol etmek için aynısını g(x + ct) ile kendin dene."
+      ]
+     ]
+    },
+    {
+     "t": "terimler",
+     "items": [
+      [
+       "with respect to",
+       "… göre"
+      ],
+      [
+       "initial condition",
+       "başlangıç koşulu"
+      ],
+      [
+       "boundary condition",
+       "sınır koşulu"
+      ],
+      [
+       "chain rule",
+       "zincir kuralı"
+      ],
+      [
+       "twice-differentiable",
+       "iki kez türevlenebilir"
+      ],
+      [
+       "to satisfy (an equation)",
+       "(bir denklemi) sağlamak"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "soru": "Since 1 October 2026, how many submissions per calendar month may one person send to arXiv?",
+   "soru_tr": "1 Ekim 2026'dan bu yana bir kişi arXiv'e bir takvim ayında en fazla kaç gönderim yapabilir?",
+   "secenekler": [
+    "One",
+    "Two",
+    "Ten",
+    "There is no limit"
+   ],
+   "dogru": 1,
+   "aciklama": "Each submitter may send at most two submissions per calendar month, after a record of 40,363 submissions in September 2026.",
+   "aciklama_tr": "Eylül 2026'daki 40.363 gönderimlik rekorun ardından her gönderen kişi bir takvim ayında en fazla iki gönderim yapabiliyor."
+  },
+  {
+   "soru": "On a string, c = √(T / μ). If the tension T becomes four times larger, what happens to the wave speed c?",
+   "soru_tr": "Bir telde c = √(T / μ). T gerilmesi dört katına çıkarsa c dalga hızına ne olur?",
+   "secenekler": [
+    "It halves",
+    "It stays the same",
+    "It becomes four times larger",
+    "It doubles"
+   ],
+   "dogru": 3,
+   "aciklama": "√4 = 2, so the waves travel twice as fast.",
+   "aciklama_tr": "√4 = 2, yani dalgalar iki kat hızlı ilerler."
+  },
+  {
+   "soru": "Which seismic waves cannot travel through liquids?",
+   "soru_tr": "Hangi sismik dalgalar sıvıların içinden geçemez?",
+   "secenekler": [
+    "P waves",
+    "Sound waves",
+    "S waves",
+    "Radio waves"
+   ],
+   "dogru": 2,
+   "aciklama": "S waves shake the rock from side to side, and liquids cannot pass on this motion, which is how we know that the outer core is liquid.",
+   "aciklama_tr": "S dalgaları kayayı bir yandan öbür yana sallar ve sıvılar bu hareketi iletemez, dış çekirdeğin sıvı olduğunu da bu sayede biliyoruz."
+  },
+  {
+   "soru": "How did d'Alembert get his first name, Jean le Rond?",
+   "soru_tr": "d'Alembert, Jean le Rond adını nereden aldı?",
+   "secenekler": [
+    "From his father's family",
+    "From the church where he was found as a baby",
+    "From the King of France",
+    "From the glazier who raised him"
+   ],
+   "dogru": 1,
+   "aciklama": "His mother left him on the steps of the church of Saint-Jean-le-Rond in Paris, and he was named after the church.",
+   "aciklama_tr": "Annesi onu Paris'teki Saint-Jean-le-Rond kilisesinin basamaklarına bırakmıştı ve ona kilisenin adı verildi."
+  },
+  {
+   "soru": "What opens the channelrhodopsin-2 channel used in optogenetics?",
+   "soru_tr": "Optogenetikte kullanılan kanalrodopsin-2 kanalını ne açar?",
+   "secenekler": [
+    "Blue light",
+    "A loud sound",
+    "A magnetic field",
+    "Heat"
+   ],
+   "dogru": 0,
+   "aciklama": "Blue light opens the channel, charged particles flow into the cell and the nerve cell fires.",
+   "aciklama_tr": "Mavi ışık kanalı açar, yüklü parçacıklar hücreye akar ve sinir hücresi uyarılır."
+  },
+  {
+   "soru": "L is a length in metres and g is an acceleration in m/s². Which expression is a time in seconds?",
+   "soru_tr": "L metre cinsinden bir uzunluk, g de m/s² cinsinden bir ivme. Hangi ifade saniye cinsinden bir süredir?",
+   "secenekler": [
+    "√(g / L)",
+    "L · g",
+    "√(L / g)",
+    "L / g"
+   ],
+   "dogru": 2,
+   "aciklama": "√(L / g) has the units √(m ÷ m/s²) = √(s²) = s, and the period of a pendulum is 2π · √(L / g).",
+   "aciklama_tr": "√(L / g) ifadesinin birimi √(m ÷ m/s²) = √(s²) = s olur ve bir sarkacın periyodu 2π · √(L / g)'dir."
+  }
+ ],
+ "bulmacalar": [
+  {
+   "tip": "anagram",
+   "karisik": "VACOTE",
+   "cevap": "OCTAVE",
+   "ipucu": "The step between a note and the same note at twice the frequency.",
+   "ipucu_tr": "Bir nota ile frekansı iki katı olan aynı nota arasındaki aralık."
+  },
+  {
+   "tip": "anagram",
+   "karisik": "NOTENIS",
+   "cevap": "TENSION",
+   "ipucu": "The pulling force in a tight string.",
+   "ipucu_tr": "Gergin bir teldeki çekme kuvveti."
+  },
+  {
+   "tip": "anagram",
+   "karisik": "DUPLMATIE",
+   "cevap": "AMPLITUDE",
+   "ipucu": "The greatest distance that a wave moves away from its resting position.",
+   "ipucu_tr": "Bir dalganın denge konumundan en fazla ne kadar uzaklaştığı."
+  },
+  {
+   "tip": "anagram",
+   "karisik": "QUFERCENY",
+   "cevap": "FREQUENCY",
+   "ipucu": "The number of vibrations per second, measured in hertz.",
+   "ipucu_tr": "Saniyedeki titreşim sayısı, hertz ile ölçülür."
+  },
+  {
+   "tip": "eslestir",
+   "baslik": "Match the terms",
+   "baslik_tr": "Terimleri eşleştir",
+   "ciftler": [
+    [
+     "standing wave",
+     "duran dalga"
+    ],
+    [
+     "epicentre",
+     "dış merkez"
+    ],
+    [
+     "ratio test",
+     "oran testi"
+    ],
+    [
+     "dimensional analysis",
+     "boyut analizi"
+    ],
+    [
+     "running total",
+     "ara toplam"
+    ]
+   ]
+  },
+  {
+   "tip": "mantik",
+   "baslik": "The juggler's clock",
+   "baslik_tr": "Jonglörün saati",
+   "soru": "A clock has 7 hours, numbered 0 to 6, and you add a number by moving the hand forwards, so 3 + 6 lands on 2. Put the numbers 1, 3, 4 and 6 in an order so that the four running totals all land on different hours. Which numbers must never stand next to each other?",
+   "soru_tr": "Bir saatte 0'dan 6'ya kadar numaralanmış 7 saat var ve bir sayıyı eklemek için ibreyi ileri götürüyorsun, yani 3 + 6, 2'ye denk geliyor. 1, 3, 4 ve 6 sayılarını, dört ara toplamın hepsi farklı saatlere denk gelecek şekilde sırala. Hangi sayılar asla yan yana gelmemeli?",
+   "cevap": "1 and 6 must not be neighbours, and neither must 3 and 4. Each of these pairs adds up to 7, so after the pair the hand is back where it was before it, and with these four numbers this always makes two running totals equal. One good order is 1, 3, 6, 4: the running totals are 1, 4, 10 and 14, which land on 1, 4, 3 and 0. There are 8 good orders in total. This is Graham's question from our news pages with p = 7.",
+   "cevap_tr": "1 ile 6 yan yana gelmemeli, 3 ile 4 de. Bu çiftlerin her birinin toplamı 7, yani çiftten sonra ibre çiftten önceki saate geri döner ve bu dört sayıyla bu durum her zaman iki ara toplamı eşit yapar. İyi bir sıralama 1, 3, 6, 4: Ara toplamlar 1, 4, 10 ve 14, yani saatler 1, 4, 3 ve 0. Toplam 8 iyi sıralama var. Bu, haber sayfalarımızdaki Graham sorusunun p = 7 için hâli."
+  },
+  {
+   "tip": "mantik",
+   "baslik": "The echo",
+   "baslik_tr": "Yankı",
+   "soru": "You stand in front of a high cliff and clap your hands once. You hear the echo 1.5 seconds later. If sound travels at about 340 metres per second, how far away is the cliff?",
+   "soru_tr": "Yüksek bir kayalığın karşısında durup bir kez el çırpıyorsun. Yankıyı 1,5 saniye sonra duyuyorsun. Ses saniyede yaklaşık 340 metre yol alıyorsa kayalık ne kadar uzakta?",
+   "cevap": "About 255 metres. In 1.5 seconds the sound travels 1.5 × 340 = 510 metres, but this is the way there and back, so the cliff is half as far away: 510 ÷ 2 = 255 metres. Bats and the sonar of ships measure distances with the same idea.",
+   "cevap_tr": "Yaklaşık 255 metre. Ses 1,5 saniyede 1,5 × 340 = 510 metre yol alır, ama bu gidiş-dönüş yolu, yani kayalık bunun yarısı kadar uzakta: 510 ÷ 2 = 255 metre. Yarasalar ve gemilerin sonarları da uzaklıkları aynı fikirle ölçer."
+  }
+ ],
+ "terimler": [
+  [
+   "running total",
+   "ara toplam"
+  ],
+  [
+   "juggler",
+   "jonglör"
+  ],
+  [
+   "submitter",
+   "gönderen kişi"
+  ],
+  [
+   "calendar month",
+   "takvim ayı"
+  ],
+  [
+   "moderator",
+   "moderatör"
+  ],
+  [
+   "first draft",
+   "ilk taslak"
+  ],
+  [
+   "wave equation",
+   "dalga denklemi"
+  ],
+  [
+   "partial derivative",
+   "kısmi türev"
+  ],
+  [
+   "travelling wave",
+   "ilerleyen dalga"
+  ],
+  [
+   "standing wave",
+   "duran dalga"
+  ],
+  [
+   "overtone",
+   "üst ton, harmonik"
+  ],
+  [
+   "octave",
+   "oktav"
+  ],
+  [
+   "fault",
+   "fay"
+  ],
+  [
+   "seismic wave",
+   "sismik dalga"
+  ],
+  [
+   "seismometer",
+   "sismometre"
+  ],
+  [
+   "epicentre",
+   "dış merkez"
+  ],
+  [
+   "outer core",
+   "dış çekirdek"
+  ],
+  [
+   "trilateration",
+   "trilaterasyon"
+  ],
+  [
+   "foundling",
+   "kimsesiz bulunmuş çocuk"
+  ],
+  [
+   "glazier",
+   "camcı"
+  ],
+  [
+   "Enlightenment",
+   "Aydınlanma"
+  ],
+  [
+   "ratio test",
+   "oran testi"
+  ],
+  [
+   "paradox",
+   "paradoks"
+  ],
+  [
+   "to turn down",
+   "geri çevirmek"
+  ],
+  [
+   "ion channel",
+   "iyon kanalı"
+  ],
+  [
+   "optogenetics",
+   "optogenetik"
+  ],
+  [
+   "alga",
+   "alg, su yosunu"
+  ],
+  [
+   "nerve cell",
+   "sinir hücresi"
+  ],
+  [
+   "cell membrane",
+   "hücre zarı"
+  ],
+  [
+   "algebraic number theory",
+   "cebirsel sayılar teorisi"
+  ],
+  [
+   "dimensional analysis",
+   "boyut analizi"
+  ],
+  [
+   "tension",
+   "gerilme"
+  ],
+  [
+   "mass per unit length",
+   "birim uzunluk başına kütle"
+  ],
+  [
+   "pendulum",
+   "sarkaç"
+  ],
+  [
+   "gravitational acceleration",
+   "yer çekimi ivmesi"
+  ],
+  [
+   "pure number",
+   "birimsiz sayı"
+  ],
+  [
+   "palindrome",
+   "palindrom"
+  ],
+  [
+   "divisible by",
+   "… ile bölünebilir"
+  ],
+  [
+   "to carry (a digit)",
+   "eldeyi aktarmak"
+  ],
+  [
+   "sunspot",
+   "Güneş lekesi"
+  ],
+  [
+   "lightning",
+   "şimşek"
+  ],
+  [
+   "thunder",
+   "gök gürültüsü"
+  ],
+  [
+   "speed of sound",
+   "ses hızı"
+  ],
+  [
+   "equal temperament",
+   "eşit tamperaman"
+  ],
+  [
+   "fret",
+   "perde (gitarda)"
+  ],
+  [
+   "inversely proportional",
+   "ters orantılı"
+  ],
+  [
+   "commemoration",
+   "anma"
+  ],
+  [
+   "moment of silence",
+   "saygı duruşu"
+  ],
+  [
+   "Teachers' Day",
+   "Öğretmenler Günü"
+  ],
+  [
+   "head teacher",
+   "başöğretmen"
+  ],
+  [
+   "alphabet",
+   "alfabe"
+  ],
+  [
+   "with respect to",
+   "… göre"
+  ],
+  [
+   "initial condition",
+   "başlangıç koşulu"
+  ],
+  [
+   "boundary condition",
+   "sınır koşulu"
+  ],
+  [
+   "chain rule",
+   "zincir kuralı"
+  ],
+  [
+   "twice-differentiable",
+   "iki kez türevlenebilir"
+  ],
+  [
+   "to satisfy (an equation)",
+   "(bir denklemi) sağlamak"
+  ]
+ ]
+}
