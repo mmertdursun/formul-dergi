@@ -29,9 +29,10 @@ export default {
     const yol = new URL(istek.url).pathname;
     if (yol === "/premium/dogrula") return premiumDogrula(istek, env);
 
-    // Yapılandırma eksikse kapalı kal (eski sürüm APP_TOKEN yoksa herkese açıktı)
-    if (!env.APP_TOKEN || !env.GEMINI_API_KEY) return cevap({ hata: "servis yapılandırılmamış" }, 503);
-    if (!esitMi(istek.headers.get("x-formul-token") || "", env.APP_TOKEN)) {
+    // Gemini anahtarı yoksa kapalı kal. APP_TOKEN isteğe bağlı: 1.2.3 tokensız derlendi,
+    // koruma hız sınırları ve günlük toplam sınırdan gelir. Token'lı sürüm yayınlanınca APP_TOKEN eklenir.
+    if (!env.GEMINI_API_KEY) return cevap({ hata: "servis yapılandırılmamış" }, 503);
+    if (env.APP_TOKEN && !esitMi(istek.headers.get("x-formul-token") || "", env.APP_TOKEN)) {
       return cevap({ hata: "yetkisiz" }, 401);
     }
 
