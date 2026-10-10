@@ -22,6 +22,10 @@ for ad in sorted(os.listdir(os.path.dirname(os.path.abspath(__file__)))):
     cumle = sum(len(b.get("s", [])) for bol in veri["bolumler"] for b in bol["bloklar"] if b["t"] in ("p", "kutu", "liste"))
     print(f"{dosya}: {len(veri['bolumler'])} bölüm, {cumle} cümle, {len(veri['quiz'])} soru, {len(veri['bulmacalar'])} bulmaca, {len(veri['terimler'])} terim")
 
-index["sayilar"] = [kayit[k] for k in sorted(kayit)]
+# Açılış günü gelmemiş sayılar listeye eklenmez (uygulamada geri sayım görünmesin diye).
+# Ayın ilk günü derle.py yeniden çalıştırılınca yeni sayı listeye girer.
+import datetime
+bugun = datetime.date.today().isoformat()
+index["sayilar"] = [kayit[k] for k in sorted(kayit) if kayit[k]["acilis"] <= bugun]
 index["surum"] = 2
 json.dump(index, open(index_yolu, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
