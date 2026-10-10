@@ -72,7 +72,7 @@ export default {
     const toplamLimit = parseInt(env.GUNLUK_TOPLAM || "1000", 10);
     // Üye ise aylık hak hesaba göre sayılır. Premium'u sunucu Google Play'den doğrular.
     const uid = await kimlikDogrula(istek, env);
-    if (!uid) return cevap({ hata: "Hikâye yazmak için Profilim bölümünden giriş yap.", giris: true }, 402);
+    if (!uid) return cevap({ hata: "Hikâye yazmak için önce üye girişi yap.", giris: true }, 402);
     {
       const premium = env.SA_JSON ? await premiumMu(env, uid) : false;
       const limit = hakLimiti(env, "hikaye", premium);
@@ -229,7 +229,7 @@ async function aiIstegi(istek, env, yol) {
   const temiz = (x, n = MAKS_KELIME_UZUNLUK) => (typeof x === "string" ? x.normalize("NFC").replace(/\s+/g, " ").trim().slice(0, n) : "");
 
   const uid = await kimlikDogrula(istek, env);
-  if (!uid) return cevap({ hata: "Bu özellik için Profilim bölümünden giriş yap.", giris: true }, 402);
+  if (!uid) return cevap({ hata: "Bu özellik için önce üye girişi yap.", giris: true }, 402);
   if (env.DAKIKA_LIMIT) {
     const { success } = await env.DAKIKA_LIMIT.limit({ key: `uid:${uid}` });
     if (!success) return cevap({ hata: "Çok sık istek. Bir dakika sonra tekrar dene." }, 429, { "retry-after": "60" });
