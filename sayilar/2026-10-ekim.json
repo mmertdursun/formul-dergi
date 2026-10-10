@@ -1646,67 +1646,50 @@
     {
      "t": "h",
      "s": [
-      "The common written exams",
-      "Ortak yazılı sınavlar"
-     ]
-    },
-    {
-     "t": "p",
-     "s": [
-      [
-       "In September, the Ministry of National Education announced the dates of the **common written exams** for grades 6, 7, 9 and 10.",
-       "Eylülde Millî Eğitim Bakanlığı 6, 7, 9 ve 10. sınıflar için **ortak yazılı sınavların** tarihlerini açıkladı."
-      ],
-      [
-       "There will be eight common exams in the whole year.",
-       "Yıl boyunca toplam sekiz ortak sınav yapılacak."
-      ],
-      [
-       "All of them will use **open-ended questions**, where students write their own answers.",
-       "Hepsinde öğrencilerin cevaplarını kendilerinin yazdığı **açık uçlu sorular** kullanılacak."
-      ]
+      "Exams for adults: KPSS, YDS and YÖKDİL",
+      "Yetişkinler için sınavlar: KPSS, YDS ve YÖKDİL"
      ]
     },
     {
      "t": "liste",
      "s": [
       [
-       "First term, first exams: 11–12 November 2026.",
-       "Birinci dönem birinci yazılılar: 11-12 Kasım 2026."
+       "**25 October**: KPSS for secondary-school graduates (KPSS Ortaöğretim).",
+       "**25 Ekim**: Ortaöğretim mezunları için KPSS."
       ],
       [
-       "First term, second exams: 5–6 January 2027.",
-       "Birinci dönem ikinci yazılılar: 5-6 Ocak 2027."
+       "**30 September – 8 October**: the application period for the autumn **YDS**, ÖSYM's foreign-language exam, and the late application day is 14 October.",
+       "**30 Eylül - 8 Ekim**: ÖSYM'nin yabancı dil sınavı **YDS**'nin sonbahar oturumu için başvuru dönemi, geç başvuru günü ise 14 Ekim."
       ],
       [
-       "In the first term, the maths exams are for grade 6 and grade 9.",
-       "Birinci dönemde matematik sınavları 6. ve 9. sınıflar için."
+       "**22 November**: the autumn YDS exam.",
+       "**22 Kasım**: YDS sonbahar sınavı."
       ],
       [
-       "In the second term, they are for grade 7 and grade 10.",
-       "İkinci dönemde ise 7. ve 10. sınıflar için."
+       "ÖSYM can change its calendar, so always check the official website before you apply.",
+       "ÖSYM takvimini değiştirebilir, bu yüzden başvurmadan önce mutlaka resmî siteye bakın."
       ]
      ]
     },
     {
      "t": "kutu",
-     "stil": "sinif",
+     "stil": "ipucu",
      "baslik": [
-      "For maths teachers of grades 6 and 9",
-      "6. ve 9. sınıf matematik öğretmenlerine"
+      "A tip for YDS and YÖKDİL candidates",
+      "YDS ve YÖKDİL adaylarına bir ipucu"
      ],
      "s": [
       [
-       "Students who are used to multiple-choice tests often leave open-ended questions half-finished.",
-       "Çoktan seçmeli testlere alışkın öğrenciler açık uçlu soruları çoğu zaman yarım bırakıyor."
+       "Both exams use many reading passages from science, and YÖKDİL even has a separate science version.",
+       "İki sınavda da bilimden alınmış çok sayıda okuma parçası var, YÖKDİL'in ise ayrı bir fen bilimleri sürümü bile bulunuyor."
       ],
       [
-       "Before November, practise writing full solutions in class: what is given, what is asked, each step and a final sentence.",
-       "Kasımdan önce sınıfta tam çözüm yazmayı çalışın: Verilen, istenen, her adım ve bir sonuç cümlesi."
+       "Reading one article of this magazine every day, and checking only the sentences you do not understand, is good practice for these passages.",
+       "Bu dergiden her gün bir yazı okumak ve yalnızca anlamadığın cümlelerin Türkçesine bakmak bu parçalar için iyi bir alıştırma."
       ],
       [
-       "The \"Your turn\" diagonal question in this issue is a good short exercise for explaining a reason in words.",
-       "Bu sayıdaki \"Senin sıran\" köşegen sorusu, bir gerekçeyi kelimelerle açıklamak için iyi bir kısa alıştırma."
+       "Add the new words to Kelime Yağmuru so that you can repeat them later.",
+       "Yeni kelimeleri daha sonra tekrar edebilmek için Kelime Yağmuru'na ekle."
       ]
      ]
     },
@@ -1742,12 +1725,12 @@
      "t": "terimler",
      "items": [
       [
-       "common exam",
-       "ortak sınav"
+       "application period",
+       "başvuru dönemi"
       ],
       [
-       "open-ended question",
-       "açık uçlu soru"
+       "candidate",
+       "aday"
       ],
       [
        "Republic Day",
@@ -2256,12 +2239,12 @@
    "değişmeli"
   ],
   [
-   "common exam",
-   "ortak sınav"
+   "application period",
+   "başvuru dönemi"
   ],
   [
-   "open-ended question",
-   "açık uçlu soru"
+   "candidate",
+   "aday"
   ],
   [
    "Republic Day",

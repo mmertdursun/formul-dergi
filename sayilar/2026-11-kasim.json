@@ -1679,16 +1679,20 @@
        "**10 Kasım** (salı): Atatürk'ü aramızdan ayrılışının 88. yıl dönümünde anıyoruz."
       ],
       [
-       "**11–12 November**: the first common written exams of the year, with the 6th-grade maths exam on 11 November and the 10th-grade Turkish Language and Literature exam on 12 November.",
-       "**11-12 Kasım**: Yılın ilk ortak yazılı sınavları, 11 Kasım'da 6. sınıflar matematik, 12 Kasım'da 10. sınıflar Türk Dili ve Edebiyatı sınavına giriyor."
-      ],
-      [
        "**16–20 November**: the first mid-term break, and lessons start again on Monday, 23 November.",
        "**16-20 Kasım**: Birinci ara tatil, dersler 23 Kasım pazartesi günü yeniden başlıyor."
       ],
       [
+       "**22 November** (Sunday): the autumn **YDS**, ÖSYM's foreign-language exam, with results expected on 10 December.",
+       "**22 Kasım** (pazar): ÖSYM'nin yabancı dil sınavı **YDS**'nin sonbahar oturumu, sonuçların 10 Aralık'ta açıklanması bekleniyor."
+      ],
+      [
        "**24 November** (Tuesday): Teachers' Day.",
        "**24 Kasım** (salı): Öğretmenler Günü."
+      ],
+      [
+       "**29 November** (Sunday): the third ALES of the year, the exam for master's and doctoral programmes.",
+       "**29 Kasım** (pazar): Yüksek lisans ve doktora programları için yapılan ALES'in yılın üçüncü oturumu."
       ]
      ]
     },
@@ -1754,23 +1758,23 @@
     },
     {
      "t": "kutu",
-     "stil": "sinif",
+     "stil": "ipucu",
      "baslik": [
-      "For teachers before the common exams",
-      "Ortak sınavlar öncesinde öğretmenlere"
+      "One week before YDS",
+      "YDS'ye bir hafta kala"
      ],
      "s": [
       [
-       "In open-ended questions, students must show their reasoning, not only the final number.",
-       "Açık uçlu sorularda öğrenciler yalnızca sonucu değil, akıl yürütmelerini de göstermelidir."
+       "In the last week, do not try to learn hundreds of new words.",
+       "Son haftada yüzlerce yeni kelime ezberlemeye çalışma."
       ],
       [
-       "Ask them to write the units next to every number, as in this month's \"Think Like a Mathematician\".",
-       "Bu ayki \"Matematikçi Gibi Düşünmek\" bölümünde olduğu gibi, her sayının yanına birimini yazmalarını isteyin."
+       "Instead, repeat the words you already know in Kelime Yağmuru and read one short science text every day.",
+       "Bunun yerine Kelime Yağmuru'nda zaten bildiğin kelimeleri tekrar et ve her gün kısa bir bilim metni oku."
       ],
       [
-       "This small habit catches many mistakes before the teacher does.",
-       "Bu küçük alışkanlık birçok hatayı öğretmenden önce yakalar."
+       "This month's Paper of the Month and Science Corner are good practice, because YDS and YÖKDİL often choose passages on physics and earth science.",
+       "Bu ayın Ayın Makalesi ve Bilim Köşesi yazıları iyi bir alıştırma, çünkü YDS ve YÖKDİL sık sık fizik ve yer bilimleri üzerine parçalar seçer."
       ]
      ]
     },
